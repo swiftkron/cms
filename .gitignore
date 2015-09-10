@@ -1,0 +1,13 @@
+#User Specific files
+*.suo
+*.usr
+*.sln.docstates
+
+#Build results
+[Bb]in/
+[Oo]bj/
+
+#Sitefinity specific folders
+*/App_Data/Sitefinity/Logs/
+*/App_Data/Sitefinity/Temp/
+*/App_Data/Sitefinity/Search/
