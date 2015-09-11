@@ -1,0 +1,71 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/webcastPopup.css">
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!-- Google Code for Remarketing Tag Removed -->
+
+
+<!--#include virtual="/media/en-uk/includes/trackingScripts.html" -->
+
+
+</head>
+<body>
+<p class="header">Attend a Webcast</p>
+<p class="header2">An Introduction to Email Marketing</p>
+<p class="content" style="padding-bottom: 15px;">There's a reason why e-marketing is so popular. Emails<br />
+are easy to create, easy on the budget, and&mdash;most<br />
+importantly&mdash;proven to drive sales if
+done right. Do it<br />
+right with Act! Emarketing. </p>
+<p><a href="http://www.swiftpage.com/sageemarketing/sageact/webinar.htm" target="_blank"><img src="images/attendlivewebcast_button.gif" alt="" width="130" height="24" border="0" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://inter.viewcentral.com/events/cust/single_event.aspx?cid=best&amp;pid=2&amp;cbClass=6661" target="_blank"><img src="images/viewrecording_button.gif" alt="" width="130" height="24" border="0" /></a></p>
+
+<!--IGNORE -->
+
+</body></html>
