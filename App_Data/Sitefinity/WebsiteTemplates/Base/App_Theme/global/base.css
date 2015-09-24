@@ -119,6 +119,9 @@ section {
 .smalltext{font-size:.8em !important;}
 .separator{display:block;margin:6px 0;width:100%;height:2px;background-color:#a5b7c2;}
 /* _ alignment _ */
+.text-left{text-align:left;}
+.text-center{text-align:center;}
+.text-right{text-align:right;}
 .block{
 	display:block;
 }
@@ -196,4 +199,7 @@ button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='subm
     display:inline-block;
     float:right;
     padding:2px 0 0 6px;
+}
+.article {
+    padding:48px 24px;
 }
