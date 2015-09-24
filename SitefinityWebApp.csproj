@@ -4,6 +4,10 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -904,6 +908,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BaseFooter\BaseFooter.csproj">
+      <Project>{fc1a865c-c706-49a3-a1ba-cb8e7feaeeb0}</Project>
+      <Name>BaseFooter</Name>
+    </ProjectReference>
+    <ProjectReference Include="BaseNav\BaseNav.csproj">
+      <Project>{5b70f4ae-386d-47ff-aa7e-97ec632cbc79}</Project>
+      <Name>BaseNav</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

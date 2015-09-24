@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" %>
+<%@ Register TagPrefix="sf" Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI.PublicControls"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Delete in production --><meta name="robots" content="nofollow" />
+</head>
+
+<body>
+
+
+    <form id="form1" runat="server">
+        <sf:JavaScriptEmbedControl runat="server" ID="jsLink1" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/jquery-1.11.3.min.js"></sf:JavaScriptEmbedControl>
+        <sf:JavaScriptEmbedControl runat="server" ID="jsLink2" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/common.js"></sf:JavaScriptEmbedControl>
+        
+        <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- OVERVIEW & FEATURES -->
+        <div class="outer bg_white products">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ProductPageOverview" runat="server"></asp:ContentPlaceHolder>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature1Image" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature1Copy" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature2Image" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature2Copy" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature3Image" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature3Copy" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature4Image" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature4Copy" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature5Image" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature5Copy" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature6Image" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature6Copy" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCTS -->
+        <div class="outer bg_grey solutions">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <asp:ContentPlaceHolder ID="Product1Image" runat="server"></asp:ContentPlaceHolder>
+                        <h3><asp:ContentPlaceHolder ID="Product1Headline" runat="server"></asp:ContentPlaceHolder></h3>
+                        <div class="pricing"><asp:ContentPlaceHolder ID="Product1Pricing" runat="server"></asp:ContentPlaceHolder></div>
+                        <asp:ContentPlaceHolder ID="Product1Description" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-6">
+                        <asp:ContentPlaceHolder ID="Product2Image" runat="server"></asp:ContentPlaceHolder>
+                        <h3><asp:ContentPlaceHolder ID="Product2Headline" runat="server"></asp:ContentPlaceHolder></h3>
+                        <div class="pricing"><asp:ContentPlaceHolder ID="Product2Pricing" runat="server"></asp:ContentPlaceHolder></div>
+                        <asp:ContentPlaceHolder ID="Product2Description" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TESTIMONIAL -->
+        <div class="outer bg_black testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 pullLeft">
+                        <asp:ContentPlaceHolder ID="TestimonialImage" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-8 pullLeft testimonialCopy">
+                        <div class="quote"><asp:ContentPlaceHolder ID="TestimonialCopy" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="byline"><asp:ContentPlaceHolder ID="ByLine" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="pullQuote"><asp:ContentPlaceHolder ID="TestimonialPullQuote" runat="server"></asp:ContentPlaceHolder></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
+
+    </form>
+
+</body>
+</html>
