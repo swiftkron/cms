@@ -910,6 +910,10 @@
     <None Include="App_Data\GeoLocation\GeoLiteCity.dat" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MarketplaceList\MarketplaceList.csproj">
+      <Project>{ac36e95c-c532-4a5d-aab1-66a0fdf0169d}</Project>
+      <Name>MarketplaceList</Name>
+    </ProjectReference>
     <ProjectReference Include="BaseFooter\BaseFooter.csproj">
       <Project>{fc1a865c-c706-49a3-a1ba-cb8e7feaeeb0}</Project>
       <Name>BaseFooter</Name>

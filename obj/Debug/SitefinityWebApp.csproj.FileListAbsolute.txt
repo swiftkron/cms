@@ -8,3 +8,5 @@ C:\inetpub\wwwroot\act_com\obj\Debug\SitefinityWebApp.dll
 C:\inetpub\wwwroot\act_com\obj\Debug\SitefinityWebApp.pdb
 C:\inetpub\wwwroot\act_com\bin\BaseFooter.dll
 C:\inetpub\wwwroot\act_com\bin\BaseFooter.pdb
+C:\inetpub\wwwroot\act_com\bin\MarketplaceList.dll
+C:\inetpub\wwwroot\act_com\bin\MarketplaceList.pdb
