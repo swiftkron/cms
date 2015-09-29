@@ -48,11 +48,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="products">Products &amp; Pricing</a></li>
-                    <li><a href="customers">Customers</a></li>
-                    <li><a href="support">Support</a></li>
-                    <li><a href="partners">Partners</a></li>
-                    <li><a href="about">About</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/solutions">Solutions</a></li>
+                    <li><a href="/support">Support</a></li>
+                    <li><a href="/partners">Partners</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </nav>
         </div>

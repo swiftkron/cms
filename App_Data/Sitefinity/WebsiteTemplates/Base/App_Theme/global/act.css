@@ -102,3 +102,11 @@ p{
         margin:auto;
     }
 }
+
+/* Marketplace */
+.marketplace h3{
+    text-align:left;
+}
+.marketplace section:last-child{
+    border-bottom:none;
+}
