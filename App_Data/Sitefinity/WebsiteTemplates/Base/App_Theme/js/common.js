@@ -21,4 +21,9 @@ $(document).ready(function () {
         event.stopPropagation();
         $('.uAlt').slideToggle(400);
     });
+    // Modal Window
+    $('.modalClose').click(function () {
+        $('.modal').css('opacity', '0');
+        $('.modal').css('pointer-events', 'none');
+    });
 });
