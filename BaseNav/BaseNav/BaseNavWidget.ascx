@@ -1,10 +1,11 @@
-﻿    <!-- UTILITY NAV -->
+﻿<div class="navigation"> 
+<!-- UTILITY NAV -->
     <div class="outer bg_grey">
         <div class="container">
             <div class="utility">
                 <div class="uToggle">
                     <span class="glyphicon glyphicon-chevron-down"></span>
-                    <ul class="dropdown uAlt">
+                    <ul class="uDropdown uAlt">
                         <li><a href="#">Login</a></li>
                         <li><a href="https://buy.act.com/trial/product/ActPremium/plan/Month">Free Trial</a></li>
                         <li><a href="tel:1-866-873-2006">866-873-2006</a></li>
@@ -24,7 +25,7 @@
                     <div class="uIntl">
                         <span class="glyphicon glyphicon-globe" title="Language"></span>
                         <span>&#9662;</span>
-                        <ul class="dropdown lang">
+                        <ul class="uDropdown lang">
                             <li><a href="/en-uk/">International English</a></li>
                             <li><a href="/de-de/">Deutch</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
@@ -37,8 +38,6 @@
         </div>
     </div>
     <!-- MAIN NAV -->
-    <div class="outer bg_dark-grey">
-        <div class="container">
             <div class="navToggle">
                 <div class="hamburger">
                     <span class="menubar"></span>
@@ -46,14 +45,50 @@
                     <span class="menubar"></span>
                 </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="/products">Products</a></li>
-                    <li><a href="/solutions">Solutions</a></li>
-                    <li><a href="/support">Support</a></li>
-                    <li><a href="/partners">Partners</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+  <nav>
+   <ul id="main-nav">
+      <li><a href="/products">Products</a>
+         <ul>
+            <li><a href="/products/product-details">Act! Premium</a></li>
+            <li><a href="/products/product-details">Act! emarketing</a></li>
+            <li><a href="/products/product-details">Act! Essentials</a></li>
+         </ul>
+      </li>
+      <li><a href="/solutions">Solutions</a>
+         <ul>
+            <li><a href="/products/product-details">Simplify your process</a></li>
+            <li><a href="/products/product-details">Manage your contacts</a></li>
+            <li><a href="/products/product-details">Extend your reach</a></li>
+            <li><a href="/products/product-details">Drive Sales</a></li>
+            <li><a href="/products/product-details">Track your goals</a></li>
+            <li><a href="/solutions/customer-success">Customer Successes</a></li>
+         </ul>
+      </li>
+      <li><a href="/resources">Customer Resources</a>
+         <ul>
+            <li><a href="/resources/act-premium-resources">Act! Premium Resources</a></li>
+            <li><a href="/resources">Act! emarketing Resources</a></li>
+            <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Resources</a></li>
+         </ul>
+      </li>
+      <li><a href="/partners">Partners</a>
+         <ul>
+            <li><a href="#">Link one</a></li>
+            <li><a href="#">Link two</a></li>
+            <li><a href="#">Link three</a></li>
+            <li><a href="#">Link four</a></li>
+            <li><a href="#">Link five</a></li>
+         </ul>
+      </li>
+      <li><a href="/about">About</a>
+         <ul class="last">
+            <li><a href="#">Link one</a></li>
+            <li><a href="#">Link two</a></li>
+            <li><a href="#">Link three</a></li>
+            <li><a href="#">Link four</a></li>
+            <li><a href="#">Link five</a></li>
+         </ul>
+      </li>
+   </ul>
+</nav>
+</div>   

@@ -88,29 +88,7 @@ section {
     padding: 48px 24px;
     border-bottom: #edf0f2 4px solid;
 }
-.dropdown {
-    display:none;
-    position:fixed;
-    z-index:999;
-    list-style-type:none;
-    margin:3px 0 0 -12px;
-    padding:3px;
-    background:#FFF;
-	-webkit-border-radius: 2px;    
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-    box-shadow:#a5b7c2 0px 2px 3px;
-}
-.dropdown > li {
-    font-size:.9em;
-    padding:6px;
-}
-.dropdown > li:hover {
-    background:#dfe3e6;
-}
-.dropdown.lang{
-	font-size:.7em;
-}
+
 /* _ common classes _ */
 .left{float:left;}
 .right{float:right;}
@@ -200,6 +178,23 @@ button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='subm
     float:right;
     padding:2px 0 0 6px;
 }
-.article {
-    padding:48px 24px;
+/* Article Content Base Styles */
+.article{
+    padding:0 24px 48px;
+}
+.article h1{
+    text-align:left;
+}
+.article ul, .article ol{
+    margin:0;
+    padding:0 0 0 1.25em;
+}
+.article ol li > ul{
+    list-style-type:disc;   
+}
+.article li{
+    padding:12px 0;
+}
+.byline{
+    font-size:12px;
 }

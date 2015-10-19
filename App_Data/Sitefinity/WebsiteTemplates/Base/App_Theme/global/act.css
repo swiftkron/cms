@@ -22,7 +22,6 @@
 
 /* Base Styles */
 h1, h2, h3, h4, h5, h6 {
-    text-align:center;
 }
 p{
     line-height:1.5em;
@@ -34,7 +33,7 @@ p{
 }
 
 /* Home */
-.hero, .platform, .solutions, .features, .testimonial, .trust, .products{
+.hero, .platform, .solutions, .features, .testimonial, .trust, .products, .productFeatures, .ctaMod{
     padding:48px 24px;
 }
 .hero p{
@@ -63,9 +62,9 @@ p{
     text-indent:2em;
     margin-bottom:12px;
 }
-.byline{
-    text-align:right;
+.testimonial .byline{
     font-weight:bold;
+    text-align:right;
     font-size:.75em;
 }
 .pullQuote{
@@ -84,9 +83,9 @@ p{
     font-size:16px;
     line-height:1.75em;
     margin:12px 24px;
+    text-align:center;
 }
-/* Products */
-.products h1 ~ p{
+.products h1, .products h1 ~ p{
     text-align:center !important;
 }
 .pricing{
@@ -94,6 +93,10 @@ p{
     font-style:oblique;
     margin:8px auto 16px;
 }
+.productDets .hero h1, .productDets .hero h1 ~ p {
+    text-align: left !important;
+}
+
 @media(max-width:767px){
     .features img, .products img{
         display:block;
@@ -103,10 +106,19 @@ p{
     }
 }
 
-/* Marketplace */
-.marketplace h3{
+/* List Templates */
+.marketplace h3, .customers h3, .blogs h2{
     text-align:left;
 }
-.marketplace section:last-child{
+.marketplace section:last-child, .customers section:last-child, .blogs section:last-child{
     border-bottom:none;
 }
+.post{
+    border-top:#dfe3e6 2px solid;
+}
+.post > p:first-child{
+    font-size:1.35em;
+    line-height:1.2em;
+}
+
+			
