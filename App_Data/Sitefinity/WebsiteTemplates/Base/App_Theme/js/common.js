@@ -3,7 +3,7 @@ $(document).ready(function () {
     var width = $(window).width();
     // Custom Functions
     $(document).click(function () {
-        $('.dropdown').hide();
+        $('.uDropdown').hide();
     });
     $('.uBrand').click(function (event) {
         event.stopPropagation();

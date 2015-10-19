@@ -24,8 +24,8 @@
         <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
 
         <!-- CONTENT MODULE -->
-        <div class="outer bg_grey">
-            <div class="container article bg_white">
+        <div class="outer bg_white">
+            <div class="container article">
                 <asp:ContentPlaceHolder ID="BodyContent" runat="server"></asp:ContentPlaceHolder>
             </div>
         </div>

@@ -45,6 +45,29 @@
     float:right;
     margin-top:-18px;
 }
+.uDropdown {
+    display:none;
+    position:fixed;
+    z-index:999;
+    list-style-type:none;
+    margin:3px 0 0 -12px;
+    padding:3px;
+    background:#FFF;
+	-webkit-border-radius: 2px;    
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+    box-shadow:#a5b7c2 0px 2px 3px;
+}
+.uDropdown > li {
+    font-size:.9em;
+    padding:6px;
+}
+.uDropdown > li:hover {
+    background:#dfe3e6;
+}
+.uDropdown.lang{
+	font-size:.7em;
+}
 @media(max-width:767px) {
     .utility {
         padding: 12px 0 12px;
