@@ -1,3 +1,5 @@
+@import url(https://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css);
+
 /* _ colors _ */
 .orange{color:#FE5000;}
 .text-grey{color:#526774;}
@@ -21,7 +23,13 @@
 .bg_black h1, .bg_black h2, .bg_black h3, .bg_black h4, .bg_black h5, .bg_black h6{color:#FFF;}
 
 /* Base Styles */
+body {
+    font-family: 'HelveticaNeueW01-55Roma',Helvetica,Arial,sans serif;
+	font-size:18px;
+	color:#526774;
+}
 h1, h2, h3, h4, h5, h6 {
+    font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
 }
 p{
     line-height:1.5em;
@@ -121,4 +129,44 @@ p{
     line-height:1.2em;
 }
 
-			
+/* Resources */
+.primaryResources{
+    padding:24px;
+}
+.searchResources{
+    margin-bottom:48px;
+}
+.popularTopics p{
+    line-height:1em;
+}
+.popularTopics li{
+    padding-bottom:3px;
+}
+.sidebar{
+    padding:24px;
+}
+.sidebar h3{
+    font-size:24px;
+    text-align:center;
+}
+.sidebar h3 a{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    font-size:21px;
+    color:#FFF;
+}
+.sidebar h3 a .glyphicon{
+    font-size:2em;   
+    padding-bottom:.25em;
+}
+.sidebar h3 a:hover{
+    color:#dfe3e6;   
+}
+.sidebar ul{
+    list-style-type:none;
+    margin:0 0 0 1em;
+    padding:0;
+}
+.sidebar div{
+    padding:12px;
+    margin-bottom:12px;
+}			

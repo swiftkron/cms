@@ -777,10 +777,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="App_Data\Sitefinity\WebsiteTemplates\Base\Layouts\FourCol.ascx" />
     <Content Include="ClientBin\Telerik.Sitefinity.Analytics.xap" />
     <Content Include="ClientBin\Telerik.Sitefinity.Silverlight.xap" />
     <Content Include="Default.aspx" />
-    <EmbeddedResource Include="GoogleCSE\GoogleCSE\GoogleCSE.ascx">
+    <Content Include="favicon.ico" />
+    <EmbeddedResource Include="GoogleCSE\GoogleCSE\GoogleCSEResults.ascx">
       <SubType>ASPXCodeBehind</SubType>
     </EmbeddedResource>
     <Content Include="Silverlight.js" />
@@ -893,7 +895,6 @@
     <Content Include="Sitefinity\Services\Versioning\HistoryService.svc" />
     <Content Include="Sitefinity\Services\Workflow\WorkflowDefinitionService.svc" />
     <Content Include="Sitefinity\Services\Workflow\WorkflowService.svc" />
-    <EmbeddedResource Include="App_Data\Sitefinity\WebsiteTemplates\Base\Layouts\TwoCol_25x75.ascx" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>

@@ -1,9 +1,7 @@
 /******************* Reset *******************/
 body {
   margin:0 0;
-	font-family:Helvetica,Arial,sans-serif;
-	font-size:18px;
-	color:#526774;
+  font-size:18px;
 }
 a{
 	cursor:pointer;
@@ -201,7 +199,7 @@ button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='subm
 
 /* Modal Window */
 .modal{
-    position:absolute;
+    position:fixed;
     top: 0;
 	right: 0;
 	bottom: 0;
@@ -222,15 +220,12 @@ button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='subm
     max-width: 600px;
 	position: relative;
 	margin: 10% auto;
-	padding: 5px 20px 13px 20px;
-	border-radius: 10px;
+	padding: 24px;
+	border-radius: 2px;
 	background: #fff;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
 }
 .modalClose {
-	background: #606061;
+	background: #34566b;
 	color: #FFFFFF;
 	line-height: 25px;
 	position: absolute;
@@ -240,6 +235,7 @@ button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='subm
 	width: 24px;
 	text-decoration: none;
 	font-weight: bold;
+    font-family:Helvetica,Arial,sans serif;
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 	border-radius: 12px;
@@ -248,5 +244,5 @@ button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='subm
 	box-shadow: 1px 1px 3px #000;
     cursor:pointer;
 }
-.modalClose:hover { background: #00d9ff; }
+.modalClose:hover { background: #308dc6; }
 

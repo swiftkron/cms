@@ -67,7 +67,7 @@
       <li><a href="/resources">Customer Resources</a>
          <ul>
             <li><a href="/resources/act-premium-resources">Act! Premium Resources</a></li>
-            <li><a href="/resources">Act! emarketing Resources</a></li>
+            <li><a href="/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
             <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Resources</a></li>
          </ul>
       </li>
@@ -80,6 +80,7 @@
             <li><a href="#">Link five</a></li>
          </ul>
       </li>
+      <li><a href="/blog">Blog</a></li>
       <li><a href="/about">About</a>
          <ul class="last">
             <li><a href="#">Link one</a></li>

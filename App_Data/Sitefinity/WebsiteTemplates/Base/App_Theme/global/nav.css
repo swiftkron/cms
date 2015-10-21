@@ -95,10 +95,9 @@
 .sfPageEditor .navigation{
     position:unset;
 }
-.navigation + div.outer{
-    padding-top:180px;
+.navigation + div.outer > div.container{
+    padding-top:160px;
 }
-
     nav {
         display: block !important;
     }

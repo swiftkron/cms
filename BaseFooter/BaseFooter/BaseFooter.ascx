@@ -25,7 +25,7 @@
                     <a href="https://www.facebook.com/actcrm" target="_blank"><span class="socialIcons glyphicon-facebook"></span></a>
                     <a href="https://twitter.com/actstory" target="_blank"><span class="socialIcons glyphicon-twitter"></span></a>
                     <a href="https://www.youtube.com/user/ActStory" target="_blank"><span class="glyphicon glyphicon-play"></span></a>
-                    <a href="/blog"><span class="socialIcons glyphicon-blog"></span></a>
+                    <!-- <a href="/blog"><span class="socialIcons glyphicon-blog"></span></a> -->
                 </div>
                 <div class="col-3">
                     <h4>Stay in the know!</h4>

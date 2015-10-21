@@ -25,19 +25,19 @@
         <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
 
         <!-- CONTENT MODULE -->
-        <div class="outer bg_white">
-            <div class="container">
+        <div class="outer bg_grey resources">
+            <div class="bg_white container">
                 <div class="row">
-                    <div class="col-8">
-                        <asp:ContentPlaceHolder ID="SupportSearchEngine" runat="server"></asp:ContentPlaceHolder>
-                        <asp:ContentPlaceHolder ID="PopularTopicsList" runat="server"></asp:ContentPlaceHolder>
+                    <div class="col-8 primaryResources">
+                        <div class="searchResources"><asp:ContentPlaceHolder ID="SupportSearchEngine" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="popularTopics"><asp:ContentPlaceHolder ID="PopularTopicsList" runat="server"></asp:ContentPlaceHolder></div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 sidebar">
                         <h2><asp:ContentPlaceHolder ID="SidebarHeading" runat="server"></asp:ContentPlaceHolder></h2>
                         <div class="bg_dark-grey"><asp:ContentPlaceHolder ID="Sidebar1" runat="server"></asp:ContentPlaceHolder></div>
                         <div class="bg_orange"><asp:ContentPlaceHolder ID="Sidebar2" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="bg-grey"><asp:ContentPlaceHolder ID="Sidebar3" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="bg-grey"><asp:ContentPlaceHolder ID="Sidebar4" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="bg_grey"><asp:ContentPlaceHolder ID="Sidebar3" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="bg_grey"><asp:ContentPlaceHolder ID="Sidebar4" runat="server"></asp:ContentPlaceHolder></div>
                     </div>
                 </div>
             </div>
