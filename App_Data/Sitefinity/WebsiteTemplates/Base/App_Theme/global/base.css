@@ -25,8 +25,7 @@ a:hover{
 h1, h2, h3, h4, h5, h6{
 	font-family:Helvetica,Arial,sans serif;
 	font-weight:normal;
-	color:#39464F;
-    margin:12px 0;
+    margin:0 0;
 }
 h1{
 	font-size:38px;
@@ -93,7 +92,7 @@ section {
 .clearfix{clear:both;}
 .nobr{white-space:nowrap;}
 .smalltext{font-size:.8em !important;}
-.separator{display:block;margin:6px 0;width:100%;height:2px;background-color:#a5b7c2;}
+.separator{display:block;margin:6px 0;width:100%;height:2px;background-color:#edf0f2;}
 /* _ alignment _ */
 .text-left{text-align:left;}
 .text-center{text-align:center;}
@@ -155,21 +154,22 @@ button, input[type='button'], input[type='submit']{
     font-weight:bold;
 	text-decoration:none !important;
     cursor:pointer;
-    padding:12px 24px;
+    padding:10px 22px;
 }
 .btnDefault{
-	background:#dfe3e6;
-	color:#2a353d;
-}
-.btnDefault:hover{
-    background:#a5b7c2;
-}
-.btnSecondary{
-	background:#39464f;
+	background:#FE5000;
 	color:#FFF;
 }
+.btnDefault:hover{
+    background:#da4c1f;
+}
+.btnSecondary{
+	background:#FFF;
+	color:#FE5000;
+    border:#FE5000 2px solid !important;
+}
 .btnSecondary:hover {
-    background: #2a353d;
+    background: #edf0f2;
 }
 button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='submit'] > span.glyphicon{
     display:inline-block;

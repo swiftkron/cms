@@ -4,9 +4,10 @@
     width:100%;
     overflow:hidden;
     padding:12px 0 32px;
+    color:#FE5000;
 }
 .utility a:link, .utility a:active, .utility a:visited{
-    color:#526774;
+    color:#FE5000;
 }
 .utility a:hover{
     color:#34566b;
