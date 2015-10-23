@@ -24,10 +24,10 @@
         <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
 
          <!-- HERO -->
-        <div class="outer bg_black hero">
+        <div class="outer bg_blue hero">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 inner">
                         <asp:ContentPlaceHolder ID="ProductHeroCopy" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-6">
@@ -41,7 +41,7 @@
        <asp:ContentPlaceHolder ID="FeatureLayouts" runat="server"></asp:ContentPlaceHolder>
 
         <!-- TESTIMONIAL -->
-        <div class="outer bg_black testimonial">
+        <div class="outer bg_blue testimonial">
             <div class="container">
                 <div class="row">
                     <div class="col-4 pullLeft">

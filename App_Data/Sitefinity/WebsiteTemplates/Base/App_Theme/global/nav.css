@@ -96,7 +96,7 @@
     position:unset;
 }
 .navigation + div.outer > div.container{
-    padding-top:160px;
+    margin-top:128px;
 }
     nav {
         display: block !important;

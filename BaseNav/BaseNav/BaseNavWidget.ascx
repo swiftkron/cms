@@ -1,6 +1,6 @@
 ﻿<div class="navigation"> 
 <!-- UTILITY NAV -->
-    <div class="outer bg_grey">
+    <div class="outer bg_white">
         <div class="container">
             <div class="utility">
                 <div class="uToggle">
@@ -32,7 +32,7 @@
                             <li><a href="/nl-nl/">Netherlands</a></li>
                         </ul>
                     </div>
-                    <div class="uLogin"><a href="#"><span class="glyphicon glyphicon-user" title="Login"></span></a></div>
+                    <!-- <div class="uLogin"><a href="#"><span class="glyphicon glyphicon-user" title="Login"></span></a></div> -->
                 </div>
             </div>
         </div>
@@ -49,9 +49,9 @@
    <ul id="main-nav">
       <li><a href="/products">Products</a>
          <ul>
-            <li><a href="/products/product-details">Act! Premium</a></li>
-            <li><a href="/products/product-details">Act! emarketing</a></li>
-            <li><a href="/products/product-details">Act! Essentials</a></li>
+            <li><a href="/products/act-premium">Act! Premium</a></li>
+            <li><a href="/products/act-emarketing">Act! emarketing</a></li>
+            <li><a href="/products/act-essentials">Act! Essentials</a></li>
          </ul>
       </li>
       <li><a href="/solutions">Solutions</a>
