@@ -22,6 +22,12 @@
     background-color: #308dc6;
     color: #FFF;
 }
+.bg_blue a{
+    color:#bffff9;
+}
+.bg_blue a:hover{
+    color:#64eddf;
+}
 .bg_white{
     background-color:#FFF;
     color:#526774;
@@ -89,9 +95,16 @@ p{
 .hero p{
     line-height:1.25em;
 }
-.solutions h2{
+
+.hero2{
+    padding:48px 0;
+}
+.hero2{
     text-align:center;
-    margin-bottom:48px;
+}
+
+.solutions{
+    text-align:center;
 }
 .solutions img{
     max-width:120px;
@@ -100,22 +113,30 @@ p{
     margin:auto;
 }
 .solutions h3{
-    text-align:center;
-    margin-bottom:12px;
+    color:#FE5000;
+    margin:.5em auto;
 }
 .solutions p{
-    margin:0 24px 12px;
-    font-size:16px;
+}
+.flushLeftImage{
+    padding-left:0;
+    margin-left:0;
+}
+.flushRightImage{
+    padding-right:0;
+    margin-right:0;
+}
+.testimonialCopy{
+    padding:12px;
 }
 .quote {
-    line-height:2em;
-    text-indent:2em;
+    line-height:1.35em;
     margin-bottom:12px;
 }
 .testimonial .byline{
     font-weight:bold;
-    text-align:right;
     font-size:.75em;
+    color:#FE5000;
 }
 .pullQuote{
     font-style:oblique;

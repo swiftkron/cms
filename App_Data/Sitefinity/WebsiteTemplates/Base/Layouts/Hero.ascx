@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" %>
 
 <!-- HERO -->
-<div runat="server" class="sf_cols outer bg_black hero">
+<div runat="server" class="sf_cols outer bg_blue hero">
     <div class="container">
      <div class="row">  
          <div runat="server" class="sf_colsOut sf_2cols_2_50 col-6 inner">
