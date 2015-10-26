@@ -7,7 +7,7 @@ a{
 	cursor:pointer;
 	text-decoration:none;
 }
-a:link, a:active, a:visited{
+a{
 	color:#1D82A7;	
 }
 a:hover{

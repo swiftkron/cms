@@ -47,21 +47,21 @@
             </div>
   <nav>
    <ul id="main-nav">
-      <li><a href="/products">Products</a>
+      <li><a href="/why-act">Why Act!</a>
+         <ul>
+            <li><a href="/why-act/simplify-your-process">Simplify your process</a></li>
+            <li><a href="/why-act/manage-your-contacts">Manage your contacts</a></li>
+            <li><a href="/why-act/extend-your-reach">Extend your reach</a></li>
+            <li><a href="/why-act/drive-sales">Drive Sales</a></li>
+            <li><a href="/why-act/track-your-goals">Track your goals</a></li>
+            <li><a href="/why-act/customer-success">Customer Successes</a></li>
+         </ul>
+      </li>
+      <li><a href="/products">Products &amp; Pricing</a>
          <ul>
             <li><a href="/products/act-premium">Act! Premium</a></li>
             <li><a href="/products/act-emarketing">Act! emarketing</a></li>
             <li><a href="/products/act-essentials">Act! Essentials</a></li>
-         </ul>
-      </li>
-      <li><a href="/solutions">Solutions</a>
-         <ul>
-            <li><a href="/products/product-details">Simplify your process</a></li>
-            <li><a href="/products/product-details">Manage your contacts</a></li>
-            <li><a href="/products/product-details">Extend your reach</a></li>
-            <li><a href="/products/product-details">Drive Sales</a></li>
-            <li><a href="/products/product-details">Track your goals</a></li>
-            <li><a href="/solutions/customer-success">Customer Successes</a></li>
          </ul>
       </li>
       <li><a href="/resources">Customer Resources</a>
