@@ -91,6 +91,8 @@
 @media(min-width:768px) {
 .navigation{
     position:fixed;
+    background:#FFF;
+    z-index:999999999;
 }
 .sfPageEditor .navigation{
     position:unset;

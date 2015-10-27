@@ -2070,3 +2070,463 @@ Win32 ThreadId:14180
 
 Extended Properties: 
 ----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 3:34:43 PM
+
+Message: HandlingInstanceID: 603ce644-4a89-47e5-9773-f07049219002
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 09:34:43
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 3:34:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130904336478027690
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130904336478027690
+
+ProcessId: 9248
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 3:34:46 PM
+
+Message: HandlingInstanceID: 339f82f4-0bcf-4a89-9528-ff84649f1e54
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 09:34:46
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 3:34:46 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130904336840607690
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-2-130904336840607690
+
+ProcessId: 9248
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 3:34:56 PM
+
+Message: HandlingInstanceID: bd4f7438-7d2c-400b-916c-72a8574416cd
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 09:34:56
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 3:34:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130904336908757690
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130904336908757690
+
+ProcessId: 9248
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:9572
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 3:41:30 PM
+
+Message: HandlingInstanceID: 4cfc0342-7868-4264-afa8-4c9f1418c2c2
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 09:41:30
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 3:41:30 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130904340847707690
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-4-130904340847707690
+
+ProcessId: 9248
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:8000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 3:41:34 PM
+
+Message: HandlingInstanceID: a921a537-f483-46e1-8416-f95aa195b015
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 09:41:34
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 3:41:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-5-130904340915347690
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-5-130904340915347690
+
+ProcessId: 9248
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:8000
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 3:49:42 PM
+
+Message: HandlingInstanceID: c1260240-241e-4ae3-b339-df76d9c440a5
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 09:49:42
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 3:49:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-130904345754667690
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-6-130904345754667690
+
+ProcessId: 9248
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:7316
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 3:49:49 PM
+
+Message: HandlingInstanceID: 9e53a7ec-a724-41e1-9488-45d8aa474eeb
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+10/27/2015 09:49:49
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void VerifySectionRegistered(System.Type, System.String)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
+   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
+   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 3:49:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130904345828047690
+ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-7-130904345828047690
+
+ProcessId: 9248
+
+Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+
+Thread Name: 
+
+Win32 ThreadId:7316
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 10/27/2015 5:23:06 PM
+
+Message: HandlingInstanceID: f3c06d70-72a6-4c3d-9590-e8d633427961
+An exception of type 'Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException' occurred and was caught.
+---------------------------------------------------------------------------------------------------------------------
+10/27/2015 11:23:06
+Type : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException, Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : The password you have entered is not valid.The password must be at least 7 characters long.
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : The password you have entered is not valid.The password must be at least 7 characters long.
+IsDetailXhtml : True
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Security.Web.Services.WcfMembershipUser SaveUserInternal(Telerik.Sitefinity.Security.Web.Services.WcfMembershipUser, System.Guid, System.String, Boolean, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+StringDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Security.Web.Services.Users.SaveUserInternal(WcfMembershipUser user, Guid userId, String providerName, Boolean update, Boolean updateRoles)
+   at Telerik.Sitefinity.Security.Web.Services.Users.CreateUser(WcfMembershipUser user, String userId, String provider)
+   at SyncInvokeCreateUser(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/27/2015 5:23:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-130904401016866871
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Security/Users.svc/create/00000000-0000-0000-0000-000000000000/?provider=Default
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-1-130904401016866871
+
+ProcessId: 4908
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6156
+
+Extended Properties: 
+----------------------------------------
