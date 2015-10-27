@@ -32,6 +32,12 @@
     background-color:#FFF;
     color:#526774;
 }
+.bg_white h2{
+    color:#fe5000;
+}
+.bg_white h3{
+    color:#2a353d;
+}
 
 /* Base Styles */
 body {
@@ -113,7 +119,6 @@ p{
     margin:auto;
 }
 .solutions h3{
-    color:#FE5000;
     margin:.5em auto;
 }
 .solutions p{
@@ -133,16 +138,10 @@ p{
     line-height:1.35em;
     margin-bottom:12px;
 }
-.testimonial .byline{
+.byline{
     font-weight:bold;
     font-size:.75em;
     color:#FE5000;
-}
-.pullQuote{
-    font-style:oblique;
-    font-size:2em;
-    line-height:1.2em;
-    margin:24px;
 }
 .stat{
     font-size:48px;
@@ -249,4 +248,19 @@ table td, table th, .downloadTable td, .downloadTable th{
 .sidebar div{
     padding:12px;
     margin-bottom:12px;
-}			
+}
+
+/* Solutions (Why Act) */
+.solutionHero .quote p{
+    font-size:1.5em;
+    line-height:1.3em;
+    color:#788e9e;
+}
+@media(min-width:768px){
+    .solutionHero .heroImg img{
+        position:absolute;
+        z-index:700;
+        top:180px;
+        margin-left:60px;
+    }
+}	
