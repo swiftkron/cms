@@ -27,4 +27,10 @@ $(document).ready(function () {
         $('.modal').css('opacity', '0');
         $('.modal').css('pointer-events', 'none');
     });
+    // Chat
+    $('#open_chatModal').click(function () {
+        $('#chatModal').css('opacity', '1');
+        $('#chatModal').css('pointer-events', 'auto');
+    });
+
 });

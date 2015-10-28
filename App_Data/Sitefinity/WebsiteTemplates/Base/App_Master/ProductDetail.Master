@@ -40,22 +40,6 @@
        <!-- FEATURES -->
        <asp:ContentPlaceHolder ID="FeatureLayouts" runat="server"></asp:ContentPlaceHolder>
 
-        <!-- TESTIMONIAL -->
-        <div class="outer bg_blue testimonial">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 pullLeft">
-                        <asp:ContentPlaceHolder ID="TestimonialImage" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                    <div class="col-8 pullLeft testimonialCopy">
-                        <div class="quote"><asp:ContentPlaceHolder ID="TestimonialCopy" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="byline"><asp:ContentPlaceHolder ID="ByLine" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="pullQuote"><asp:ContentPlaceHolder ID="TestimonialPullQuote" runat="server"></asp:ContentPlaceHolder></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
 
     </form>

@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-4 sidebar">
                         <h2><asp:ContentPlaceHolder ID="SidebarHeading" runat="server"></asp:ContentPlaceHolder></h2>
-                        <div class="bg_dark-grey"><asp:ContentPlaceHolder ID="Sidebar1" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="bg_blue"><asp:ContentPlaceHolder ID="Sidebar1" runat="server"></asp:ContentPlaceHolder></div>
                         <div class="bg_orange"><asp:ContentPlaceHolder ID="Sidebar2" runat="server"></asp:ContentPlaceHolder></div>
                         <div class="bg_grey"><asp:ContentPlaceHolder ID="Sidebar3" runat="server"></asp:ContentPlaceHolder></div>
                         <div class="bg_grey"><asp:ContentPlaceHolder ID="Sidebar4" runat="server"></asp:ContentPlaceHolder></div>
