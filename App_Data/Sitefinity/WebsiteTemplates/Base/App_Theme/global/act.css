@@ -256,6 +256,10 @@ table td, table th, .downloadTable td, .downloadTable th{
     line-height:1.3em;
     color:#788e9e;
 }
+.solutionFeatures img{
+    max-width:120px;
+    margin:1.5em auto;
+}
 @media(min-width:768px){
     .solutionHero .heroImg img{
         position:absolute;
@@ -263,4 +267,37 @@ table td, table th, .downloadTable td, .downloadTable th{
         top:180px;
         margin-left:60px;
     }
-}	
+}
+
+/* anchors */
+#videoTraining{
+    padding-top:180px;
+    margin-top:-140px;
+}
+
+/* Support */
+.tile{
+    background:#39464f;
+    color:#FFF;
+    text-align:center;
+    padding:24px 12px;
+}
+.tile h3{
+font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;        
+}
+.tile:hover{
+    background:#2a353d;
+    cursor:pointer;
+}
+.banner {
+    padding:12px 24px;
+    margin:24px auto;
+}
+iframe#chatFrame {
+    display: block;
+    border: none;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}

@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" %>
 
-<div runat="server" class="sf_cols outer bg_white productFeatures">
+<div runat="server" class="sf_cols outer">
     <div class="container">
      <div runat="server" class="sf_colsOut sf_2cols_1_25 col-3 inner">
          <div runat="server" class="sf_colsIn sf_2col_1in_25">

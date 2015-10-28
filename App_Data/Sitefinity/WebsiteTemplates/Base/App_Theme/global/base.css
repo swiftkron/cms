@@ -128,12 +128,13 @@ section {
 .right-addon input { padding-right: 30px; }
 
 /* Forms */
-input[type='text'], input[type='email'], input[type='password'], input[type='number']{
+input[type='text'], input[type='email'], input[type='password'], input[type='number'], select, textarea{
 	-webkit-border-radius: 2px;    
 	-moz-border-radius: 2px;
 	border-radius: 2px;
     border:#a5b7c2 1px solid;
     padding:10px 12px;
+    margin:.5em auto;
     width:100%;
 	font-family:Helvetica,Arial,sans serif;
     font-size:16px;
@@ -143,6 +144,7 @@ input:focus {
 }
 /* Buttons */
 button, input[type='button'], input[type='submit']{
+    -webkit-appearance:none;
     display:inline-block;
     margin:12px auto;
 	-webkit-border-radius: 2px;    
