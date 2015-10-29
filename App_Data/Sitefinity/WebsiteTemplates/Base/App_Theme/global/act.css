@@ -270,7 +270,12 @@ table td, table th, .downloadTable td, .downloadTable th{
 }
 
 /* anchors */
-#videoTraining{
+#videoTraining, 
+#upgrade, 
+#newusers,
+#prem,
+#troubleshooting,
+#support{
     padding-top:180px;
     margin-top:-140px;
 }

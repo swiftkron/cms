@@ -30,10 +30,10 @@
                 <div class="col-3">
                     <h4>Stay in the know!</h4>
                     <p>Sign up for the Act! eNewsletter</p>
-                    <form id="enewsSub" name="emailsubscribehome" action="https://s1966950654.t.eloqua.com/e/f2">
-    	              <input type="hidden" name="elqFormName" value="emailsubscribehome">
+                    <!-- <form id="enewsSub" name="emailsubscribehome" action="https://s1966950654.t.eloqua.com/e/f2"> -->
+    	              <input type="hidden" name="elqFormName" value="">
                       <input type="hidden" name="elqSiteID" value="1966950654">
-                      <input type="hidden" name="LeadSource" value="LCRMAA0001WQ" />
+                      <input type="hidden" name="LeadSource" value="" />
                       <input type="hidden" name="hiddenCampaignId" value="" />
                       <input type="hidden" name="elqCustomerGUID" value="">
                       <input type="hidden" name="elqCookieWrite" value="0">
@@ -44,9 +44,10 @@
                       <input type="hidden" name="utm_campaign" value="">
                       <input type="hidden" name="utm_name" value="">
                       <input type="hidden" name="utm_term" value="">
-			          <input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address" />
-			          <asp:Button ID="enewsSub" PostBackUrl="https://s1966950654.t.eloqua.com/e/f2" runat="server" text="Subscribe" CssClass="btnDefault" ToolTip="Subscribe"></asp:Button>
-		            </form>
+			          <input type="email" name="emailAddress" placeholder="Email Address" />
+                      <input type="submit" value="Sign up" id="enews_button" class="btnDefault" />
+			          <!-- <asp:Button ID="enewsSub" PostBackUrl="https://s1966950654.t.eloqua.com/e/f2" runat="server" text="Subscribe" CssClass="btnDefault" ToolTip="Subscribe"></asp:Button> -->
+		            <!-- </form> -->
                 </div>
             </div>
         </div>

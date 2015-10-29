@@ -62,6 +62,7 @@
             <li><a href="/products/act-premium">Act! Premium</a></li>
             <li><a href="/products/act-emarketing">Act! emarketing</a></li>
             <li><a href="/products/act-essentials">Act! Essentials</a></li>
+            <li><a href="/products/whats-new">What&rsquo;s New</a></li>
          </ul>
       </li>
       <li><a href="/resources">Customer Resources</a>
@@ -73,11 +74,14 @@
       </li>
       <li><a href="/partners">Partners</a>
          <ul>
-            <li><a href="#">Link one</a></li>
-            <li><a href="#">Link two</a></li>
-            <li><a href="#">Link three</a></li>
-            <li><a href="#">Link four</a></li>
-            <li><a href="#">Link five</a></li>
+            <li><a href="http://acc.swiftpage.com/Select">Swiftpage Select Certified Consultants</a></li>
+            <li><a href="http://acc.swiftpage.com/">Certified Consultants</a></li>
+            <li><a href="/partners/premier-trainers">Premier Trainers</a></li>
+            <li><a href="/partners/hosting-providers">Hosting Providers</a></li>
+            <li><a href="/partners/distributors">Distributors</a></li>
+            <li><a href="http://e.act.com/affiliates" target="_blank">Affiliate Partner</a></li>
+            <li><a href="/partners/development-partner-program">Development Partner Program</a></li>
+            <li><a href="/partners/become-a-partner">Become an Act! Certified Consultant</a></li>
          </ul>
       </li>
       <li><a href="/blog">Blog</a></li>

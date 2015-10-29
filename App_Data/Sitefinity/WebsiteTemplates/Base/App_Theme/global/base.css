@@ -143,7 +143,7 @@ input:focus {
     box-shadow:#a5b7c2 0px 2px 3px;
 }
 /* Buttons */
-button, input[type='button'], input[type='submit']{
+.button, button, input[type='button'], input[type='submit']{
     -webkit-appearance:none;
     display:inline-block;
     margin:12px auto;
@@ -173,7 +173,7 @@ button, input[type='button'], input[type='submit']{
 .btnSecondary:hover {
     background: #edf0f2;
 }
-button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='submit'] > span.glyphicon{
+.button > span.glyphicon, button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='submit'] > span.glyphicon{
     display:inline-block;
     float:right;
     padding:2px 0 0 6px;
