@@ -22,20 +22,40 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/" />
-
-     
+        <link rel="alternate" hreflang="nl" href="http://www.act.com/nl-nl/" />
+		<link rel="canonical" href="http://www.act.com/en-uk/" />
        <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -107,7 +127,7 @@
 			<div class="row product_select">
 				<a class="col-sm-4 home_p_btn active" data-link="p1">Act! Pro<span></span></a>
 				<a class="col-sm-4 home_p_btn" data-link="p2">Act! Premium<span></span></a>
-				<a class="col-sm-4 home_p_btn" data-link="p3">Act! Cloud Essentials<span></span></a>
+				<a class="col-sm-4 home_p_btn" data-link="p3">Act! Essentials<span></span></a>
 			</div>
 		</div>
       	</div>
@@ -157,14 +177,14 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-5">
-              <h2 class="large_h2">Act! Cloud Essentials</h2>
+              <h2 class="large_h2">Act! Essentials</h2>
 
               <p class="lead">
-              United at last - all of your contacts from wherever you store them! Act! Cloud Essentials fuses your contacts together in one place and takes the guesswork out of sales follow-up. Act! Cloud Essentials is a simple, cost-effective way to build your small business. Ideal for individuals and startups.
+              Act! Essentials is a simple, cost-effective way to help entrepreneurs get organised,  stay connected, and look professional.
               </p>
 
               <span class="price">From &pound;7  </span> per month ex. VAT
-              <a href="products/act-cloud" title="Find out more about Act! Cloud. Designed for individuals and startups" class="txtlink">read more &gt;</a>
+              <a href="products/act-essentials" title="Find out more about Act! Essentials. Designed for individuals and startups" class="txtlink">read more &gt;</a>
               <br>
 
               <a target="_blank" href=" https://mycloud.act.com/#/login" class="btn-primary btn">buy now</a>
@@ -172,7 +192,7 @@
 
             </div>
             <div class="col-sm-7">
-              <img src="/en-uk/img/act-cloud-on-mobile-phone.png" alt="Act! Cloud on mobile device"></div>
+              <img src="/en-uk/img/act-cloud-on-mobile-phone.png" alt="Act! Essentials on mobile device"></div>
           </div>
         </div>
       </div>
@@ -210,7 +230,7 @@
               <div class="col-sm-7 ">
                 <p class="list_title orangetitle">Get it together</p>
                 <p>
-                  More time, better relationships, higher success. Act! keeps all your prospect and customer details in one organised place - at the office and on popular mobile devices.
+                  More time, better relationships, higher success. Act! keeps all your prospect and customer details in one organised place - at the office and on popular <a href="http://www.act.com/en-uk/act-productpage-mobility/" >mobile devices</a>.
                 </p>
               </div>
             </div>
@@ -224,7 +244,7 @@
               <div class="col-sm-7 ">
                 <p class="list_title orangetitle">Marketing = Selling</p>
                 <p>
-Take the guesswork out of marketing and convert more sales. Integrated emarketing services guide you to reach the right customers with the right message.
+Take the guesswork out of marketing and convert more sales. Integrated <a href="http://www.act.com/en-uk/act-emarketing/" >emarketing services</a> guide you to reach the right customers with the right message.
                 </p>
               </div>
             </div>
@@ -238,7 +258,7 @@ Take the guesswork out of marketing and convert more sales. Integrated emarketin
               <div class="col-sm-7 ">
                 <p class="list_title orangetitle">Still the one</p>
                 <p>
-                  The #1 best-selling Contact &amp; Customer Manager for over 25 years, Act! is the trusted choice for individuals, small businesses, and teams to drive results and create customers for life.
+                  The #1 best-selling <a href="http://www.act.com/en-uk/why-choose-act/" >Contact &amp; Customer Manager</a> for over 25 years, Act! is the trusted choice for individuals, small businesses, and teams to drive results and create customers for life.
                 </p>
               </div>
             </div>
@@ -293,19 +313,18 @@ Take the guesswork out of marketing and convert more sales. Integrated emarketin
             		</div>
 			   </div>
           	</div>
-          	<div class="col-sm-4 test-wrap" >
-            	<div class="test-popout" style="background-image:url('/en-uk/img/bg-corkers-crisps-act-customer-story.jpg');">
-            		<div class="box">
-						<div class="img-container"><img src="/en-uk/img/corkers-logo.png" alt="corkers logo"></div>
-
-              			<blockquote>"Recently, I wanted to track which prospects had been sent samples. Swiftpage helped me customise our system so now I can run reports with exactly the information I'm looking for."
-							<cite class="hidden-sm">Kate Bavester<br>Office Manager</cite>
-							<div class="comp_name hidden-sm">Corkers Crisps</div>
-						</blockquote>
-               			<a href="testimonials/corkers" class="btn-second-white btn-white">Find out more</a>
-            		</div>
-			   </div>
-          	</div>
+          	<div class="col-sm-4 test-wrap"> 
+              <div class="test-popout" style="background-image:url('/en-uk/img/srtbg.jpg');">
+                <div class="box">
+            <div class="img-container"><img src="/en-uk/img/srtlogo.png" alt="srt logo"></div>
+                    <blockquote>"When customers bring in images of hairstyles, I scan them and add them to their file to keep a record of their personal style."
+              <cite>R&eacute;al Thibault<br />Hairdresser and Stylist</cite>
+              <div class="comp_name hidden-sm">SRT</div>
+            </blockquote>
+                    <a href="testimonials/srt" class="btn-second-white btn-white">Find out more</a>
+                </div>
+         </div>
+            </div>
 		</div>
 	</div>
 </div>

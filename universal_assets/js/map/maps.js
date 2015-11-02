@@ -9,7 +9,7 @@ switch(current_country){
 	phone_heading = 'Telefon:';
 	break;
 	case 'France':
-	find_out_more = 'Find out more';
+	find_out_more = 'En savoir plus';
 	email_heading = 'Email :';
 	location_heading = 'Ville :';
 	website_heading = 'Site web :';

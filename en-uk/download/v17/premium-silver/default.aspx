@@ -22,20 +22,40 @@
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/download/v17/premium-silver" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/telechargement/v17/premium-business-care" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/download/v17/premium-silver" />
-
+		<link rel="canonical" href="http://www.act.com/en-uk/download/v17/premium-silver/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -111,12 +131,12 @@
 <h3>Act! Premium – access via Windows® client</h3>
 <p>Download this client if you want to run Act! on a Windows® computer.</p></div>
 <div class="section-2" style="text-align: left;">
-<p><strong><a class="btn-orange" href="http://cdn.act.dlm.swiftpage.com/3566/act!_premium_v17_sp1x169_uk_eu.exe" target="_blank">download</a>&nbsp;&nbsp;</strong>(353 MB)</p>
+<p><strong><a class="btn-orange" href="http://cdn.act.dlm.swiftpage.com/3885/act_prem_172x217_uk_eu.exe" target="_blank">download</a>&nbsp;&nbsp;</strong>(375 MB)</p>
 <h3>Act! Premium – access via web and Act! Premium Mobile client</h3>
 <p>Download this client if you also want to set up a web server so that users can access information in Act! via an Internet browser and from supported mobile devices.</p></div>
 <div class="section-2" style="text-align: left;">
 <p><b>Quick Tip!</b> Reference the <a href="http://www.act.com/media/en-us/docs/documentation/SageACTPremiumWebAdministratorsGuide.pdf" target="_blank"><em>Web Administrator’s Guide</em></a> for detailed information and instructions.</p>
-<p><strong><a class="btn-orange" href="http://cdn.act.dlm.swiftpage.com/3572/act!_premium_web_v17_sp1x169.exe" target="_blank">download</a>&nbsp;&nbsp;</strong>(852 MB)</p>
+<p><strong><a class="btn-orange" href="http://cdn.act.dlm.swiftpage.com/3889/act_web_172x217.exe" target="_blank">download</a>&nbsp;&nbsp;</strong>(854 MB)</p>
 </div>
 <div class="section-2">
 <p style="text-align: left;"><b>Next steps:</b></p>

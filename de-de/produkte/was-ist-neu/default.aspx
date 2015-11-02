@@ -20,10 +20,10 @@
 
         <!-- HREF LANG TAG -->
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/products/upgrade" />
-        <link rel="alternate" hreflang="en-us" href="http://www.act.com/products/upgrade/" />
+        <link rel="alternate" hreflang="en-us" href="http://www.act.com/whats-new/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/produits/nouveautes" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/produkte/was-ist-neu" />
-
+		<link rel="canonical" href="http://www.act.com/de-de/produkte/was-ist-neu/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -32,9 +32,6 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>		
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
 
 <!-- Google Tracking Scripts -->

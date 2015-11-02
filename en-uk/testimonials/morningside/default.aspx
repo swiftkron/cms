@@ -23,21 +23,43 @@
   <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/morningside" />
   <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/morningside" />
   <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/morningside" />
-
+  <link rel="canonical" href="http://www.act.com/en-uk/testimonials/morningside/" />
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/app.css">
 
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-    <!-- Lead Forensics -->
+  <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" />
     </noscript>
 
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
     <!-- Google Tracking Scripts -->
 
@@ -97,7 +119,7 @@
             <h1 class="large_strapline">Employment specialists put Act! to work</h1>
             <div class="hidden-xs"><img src="/en-uk/img/morningside-logo.png" alt="" class="logoimg"/></div>
             <div class="btn-bottom">
-            <a href="testimonials/pdf/Act-Morningside-WhitePaper-Digital-UK.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
+            <a href="testimonials/pdf/morningside.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
             <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
             </div>
         </div>
@@ -125,7 +147,7 @@
         <p class="  semilead">For over 50 years, specialist employment service, Morningside, has helped those with disabilities back into work using detailed personal information to help match them to their ideal job.</p>
         <p class="  semilead">However, using a paper-based system to do this, limited access to client notes and business contact information, which meant those in the field were continually having to return to one of Morningside's four offices to get the information they needed. Unsurprisingly, that was a major drain on time and effort that would be better spent working with clients.</p>
         <p class="  semilead">Based in Washington State, USA, Morningside is statefunded, which makes <span class="orangetitle">maintaining accurate and detailed records essential</span> for ensuring this not-for-profit organisation is able to bill accurately for the work that it does.</p>
-        <p><a href="testimonials/pdf/Act-Morningside-WhitePaper-Digital-UK.pdf" target="_blank" class="btn-primary btn">read more</a>
+        <p><a href="testimonials/pdf/morningside.pdf" target="_blank" class="btn-primary btn">read more</a>
         </p>
         <br>
       </div>
@@ -177,7 +199,7 @@
           <p class="lead notopmargin">
             <strong>Want to read this article later?</strong> Why not download the PDF to view in your own time or you can share with a colleague or friend.</p>
 
-          <p class="orangebuttons"><a href="testimonials/pdf/Act-Morningside-WhitePaper-Digital-UK.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
+          <p class="orangebuttons"><a href="testimonials/pdf/morningside.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
           <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
           </p>
 

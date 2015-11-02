@@ -126,6 +126,22 @@ nav a{
 	margin:2em 0 2em 0;
 	padding:0 0;
 }
+
+.button {
+
+	margin:0 auto;
+	border:#fe5000 2px solid;
+	color: #ffffff!important;
+	background:#fe5000;
+	color:#FFF;
+	padding:3px 18px 6px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size:.85em;
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+}
+
 .container button{
 	display:block;
 	margin:0 auto;
@@ -249,6 +265,7 @@ nav a{
 
 .slideDiv{
 	padding:1em 1.5em;
+	text-align: center;
 	/*margin-left:-24px;*/
 }
 #controls{
@@ -359,6 +376,7 @@ a.control_next{
 	margin-bottom:.5em;
 	font-size:.85em;
 	list-style-type:disc;
+	text-align: left;
 }
 /*** training ***/
 #training{

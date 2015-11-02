@@ -20,10 +20,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- HREF LANG TAG -->
-  <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/reebok" />
-  <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/reebok" />
-  <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/reebok" />
-
+  <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/reebok/" />
+  <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/reebok/" />
+  <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/reebok/" />
+  <link rel="alternate" hreflang="nl" href="http://www.act.com/nl-nl/testimonials/reebok/" />
+  <link rel="canonical" href="http://www.act.com/en-uk/testimonials/reebok/" />
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/app.css">
 
@@ -35,9 +36,30 @@
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" />
     </noscript>
 
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Google Tracking Scripts -->
 
@@ -97,7 +119,7 @@
             <h1 class="large_strapline">Act! The ultimate 'fitness' tool for sales</h1>
             <div class="hidden-xs"><img src="/en-uk/img/reebok.png" alt="" class="logoimg"/></div>
             <div class="btn-bottom">
-            <a href="testimonials/pdf/Act-Reebok-WhitePaper-UK.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
+            <a href="testimonials/pdf/reebok.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
             <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
             </div>
         </div>
@@ -127,7 +149,7 @@
         <p class="  semilead">But with
           <span class="orangetitle">8,000 members, 100,000 square feet</span> of space and the final phase of a multi-million pound refurbishment just completed, the Reebok Sports Club in Canary Wharf is clearly doing something very right.</p>
         <p class="  semilead">In large part, that's down to Sales and Marketing Director Diane Kay and her team ensuring a steady stream of new members keeps flowing through the doors of what is one of Europe's largest and most luxurious health clubs.</p>
-        <p><a href="testimonials/pdf/Act-Reebok-WhitePaper-UK.pdf" target="_blank" class="btn-primary btn">read more</a>
+        <p><a href="testimonials/pdf/reebok.pdf" target="_blank" class="btn-primary btn">read more</a>
         </p>
         <br>
       </div>
@@ -185,7 +207,7 @@
           <p class="lead notopmargin">
             <strong>Want to read this article later?</strong> Why not download the PDF to view in your own time or you can share with a colleague or friend.</p>
 
-          <p class="orangebuttons"><a href="testimonials/pdf/Act-Reebok-WhitePaper-UK.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
+          <p class="orangebuttons"><a href="testimonials/pdf/reebok.pdf" target="_blank" class="btn-primary btn">Download</a> <a class="btn-second btn share_btn">Share</a>
           <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
           </p>
 

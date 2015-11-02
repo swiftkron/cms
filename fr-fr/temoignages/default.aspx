@@ -20,10 +20,10 @@
 
         <!-- HREF LANG TAG -->
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials-all" />
-        <link rel="alternate" hreflang="en-us" href="http://www.act.com/why-choose-act/customer-successes/" />
+        <link rel="alternate" hreflang="en-us" href="http://www.act.com/customer-successes/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignages" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen" />
-
+		<link rel="canonical" href="http://www.act.com/fr-fr/temoignages/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/map.css">
@@ -34,9 +34,31 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
 <!-- Google Tracking Scripts -->
 
@@ -103,10 +125,28 @@
 	  			  	<li class="filter-category"><span>Secteur d'activit&eacute;</span>
 	  		  			<ol data-filter-type="test-cat">
 
-	  		  				<li><input type="checkbox" data-filter="manufacturing" id="manufacturing"  name="manufacturing" /> <label for="manufacturing"> Industrie</label></li>
-	  		  				<li><input type="checkbox" data-filter="services" id="services" name="services"/> <label for="services"> Services</label></li>
-                  <li><input type="checkbox" data-filter="information" id="info" name="info"/>  <label for="info">Information et communication</label></li>
-                  <li><input type="checkbox" data-filter="Informatique" id="Informatique" name="Informatique"/>  <label for="Informatique">Informatique</label></li>
+	  		  				 <!-- NEW FILTERS -->
+                  <li><input type="checkbox" data-filter="Agriculture-Forestry-and-Fishing" id="Agriculture-Forestry-and-Fishing"  name="Agriculture-Forestry-and-Fishing" /> <label for="Agriculture-Forestry-and-Fishing"> Agriculture, sylviculture et p&ecirc;che</label></li>
+                  <!--<li><input type="checkbox" data-filter="Mining-and-Quarrying" id="Mining-and-Quarrying"  name="Mining-and-Quarrying" /> <label for="Mining-and-Quarrying"> Industries extracxtives</label></li>-->
+                  <li><input type="checkbox" data-filter="Manufacturing" id="Manufacturing"  name="Manufacturing" /> <label for="Manufacturing"> Industrie manufacturi&egrave;re</label></li>
+                  <!--<li><input type="checkbox" data-filter="Utilities" id="Utilities"  name="Utilities" /> <label for="Utilities"> &Eacute;nergie</label></li>-->
+                  <!--<li><input type="checkbox" data-filter="Water-supply-and-waste-management" id="Water-supply-and-waste-management"  name="Water-supply-and-waste-management" /> <label for="Water-supply-and-waste-management"> Eau, assainissements et gestion des d&eacute;chets</label></li>-->
+                  <!--<li><input type="checkbox" data-filter="Construction" id="Construction"  name="Construction" /> <label for="Construction"> Construction</label></li>-->
+                  <li><input type="checkbox" data-filter="Wholesale-and-Retail" id="Wholesale-and-Retail"  name="Wholesale-and-Retail" /> <label for="Wholesale-and-Retail"> Commerce et distribution</label></li>
+                  <!--<li><input type="checkbox" data-filter="Transportation" id="Transportation"  name="Transportation" /> <label for="Transportation"> Tramsports et logistique</label></li>-->
+                  <!--<li><input type="checkbox" data-filter="Hotels-and-Restaurants" id="Hotels-and-Restaurants"  name="Hotels-and-Restaurants" /> <label for="Hotels-and-Restaurants"> H&ocirc;tels et restauration</label></li>-->
+                  <li><input type="checkbox" data-filter="Information-and-communication" id="Information-and-communication"  name="Information-and-communication" /> <label for="Information-and-communication"> Information et communication</label></li>
+                  <!--<li><input type="checkbox" data-filter="Financial-Services" id="Financial-Services"  name="Financial-Services" /> <label for="Financial-Services"> Services financiers</label></li>-->
+                  <!--<li><input type="checkbox" data-filter="Property" id="Property"  name="Property" /> <label for="Property"> Immobilier</label></li>-->
+                  <!--<li><input type="checkbox" data-filter="Research-Science-and-Technology" id="Research-Science-and-Technology"  name="Research-Science-and-Technology" /> <label for="Research-Science-and-Technology"> Recherche, science et technologie</label></li>-->
+                  <li><input type="checkbox" data-filter="Business-Services" id="Business-Services"  name="Business-Services" /> <label for="Business-Services"> Services administratifs</label></li>
+                  <!--<li><input type="checkbox" data-filter="Public-Sector" id="Public-Sector"  name="Public-Sector" /> <label for="Public-Sector"> Administration publique</label></li>-->
+                  <!--<li><input type="checkbox" data-filter="Education" id="Education"  name="Education" /> <label for="Education"> Enseignement</label></li>-->
+                  <li><input type="checkbox" data-filter="Health-and-Social-Work" id="Health-and-Social-Work"  name="Health-and-Social-Work" /> <label for="Health-and-Social-Work"> Sant&eacute; et action social</label></li>
+                  <li><input type="checkbox" data-filter="Sports-leisure-and-entertainment" id="Sports-leisure-and-entertainment"  name="Sports-leisure-and-entertainment" /> <label for="Sports-leisure-and-entertainment"> Sport, loisirs et divertissements</label></li>
+                  <li><input type="checkbox" data-filter="Services" id="Services"  name="Services" /> <label for="Services"> Services</label></li>
+
+
 	  		  			</ol>
 	  		  		</li>
               </div>

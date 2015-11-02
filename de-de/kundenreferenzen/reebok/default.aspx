@@ -20,23 +20,40 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- HREF LANG TAG -->
-  <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/reebok" />
-  <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/reebok" />
-  <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/reebok" />
-
+  <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/reebok/" />
+  <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/reebok/" />
+  <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/reebok/" />
+  <link rel="alternate" hreflang="nl" href="http://www.act.com/nl-nl/testimonials/reebok/" />
+  <link rel="canonical" href="http://www.act.com/de-de/kundenreferenzen/reebok/" />
  <link rel="stylesheet" href="css/normalize.min.css">
  <link rel="stylesheet" href="css/app.css">
 
  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
- 
- <!-- Lead Forensics -->
-<script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
-<noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
-
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+ <!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
 
 <!-- Google Tracking Scripts -->
@@ -94,7 +111,7 @@
 Act! ist das ultimative &#8222;Fitnesstool&ldquo; fu&#776;r den Vertrieb</h1>
  <div class="hidden-xs"><img src="img/reebok.png" alt="" class="logoimg"/></div>
  <div class="btn-bottom">
- <a href="kundenreferenzen/pdf/Act-Reebok-WhitePaper-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <a href="kundenreferenzen/pdf/Reebok.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
   <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn">Demo anfordern</a>
  </div>
  </div>
@@ -128,7 +145,7 @@ Act! ist das ultimative &#8222;Fitnesstool&ldquo; fu&#776;r den Vertrieb</h1>
  <p class=" semilead">In der hart umk&auml;mpften Fitnessbranche Londons ist es nicht leicht, sich an der Spitze zu halten &ndash; vor allem, wenn die Mitglieder h&auml;ufig wechseln: City-Banker und Finanzfachleute sind oft nur fu&#776;r kurze Zeit in der Stadt und genauso kurz w&auml;hrt ihre Mitgliedschaft im Fitnessstudio.</p>
  <p class=" semilead">Mit 8000 Mitgliedern und einer Fl&auml;che von knapp 9300 m&sup2; macht der Reebok Sports Club im Londoner Finanzviertel Canary Wharf zweifellos etwas richtig. Noch dazu wurde vor kurzem die letzte Phase einer mehrere Millionen Pfund teuren Renovierung und Modernisierung abgeschlossen, sodass der Reebok Sports Clubs nun zu den gr&ouml;&szlig;ten und luxuri&ouml;sesten Fitnesscentern in ganz Europa z&auml;hlt.</p>
  <p class=" semilead">Dieser Erfolg ist zu einem gro&szlig;en Teil auf Sales &amp; Marketing Director Diane Kay und ihr Team zuru&#776;ckzufu&#776;hren, die fu&#776;r einen konstanten Strom an neuen Mitgliedern sorgen.</p>
- <p><a href="kundenreferenzen/pdf/Act-Reebok-WhitePaper-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a>
+ <p><a href="kundenreferenzen/pdf/Reebok.pdf" target="_blank" class="btn-primary btn">Herunterladen</a>
  </p>
  <br>
  </div>
@@ -199,7 +216,7 @@ Prozentsatz der Mitglieder, die irrtu&#776;mlich angerufen werden, nachdem sie b
  <p class="lead notopmargin">
  <strong>Sie m&#246;chten mehr erfahren? </strong>Hier k&#246;nnen Sie die ausf&#252;hrliche Version als PDF herunterladen, um den Bericht in aller Ruhe zu lesen und mit Freunden, Bekannten oder Kollegen zu teilen.</p>
 
- <p class="orangebuttons"><a href="kundenreferenzen/pdf/Act-Reebok-WhitePaper-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <p class="orangebuttons"><a href="kundenreferenzen/pdf/Reebok.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
  <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn share_btn">Demo anfordern</a>
  </p>
 

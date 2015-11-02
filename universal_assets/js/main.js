@@ -87,7 +87,6 @@ $filterInput.on('click', function() {
   		var filterType = $(this).closest('ol').attr('data-filter-type');
   		var filter = $(this).attr('data-filter');
 	  	if($(this).is(':checked')){
-		  	
 		  	switch(filterType){
 			  	case 'test-cat':	
 			  		catArray.push(filter);
@@ -103,15 +102,23 @@ $filterInput.on('click', function() {
   	});
   	
   	$testWrap.each(function(){
-			if( 
-				($.inArray( $(this).attr('data-test-cat'), catArray ) > -1 || catArray.length <1)  && 
-				($.inArray( $(this).attr('data-test-size'), testArray)> -1 || testArray.length <1)  && 
-				($.inArray( $(this).attr('data-test-solution'), solArray)> -1 || solArray.length <1) 
-			 ){
-				$(this).show();
-			}else{
-				$(this).hide();
+  			var split = $(this).data('test-cat').split(' ');
+  			console.log(split);
+  			for(var i = 0; i < split.length; i++) {
+  				if(
+  					($.inArray(split[i], catArray) !== -1) && 
+		  		   	($.inArray( $(this).attr('data-test-size'), testArray)> -1 || testArray.length <1)  && 
+		  		    ($.inArray( $(this).attr('data-test-solution'), solArray)> -1 || solArray.length <1))
+  				{
+		  			$(this).show();
+		  			return;
+		  		} else {
+		  			$(this).hide();
+		  		}
 			}
+			if(catArray.length === 0) {
+				$(this).show();
+			};
 	});  	
 
 });
@@ -196,7 +203,7 @@ function setSpacer(){
 
 $( document ).ready(function() {
 	$('.extra .container:nth-child(3), #extra .container:nth-child(3)').after("<hr class='notopmargin'>");	
-	$(".second-nav a").click(function(event){		
+	$(".second-nav a, .second-nav-2 a, .newpageh a").click(function(event){		
 		event.preventDefault();
 
 		var anchoroffset = $('.fixed-wrapper').height();
@@ -296,38 +303,6 @@ function stickElement() {
 /* =====  contact forms   ==== */
 
 
-function countryOptin(thisForm)
-	{
-		var x = document.getElementById('MailingCountry').value;
-		if (
-		(x == "Canada") ||
-		(x == "Germany") ||
-		(x == "Australia")
-		){
-			document.getElementById('reqOptIn').style.display="block";
-		}
-		else{
-			document.getElementById('reqOptIn').style.display="none";
-		}
-	}		
-
-function setValues()
-	{
-        var state = document.getElementById('check1').checked				  
-		if (state == true)
-		{	
-			document.getElementById('DoNotSolicit').value = "0";
-			 document.getElementById('opIn').value = "Y"; 
-		   	 document.getElementById('TriggerID').value = "1640";
-		 
-		}
-        else if (state == false)
-		{	
-			document.getElementById('DoNotSolicit').value = "1";
-			  document.getElementById('opIn').value = "N"; 
-			  document.getElementById('TriggerID').value = "0";
-	}
-}
                 
                 
 	        successOverlay = $('.successOverlay');

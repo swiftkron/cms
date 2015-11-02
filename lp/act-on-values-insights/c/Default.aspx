@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" ContentType="text/html" MasterPageFile="/LP.master" ResponseEncoding="UTF-8" %>
+﻿<%@ Page Language="C#" ContentType="text/html" MasterPageFile="/Legacy/App_Master/LP.master" ResponseEncoding="UTF-8" %>
 
 <asp:Content ID="MetaContent" ContentPlaceHolderID="HeadContent" runat="server">
 	<title>Customers – Act! on Values Insights | Video</title>
@@ -8,7 +8,7 @@
 
 <asp:Content ID="StyleContent" ContentPlaceHolderID="StyleContent" runat="server">
     <!-- style content -->
-    <link href="/css/lp-time-mgmt.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Data/Sitefinity/WebsiteTemplates/Legacy/App_Theme/global/lp-time-mgmt.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
         .hero {background:#2a353d;}
         .heroForm{background:#dfe3e6;}

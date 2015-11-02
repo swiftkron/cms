@@ -22,7 +22,7 @@
   <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/limefresh" />
   <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/limefresh" />
   <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/limefresh" />
-
+  <link rel="canonical" href="http://www.act.com/de-de/kundenreferenzen/limefresh/" />
  <link rel="stylesheet" href="css/normalize.min.css">
  <link rel="stylesheet" href="css/app.css">
 
@@ -32,9 +32,32 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
 
 <!-- Google Tracking Scripts -->
@@ -88,7 +111,7 @@
 
  <h1 class="large_strapline">Limefresh: Mit Act! zum unternehmerischen Erfolg!</h1>
  <img src="img/limefresh-logo.png" alt="" class="hidden-xs logoimg"/>
- <div class="btn-bottom"><a href="kundenreferenzen/pdf/Act-LimeFresh-WhitePaper-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <div class="btn-bottom"><a href="kundenreferenzen/pdf/Limefresh.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
  <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn share_btn">Demo anfordern</a>
  </div>
  </div>
@@ -132,7 +155,7 @@ den zahlreichen Publikationen des Unternehmens inserieren.</p>
 
  <p class="semilead">Ohne ein effizientes Backoffice-System w&auml;re dies kein einfaches Unterfangen &#8230; und genau hier hat Act! seinen gro&szlig;en Auftritt.</p>
 
- <p><a href="kundenreferenzen/pdf/Act-LimeFresh-WhitePaper-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a></p>
+ <p><a href="kundenreferenzen/pdf/Limefresh.pdf" target="_blank" class="btn-primary btn">Herunterladen</a></p>
  </div>
  <div class="col-sm-6 col-sm-push-1 ">
  <p>
@@ -189,7 +212,7 @@ Gru&#776;nder und Gesch&auml;ftsfu&#776;hrer von Limefresh</cite>
  <p class="lead notopmargin">
  <strong>Sie m&#246;chten mehr erfahren? </strong>Hier k&#246;nnen Sie die ausf&#252;hrliche Version als PDF herunterladen, um den Bericht in aller Ruhe zu lesen und mit Freunden, Bekannten oder Kollegen zu teilen.</p>
 
- <p class="orangebuttons"><a href="kundenreferenzen/pdf/Act-LimeFresh-WhitePaper-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <p class="orangebuttons"><a href="kundenreferenzen/pdf/Limefresh.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
  <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn share_btn">Demo anfordern</a>
  </p>
 

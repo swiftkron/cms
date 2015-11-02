@@ -19,11 +19,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <!-- HREF LANG TAG -->
-        <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/why-choose-act" />
+        <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/why-choose-act/" />
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/why-choose-act/" />
-        <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/pourquoi-choisir" />
-        <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/warum-act" />
-
+        <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/pourquoi-choisir/" />
+        <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/warum-act/" />
+        <link rel="alternate" hreflang="nl" href="http://www.act.com/nl-nl/waarom-act/" />
+		<link rel="canonical" href="http://www.act.com/de-de/warum-act/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
@@ -31,14 +32,34 @@
 		
 		
 		
-		
+		<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 <!-- Lead Forensics -->
 <script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
 
 <!-- Google Tracking Scripts -->
@@ -130,7 +151,7 @@
             	<div class="col-sm-8 "> 
                 <p class="lead">Act! ist das einzigartige Kontakt- und Kundenmanagement System zum Managen Ihrer Gesch&auml;ftsbeziehungen.</p>
 					<p class="lead">Die automatische 360-Grad-Ansicht Ihrer Kunden, Partnerunternehmen und Gesch&auml;ftsbeziehungen bietet Ihnen den optimalen &Uuml;berblick und die besten Voraussetzungen, ein einzigartiges Kundenerlebnis zu schaffen. Dank der vollst&auml;ndigen Synchronisation von Kontakten und Kalendereintr&auml;gen aus Act!, Microsoft<sup>&reg;</sup> Outlook<sup>&reg;</sup>, Gmail<sup>&reg;</sup>, Google<sup>&reg;</sup> Kontakten, Google Kalender<sup>&trade;</sup>, LinkedIn<sup>&reg;</sup> und Facebook<sup>&reg;</sup>, speichert Act! alle wichtigen Informationen an einer zentralen Stelle.</p>
-						<p class="lead">Zus&auml;tzlich unterst&uuml;tzt Sie unser integriertes emarketing<sup>1</sup> dabei, den Unternehmenserfolg weiter zu steigern, indem es intelligentes E-Marketing mit der Leistungsst&auml;rke von Act! verbindet.</p>
+						<p class="lead">Zus&auml;tzlich unterst&uuml;tzt Sie unser integriertes emarketing<sup>1</sup> dabei, den Unternehmenserfolg weiter zu steigern, indem es <a href="http://www.act.com/de-de/act-emarketing/" >intelligentes E-Marketing</a> mit der Leistungsst&auml;rke von Act! verbindet.</p>
 					
               	</div>
 			  	<div class="col-sm-3 col-sm-push-1 mb-center">
@@ -150,7 +171,7 @@
 	            	<div class="row"><div class="col-sm-12 nopad"><h2>Mehr Erfolg mit dem richtigen Marketing</h2></div></div>
 					<p class="lead">Kommunizieren Sie effizienter mit Ihren Kunden. Mit Act! k&ouml;nnen Sie auf Wunsch zus&auml;tzlich die leistungsstarke Act! emarketing L&ouml;sung nutzen.</p>
 					<p class="lead">Act! emarketing<sup>1</sup> erspart Ihnen das R&auml;tselraten bei Werbung und Follow-up-Aktivit&auml;ten, indem es intelligentes E-Marketing mit der Leistungsst&auml;rke von Act! verbindet. Funktionsreiche, benutzerfreundliche E-Marketing-Tools erm&ouml;glichen Ihnen, Listen und Gruppen schnell zu segmentieren, professionelle E-Mail-Kampagnen zu erstellen und deren Wirkung zu messen. Dank Act! emarketing erhalten Kunden und Interessenten stets die richtige Botschaft zur richtigen Zeit. Intelligente Anruflisten empfehlen Ihnen automatisch die vielversprechendsten Leads, die Sie zuerst kontaktieren sollten &ndash; und das alles in Act!.</p>
-          <p class="lead ">Mit Act! sind Sie bestens auf jede Interaktion mit Ihren Kunden vorbereitet und haben vom B&uuml;ro, als auch via mobilem Endger&auml;t<sup>2</sup>, Zugriff auf alle Informationen, die Sie im Kundenkontakt ben&ouml;tigen. Dank automatisierter Prozesse in Act! k&ouml;nnen Sie effizienter arbeiten, ein einzigartiges Kundenerlebnis schaffen und sich auf das Wachstum Ihres Unternehmens konzentrieren.</p>
+          <p class="lead ">Mit Act! sind Sie bestens auf jede Interaktion mit Ihren Kunden vorbereitet und haben vom B&uuml;ro, als auch via <a href="http://www.act.com/de-de/produkte/act-premium-mobile/" >mobilem Endger&auml;t</a><sup>2</sup>, Zugriff auf alle Informationen, die Sie im Kundenkontakt ben&ouml;tigen. Dank automatisierter Prozesse in Act! k&ouml;nnen Sie effizienter arbeiten, ein einzigartiges Kundenerlebnis schaffen und sich auf das Wachstum Ihres Unternehmens konzentrieren.</p>
              	</div>
 			</div>
 			</div>

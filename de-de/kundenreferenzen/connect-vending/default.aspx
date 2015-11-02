@@ -23,7 +23,7 @@
   <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/connect-vending" />
   <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/connect-vending" />
   <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/connect-vending" />
-
+  <link rel="canonical" href="http://www.act.com/de-de/kundenreferenzen/connect-vending/" />
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/app.css">
 
@@ -34,9 +34,33 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
+
 
 
 <!-- Google Tracking Scripts -->
@@ -90,7 +114,7 @@
             <h1 class="large_strapline">Act! &ndash; die positive Antwort auf personalisierten Service</h1>
             <div class="hidden-xs"><img src="img/connectvendinglogoWHITE.png" alt="" width="150" /></div>
             <div class="btn-bottom">
-            <a href="kundenreferenzen/pdf/Act-ConnectVending-DIGITAL-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+            <a href="kundenreferenzen/pdf/Connect-Vending.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
              <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn share_btn">Demo anfordern</a>
             </div>
         </div>
@@ -124,7 +148,7 @@ von Verkaufsautomaten, besser mit seinen Kunden in Verbindung zu treten.</p>
 nicht so sehr auf den <span class="orangetitle">Aufbau und die Pflege starker Kundenbeziehungen konzentriert</span> &ndash; und Act! hat den Mitarbeitern diese Aufgabe betra&#776;chtlich erleichtert, so Dasha Skelton von Connect Vending.</p>
 <p class="  semilead">&#8222;Vom ersten Kontakt bis zum Gescha&#776;ftsabschluss, mit Act! ko&#776;nnen wir an jedem Punkt der Kundenbeziehung relevante Informationen erfassen. Wir erhalten ein vollsta&#776;ndiges Bild aller Interaktionen mit einem Kunden und wissen u&#776;ber seinen aktuellen Status Bescheid, <span class="orangetitle">sodass wir unseren Service genau an seine Bedu&#776;rfnisse anpassen ko&#776;nnen.&ldquo;</span></p>
 
-        <p><a href="kundenreferenzen/pdf/Act-ConnectVending-DIGITAL-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a></p>
+        <p><a href="kundenreferenzen/pdf/Connect-Vending.pdf" target="_blank" class="btn-primary btn">Herunterladen</a></p>
         <br>
       </div>
       <div class="col-sm-6 col-sm-push-1 ">
@@ -173,7 +197,7 @@ nicht so sehr auf den <span class="orangetitle">Aufbau und die Pflege starker Ku
           <p class="lead notopmargin">
              <strong>Sie m&#246;chten mehr erfahren? </strong>Hier k&#246;nnen Sie die ausf&#252;hrliche Version als PDF herunterladen, um den Bericht in aller Ruhe zu lesen und mit Freunden, Bekannten oder Kollegen zu teilen.</p>
 
-          <p class="orangebuttons"><a href="kundenreferenzen/pdf/Act-ConnectVending-DIGITAL-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+          <p class="orangebuttons"><a href="kundenreferenzen/pdf/Connect-Vending.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
           <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn share_btn">Demo anfordern</a>
           </p>
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <!--[if lt IE 7]><html xml:lang="fr" lang="fr" class="no-js lt-ie9 lt-ie8 lt-ie7">  <![endif]-->
   <!--[if IE 7]>
   <html xml:lang="fr" lang="fr" class="no-js lt-ie9 lt-ie8">
@@ -23,7 +23,7 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/partners/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/partenaires" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/partner-finden" />
-
+		<link rel="canonical" href="http://www.act.com/fr-fr/partenaires/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="../universal_assets/css/map.css">
@@ -33,9 +33,31 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
 <!-- Google Tracking Scripts -->
 
@@ -125,11 +147,11 @@
       										<li><label for="cb-Belgium"><input type="radio" name="country" id="cb-Belgium"  value="country:Belgium" />Belgium</label></li>
       										<li><label for="cb-Canada"><input type="radio" name="country" id="cb-Canada"  value="country:Canada" />Canada</label></li>
       										<li><label for="cb-China"><input type="radio" name="country" id="cb-China"  value="country:China" />China</label></li>
+	  										<li><label for="cb-Cyprus"><input type="radio" name="country" id="cb-Cyprus"  value="country:Cyprus" />Cyprus</label></li>
       										<li><label for="cb-Denmark"><input type="radio" name="country" id="cb-Denmark"  value="country:Denmark" />Denmark</label></li>
       										<li><label for="cb-France"><input type="radio" name="country" id="cb-France"  value="country:France" />France</label></li>
       										<li><label for="cb-Germany"><input type="radio" name="country" id="cb-Germany"  value="country:Germany" />Germany</label></li>
       										<li><label for="cb-Greece"><input type="radio" name="country" id="cb-Greece"  value="country:Greece" />Greece</label></li>
-      										<li><label for="cb-Hungary"><input type="radio" name="country" id="cb-Hungary"  value="country:Hungary" />Hungary</label></li>
       										<li><label for="cb-India"><input type="radio" name="country" id="cb-India"  value="country:India" />India</label></li>
       										<li><label for="cb-Ireland"><input type="radio" name="country" id="cb-Ireland"  value="country:Ireland" />Ireland</label></li>
       										<li><label for="cb-Italy"><input type="radio" name="country" id="cb-Italy"  value="country:Italy" />Italy</label></li>
@@ -144,7 +166,6 @@
       										<li><label for="cb-Sweden"><input type="radio" name="country" id="cb-Sweden"  value="country:Sweden" />Sweden</label></li>
       										<li><label for="cb-Switzerland"><input type="radio" name="country" id="cb-Switzerland"  value="country:Switzerland" />Switzerland</label></li>
       										<li><label for="cb-Tunisia"><input type="radio" name="country" id="cb-Tunisia"  value="country:Tunisia" />Tunisia</label></li>
-      										<li><label for="cb-Turkey"><input type="radio" name="country" id="cb-Turkey"  value="country:Turkey" />Turkey</label></li>
       										<li><label for="cb-United-Arab-Emirates"><input type="radio" name="country" id="cb-United-Arab-Emirates"  value="country:United Arab Emirates" />United Arab Emirates</label></li>
 		  		  		  			</ol>
 		  		  		  		</li>

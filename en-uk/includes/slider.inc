@@ -3,7 +3,7 @@
             		<ul>
 					<li class="cta">
 						<div class="slider-bg">
-							<img src="/en-uk/img/business-woman-satisfied-using-act.jpg" alt="Satisfied user of Act! Contact Management" />
+							<img src="/en-uk/img/businessmen-satisfied-using-act.jpg" alt="Satisfied user of Act! Contact Management" />
 						</div>
 
 						<div class="slider-overlay">
@@ -35,7 +35,7 @@
 							<div class="container ">
 								<div class="row section">
 								  	<div class="col-sm-7 col-left bottom mb-center col-xs-12">
-								    		<span class="large_strapline_home semibold"><strong>Introducing new Act! Cloud Essentials,</strong> so easy to get along with</span>
+								    		<span class="large_strapline_home semibold"><strong>Introducing new Act! Essentials,</strong> so easy to get along with</span>
 									 <div class="btn-bottom">
 								      		<a href="https://mycloud.act.com/#/account/billing" target="_blank" class="btn-primary btn">buy now</a>
 								      		<a target="_blank" href="https://mycloud.act.com/signup/" class="btn-second btn">free trial</a>
@@ -77,7 +77,7 @@
 
 					<li class="cta">
 						<div class="slider-bg playVideo">
-							<img src="/en-uk/img/video-sales-using-act-contact-management.jpg" alt="Video: salesman using Act! Contact Management software" />
+							<img src="/en-uk/img/business-woman-satisfied-using-act.jpg" alt="Video: business woman using Act! Contact Management software" />
 						</div>
 
 						<div class="slider-overlay playVideo">

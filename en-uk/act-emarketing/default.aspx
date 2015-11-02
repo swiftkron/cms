@@ -23,19 +23,39 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/products/act-emarketing/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/produits/act-emarketing" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/act-emarketing" />
-
+		<link rel="canonical" href="http://www.act.com/en-uk/act-emarketing/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -87,7 +107,7 @@
             	  	<div class="col-sm-6 bottom col-left">
             	  	  	  	<h1 class="large_strapline">Act! emarketing</h1>
 		    	  	  		<p class="strapline_intro">With Act! emarketing emails are easy to create, send and track. A cost-effective way to grow your business by regularly communicating with your customers and prospects with the right message at the right time. Call lists automatically recommend hot leads to follow up with to generate sales.</p>
-				  	  		<p class="mb_buttons"><a href="http://www.act.com/media/en-uk/docs/briefs/Act!-emarketing-Brief.pdf" class="btn-primary btn" target="_blank">download brochure</a></p>
+				  	  		<p class="mb_buttons"><a href="/media/en-uk/docs/briefs/Act!_emarketing_Brief_Intl_En.pdf" class="btn-primary btn" target="_blank">download brochure</a></p>
             	</div>
             	<div class="col-sm-4  col-sm-push-2 mb-center">
             	  	<img src="/en-uk/img/act-emarketing.png" alt="emarketing business software" />

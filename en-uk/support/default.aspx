@@ -24,20 +24,40 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/support/business-care/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/assistance" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/support/wartungsvertraege" />
-
+		<link rel="canonical" href="http://www.act.com/en-uk/support/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -110,21 +130,28 @@
 
       <div class="container supportfix">
         <div class="row">
-          <div class="col-sm-8">
+          <div class="col-sm-7">
    
             <p class="lead">There's no better way to protect and extend your Act! investment than with Business Care, a comprehensive maintenance and support plan that delivers the latest technology, peace of mind, and exceptional value to you and your business.</p>
             <p class="lead">With Business Care, you get automatic access to new product innovations, expert support you can count on, and valuable extras that help you reduce the time, effort, and cost of operating your Act! solution.</p>
           </div>
 
-          <div class="col-sm-3 col-sm-push-1">
+          <div class="col-sm-4 col-sm-push-1">
 
-                   	<h3 >Customer Support</h3>
-                    <p>For assistance with technical product support, product usage and configuration. <a href="#bc-chart">Available for customers with an active support plan.</a></p>
-                    <p class="contact">Monday-Friday<br>
-                    9.30am - 4.30pm GMT</p>
+                   	<h3 style="margin-bottom:10px;">Customer Support</h3>
+
+                   	<p> 
+
+<a href="https://swiftpage-act.webex.com/swiftpage-act/supportcenter/webacd.wbx?WQID=3be28d5df43c9bfed85d91515c069f4b" target="_blank" class="btn-primary btn">Chat with a rep</a>
+<br><br>
+                   	 Monday-Friday
+                    9.30am - 4.30pm GMT
                 
 
-                     <a href="https://swiftpage-act.webex.com/swiftpage-act/supportcenter/webacd.wbx?WQID=3be28d5df43c9bfed85d91515c069f4b" target="_blank" class="btn-primary btn">Chat with a rep</a>
+                     
+                     </p>
+                    <p>For assistance with technical product support, product usage and configuration. <a href="#bc-chart">Available for customers with an active support plan. >></a></p>
+                  
                   
           </div>
         </div>
@@ -143,20 +170,20 @@
         <div id="care-table" class="row">
 	            <div class="care-selector hide-desktop show-phone">
 	            	Select your Business Care plan<br>
-                  	<a class="btn-care btn-gold selected" data-selector="gold">Gold</a> 
+                  	<a class="btn-care btn-gold selected" data-selector="gold">Gold*</a> 
                   	<a class="btn-care btn-silver" data-selector="silver">Silver</a> 
                   	<a class="btn-care btn-bronze" data-selector="bronze">Bronze</a> 
-                  	<a class="btn-care btn-support" data-selector="support">Support</a>
+                  	<a class="btn-care btn-support" data-selector="support">Support*</a>
                 </div>
 
 	        
 	        <table class="alt-accordion">
 		        <tr>
 			        <td class="heading title expand-col">Latest technology</td>
-			        <td class="heading title gold">Gold</td>
+			        <td class="heading title gold">Gold*</td>
 			        <td class="heading title silver hide">Silver</td>
 			        <td class="heading title bronze hide">Bronze</td>
-			        <td class="heading title support hide">Support</td>
+			        <td class="heading title support hide">Support*</td>
 		        </tr>
 		        <tr >
 			        <td class="expand-col">
@@ -173,16 +200,17 @@
 	        <table class="alt-accordion">
 		        <tr>
 			        <td class="heading title expand-col">Peace of mind</td>
-			        <td class="heading title gold ">Gold</td>
+			        <td class="heading title gold ">Gold*</td>
 			        <td class="heading title silver hide">Silver</td>
 			        <td class="heading title bronze hide">Bronze</td>
-			        <td class="heading title support hide">Support</td>
+			        <td class="heading title support hide">Support*</td>
 		        </tr>
 
 		        <tr >
 			        <td class="expand-col">
 				        <span class="title"><img class="expand-icon" src="/en-uk/img/plus.png" /> <span class="trigger">Customer support</span></span>
-				        <span class="panel-content">Get the help you need to keep your business running smoothly - you can consult with expert Act! Support Advisors ready to answer "how to" questions, show you time-saving shortcuts, and quickly resolve issues related to Act!. Interact with Act! Support Advisors through the method most convenient for you, including phone and email options.<sup>2</sup></span>
+				        <span class="panel-content">
+				        	Get the help you need to keep your business running smoothly - you can consult with expert Act! Support Advisors ready to answer "how to" questions, show you time-saving shortcuts, and quickly resolve issues related to Act!. Interact with Act! Support Advisors through the method most convenient for you, including phone and email options.<sup>2</sup></span>
 			        </td>
 			        <td class="gold">8am - 6pm</td>
 			        <td class="silver hide">8am - 6pm</td>
@@ -240,10 +268,10 @@
 			<table class="alt-accordion">
 		        <tr>
 			        <td class="heading title expand-col">Exceptional value</td>
-			        <td class="heading title gold ">Gold</td>
+			        <td class="heading title gold ">Gold*</td>
 			        <td class="heading title silver hide">Silver</td>
 			        <td class="heading title bronze hide">Bronze</td>
-			        <td class="heading title support hide">Support</td>
+			        <td class="heading title support hide">Support*</td>
 		        </tr>
 
 		        <tr>
@@ -302,10 +330,10 @@
 	        <table class="alt-accordion">
 		        <tr>
 			        <td class="heading title expand-col">Optional extras</td>
-			        <td class="heading title gold">Gold</td>
+			        <td class="heading title gold">Gold*</td>
 			        <td class="heading title silver hide">Silver</td>
 			        <td class="heading title bronze hide">Bronze</td>
-			        <td class="heading title support hide">Support</td>
+			        <td class="heading title support hide">Support*</td>
 		        </tr>
 		        <tr  class="title">
 			        <td class="expand-col">
@@ -386,7 +414,7 @@
         <div class="row">
         	<br><br>
             <div class="col-sm-6">
-              <p>* Act! Certified Consultants are third-party vendors. Swiftpage and its affiliates are in no way liable or responsible for claims made related to the services provided by third-party vendors.</p>
+              <p>* Only available to UK customers</p>
               <p><sup>1</sup> Provides access to the latest feature enhancements and platform updates for your Act! software released during your enrolment for Business Care Gold, Silver or Bronze. Business Care is not required for continuous access to product fixes for supported versions.</p>
               <p><sup>2</sup> Phone support times vary by region. Refer to the Business Care Brief for your region for more details on our support opening hours.</p>
               <p><sup>3</sup> Remote support is provided whilst you are on the phone and with your explicit permission only. A small application must be installed on your machine to enable the remote access session.</p>

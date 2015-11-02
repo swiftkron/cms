@@ -21,20 +21,40 @@
         <!-- HREF LANG TAG -->
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/products/system/v16" />
         <link rel="alternate" hreflang="en-us" href="https://act.com/products/system/v16/" />
-
+		<link rel="canonical" href="http://www.act.com/en-uk/products/system/v16/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -130,17 +150,17 @@ Internet connection<br />
 <td>Microsoft® Office 2003, 2007, 2010, and 2013 (32-bit version only) (Latest Service Packs Recommended)<br />
 Lotus Notes® 8.0 and 8.5<br />
 Internet Mail SMTP/POP3<br />
-Microsoft Internet Explorer® 7.0, 8.01, 9.01, 10.01<br />
+Microsoft Internet Explorer® 7.0, 8.0<sup>1</sup>, 9.0<sup>1</sup>, 10.0<sup>1</sup><br />
 Adobe® Reader® 6.0, 7.0 and 10.x<br />
 Citrix® software using Citrix XenApp® 5.0 and 6.0</td>
 </tr>
 <tr class="even">
 <th><strong>Supported Operating Systems</strong></th>
-<td>Windows® XP SP32 (32-bit only)<br />
+<td>Windows® XP SP3<sup>2</sup> (32-bit only)<br />
 Windows Server® 2003 SP2 (32-bit and 64-bit)<br />
 Windows Vista®3 SP2 (32-bit and 64-bit)<br />
-Windows Server 20084 SP2 (32-bit and 64-bit)<br />
-Windows Server 20084 R2 (64-bit)<br />
+Windows Server 2008<sup>4</sup> SP2 (32-bit and 64-bit)<br />
+Windows Server 2008<sup>4</sup> R2 (64-bit)<br />
 Windows Server 2011 SBS (64-bit)<br />
 Windows Server 2012 (64-bit)<br />
 Windows 7 SP1 (32-bit and 64-bit)<br />
@@ -171,9 +191,9 @@ Internet connection<br />
 <tr>
 <th><strong>Supported Operating Systems</strong></th>
 <td>Windows Server® 2003 SP2 (32-bit and 64-bit)<br />
-Windows Vista®3 SP2 Business and Ultimate (32-bit and 64-bit)<br />
-Windows Server 20084 SP2 (32-bit and 64-bit)<br />
-Windows Server 20084 R2 (64-bit)<br />
+Windows Vista®<sup>3</sup> SP2 Business and Ultimate (32-bit and 64-bit)<br />
+Windows Server 2008<sup>4</sup> SP2 (32-bit and 64-bit)<br />
+Windows Server 2008<sup>4</sup> (64-bit)<br />
 Windows Server 2011 SBS (64-bit)<br />
 Windows Server 2012 (64-bit)<br />
 Windows 7 SP1 Professional, Enterprise, and Ultimate (32-bit and 64-bit)<br />

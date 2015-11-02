@@ -23,7 +23,7 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/why-choose-act/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/pourquoi-choisir" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/warum-act" />
-
+		<link rel="canonical" href="http://www.act.com/fr-fr/pourquoi-choisir/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
@@ -32,9 +32,31 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
 <!-- Google Tracking Scripts -->
 
@@ -123,7 +145,7 @@
               	</div>
             	<div class="col-sm-8 "> 
 					<p class="lead">Envisagez Act! comme la "centrale de contr&ocirc;le" de votre entreprise qui vous donne une vision &agrave; 360 degr&eacute;s de tous vos clients afin de mieux vous pr&eacute;parer et vous permettre de vous concentrer sur une exp&eacute;rience client r&eacute;ussie. Avec Act!, vous pouvez interagir facilement avec les outils commerciaux et sociaux que vous utilisez habituellement tels que Microsoft Office, Outlook<sup>&reg;</sup>, Google<sup>&trade;</sup>, Twitter<sup>&reg;</sup>, Facebook<sup>&reg;</sup> et LinkedIn.</p>
-						<p class="lead">Par ailleurs, vous pouvez int&eacute;grer les services d'emarketing<sup>1</sup> afin de savoir exactement quand, o&ugrave; et comment interagir avec vos prospects et vos clients &ndash; le tout au sein du logiciel Act!</p>
+						<p class="lead">Par ailleurs, vous pouvez int&eacute;grer les services d'<a href="http://www.act.com/fr-fr/produits/act-emarketing/" >emarketing</a><sup>1</sup> afin de savoir exactement quand, o&ugrave; et comment interagir avec vos prospects et vos clients &ndash; le tout au sein du logiciel Act!</p>
 					
               	</div>
 			  	<div class="col-sm-3 col-sm-push-1 mb-center">
@@ -142,7 +164,7 @@
             	<div class="col-sm-8 ">
 	            	<div class="row"><div class="col-sm-12 nopad"><h2>Marketing et vente</h2></div></div>
 					<p class="lead ">Les services emarketing<sup>1</sup> int&eacute;gr&eacute;s vous permettent de facilement cat&eacute;goriser vos prospects et vos clients, puis d'&eacute;laborer, d'envoyer et de faire le suivi de campagnes marketing par email pertinentes qui transmettent aux clients concern&eacute;s le message appropri&eacute;. Les listes d'appel recommandent automatiquement les clients les plus susceptibles d'&ecirc;tre int&eacute;ress&eacute;s pour g&eacute;n&eacute;rer des ventes.</p>
-					<p class="lead">En &eacute;tant bien pr&eacute;par&eacute;, bien organis&eacute; et bien inform&eacute;, vous effectuerez vos ventes de mani&egrave;re plus efficace. Avec Act!, vous &ecirc;tes non seulement bien inform&eacute; et bien pr&eacute;par&eacute; pour chaque interaction avec vos clients, au bureau comme sur vos appareils mobiles<sup>2</sup>, mais aussi, les proc&eacute;d&eacute;s automatis&eacute;s r&eacute;unis dans Act! vous permettront de disposer du temps n&eacute;cessaire pour vous concentrer sur une exp&eacute;rience client r&eacute;ussie et faire prosp&eacute;rer votre entreprise.</p>
+					<p class="lead">En &eacute;tant bien pr&eacute;par&eacute;, bien organis&eacute; et bien inform&eacute;, vous effectuerez vos ventes de mani&egrave;re plus efficace. Avec Act!, vous &ecirc;tes non seulement bien inform&eacute; et bien pr&eacute;par&eacute; pour chaque interaction avec vos clients, au bureau comme sur vos <a href="http://www.act.com/fr-fr/produits/act-premium-mobile/" >appareils mobiles</a><sup>2</sup>, mais aussi, les proc&eacute;d&eacute;s automatis&eacute;s r&eacute;unis dans Act! vous permettront de disposer du temps n&eacute;cessaire pour vous concentrer sur une exp&eacute;rience client r&eacute;ussie et faire prosp&eacute;rer votre entreprise.</p>
              	</div>
 			</div>
 			</div>

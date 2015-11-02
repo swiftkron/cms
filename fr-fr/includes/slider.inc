@@ -3,7 +3,7 @@
  <ul>
  <li class="cta">
  <div class="slider-bg">
- <img src="img/femme-heureuse-avec-act.jpg" alt="Du bonheur avec Act!" />
+ <img src="img/businessmen-satisfied-using-act.jpg" alt="Du bonheur avec Act!" />
  </div>
 
  <div class="slider-overlay">
@@ -14,7 +14,7 @@
  <div class="btn-bottom">
  <a href="essai" title="Télécharger la démo de Act!" class="btn-primary btn">essai gratuit</a>
  <a href="demo" title="Démonstration personnalisée Act!" class="btn-second btn">Demande de d&eacute;mo</a>
- <a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=3001&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=fr_FR" class="btn-second btn">acheter <span class="uppercase">A</span>ct!</a>
+ <a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8092&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=fr_FR" class="btn-second btn">acheter <span class="uppercase">A</span>ct!</a>
  </div>
  </div>
  <div class="col-sm-4 imagefix hidden-xs">
@@ -77,7 +77,25 @@
  </div>
  </div>
  </li>
+ <li class="cta">
+  <div class="slider-bg playVideo">
+    <img src="img/femme-heureuse-avec-act.jpg" alt="Video: salesman using Act! Contact Management software" />
+  </div>
 
+  <div class="slider-overlay playVideo">
+    <div class="container ">
+      <div class="row section ">
+          <div class="col-sm-9 col-left bottom mb-center col-xs-12">
+            <span class="large_strapline_home semibold playVideo"><strong>D&eacute;couvrez comment </strong><br>Act! peut aider votre entreprise</span>
+          <div class="btn-bottom">
+              <a  class="playVideo btn-primary btn">Regarder</a>
+          </div>
+        </div>
+        <div class="col-sm-4 imagefix hidden-xs"> </div>
+      </div>
+    </div>
+  </div>
+ </li>
 
 
 

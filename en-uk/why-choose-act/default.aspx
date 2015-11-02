@@ -19,15 +19,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <!-- HREF LANG TAG -->
-        <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/why-choose-act" />
+        <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/why-choose-act/" />
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/why-choose-act/" />
-        <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/pourquoi-choisir" />
-        <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/warum-act" />
-
+        <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/pourquoi-choisir/" />
+        <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/warum-act/" />
+        <link rel="alternate" hreflang="nl" href="http://www.act.com/nl-nl/waarom-act/" />
+		<link rel="canonical" href="http://www.act.com/en-uk/why-choose-act/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+
+      
+   <!-- Lead Forensics -->
+    <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
+    <noscript>
+        <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" />
+    </noscript>
+
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
         <!-- Google Tracking Scripts -->
 
@@ -122,7 +156,7 @@
               	</div>
             	<div class="col-sm-8 "> 
 					<p class="lead">Think of Act! as your business 'command centre', giving you a 360-degree view of your customers so you can be better prepared and focused on providing a unique customer experience. With Act! you can seamlessly interact with the business and social tools you rely on - Outlook<sup>&reg;</sup>, Google<sup>&trade;</sup>, Dropbox, iCloud<sup>&reg;</sup>, Facebook<sup>&reg;</sup>, and LinkedIn<sup>&reg;</sup>.</p>
-						<p class="lead">Plus you can integrate emarketing services<sup>1</sup> to take the guesswork out of when, where, and how to engage with prospects and customers - all from within Act!.</p>
+						<p class="lead">Plus you can integrate <a href="http://www.act.com/en-uk/act-emarketing/" >emarketing</a> services<sup>1</sup> to take the guesswork out of when, where, and how to engage with prospects and customers - all from within Act!.</p>
 					
               	</div>
 			  	<div class="col-sm-3 col-sm-push-1 mb-center">
@@ -141,7 +175,7 @@
             	<div class="col-sm-8 ">
 	            	<div class="row"><div class="col-sm-12 nopad"><h2>Marketing = Selling</h2></div></div>
 					<p class="lead ">Integrated emarketing<sup>2</sup> services enable you to easily segment your prospects and customers, then design, send and track professional, eye-catching email campaigns that reach the right customers with the right message. Call lists automatically recommend hot leads to follow up with to generate sales.</p>
-					<p class="lead">Being prepared, organised and up to date will help you sell more effectively. With Act! not only are you informed and prepared for every interaction with your customers, both in the office and on popular mobile devices<sup>3</sup> but automated processes within Act! will help to ensure you have more time to focus on providing a unique customer experience and growing your business. </p>
+					<p class="lead">Being prepared, organised and up to date will help you sell more effectively. With Act! not only are you informed and prepared for every interaction with your customers, both in the office and on popular <a href="http://www.act.com/en-uk/act-productpage-mobility/" >mobile devices</a><sup>3</sup> but automated processes within Act! will help to ensure you have more time to focus on providing a unique customer experience and growing your business. </p>
              	</div>
 			</div>
 			</div>

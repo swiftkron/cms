@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/media/en-us/css/welcomepage_startup4.css">
+
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+<table width="570" border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td valign="top">
+            <p class="subheader">Business Services</p>
+            <p class="items">Get Act! on iPhone, iPad, and More - <a href="http://www.act.com/products/mobility/act-connect" target="_blank">Act! Pro Users Click Here</a><br />
+           Get Act! on iPhone, iPad, and More - <a href="http://www.act.com/products/act-premium" target="_blank">Act! Premium Users Click Here</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+            <p class="subheader2">Promotions &amp; Announcements</p>
+            <p class="items"> 
+             <a href="http://www.act.com/buy/act-premium/" target="_blank" style="font-weight:bold;">Upgrade to v17 today!</a><br/>
+             <a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month" target="_blank">Try the all-new Act! Premium Cloud for free for 14 days</a><br />
+             <a href="https://www.swiftpage1.com/spesimplesignup.aspx?ref=316c9c3ed45a83ee318b1f859d9b8b79&Mkt_ID=ACTwel" target="_blank">Sign up for a Swiftpage emarketing free trial today!</a>
+           	</p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+            <p class="subheader2">Act! Communities</p>
+          <p class="items">  <span class="style1"><em>Start Here!</em></span> <a href="http://www.act.com/support/getting-started" target="_blank">Get Started Quickly and Easily with Self-service Resources</a><br />
+            <a href="http://www.act.com/partners" target="_blank">Learn About Advanced Training, Customization, &amp; Hosting</a><br />
+            <a href="http://www.act.com/facebook" target="_blank">Facebook</a> | <a href="http://www.act.com/twitter" target="_blank">Twitter&trade;</a> | <a href="http://www.act.com/linkedin" target="_blank">LinkedIn&reg;</a> | <a href="http://www.act.com/youtube" target="_blank">YouTube&trade;</a></p>
+          </td>
+        </tr>
+    </tbody>
+</table>

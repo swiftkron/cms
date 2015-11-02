@@ -23,20 +23,40 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/support/download-center/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/assistance/telechargements" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/support/downloads" />
-
+		<link rel="canonical" href="http://www.act.com/en-uk/support/downloads/emea/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -124,16 +144,20 @@
 
                 <tbody>
 
-                  
-
                       <tr>
-                        <td > 09/03/15</td>
+                        <td>11/06/2015</td>
+                        <td>Act! v17 SP1 Hotfix 3</td>
+                        <td>act17sp1hf3c.exe</td>
+                        <td>4.3 MB</td>
+                        <td><a href="http://cdn.updates.swiftpage.act.com/updates/act17sp1hf3c.exe">download</td>
+                      </tr>
+                      <tr>
+                        <td>09/03/2015</td>
                         <td>Act! v17 SP1 Hot Fix 1</td>
                         <td>act17hf1.exe</td>
                         <td>3.3 MB</td>
-                        <td><a href=" http://cdn.act.dlm.swiftpage.com/3624/act17sp1hf1.exe">download</td>
+                        <td><a href="http://cdn.act.dlm.swiftpage.com/3624/act17sp1hf1.exe">download</td>
                       </tr>
-
                       <tr>
                         <td >12/3/2014</td>
                         <td>Act! v17 Hot Fix 1</td>
@@ -152,7 +176,7 @@
                         <td >5/23/2014</td>
                         <td>Act! v16 SP1 Hot Fix 1</td>
                         <td>ACT16SP1HF1b.exe</td>
-                        <td>1,016 KB</td>
+                        <td>323 KB</td>
                         <td><a href="http://CDN.updates.swiftpage.act.com/updates/act16sp1hf1b.exe">download</td>
                       </tr>
                       <tr>
@@ -212,84 +236,84 @@
                         <td> Sage ACT! 2013<br> SP1 Hot Fix 3</td>
                         <td>ACT2013SP1HF3.exe</td>
                         <td>3.4 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=1839DF805D968705" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=1839DF805D968705" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>3/19/2013</td>
                         <td> Sage ACT! 2012<br> SP1 Hot Fix 6 </td>
                         <td>ACT2012SP1HF6.exe </td>
                         <td>50.7 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=EE09316E860F954F" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=EE09316E860F954F" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td> 3/15/2013 </td>
                         <td> Sage ACT! 2013<br> SP1 Hot Fix 2</td>
                         <td>ACT2013SP1HF2.exe</td>
                         <td>3.4 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=1AAF97B4642BE917" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=1AAF97B4642BE917" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td> 1/31/2013 </td>
                         <td> Sage ACT! 2013<br> SP1 Hot Fix 1</td>
                         <td>ACT2013SP1HF1.exe</td>
                         <td>3.4 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=4C98A6BF77CF5824" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=4C98A6BF77CF5824" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td> 11/13/2012 </td>
                         <td> Sage ACT! 2013<br> Hot Fix 2</td>
                         <td>ACT2013HF2.exe</td>
                         <td>5.2 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=19B2B140CE45EDF8" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=19B2B140CE45EDF8" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>10/31/2012</td>
                         <td> Sage ACT! Premium<br> 2012 (access via web)<br> SP2 Update - Hot Fix 4 </td>
                         <td>ACT2012SP2HF4.exe </td>
                         <td>31.7 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=2F95758074EF6BF0" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=2F95758074EF6BF0" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>10/23/2012</td>
                         <td> Sage ACT! 2012<br> SP1 Hot Fix 5 </td>
                         <td>ACT2012SP1HF5.exe </td>
                         <td>50.6 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=261AFF98083E2B31" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=261AFF98083E2B31" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>10/22/2012</td>
                         <td> Sage ACT! 2013<br> Hot Fix 1</td>
                         <td>ACT2013HF1.exe</td>
                         <td>5.2 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=67612F658D35C72B" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=67612F658D35C72B" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>9/28/2012</td>
                         <td> Sage ACT! Premium<br> 2012 (access via web)<br> SP2 Update - Hot Fix 3 </td>
                         <td>ACT2012SP2HF3.exe </td>
                         <td>31.7 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=DED74AB9D2086098" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=DED74AB9D2086098" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>8/22/2012</td>
                         <td> Sage ACT! Premium<br> 2012 (access via web)<br> SP2 Update - Hot Fix 2 </td>
                         <td>ACT2012SP2HF2.exe </td>
                         <td>31.1 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=384324DE309D5CF6" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=384324DE309D5CF6" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>7/23/2012</td>
                         <td> Sage ACT! Premium<br> 2012 (access via web)<br> SP2 Update - Hot Fix 1 </td>
                         <td>ACT2012SP2HF1.exe </td>
                         <td>31.3 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=13D8F71CD8376888" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=13D8F71CD8376888" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>7/23/2012</td>
                         <td> Sage ACT! 2012<br> SP1 Hot Fix 4 </td>
                         <td>ACT2012SP1HF4.exe </td>
                         <td>33.1 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=3ACFE90B9FCF986A" target="_blank">download</td>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=3ACFE90B9FCF986A" target="_blank">download</td>
                       </tr>
                       <tr>
                         <td>4/3/2012</td>
@@ -384,6 +408,7 @@
                         <td>499  KB</td>
                         <td><a href="http://download.act.com/hotfix/ACT1003Hotfix3.exe" target="_blank">download</td>
                       </tr>
+
                     </tbody>
                 </tbody>
               </table>
@@ -406,6 +431,57 @@
                   </tr>
                 </thead>
                <tbody>
+
+
+                      <tr>
+                        <td >01/07/15</td>
+                        <td>Act! Pro v17  <br> SP2 Update - EU</td>
+                        <td>act_pro_172x217<br>_updt_eu.exe</td>
+                        <td>121 MB</td>
+                        <td><a href="http://cdn.act.dlm.swiftpage.com/3872/act_pro_172x217_updt_eu.exe">download</a></td>
+                      </tr>                      
+
+                      <tr>
+                        <td >01/07/15</td>
+                        <td>Act! Pro v17  <br> SP2 Update - UK</td>
+                        <td>act_pro_172x217<br>_updt_uk.exe</td>
+                        <td>121 MB</td>
+                        <td><a href="http://cdn.act.dlm.swiftpage.com/3870/act_pro_172x217_updt_uk.exe">download</a></td>
+                      </tr>                      
+
+                      <tr>
+                        <td >01/07/15</td>
+                        <td>Act! Premium v17  <br> SP2 Update - EU</td>
+                        <td>act_prem_172x217<br>_updt_eu.exe</td>
+                        <td>121 MB</td>
+                        <td><a href="http://cdn.act.dlm.swiftpage.com/3878/act_prem_172x217_updt_eu.exe">download</a></td>
+                      </tr>                      
+
+                      <tr>
+                        <td >01/07/15</td>
+                        <td>Act! Premium v17  <br> SP2 Update - UK</td>
+                        <td>act_prem_172x217<br>_updt_uk.exe</td>
+                        <td>121 MB</td>
+                        <td><a href="http://cdn.act.dlm.swiftpage.com/3876/act_prem_172x217_updt_uk.exe">download</a></td>
+                      </tr>                      
+
+                      <tr>
+                        <td >01/07/15</td>
+                        <td>Act! Premium for Web v17  <br> SP2 Update - EU</td>
+                        <td>act_web_172x217<br>_updt_eu.exe</td>
+                        <td>323 MB</td>
+                        <td><a href="http://cdn.act.dlm.swiftpage.com/3866/act_web_172x217_updt_eu.exe">download</a></td>
+                      </tr>                      
+
+                      <tr>
+                        <td >01/07/15</td>
+                        <td>Act! Premium for Web v17  <br> SP2 Update - UK</td>
+                        <td>act_web_172x217<br>_updt_uk.exe</td>
+                        <td>323 MB</td>
+                        <td><a href="http://cdn.act.dlm.swiftpage.com/3864/act_web_172x217_updt_uk.exe">download</a></td>
+                      </tr>                      
+
+
 
 
                       <tr>
@@ -653,15 +729,15 @@
                         <td><a href="http://cdn.act.dlm.swiftpage.com/3091/actpremweb16sp1_uk_update.exe">download</a></td>
                       </tr>
                       <tr>
-                        <td>1/8/2013</td><td>Sage ACT! Pro<br> 2013  SP1 Update - EU</td><td>ACTPro2013SP1<br>_EU_Update.exe</td><td>123 MB </td><td><a href="http://swiftpagedlm.arvatocim.com/d?_C=2DB652A299B36858" target="_blank">download</a></td></tr><tr>
+                        <td>1/8/2013</td><td>Sage ACT! Pro<br> 2013  SP1 Update - EU</td><td>ACTPro2013SP1<br>_EU_Update.exe</td><td>123 MB </td><td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=2DB652A299B36858" target="_blank">download</a></td></tr><tr>
                         <td>1/8/2013</td><td>Sage ACT! Pro<br> 2013  SP1 Update - UK</td><td>ACTPro2013SP1_<br>UK_Update.exe</td><td>123 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=BAB34080FA9810FF" target="_blank">download</a></td></tr><tr>
-                        <td>1/8/2013</td><td>Sage ACT! Premium<br> 2013  SP1 Update - UK</td><td>ACTPrem2013SP1_<br>UK_Update.exe </td><td>124 MB </td><td><a href="http://swiftpagedlm.arvatocim.com/d?_C=C60475923B37CE8E" target="_blank">download</a></td></tr><tr>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=BAB34080FA9810FF" target="_blank">download</a></td></tr><tr>
+                        <td>1/8/2013</td><td>Sage ACT! Premium<br> 2013  SP1 Update - UK</td><td>ACTPrem2013SP1_<br>UK_Update.exe </td><td>124 MB </td><td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=C60475923B37CE8E" target="_blank">download</a></td></tr><tr>
                         <td>1/8/2013</td><td>Sage ACT! Premium<br> 2013  SP1 Update - EU</td><td>ACTPrem2013SP1_<br>EU_Update.exe</td><td>124 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=CE8F7F10BC225F83" target="_blank">download</a></td></tr><tr>
-                        <td>1/8/2013</td><td>Sage ACT! Premium <br>2013  (access via web)<br> SP1 Update - UK</td><td>ACTPremWeb2013SP1<br>_UK_Update.exe</td><td>316 MB </td><td><a href="http://swiftpagedlm.arvatocim.com/d?_C=2F7A2BAA57512116" target="_blank">download</a></td></tr><tr>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=CE8F7F10BC225F83" target="_blank">download</a></td></tr><tr>
+                        <td>1/8/2013</td><td>Sage ACT! Premium <br>2013  (access via web)<br> SP1 Update - UK</td><td>ACTPremWeb2013SP1<br>_UK_Update.exe</td><td>316 MB </td><td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=2F7A2BAA57512116" target="_blank">download</a></td></tr><tr>
                         <td>1/8/2013</td><td>Sage ACT! Premium<br> 2013  (access via web)<br> SP1 Update - EU</td><td>ACTPremWeb2013SP1<br>_EU_Update.exe</td><td>316 MB </td>
-                        <td><a href="http://swiftpagedlm.arvatocim.com/d?_C=E2222F8847FAFCAA" target="_blank">download</a></td></tr>
+                        <td><a href="http://swiftpagedlm.arvatocim.com/d.aspx?_C=E2222F8847FAFCAA" target="_blank">download</a></td></tr>
                       <tr>
                         <td>4/19/2012</td>
                         <td>Sage ACT! Premium<br> 2012 (access via web)<br> SP2 Mobile Update <br>(includes SP1) - Europe </td>

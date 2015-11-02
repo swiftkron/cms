@@ -23,20 +23,40 @@
   <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/rayburns" />
   <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/rayburns" />
   <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/rayburns" />
-
+  <link rel="canonical" href="http://www.act.com/de-de/kundenreferenzen/rayburns/" />
  <link rel="stylesheet" href="css/normalize.min.css">
  <link rel="stylesheet" href="css/app.css">
 
  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
- 
- <!-- Lead Forensics -->
-<script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
-<noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
+ !-- Lead Forensics -->
+<script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
+<noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
 
 <!-- Google Tracking Scripts -->
@@ -93,7 +113,7 @@
  <h1 class="large_strapline">Act! ist das Ticket zum Erfolg fu&#776;r einen fu&#776;hrenden Reiseveranstalter</h1>
  <div class="hidden-xs"><img src="img/rayburns-logo.png" alt="" class="logoimg"/></div>
  <div class="btn-bottom">
- <a href="kundenreferenzen/pdf/Act-Rayburn-WhitePaper-Digital-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <a href="kundenreferenzen/pdf/Rayburns.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
   <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn">Demo anfordern</a>
  </div>
  </div>
@@ -127,7 +147,7 @@
  <p class=" semilead">Rayburn Tours organisiert seit fast fu&#776;nfzig Jahren Reisen fu&#776;r Schu&#776;ler- und Erwachsenengruppen. Mit seiner Liebe zum Detail hat sich das Reisebu&#776;ro mittlerweile einen gro&szlig;en Stamm treuer Kunden aufgebaut. Ausschlaggebend fu&#776;r diesen Erfolg ist auch, dass die Backoffice-Systeme reibungslos funktionieren.</p>
  <p class=" semilead">Mit einer durchschnittlichen Kundenbewertung von <span class="orangetitle">4,7 von 5</span> l&auml;sst Rayburn Tours in puncto Kundenservice so gut wie keine Wu&#776;nsche offen, aber &#8222;unsere IT-Systeme hinkten etwas hinterher&ldquo;, meint der kaufm&auml;nnische Leiter Jamie Boyden. Also begann man, sich u&#776;ber m&ouml;gliche Upgrades Gedanken zu machen und da stand eine CRM-L&ouml;sung ganz <span class="orangetitle">oben auf der Wunschliste.</span></p>
  <p class=" semilead">Rayburn Tours machte sich auf die Suche nach einem geeigneten System, um wichtige Kundendaten effektiver nachzuverfolgen und untereinander auszutauschen. Die Mitarbeiter sollten nicht nur ihre aktuellen Buchungen im Blick behalten, sondern auch noch weit mehr Anfragen als bisher abwickeln k&ouml;nnen.</p>
- <p><a href="kundenreferenzen/pdf/Act-Rayburn-WhitePaper-Digital-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a>
+ <p><a href="kundenreferenzen/pdf/Rayburns.pdf" target="_blank" class="btn-primary btn">Herunterladen</a>
  </p>
  <br>
  </div>
@@ -192,7 +212,7 @@
  <p class="lead notopmargin">
  <strong>Sie m&#246;chten mehr erfahren? </strong>Hier k&#246;nnen Sie die ausf&#252;hrliche Version als PDF herunterladen, um den Bericht in aller Ruhe zu lesen und mit Freunden, Bekannten oder Kollegen zu teilen.</p>
 
- <p class="orangebuttons"><a href="kundenreferenzen/pdf/Act-Rayburn-WhitePaper-Digital-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <p class="orangebuttons"><a href="kundenreferenzen/pdf/Rayburns.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
  <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn share_btn">Demo anfordern</a>
  </p>
 

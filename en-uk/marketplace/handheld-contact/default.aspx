@@ -9,7 +9,7 @@
 
 <script src='/media/en-uk/js/source.js' type='text/javascript'></script>
 <script src='/media/en-uk/js/header.js' type='text/javascript'></script>
-
+<link rel="canonical" href="http://www.act.com/en-uk/marketplace/Handheld-Contact/" />
 <!-- Colorbox JS & CSS -->
 <link id="colorbox.css" href="/media/en-uk/css/colorbox.css" rel="stylesheet" type="text/css" />
 
@@ -49,40 +49,53 @@ class="imgHvr2" is used for IFRAMES
     })();
 </script>
 
-<script type="text/javascript">
 
-    var _elqQ = _elqQ || [];
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    _elqQ.push(['elqSetSiteId', '2994']);
-
-    _elqQ.push(['elqTrackPageView']);
-
-    
-
-    (function () {
-
-        function async_load() {
-
-            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
-
-            s.src = '//img.en25.com/i/elqCfg.min.js';
-
-            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-
-        }
-
-        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
-
-        else if (window.attachEvent) window.attachEvent('onload', async_load); 
-
-    })();
+  ga('create', 'UA-40741589-3', 'act.com');
+  ga('send', 'pageview');
 
 </script>
+
+
+<!-- Lead Forensics -->
+    <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
+    <noscript>
+        <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" />
+    </noscript>
+
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
 <!-- Google Code for Remarketing Tag Removed -->
 
 
-<!--#include virtual="/media/en-uk/includes/trackingScripts.html" -->
 
 
 </head>
@@ -121,8 +134,6 @@ class="imgHvr2" is used for IFRAMES
                       <p>New</p>
                        
                       <p class="price-details"><strong>&pound;47 or </strong><strong>&euro;57/yr</strong></p>
-                       <p>Business Care price*</p>
-                      <p class="price-details"><strong>&pound;23.50 or </strong><strong>&euro;28.50/yr</strong></p> 
                             
                      
                      
@@ -162,9 +173,6 @@ class="imgHvr2" is used for IFRAMES
                     </ul>
                     </p>
                     <p><b><a href="http://support.handheldcontact.com/Knowledgebase/Article/View/45/6/handheld-contact-requirements" target="_blank">System  Requirements</a></b></p>
-                    <div class="footnotes">
-                      <p>*Business Care Gold and Silver subscribers get 50% off! Use the unique promo code included in your Business Care welcome email.</p>
-                    </div>
                   </div>
                   <!-- !!! INSERT RATING BUBBLES HERE !!! -->
 

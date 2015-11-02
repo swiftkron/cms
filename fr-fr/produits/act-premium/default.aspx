@@ -17,7 +17,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Act! Premium - Logiciel de gestion des contacts</title>
-        <meta name="description" content="AccÃ©dez Ã  vos informations clients oÃ¹ que vous soyez et fournissez une expÃ©rience client unique avec Act! Premium, logiciel de gestion des contacts">
+        <meta name="description" content="Accédez à vos informations clients où que vous soyez et fournissez une expérience client unique avec Act! Premium, logiciel de gestion des contacts">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <!-- HREF LANG TAG -->
@@ -25,7 +25,7 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/products/act-premium/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/produits/act-premium" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/produkte/act-premium" />
-
+		<link rel="canonical" href="http://www.act.com/fr-fr/produits/act-premium/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -34,9 +34,31 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
 <!-- Google Tracking Scripts -->
 
@@ -91,8 +113,8 @@
                 </p>
                 <div class="btn-bottom">
                   <a href="partenaires" title="Nos partenaires" class="btn-primary btn">trouver un partenaire</a>
-                  <a href="essai" title="TÃ©lÃ©charger la dÃ©mo de Act!" class="btn-second btn">essai gratuit</a>
-                  <a href="demo" title="DÃ©monstration personnalisÃ©e Act!" class="btn-second btn">Demande de d&eacute;mo</a>
+                  <a href="essai" title="Télécharger la démo de Act!" class="btn-second btn">essai gratuit</a>
+                  <a href="demo" title="Démonstration personnalisée Act!" class="btn-second btn">Demande de d&eacute;mo</a>
                 </div>
               </div>
               <div class="col-sm-4 col-sm-push-1 mb-center">
@@ -239,7 +261,7 @@
           <div class="row section-padding">
             <div class="col-sm-6">
 
-              <img style="max-width:100%;position:relative;" src="img/apercu-ecran-calendrier-contacts.jpg" alt="Apercu d'Ã©cran logiciel" />
+              <img style="max-width:100%;position:relative;" src="img/apercu-ecran-calendrier-contacts.jpg" alt="Apercu d'écran logiciel" />
 
             </div>
             <div class="col-sm-6 valign-middle-wrapper">
@@ -318,7 +340,7 @@
         <div class="container" id="Measureresults">
           <div class="row section-padding">
             <div class="col-sm-6 col-sm-push-6">
-              <img src="img/apercu-ecran-contact-linkedin.jpg" alt="Apercu d'Ã©cran contact Linkedin" />
+              <img src="img/apercu-ecran-contact-linkedin.jpg" alt="Apercu d'écran contact Linkedin" />
             </div>
             <div class="col-sm-6 col-sm-pull-6">
               <h2>
@@ -479,8 +501,8 @@
 
                 <div class=" greybuttons">
                   <a href="partenaires" title="Nos partenaires" class="btn-primary btn">trouver un partenaire</a>
-                  <a href="essai" title="TÃ©lÃ©charger la dÃ©mo de Act!" class="btn-second btn">essai gratuit</a>
-                      <a href="demo" title="DÃ©monstration personnalisÃ©e Act!" class="btn-second btn">Demande de d&eacute;mo</a>
+                  <a href="essai" title="Télécharger la démo de Act!" class="btn-second btn">essai gratuit</a>
+                      <a href="demo" title="Démonstration personnalisée Act!" class="btn-second btn">Demande de d&eacute;mo</a>
                 </div>
               </div>
             </div>
@@ -510,7 +532,7 @@
               </p>
               <p>
                 <sup>2</sup>
-                Compte Basic inclus (envoi d'emails Ã  500 contacts par mois). Les fonctionnalit&eacute;s produit varient en fonction des services choisis. R&eacute;duction disponible aux souscripteurs d'un contrat Business Care Bronze ou Silver.
+                Compte Basic inclus (envoi d'emails à 500 contacts par mois). Les fonctionnalit&eacute;s produit varient en fonction des services choisis. R&eacute;duction disponible aux souscripteurs d'un contrat Business Care Bronze ou Silver.
               </p>
               <p>
                 <sup>3</sup>

@@ -35,8 +35,9 @@
       						<a href="products/act-premium" title="Find out more about Act! Premium. Designed for individuals and teams of up to 10 or more users.">Act! Premium</a>
       					</li>
       					<li>
-      						<a href="products/act-essentials" title="Find out more about Act! Cloud Essentials. Designed for individuals and startups">Act! Cloud Essentials</a>
+      						<a href="products/act-essentials" title="Find out more about Act! Essentials. Designed for individuals and startups">Act! Essentials</a>
       					</li>
+                                    <li><a href="act-emarketing/" title="Act! emarketing">Act! emarketing</a></li>
       					<li>
       						<a href="products/upgrade" title="What's new in the latest release of Act!">What's new in Act! v17</a>
       					</li>
@@ -48,11 +49,12 @@
       				<span class="foot_title">Support</span>
 
       				<ul>
+      					<li><a href="resources" title="Resources">Resources</a></li>
       					<li><a href="support" title="Software support options">Business Care</a></li>
                                                       <li><a href="support/training-opportunities" title="Online or onsite training">Training opportunities</a></li>
                                                       <li><a href="support/obsolescence-policies" title="Supported and unsupported versions">Obsolescence Policy</a></li>
                                                       <li><a href="support/downloads/emea" title="Download software hotfixes, updates and feature packs" >Download Centre</a></li>
-                                                      <li><a target="_blank" href="http://www.act.com/support/getting-started/">Resource Centre</a></li>
+                                                      <li><a  href="resources/getting-started/">Getting Started</a></li>
                                                       <li><a href="http://kb.act.com" target="_blank">Knowledgebase</a></li>
       				</ul>
 
@@ -104,3 +106,32 @@
       		</div>
       	</div>
       </footer>
+      <script type="text/javascript">
+      function elqCreateOptInBanner() {
+      if (navigator.appVersion.indexOf('MSIE') != -1) {
+      var css = '.cookieBanner {z-index:30; position: absolute; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
+      }
+      else {
+      var css = '.cookieBanner {z-index:30; position: fixed; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
+      }
+      var style = document.createElement('STYLE');
+      style.type = 'text/css';
+      if (style.styleSheet) {
+      style.styleSheet.cssText = css;
+      } else {
+      style.appendChild(document.createTextNode(css));
+      }
+      var head = document.getElementsByTagName('head')[0];
+      head.appendChild(style);
+      var div = document.createElement('div');
+      div.setAttribute('id', 'cookieBannerDiv');
+      div.className = 'cookieBanner';
+      div.innerHTML = '<div class="cookieBannerText">Our website uses cookies to customise your interactions with us and provide you with a good experience when you browse our website. To find out more about our cookies, please see our <a href="cookie-policy/" style="text-decoration:underline;">cookie policy</a>. By continuing to use our site, you are agreeing to our use of cookies.</div><div class="cookieClose" onclick="document.getElementById(\'cookieBannerDiv\').style.display = \'none\';">x</div>';
+      document.body.appendChild(div);
+
+            // Hide alert after 20 seconds
+            /*setTimeout(function(){
+                  $('.cookieClose').click();
+            }, 20000);*/
+      }
+      </script>

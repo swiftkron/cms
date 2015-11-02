@@ -22,23 +22,56 @@
 
         <!-- HREF LANG TAG -->
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/products/act-pro" />
-        <link rel="alternate" hreflang="en-us" href="http://www.act.com/products/act-pro/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/produits/act-pro" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/produkte/act-pro" />
-
+		<link rel="canonical" href="http://www.act.com/de-de/produkte/act-pro/" />
         <link rel="stylesheet" href="css/normalize.min.css">
           <link rel="stylesheet" href="css/app.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
-		
-		
-<!-- Lead Forensics -->
+		<!-- Lead Forensics -->
 <script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+		<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40741589-3', 'act.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+
 
 
 <!-- Google Tracking Scripts -->
@@ -58,16 +91,6 @@
 
 </script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-40741589-3', 'act.com');
-  ga('send', 'pageview');
-
-</script>
 
 
 		
@@ -97,7 +120,7 @@
              Mit Act! haben Sie alle wichtigen Kontakt- und Kundeninformationen jederzeit im Blick: So k&ouml;nnen Sie Verkaufschancen schneller erkennen und sich ganz darauf konzentrieren, einen einzigartigen Kundenservice zu leisten &ndash; f&uuml;r langfristig erfolgreiche Gesch&auml;ftsbeziehungen.
               </p>
               <div class="btn-bottom">
-                <a href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=2998&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=de_DE" class="btn-primary btn" target="_blank">Jetzt kaufen</a>
+                <a href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8077&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=de_DE" class="btn-primary btn" target="_blank">Jetzt kaufen</a>
                 <a href="kostenlos-testen" title="CRM Software Act! kostenlos testen" class="btn-second btn">Jetzt kostenlos testen</a>
                 <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn">Demo anfordern</a>
               </div>

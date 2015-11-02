@@ -23,19 +23,41 @@
   <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/manessens" />
   <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/manessens" />
   <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/manessens" />
-
+  <link rel="canonical" href="http://www.act.com/fr-fr/temoignage/manessens/" />
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/app.css">
-
+  
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 <!-- Lead Forensics -->
 <script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
 <!-- Google Tracking Scripts -->
 
@@ -87,7 +109,7 @@
             <h1 class="large_strapline">Act!, pilier de la strat&eacute;gie commerciale de Manessens</h1>
             <div class="hidden-xs"><img src="img/ManessenslogoWHITE.png" alt=""  width="150"/></div>
             <div class="btn-bottom">
-            <a href="temoignage/pdf/Act-Manessens-WhitePaper-Digital-FR.pdf" target="_blank" class="btn-primary btn">T&eacute;l&eacute;charger</a> <a class="btn-second btn share_btn">Partager </a>
+            <a href="temoignage/pdf/Manessens.pdf" target="_blank" class="btn-primary btn">T&eacute;l&eacute;charger</a> <a class="btn-second btn share_btn">Partager </a>
                   <a href="demo" title="Démonstration personnalisée Act!" class="btn-second btn share_btn">Demande de d&eacute;mo</a>
             </div>
         </div>
@@ -118,7 +140,7 @@
           Fort d&rsquo;une soixantaine de collaborateurs, le groupe Manessens accompagne les entreprises dans le de&#769;veloppement de leur performance. Le po&#770;le Conseil SAP, repre&#769;sentant deux tiers de l&rsquo;activite&#769;, est comple&#769;te&#769; par le po&#770;le Consulting Tertiaire ciblant le secteur de la banque et de l&rsquo;assurance.</p>
 <p class="  semilead">Le succe&#768;s de cette structure a toujours repose&#769; sur une de&#769;marche commerciale active et rigoureuse. &laquo; Comme pour toute entreprise en cre&#769;ation, la conque&#770;te des premiers clients e&#769;tait un enjeu capital &raquo; raconte Olivier Tardif, co-ge&#769;rant et Directeur Commercial, &laquo; j&rsquo;ai longtemps travaille&#769; dans le secteur informatique et j&rsquo;ai toujours e&#769;te&#769; sensible aux enjeux du CRM. Je savais qu&rsquo;il fallait e&#770;tre tre&#768;s organise&#769; pour notre prospection commerciale et que nous avions besoin d&rsquo;un outil efficace &raquo;.</p>
 
-        <p><a href="temoignage/pdf/Act-Manessens-WhitePaper-Digital-FR.pdf" target="_blank" class="btn-primary btn">T&eacute;l&eacute;charger</a></p>
+        <p><a href="temoignage/pdf/Manessens.pdf" target="_blank" class="btn-primary btn">T&eacute;l&eacute;charger</a></p>
         <br>
       </div>
       <div class="col-sm-6 col-sm-push-1 ">
@@ -171,7 +193,7 @@
           <p class="lead notopmargin">
             <strong>Vous souhaitez lire cet article plus tard ? </strong> Pourquoi ne pas t&eacute;l&eacute;charger le PDF pour le lire a un autre moment ou le partager avec un coll&egrave;gue.</p>
 
-          <p class="orangebuttons"><a href="temoignage/pdf/Act-Manessens-WhitePaper-Digital-FR.pdf" target="_blank" class="btn-primary btn">T&eacute;l&eacute;charger</a> <a class="btn-second btn share_btn">Partager </a>
+          <p class="orangebuttons"><a href="temoignage/pdf/Manessens.pdf" target="_blank" class="btn-primary btn">T&eacute;l&eacute;charger</a> <a class="btn-second btn share_btn">Partager </a>
                            <a href="demo" title="Démonstration personnalisée Act!" class="btn-second btn share_btn">Demande de d&eacute;mo</a>
           </p>
 

@@ -16,27 +16,47 @@
         <base href="/en-uk/"/> 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Act! Cloud Essentials - CRM for Start Up Business</title>
-        <meta name="description" content="Act! Cloud Essentials combines contact management and emarketing to help small businesses stay organised, convert prospects, and get more from existing customers.">
+        <title>Act! Essentials - CRM for Start Up Business</title>
+        <meta name="description" content="Act! Essentials combines contact management and emarketing to help small businesses stay organised, convert prospects, and get more from existing customers.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <!-- HREF LANG TAG -->
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/products/act-essentials" />
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/products/act-essentials/" />
-
+		<link rel="canonical" href="http://www.act.com/en-uk/products/act-essentials/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
     <!-- Lead Forensics -->
     <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
     <noscript>
         <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -89,14 +109,13 @@
             <div class="row section">
               <div class="col-sm-6 bottom col-left">
                 <div class="row">
-                  <h1 class="large_strapline">Act! Cloud Essentials</h1>
-                  <span class="medium_strapline"> <strong class="semibold">Platform:</strong>
-                    Hosted
+                  <h1 class="large_strapline essential">Act! Essentials</h1>
+                  <span class="medium_strapline">Bring your business into focus
                     <br />
 
                   </span>
                   <p class="strapline_intro">
-                    Act! Cloud Essentials marries the best of contact management with the best of emarketing to help you stay organised, convert new prospects, and get more from existing customers. Ideal for individuals and startups.
+                    Act! Essentials helps you easily consolidate and manage contacts, activities, notes, and history, and connect with prospects and customers in one organised place, accessible from anywhere.
                   </p>
                 </div>
                 <div class="btn-bottom row mb-center">
@@ -116,19 +135,16 @@
         <div id="scroller-anchor">
           <ul class="second-nav container" >
             <li>
-              <a href="#create-interaction">Create Interactions</a>
+              <a href="#create-interaction">Get organised</a>
             </li>
             <li>
-              <a href="#keep-it-together">Keep it together</a>
-            </li>
-            <li>
-              <a href="#messages-that-matter">Messages that matter</a>
+              <a href="#messages-that-matter">Look professional</a>
             </li>
             <li>
               <a href="#always-thinking">Always thinking</a>
             </li>
             <li>
-              <a href="#integration">Integration</a>
+              <a href="#integration">Stay connected</a>
             </li>
           </ul>
         </div>
@@ -137,7 +153,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12 txtcenter">
-              <h2 class="homeheading">Let Act! Cloud Essentials take it from here, or anywhere.</h2>
+              <h2 class="homeheading">Let Act! Essentials take it from here, or anywhere.</h2>
             </div>
           </div>
           <!--PRODUCT SECTION-->
@@ -163,7 +179,7 @@
                 <div class="col-sm-4">
                   <img src="/en-uk/img/icon5.jpg" alt=""></div>
                 <div class="col-sm-7 padding-bottom">
-                  <p class="orangetitle list_title">Marketing made easy</p>
+                  <p class="orangetitle list_title">Look professional</p>
                   <p>
                     Target and communicate with your customers for maximum results. Segment your lists, customise your message and creative, hit send - and watch the results roll in. Right message, right person, right time!
                   </p>
@@ -177,7 +193,7 @@
                 <div class="col-sm-4">
                   <img src="/en-uk/img/icon6.jpg" alt=""></div>
                 <div class="col-sm-7 ">
-                  <p class="orangetitle list_title">Next step recommendations</p>
+                  <p class="orangetitle list_title">Stay connected</p>
                   <p>
                     Rest easy knowing you're on top of every opportunity. prioritise your day using intelligent recommendations based on your customers' engagement level. Less guesswork means more time to focus on what you love.
                   </p>
@@ -203,9 +219,9 @@
               <div class="col-sm-7  col-xs-12 bottom">
                 <img src="/en-uk/img/laptop-using-act-emarketing-contact-list.png" alt="Laptop with contact list on act emarketing" class="negative-left laptop-contact"></div>
               <div class="col-sm-offset-1 col-sm-4 col-xs-12 section-padding">
-                <h2>Create interactions</h2>
+                <h2>Get organised</h2>
                 <p class="lead">
-                  Whether you meet for coffee, call, email or capture a transaction in your estore, Act! Cloud Essentials seamlessly tracks it all and creates a holistic view so you can gain better understanding and use it to create deeper relationships.
+                  Keep all your contacts in one place - easily import from spreadsheets, Google&trade; or iCloud&reg; and organise by groups. Take notes and add activities right on the contact in Act! Essentials so you can prioritise and manage your day efficiently.
                 </p>
               </div>
             </div>
@@ -219,7 +235,7 @@
                 <h2>Keep it together</h2>
 
                 <p class="lead">
-                  Keep track of what needs to be accomplished, who you need to meet with, and what messages you should deliver, all from Act! Cloud Essentials.
+                  Keep track of what needs to be accomplished, who you need to meet with, and what messages you should deliver, all from Act! Essentials.
                 </p>
               </div>
             </div>
@@ -230,11 +246,11 @@
             <!-- ROW (text right, image left) -->
             <div class="row section">
               <div class="col-sm-7 bottom">
-                <img src="/en-uk/img/act-cloud-mobile.png" alt="iphone using Act! Cloud Essentials for start ups" class="center phone-cloud"></div>
+                <img src="/en-uk/img/act-cloud-mobile.png" alt="iphone using Act! Cloud Essentials for start ups" class="center" style="margin-top:-20px"></div>
               <div class="col-sm-offset-1 col-sm-4 section-padding">
-                <h2 class="nomargin">Messages that matter</h2>
+                <h2 class="nomargin">Look professional</h2>
                 <p class="lead">
-                  Get the tools you need to track and create easy, professional and beautiful email templates. Create groups to give you flexibility on when and who you want to send to.
+                  Create, send, and track professional, eye-catching campaigns that reach customers and prospects with the right message at the right time.  
                 </p>
               </div>
             </div>
@@ -247,7 +263,7 @@
               <div class="col-sm-5 col-sm-offset-1 section-padding">
                 <h2>Always thinking</h2>
                 <p class="lead">
-                  Inside Act! Cloud Essentials lives an intelligent relationship analytics engine. It captures and examines all your interaction data, helping you plan your day better. It reacts to opportunities faster, and knows more about each of your relationships.
+                  Inside Act! Essentials lives an intelligent relationship analytics engine. It captures and examines all your interaction data, helping you plan your day better. It reacts to opportunities faster, and knows more about each of your relationships.
                 </p>
               </div>
             </div>
@@ -259,11 +275,11 @@
             <!-- ROW (text right, image left) -->
             <div class="row section">
               <div class="col-sm-7 bottom">
-                <img src="/en-uk/img/act-cloud-on-ipad.png" alt="Act! Cloud Essentials software on iPad" class="negative-left"></div>
+                <img src="/en-uk/img/act-cloud-on-ipad.png" alt="Act! Cloud Essentials software on iPad"></div>
               <div class="col-sm-offset-1 section-padding col-sm-4">
-                <h2 class="nomargin">Integration</h2>
+                <h2 class="nomargin">Stay connected</h2>
                 <p class="lead">
-                  Act! Cloud Essentials strives to capture every interaction you have with prospects and customers because knowing more helps create meaningful relationships. Act! Cloud Essentials is developing an integration with Zapier, giving you the power to connect with more than 300 online services to create new contacts and record interaction history.
+                  Know the latest details about your contacts, wherever you are, from any device, so you can prioritise your day and make informed decisions. Stay connected to your business by accessing key Contact and Activity details from your iPhone&reg;, iPad&reg; or Android&trade; device. Know more about your contacts by linking their Facebook&reg; account with their contact information in Act! Essentials.
                 </p>
               </div>
             </div>
@@ -272,14 +288,14 @@
         <div class="blue-section">
           <div class="container">
             <div class="row">
-              <img src="/en-uk/img/from-7-excluding-VAT.jpg"></div>
+              <img src="/en-uk/img/from-7-excluding-VAT.png"></div>
             <div class="row">
               <h2 class="homeheading">Ready to get Act!</h2>
             </div>
             <div class="row">
               <div class="col-sm-8 col-sm-push-2">
               <p class="lead notopmargin">
-                Act! Cloud Essentials strives to capture every interaction you have with prospects and customers because knowing more helps create meaningful relationships.
+                Act! Essentials strives to capture every interaction you have with prospects and customers because knowing more helps create meaningful relationships.
               </p>
                  <div class="bluebuttons">
    <a target="_blank" href="https://mycloud.act.com/#/account/billing" class="btn-primary btn">buy now</a>

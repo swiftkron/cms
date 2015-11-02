@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/media/en-us/css/welcomepage.css">
+<link rel="stylesheet" href="/media/en-us/css/welcomepage_body.css">
+
+
+ 
+
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2994']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+
+<script type="text/javascript">
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '2994']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+</script>
+
+<!--#include virtual="/media/en-us/includes/trackingScripts.html" -->
+
+</head>
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-style: italic;
+}
+-->
+</style>
+
+		<table border="0" cellpadding="0" cellspacing="0" style="width: 248px">
+            <tbody>
+
+		<tr>    
+                        <td class="style13" width="248">
+                            Act! Communities</td>
+                </tr>
+                <tr>
+		            <td style="padding-left: 13px; font-size: 10pt; font-family: Tahoma;" class="style8">
+                        <p>
+                      <span class="style1">Start Here!</span> <a href="http://www.act.com/support/getting-started" target="_blank">Get Started Quickly and Easily with Self-service Resources                     </a>                        </p>
+
+                        <p>
+                          <a href="http://www.act.com/partners" target="_blank">Learn About Advanced Training, Customization, &amp; Hosting</a>                        </p>
+                       
+						<p>
+
+                        <a href="http://www.act.com/marketplace" target="_blank">Enhance Your Experience with Add-ons </a>						</p>
+						
+                    </td>
+                </tr>
+                <tr>
+		            <td style="padding-left: 1px; font-size: 10pt; font-family: Tahoma;" class="style7">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>

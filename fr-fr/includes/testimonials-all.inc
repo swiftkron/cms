@@ -1,4 +1,67 @@
-          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="services" data-test-size="1-10" data-test-solution="actpro" >
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Services" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/srtbg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/srtlogo.png" alt="SRT logo"></div>
+
+                <blockquote>
+                  "J&rsquo;ai toujours appr&eacute;ci&eacute; la simplicit&eacute; d&rsquo;utilisation d&rsquo;Act!, sa stabilit&eacute; et la flexibilit&eacute; de ses options."
+                </blockquote>
+                <a href="temoignage/srt"  class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Wholesale-and-Retail" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/thescalepeoplebg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/thescalepeoplelogo.png" alt="The Scale People logo"></div>
+
+                <blockquote>
+                  "Nous avons constat&eacute; une augmentation d&rsquo;au moins 30% de notre efficacit&eacute; depuis que nous utilisons Act!..."
+                </blockquote>
+                <a href="temoignage/the-scale-people"  class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Health-and-Social-Work" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/occuvaxbg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/occuvaxlogo-white.png" alt="Occuvax logo"></div>
+
+                <blockquote>
+                  "Nous avons constat&eacute; d&rsquo;immenses avantages depuis que nous utilisons Act! correctement..."
+                </blockquote>
+                <a href="temoignage/occuvax"  class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Agriculture-Forestry-and-Fishing" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/onefourgroupbg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/onefourlogo.png" alt="reebok sports club logo"></div>
+
+                <blockquote>
+                  "Act! r&eacute;unit les &eacute;quipes commerciales au quotidien, alors qu&rsquo;on ne se voit en..."
+                </blockquote>
+                <a href="temoignage/one-four-group"  class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Sports-leisure-and-entertainment" data-test-size="1-10" data-test-solution="actpro" >
             <div class="test-popout" style="background-image:url('img/rebokbg.jpg');">
               <div class="box">
                 <div class="img-container">
@@ -11,7 +74,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="manufacturing" data-test-size="1-10" data-test-solution="actpro" >
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Manufacturing" data-test-size="1-10" data-test-solution="actpro" >
             <div class="test-popout"  style="background-image:url('img/bg-temoignage-client-logiciel-boyaux.jpg');">
               <div class="box">
                 <div class="img-container">
@@ -24,21 +87,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="manufacturing" data-test-size="1-10" data-test-solution="actpro" >
-            <div class="test-popout" style="background-image:url('img/corkers-bg.jpg');">
-              <div class="box">
-                <div class="img-container">
-                  <img src="img/corkers-logo.png" alt="corkers logo"></div>
-
-                <blockquote>
-                  "Derni&egrave;rement, j&rsquo;ai cherch&eacute; &agrave; trier les prospects &agrave; qui on avait envoy&eacute; des &eacute;chantillons..."
-                </blockquote>
-                <a href="temoignage/corkers" title="Témoignage entreprise familiale" class="btn-second-white btn-white">en savoir plus</a>
-              </div>
-            </div>
-          </div>
-
-            <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="information" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Information-and-communication" data-test-size="1-10" data-test-solution="actpro" >
             <div class="test-popout" style="background-image:url('img/limefresh-bg.jpg');">
               <div class="box">
                 <div class="img-container">
@@ -52,11 +101,11 @@
             </div>
           </div>
 
-           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="services" data-test-size="1-10" data-test-solution="actpro" >
+           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Wholesale-and-Retail" data-test-size="1-10" data-test-solution="actpro" >
             <div class="test-popout" style="background-image:url('img/man-bg.jpg');">
               <div class="box">
                 <div class="img-container">
-                  <img src="img/connectvendinglogoWHITE.png" alt="limefresh logo"></div>
+                  <img src="img/connectvendinglogoWHITE.png" alt="Connect vending logo"></div>
 
                 <blockquote>
                   "Act! nous a aid&eacute; &agrave; am&eacute;liorer la structure de nos syst&egrave;mes internes..."
@@ -66,11 +115,11 @@
             </div>
           </div>
 
-           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Informatique" data-test-size="1-10" data-test-solution="actpro" >
+           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Information-and-communication Business-Services" data-test-size="1-10" data-test-solution="actpro" >
             <div class="test-popout" style="background-image:url('img/bg-client-distributeurs-automatiques.jpg');">
               <div class="box">
                 <div class="img-container">
-                  <img src="img/ManessenslogoWHITE.png" alt="limefresh logo"></div>
+                  <img src="img/ManessenslogoWHITE.png" alt="Manessens logo"></div>
 
                 <blockquote>
                   "Nous avons choisi la solution Act! pour la grande latitude de parame&#769;trage qu&rsquo;elle..."
@@ -79,7 +128,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="services" data-test-size="1-10" data-test-solution="actpro" >
+          <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Sports-leisure-and-entertainment" data-test-size="1-10" data-test-solution="actpro" >
             <div class="test-popout" style="background-image:url('img/rayburns-bg.jpg');">
               <div class="box">
                 <div class="img-container">
@@ -93,7 +142,7 @@
             </div>
           </div>
 
-           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Informatique" data-test-size="1-10" data-test-solution="actpro" >
+           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="Health-and-Social-Work" data-test-size="1-10" data-test-solution="actpro" >
             <div class="test-popout" style="background-image:url('img/morningside-bg.jpg');">
               <div class="box">
                 <div class="img-container">
@@ -106,3 +155,51 @@
               </div>
             </div>
           </div>
+
+
+
+           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/mvmsmallbg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/mvmlogo.png" alt="Morningside logo"></div>
+
+                <blockquote>
+                  "Je recommande vivement Act! &agrave; d&rsquo;autres entreprises. Il est l&rsquo;alli&eacute; de notre croissance..."
+                </blockquote>
+                <a href="temoignage/mvm" title="Référence client CRM" class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
+          
+          
+           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/schochsmallbg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/schochlogowhite.png" alt="Schoch logo"></div>
+
+                <blockquote>
+                  "Act! s&rsquo;adapte facilement aux besoins de divers utilisateurs et son principal..."
+                </blockquote>
+                <a href="temoignage/schoch-werkhaus" title="Référence client CRM" class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="col-sm-4 col-md-3 test-wrap" data-test-cat="" data-test-size="1-10" data-test-solution="actpro" >
+            <div class="test-popout" style="background-image:url('img/color-business-bg.jpg');">
+              <div class="box">
+                <div class="img-container">
+                  <img src="img/color-business-centers-white.png" alt="Color Business Centers logo"></div>
+
+                <blockquote>
+                  "Ce qu&rsquo;il nous fallait, c&rsquo;&eacute;tait un syst&egrave;me qui puisse assurer le suivi de la croissance de nos activit&eacute;s..."
+                </blockquote>
+                <a href="temoignage/color-business-centers" title="Référence client CRM" class="btn-second-white btn-white">en savoir plus</a>
+              </div>
+            </div>
+          </div>
+          
+          

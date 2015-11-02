@@ -22,7 +22,7 @@
         <link rel="alternate" hreflang="en-us" href="http://www.act.com/" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/index" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/index" />
-
+		<link rel="canonical" href="http://www.act.com/fr-fr/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
@@ -32,9 +32,31 @@
 <script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25203.png?trk_user=25203&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
+
 
 <!-- Google Tracking Scripts -->
 
@@ -65,6 +87,10 @@
 
 		</head>
 <body id="homepage">
+  <div class="videoModal" id="popupVid">
+    <span class="CloseButton"><img src="/en-uk/img/cross.png" alt="cross"  /></span>
+  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/mODjfUgB1C0?enablejsapi=1' frameborder='0' allowfullscreen style="display:block!important"> </iframe></div>
+  </div>  
         <!--[if lt IE 7]>
         <p class="browsehappy">
           You are using an <strong>outdated</strong>
@@ -115,7 +141,7 @@
 		  	  		  	<span class="price">209,00 &euro;</span> hors taxes <br>
 		  	  		  	<a href="produits/act-pro" title="Logiciel et solutions Act! Pro" class="txtlink">en savoir plus &gt;</a><br>
 		  	  		  	<br>
-                  <a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=3001&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=fr_FR" class="btn-primary btn">acheter <span class="uppercase">A</span>ct!</a>
+                  <a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8092&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=fr_FR" class="btn-primary btn">acheter <span class="uppercase">A</span>ct!</a>
 		  	  		  	<a href="essai" title="Télécharger la démo de Act!" class="btn-second btn">essai gratuit</a>
 		  	  		</div>
 		  	  		<div class="col-sm-7">
@@ -179,7 +205,7 @@
               <div class="col-sm-7 ">
                 <p class="list_title orangetitle">Prenez le contrôle</p>
                 <p>
-           Construisez votre relation client pour gagner du temps et augmenter votre chiffre d'affaires. Act! garde toutes vos informations client et prospect en un seul endroit - accesible depuis votre bureau ou votre appareil mobile.
+           Construisez votre relation client pour gagner du temps et augmenter votre chiffre d'affaires. Act! garde toutes vos informations client et prospect en un seul endroit - accesible depuis votre bureau ou votre <a href="http://www.act.com/fr-fr/produits/act-premium-mobile/" >appareil mobile</a>.
                 </p>
               </div>
             </div>
@@ -193,7 +219,7 @@
               <div class="col-sm-7 ">
                 <p class="list_title orangetitle">Marketing et vente</p>
                 <p>
-                 Transformez vos actions marketing en vente. Envoyez des campagnes professionnelles et ciblées à la bonne personne au bon moment avec notre service emarketing intégré.
+                 Transformez vos actions marketing en vente. Envoyez des campagnes professionnelles et ciblées à la bonne personne au bon moment avec notre service <a href="http://www.act.com/fr-fr/produits/act-emarketing/">emarketing</a> intégré.
                 </p>
               </div>
             </div>
@@ -207,7 +233,7 @@
               <div class="col-sm-7 ">
                 <p class="list_title orangetitle">Le seul et l'unique</p>
                 <p>
-              Act! est le logiciel de gestion des contacts le plus vendu au monde. Utilisé avec confinace depuis plus de 25 ans par les petites entreprises et les équipes commerciales, Act! vous aide à convertir vos prospect et fidéliser vos clients.
+              Act! est le <a href="http://www.act.com/fr-fr/pourquoi-choisir/" >logiciel de gestion des contacts</a> le plus vendu au monde. Utilisé avec confinace depuis plus de 25 ans par les petites entreprises et les équipes commerciales, Act! vous aide à convertir vos prospect et fidéliser vos clients.
                 </p>
               </div>
             </div>
@@ -264,15 +290,15 @@ coulent de source. "
 			   </div>
           	</div>
           	<div class="col-sm-4 test-wrap" >
-            	<div class="test-popout" style="background-image:url('img/corkers-bg.jpg');">
+            	<div class="test-popout" style="background-image:url('img/srtbg.jpg');">
             		<div class="box">
-						<div class="img-container"><img src="img/corkers-logo.png" alt="reebok sports club logo"></div>
+						<div class="img-container"><img src="img/srtlogo.png" alt="srt logo"></div>
 
-              			<blockquote>"Dernièrement, j’ai cherché à trier les prospects à qui on avait envoyé des échantillons. Swiftpage m’a appris à..."
-							<cite class="hidden-sm">Kate Bavester<br>Directrice du bureau</cite>
-							<div class="comp_name hidden-sm">Corkers Crisps</div>
+              			<blockquote>"J&rsquo;ai toujours appr&eacute;ci&eacute; la simplicit&eacute; d&rsquo;utilisation d&rsquo;Act!, sa stabilit&eacute; et la flexibilit&eacute; de ses options."
+							<cite class="hidden-sm">R&eacute;al Thibault<br>Coiffeur-visagiste</cite>
+							<div class="comp_name hidden-sm">SRT</div>
 						</blockquote>
-               			<a href="temoignage/corkers" title="Témoignage entreprise familiale" class="btn-second-white btn-white">en savoir plus</a>
+               			<a href="temoignage/srt" title="Témoignage entreprise familiale" class="btn-second-white btn-white">en savoir plus</a>
             		</div>
 			   </div>
           	</div>
@@ -292,7 +318,31 @@ coulent de source. "
 <!-- #Include File="includes/footer.inc" -->
 <!-- #Include File="includes/footer-scripts.inc" -->
 <!-- #Include File="includes/google.inc" -->
+<script>
+        function toggleVideo(state) {
+    // if state == 'hide', hide. Else: show video
+    var div = document.getElementById("popupVid");
+    var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+    div.style.display = state == 'hide' ? 'none' : '';
+    func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+    iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+    console.log('hidden');
+}
 
+  $(document).on('click', '.CloseButton', function(){
+          toggleVideo('hide');
+          successOverlay.hide();  
+          videoModal.hide();  
+   
+          }); 
+
+          $(document).on('click', '.playVideo', function(){
+        
+        successOverlay.show();  
+          videoModal.show();  
+        
+          }); 
+</script>
 <!-- GOOGLE RMKTG-->
     
 <!-- Google Remarketing -->

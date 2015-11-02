@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7]><html xml:lang="en" lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7">  <![endif]-->
   <!--[if IE 7]>
@@ -23,20 +22,11 @@
         <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/act-productpage-mobility" />
         <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/produits/act-premium-mobile" />
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/produkte/act-premium-mobile " />
-
-        <link rel="stylesheet" href="css/normalize.min.css">
+		<link rel="canonical" href="http://www.act.com/fr-fr/produits/act-premium-mobile/" />
+     	   <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
-    <!-- Lead Forensics -->
-    <script type="text/javascript" src="http://bux1le001.com/js/25201.js"></script>
-    <noscript>
-        <img src="http://bux1le001.com/images/track/25201.png?trk_user=25201&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display: none;" /></noscript>
-
-    <!-- Sales Fusion Script -->
-    <script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-    <script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
     <!-- Google Tracking Scripts -->
 
@@ -54,7 +44,6 @@
         })();
 
     </script>
-
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {

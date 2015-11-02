@@ -3,16 +3,16 @@
             		<ul>
 					<li class="cta">
 						<div class="slider-bg">
-							<img src="img/Geschaftsfrau-ist-glucklich-mit-act.jpg" alt="Geschäftsfrau ist glücklich mit Act!" />
+							<img src="img/businessmen-satisfied-using-act.jpg" alt="Geschäftsfrau ist glücklich mit Act!" />
 						</div>
 
 						<div class="slider-overlay">
 							<div class="container ">
 								<div class="row section">
 								  	<div class="col-sm-8 col-left bottom mb-center">
-								    		<h1 class="large_strapline_home semibold"><strong>Act! - professionelles </strong> Kontakt - und Kundenmanagement</h1>
+								    		<h1 class="large_strapline_home semibold"><strong>Act! - professionelles </strong> Kontakt- und Kundenmanagement</h1>
 										 <div class="btn-bottom">
-								      		<a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=2998&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=de_DE" class="btn-primary btn">Jetzt kaufen</a>
+								      		<a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8077&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=de_DE" class="btn-primary btn">Jetzt kaufen</a>
 								      		<a href="kostenlos-testen" title="CRM Software Act! kostenlos testen" class="btn-second btn">Jetzt kostenlos testen</a>
 								      		<a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn">Demo anfordern</a>
 									  	</div>
@@ -55,7 +55,7 @@
 
 					<li class="cta">
 						<div class="slider-bg playVideo">
-							<img src="img/video-ansehen-mehr-erfahren.jpg" alt="Sehen Sie sich das Video an und erfahren Sie mehr zur Software" />
+							<img src="img/Geschaftsfrau-ist-glucklich-mit-act.jpg" alt="Sehen Sie sich das Video an und erfahren Sie mehr zur Software" />
 						</div>
 
 						<div class="slider-overlay playVideo">

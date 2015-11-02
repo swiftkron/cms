@@ -21,18 +21,38 @@
 
         <!-- HREF LANG TAG -->
         <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/impressum" />
-
+		<link rel="canonical" href="http://www.act.com/de-de/impressum/" />
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/app.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
+<!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 <!-- Lead Forensics -->
 <script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
 
 
 <!-- Google Tracking Scripts -->
@@ -92,9 +112,9 @@
 		<div class="col-sm-12">
 			<p style="text-align: left;">Pflichtangaben nach &sect; 5 TMG:</p>
 <p style="text-align: left;"><strong>Swiftpage International Limited</strong><br />
-c/o Bryan Cave LLP, 88 Wood Street, London, EC2V 7AJ, Gro&szlig;britannien<br />
+Q15, Quorum Business Park, Benton Lane, Newcastle upon Tyne, NE12 8BU, Gro&szlig;britannien <br />
 Registriert in England mit Firmennummer 8397789 bei Companies House</p>
-<p style="text-align: left;"><strong>Gesch&auml;ftsf&uuml;hrer:</strong> John Oechsle, Bob Anderson<br />
+<p style="text-align: left;"><strong>Gesch&auml;ftsf&uuml;hrer:</strong> John Oechsle, Lindsay Boullin<br />
 <strong>Umsatzsteueridentifikationsnummer:</strong> GB 156 8687 55<br />
 Telefon: 069-643 508 433<br />
 Telefax: 069-643 508 433<br />

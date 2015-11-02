@@ -23,20 +23,36 @@
   <link rel="alternate" hreflang="en" href="http://www.act.com/en-uk/testimonials/morningside" />
   <link rel="alternate" hreflang="fr" href="http://www.act.com/fr-fr/temoignage/morningside" />
   <link rel="alternate" hreflang="de" href="http://www.act.com/de-de/kundenreferenzen/morningside" />
-
+  <link rel="canonical" href="http://www.act.com/de-de/kundenreferenzen/morningside/" />
  <link rel="stylesheet" href="css/normalize.min.css">
  <link rel="stylesheet" href="css/app.css">
 
  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
- 
- <!-- Lead Forensics -->
-<script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
-<noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
-
-<!-- Sales Fusion Script -->
-<script type="text/javascript" language="JavaScript" src="https://www.msgapp.com/js/frs-app.js"></script>
-<script type="text/javascript">frt('96340|30595f30-4d6e-4e40-b03c-2ff189b25169');</script>
+ <!-- ELOQUA -->
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1966950654']);
+_elqQ.push(['elqTrackPageViewDisplayOptInBannerForAll']);
+(function () {
+function async_load() {
+var s = document.createElement('script');
+s.type = 'text/javascript';
+s.async = true; s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0];
+x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+function elqVisitorTrackingOptIn() {
+_elqQ.push(['elqOptIn']);
+}
+function elqVisitorTrackingOptOut() {
+_elqQ.push(['elqOptOut']);
+}
+</script>
+<!-- .end ELOQUA -->
 
 
 <!-- Google Tracking Scripts -->
@@ -67,7 +83,6 @@
 
 </script>
  
- 
  </head>
 
 <body>
@@ -93,7 +108,7 @@
  <h1 class="large_strapline">Mehr Effizienz und Erfolg bei der Arbeitsvermittlung - mit Act!</h1>
  <div class="hidden-xs"><img src="img/morningside-logo.png" alt="" class="logoimg"/></div>
  <div class="btn-bottom">
- <a href="kundenreferenzen/pdf/Act-Morningside-WhitePaper-Digital-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <a href="kundenreferenzen/pdf/Morningside.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
   <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn">Demo anfordern</a>
  </div>
  </div>
@@ -127,7 +142,7 @@
  <p class=" semilead">Die im US-Bundestaat Washington ans&auml;ssige Arbeitsvermittlungsagentur Morningside steht seit mehr als 50 Jahren Personen mit Behinderungen mit Rat und Tat zur Seite. Auf Basis detaillierter pers&ouml;nlicher Informationen versuchen die Mitarbeiter der Non-Profit-Organisation, die ideale Anstellung fu&#776;r ihre Klienten zu finden.</p>
  <p class=" semilead">Dazu verwendeten sie jedoch bis vor einiger Zeit ein papiergestu&#776;tztes System. Fallspezifische Notizen und Kontaktdaten von Unternehmen waren nur beschr&auml;nkt zug&auml;nglich. So mussten die Au&szlig;endienstmitarbeiter st&auml;ndig zu einem der vier Bu&#776;ros von Morningside fahren, um die n&ouml;tigen Informationen zu erhalten. Dies war natu&#776;rlich eine gro&szlig;e Belastung fu&#776;r die Organisation &ndash; diese Zeit h&auml;tte man besser mit den Klienten verbringen k&ouml;nnen.</p>
  <p class=" semilead">Da die Agentur mit &ouml;ffentlichen Geldern finanziert wird, sind pr&auml;zise und detaillierte Aufzeichnungen von gr&ouml;&szlig;ter Bedeutung. Nur so kann sichergestellt werden, dass die geleistete Arbeit korrekt in Rechnung gestellt wird.</p>
- <p><a href="kundenreferenzen/pdf/Act-Morningside-WhitePaper-Digital-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a>
+ <p><a href="kundenreferenzen/pdf/Morningside.pdf" target="_blank" class="btn-primary btn">Herunterladen</a>
  </p>
  <br>
  </div>
@@ -189,7 +204,7 @@
  <p class="lead notopmargin">
  <strong>Sie m&#246;chten mehr erfahren? </strong>Hier k&#246;nnen Sie die ausf&#252;hrliche Version als PDF herunterladen, um den Bericht in aller Ruhe zu lesen und mit Freunden, Bekannten oder Kollegen zu teilen.</p>
 
- <p class="orangebuttons"><a href="kundenreferenzen/pdf/Act-Morningside-WhitePaper-Digital-DE.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
+ <p class="orangebuttons"><a href="kundenreferenzen/pdf/Morningside.pdf" target="_blank" class="btn-primary btn">Herunterladen</a> <a class="btn-second btn share_btn">Teilen</a>
  <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn share_btn">Demo anfordern</a>
  </p>
 

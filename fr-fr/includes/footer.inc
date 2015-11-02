@@ -31,6 +31,7 @@
       					<li>
       						<a href="produits/act-premium" title="Découvrir Act! Premium">Act! Premium</a>
       					</li>
+                                          <li><a href="produits/act-emarketing/" title="Act! emarketing">Act! emarketing</a></li>
       				<!--	<li>
       						<a href="products/act-cloud">Act! Cloud</a>
       					</li>-->
@@ -114,3 +115,32 @@
       		</div>
       	</div>
       </footer>
+<script type="text/javascript">
+function elqCreateOptInBanner() {
+if (navigator.appVersion.indexOf('MSIE') != -1) {
+var css = '.cookieBanner {z-index:30; position: absolute; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
+}
+else {
+var css = '.cookieBanner {z-index:30; position: fixed; bottom: 0px; left: 0px; width: 100%; background-color:#444444; font-size:11px; font-family:verdana; color:#fff; padding:5px;} .cookieBannerText {float: left; text-align:left; width:96%;} .cookieButton {padding:3px 5px; background-color:#fff; border:0; font-size:11px; color:#362b22;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;} .cookieClose {float:right; font-size:14px; font-weight:bold; cursor:pointer; padding-right:15px;color:#fff;} ';
+}
+var style = document.createElement('STYLE');
+style.type = 'text/css';
+if (style.styleSheet) {
+style.styleSheet.cssText = css;
+} else {
+style.appendChild(document.createTextNode(css));
+}
+var head = document.getElementsByTagName('head')[0];
+head.appendChild(style);
+var div = document.createElement('div');
+div.setAttribute('id', 'cookieBannerDiv');
+div.className = 'cookieBanner';
+div.innerHTML = '<div class="cookieBannerText">Notre site utilise des cookies qui permettent de personnaliser et d&rsquo;am&eacute;liorer votre experience sur notre site. Pour en savoir plus sur nos cookies, veuillez consulter notre <a href="politique-relative-aux-cookies/" style="text-decoration:underline;">Politique relative aux cookies</a>. En poursuivant votre navigation sur ce site, vous acceptez l&rsquo;utilisation de nos cookies.</div><div class="cookieClose" onclick="document.getElementById(\'cookieBannerDiv\').style.display = \'none\';">x</div>';
+document.body.appendChild(div);
+
+      // Hide alert after 20 seconds
+      /*setTimeout(function(){
+            $('.cookieClose').click();
+      }, 20000);*/
+}
+</script>

@@ -1,4 +1,94 @@
+ /**
+	  0 = diamond
+	  1 = platinum
+	  2 = gold
+	  3 = silver
+	  4 = bronze
+	  5 = certified
+*/
+ 
+ 
  var partners = [{
+    "id": 746,
+    "country": "Cyprus",
+    "region": "",
+    "city": "Kaimakli",
+    "contact": "",
+    "phone": "+35722444453",
+    "email": "stelios.rallis@trusspartners.com",
+    "website": "www.trusspartners.com/",
+    "address": "1 Fedras, Spoleodomias",
+    "postcode": "1037",
+    "company": "Truss Partners LTD",
+    "description": "",
+    "level": 4,
+    "longitude": "33.378999",
+    "latitude": "35.183307"
+ },{
+    "id": 745,
+    "country": "United Kingdom",
+    "region": "West Midlands",
+    "city": "Abbots Bromley, Staffordshire",
+    "contact": "",
+    "phone": "01283716944",
+    "email": "David@hunter-enterprises.com",
+    "website": "www.hunter-enterprises.com",
+    "address": "3 Bagots Bromley Cottages, Newton Hurst Lane",
+    "postcode": "WS15 3EL",
+    "company": "Hunter Enterprises",
+    "description": "",
+    "level": 3,
+    "longitude": "-1.903565",
+    "latitude": "52.830707"
+ },{
+    "id": 744,
+    "country": "Netherlands",
+    "region": "",
+    "city": "Tynaarlo",
+    "contact": "",
+    "phone": "0592-420610",
+    "email": "info@tendenz.nl",
+    "website": "www.tendenz.nl",
+    "address": "Vriezerweg 20b, 9482 TB, Tynaarlo",
+    "postcode": "",
+    "company": "Tendenz B.V",
+    "description": "",
+    "level": 1,
+    "longitude": "6.5934478",
+    "latitude": "53.079584"
+ },{
+    "id": 743,
+    "country": "Germany",
+    "region": "Hesse",
+    "city": "Bad Vilbel",
+    "contact": "",
+    "phone": "00496101657880",
+    "email": "info@blackpoint.de",
+    "website": "www.blackpoint.de",
+    "address": "Friedberger Straße 106, Bad Vilbel,  61118",
+    "postcode": "61118",
+    "company": "blackpoint GmbH",
+    "description": "",
+    "level": 3,
+    "longitude": "8.737935",
+    "latitude": "50.121627"
+ },{
+    "id": 742,
+    "country": "France",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "city": "Aix-en-Provence",
+    "contact": "",
+    "phone": "33 811 563 564",
+    "email": "l.perrusset@apsys.fr",
+    "website": "www.apsysmidcap.fr",
+    "address": "Europarc de Pichaury - Bât B5, 1330 Av Guillibert de la Lauzière, 13856  AIX EN PROVENCE CEDEX 03",
+    "postcode": "13856",
+    "company": "APSYS MIDCAP",
+    "description": "",
+    "level": 3,
+    "longitude": "5.370592",
+    "latitude": "43.478778"
+ }, {
     "id": 741,
  	"country": "Philippines",
  	"region": "",
@@ -11,7 +101,7 @@
  	"postcode": "",
  	"company": "Capability Philippines, Inc.",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "121.061515",
  	"latitude": "14.589618"
  }, {
@@ -130,18 +220,18 @@
     "id": 733,
  	"country": "United Kingdom",
  	"region": "South East",
- 	"city": "Farnham",
+ 	"city": "Guildford",
  	"contact": "",
- 	"phone": "+44 (0)845 226 8088",
- 	"email": "info@businesscritique.co.uk",
- 	"website": "www.businesscritique.co.uk",
- 	"address": "The Old Chapel, Bear Lane, Farnham, GU9 9AN",
- 	"postcode": "GU9 9AN",
- 	"company": "Business Critique International Limited",
+ 	"phone": "0845 226 8088",
+ 	"email": "info@businesscrm.co.uk",
+ 	"website": "www.businesscrm.co.uk",
+ 	"address": "Walnut Tree Close, Guildford, Surrey, GU1 4GB",
+ 	"postcode": "GU1 4GB",
+ 	"company": "Business CRM Limited",
  	"description": "",
  	"level": 4,
- 	"longitude": "-0.794757",
- 	"latitude": "51.214225"
+ 	"longitude": "-0.580512",
+ 	"latitude": "51.239708"
  }, {
     "id": 732,
  	"country": "United Kingdom",
@@ -155,7 +245,7 @@
  	"postcode": "IP4 2NS",
  	"company": "Act! Partners - South East",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "1.166848",
  	"latitude": "52.058589"
  }, {
@@ -171,7 +261,7 @@
  	"postcode": "FK8 1AL",
  	"company": "Act! Partners - North",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-3.938459",
  	"latitude": "56.118719"
  }, {
@@ -187,7 +277,7 @@
  	"postcode": "WV6 8NJ",
  	"company": "Act! Partners - Central",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-2.183149",
  	"latitude": "52.587033"
  }, {
@@ -430,38 +520,6 @@
  	"level": 2,
  	"longitude": "-78.81170809999998",
  	"latitude": "42.990524"
- }, {
- 	"id": 711,
- 	"country": "United Arab Emirates",
- 	"region": "",
- 	"city": "Abu Dhabi",
- 	"contact": "",
- 	"phone": "+971 4 313 2308",
- 	"email": "info@providianglobal.coma0",
- 	"website": "www.providianglobal.com",
- 	"address": "PO Box 44626, Abu Dhabi",
- 	"postcode": "",
- 	"company": "Providian Global Solutions FZE",
- 	"description": "",
- 	"level": 3,
- 	"longitude": "54.366667",
- 	"latitude": "24.466667"
- }, {
- 	"id": 709,
- 	"country": "United Arab Emirates",
- 	"region": "",
- 	"city": "Dubai",
- 	"contact": "",
- 	"phone": "+971 4 313 2308 ",
- 	"email": "info@providianglobal.com",
- 	"website": "www.providianglobal.com",
- 	"address": "Level 41, Emirates Towers, Sheikh Zayed Road, Dubai",
- 	"postcode": "",
- 	"company": "Providian Global Solutions FZE",
- 	"description": "",
- 	"level": 3,
- 	"longitude": "55.283010",
- 	"latitude": "25.217632"
  }, {
  	"id": 710,
  	"country": "New Zealand",
@@ -4235,7 +4293,7 @@
  	"postcode": "BA5 2FH",
  	"company": "Act! Partners - Sout West",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "-2.658570",
  	"latitude": "51.211324"
  }, {
@@ -4407,13 +4465,13 @@
  	"phone": "01925 394647",
  	"email": "mark@salesdynamicsuk.co.uk",
  	"website": "www.salesdynamicsuk.co.uk",
- 	"address": "1 Harlyn Gardens, Penketh, Warrington, WA4 2WB",
- 	"postcode": "WA4 2WB",
+ 	"address": "Dallam Court, Dallam Lane, Warrington, Cheshire, WA2 7LT",
+ 	"postcode": "WA2 7LT",
  	"company": "Sales Dynamics UK",
  	"description": "",
  	"level": 3,
- 	"longitude": "-2.668615100000011",
- 	"latitude": "53.3797034"
+ 	"longitude": "-2.595933",
+ 	"latitude": "53.392721"
  }, {
  	"id": 453,
  	"country": "United Kingdom",
@@ -4443,7 +4501,7 @@
  	"postcode": "8050",
  	"company": "RS Consult GmbH",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "8.529374100000041",
  	"latitude": "47.4112646"
  }, {
@@ -4484,7 +4542,7 @@
  	"region": "",
  	"city": "Gouda",
  	"contact": "",
- 	"phone": "00310182522666",
+ 	"phone": "0031 182 522666",
  	"email": "info@relact.nl",
  	"website": "www.relact.nl",
  	"address": "Graaf Florisweg 58, Gouda, 2805 AM ",
@@ -4703,22 +4761,6 @@
  	"longitude": "6.551393800000028",
  	"latitude": "51.3308147"
  }, {
- 	"id": 434,
- 	"country": "Turkey",
- 	"region": "",
- 	"city": "Istanbul",
- 	"contact": "",
- 	"phone": "902163080207",
- 	"email": "blmj@nilba.eu",
- 	"website": "www.nilba.eu",
- 	"address": "Bah&ccedil;elievler Mah. Kaldirim Cad., Orme Sitesi 13-2, Cengelkoy \/ Uskudar, Istanbul, 34688",
- 	"postcode": "34688",
- 	"company": "NilBa",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "29.06920249999996",
- 	"latitude": "41.0580277"
- }, {
  	"id": 433,
  	"country": "Switzerland",
  	"region": "",
@@ -4855,7 +4897,7 @@
  	"phone": "49954760208",
  	"email": "t.krauss@krauss.de",
  	"website": "www.krauss.de",
- 	"address": "Krauss Computing, Ebensfeld, 96250",
+ 	"address": "Krauss Computing, Brunnenweg 9a, Ebensfeld, 96250",
  	"postcode": "96250",
  	"company": "Krauss Computing",
  	"description": "",
@@ -4871,7 +4913,7 @@
  	"phone": "0041445002744",
  	"email": "info@koehli-informatik.ch",
  	"website": "www.koehli-informatik.ch",
- 	"address": "Schf6naustrasse 15, Wetzikon, 8620",
+ 	"address": "Schönaustrasse 15, Wetzikon, 8620",
  	"postcode": "8620",
  	"company": "Köhli Informatik AG",
  	"description": "",
@@ -4898,12 +4940,12 @@
  	"id": 422,
  	"country": "Germany",
  	"region": "Freistaat Bayern",
- 	"city": "Diesen",
+ 	"city": "Diessen am Ammersee",
  	"contact": "",
  	"phone": "00498807946534",
  	"email": "info@kedi.de",
  	"website": "www.kedi.de",
- 	"address": "Kunissastr. 2, Dießen, 86911",
+ 	"address": "Kunissastr. 2, Diessen am Ammersee, 86911",
  	"postcode": "86911",
  	"company": "Kedi IT & Consulting",
  	"description": "",
@@ -4923,7 +4965,7 @@
  	"postcode": "01728",
  	"company": "jbt consulting",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "13.720180000000028",
  	"latitude": "50.99554"
  }, {
@@ -4935,7 +4977,7 @@
  	"phone": "004929338296510",
  	"email": "info@act-software.de",
  	"website": "www.it-agentur.eu",
- 	"address": "Am Gallenstfcck 84, Sundern, 59846",
+ 	"address": "Am Gallenst&#252;ck 84, Sundern, 59846",
  	"postcode": "59846",
  	"company": "IT Vertriebs & Consulting Agentur GmbH",
  	"description": "",
@@ -5103,22 +5145,6 @@
  	"longitude": "13.573384199999964",
  	"latitude": "52.5193532"
  }, {
- 	"id": 405,
- 	"country": "Hungary",
- 	"region": "",
- 	"city": "Budapest",
- 	"contact": "",
- 	"phone": "36309325943",
- 	"email": "iroda@e-cc.hu",
- 	"website": "www.e-cc.hu",
- 	"address": "H1112 Rako, Budapest, 28",
- 	"postcode": "28",
- 	"company": "E-Contact Consulting Ltd",
- 	"description": "",
- 	"level": 4,
- 	"longitude": "19.011388099999976",
- 	"latitude": "47.4785525"
- }, {
  	"id": 403,
  	"country": "United Kingdom",
  	"region": "East",
@@ -5175,7 +5201,7 @@
  	"phone": "00498282800400",
  	"email": "vertrieb@crmaddon.com",
  	"website": "www.crmaddon.com",
- 	"address": "Am Be4chle 12, Breitenthal, 86488",
+ 	"address": "Am B&#228;chle 12, Breitenthal, 86488",
  	"postcode": "86488",
  	"company": "CRMADDON Factory GmbH",
  	"description": "",
@@ -5186,18 +5212,18 @@
  	"id": 398,
  	"country": "United Kingdom",
  	"region": "South East",
- 	"city": "Milton Keynes",
+ 	"city": "Northampton",
  	"contact": "",
- 	"phone": "01908 410997",
+ 	"phone": "01604 420440",
  	"email": "pam@crmessentialsltd.co.uk",
  	"website": "www.crmessentialsltd.co.uk",
- 	"address": "5 Brecon Court, Milton Keynes, MK10 9HT",
- 	"postcode": "MK10 9HT",
+ 	"address": "58a High Street, Stony Stratford, MK11 1AQ",
+ 	"postcode": "MK11 1AQ",
  	"company": "CRM Essentials Limited ",
  	"description": "",
  	"level": 4,
- 	"longitude": "-0.7060387000000219",
- 	"latitude": "52.0372628"
+ 	"longitude": "-0.860044",
+ 	"latitude": "52.072293"
  }, {
  	"id": 397,
  	"country": "United Kingdom",
@@ -5253,13 +5279,13 @@
  	"city": "Sunderland",
  	"contact": "",
  	"phone": "08700 118 000",
- 	"email": "laura@cellular-solutions.co.uk",
+ 	"email": "derek.curtis@cellular-solutions.co.uk",
  	"website": "www.cellular-solutions.co.uk",
  	"address": "Ferryboat House, Ferryboat Lane, Sunderland, SR5 3JN",
  	"postcode": "SR5 3JN",
  	"company": "Cellular Solutions (NE) Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-1.4589253000000326",
  	"latitude": "54.9162689"
  }, {
@@ -5435,7 +5461,7 @@
  	"postcode": "LS14 3DW",
  	"company": "Blue Logic Computer Systems Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-1.4398006000000123",
  	"latitude": "53.8411155"
  }, {
@@ -5538,12 +5564,12 @@
  	"id": 373,
  	"country": "Germany",
  	"region": "Niedersachsen",
- 	"city": "Barsel",
+ 	"city": "Bar&#223;el",
  	"contact": "",
  	"phone": "00492117496950",
  	"email": "kontakt@aribis.de",
  	"website": "www.aribis.de",
- 	"address": "Neptunstr. 5, Barßel, 26676",
+ 	"address": "Neptunstr. 5, Bar&#223;el, 26676",
  	"postcode": "26676",
  	"company": "AriBis GmbH",
  	"description": "",
@@ -5723,25 +5749,25 @@
  	"postcode": "GU21 3JW",
  	"company": "ACT 4U",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-0.6004643999999644",
  	"latitude": "51.3200477"
  }, {
  	"id": 359,
  	"country": "Belgium",
  	"region": "",
- 	"city": "Tielt",
+ 	"city": "Waregem",
  	"contact": "",
  	"phone": "056.627.675",
  	"email": "bart.plaete@alfasolutions.be",
  	"website": "www.alfasolutions.be",
- 	"address": "Stokmolenstraat 3, Tielt, 8700 ",
- 	"postcode": "8700 ",
- 	"company": "ACS bvba (Alfasolutions)",
+ 	"address": "Processiestraat 2, 8790 Waregem ",
+ 	"postcode": "8790 ",
+ 	"company": "Alfasolutions",
  	"description": "",
  	"level": 2,
- 	"longitude": "3.3290901000000304",
- 	"latitude": "50.9939389"
+ 	"longitude": "3.427308",
+ 	"latitude": "50.888137"
  }, {
  	"id": 358,
  	"country": "United Kingdom",
@@ -5765,7 +5791,7 @@
  	"city": "Centurion",
  	"contact": "",
  	"phone": "27126548957",
- 	"email": "paula@aarix.com",
+ 	"email": "act@aarix.com",
  	"website": "www.aarix.com",
  	"address": "98 Bosduif Cresent, Centurion, 01 57",
  	"postcode": "01 57",
@@ -5799,13 +5825,13 @@
  	"phone": "01284 220333",
  	"email": "info@3itltd.co.uk ",
  	"website": "www.3itltd.co.uk",
- 	"address": "2 Forbes Business Centre, Kempson Way, Bury St. Edmonds, IP32 7AR",
- 	"postcode": "IP32 7AR",
+ 	"address": "Unit 4 Greenwood Court, Skyliner Way, Bury St. Edmunds, IP32 7GY",
+ 	"postcode": "IP32 7GY",
  	"company": "3IT Limited",
  	"description": "",
  	"level": 4,
- 	"longitude": "0.7510196000000633",
- 	"latitude": "52.24137750000001"
+ 	"longitude": "0.754651",
+ 	"latitude": "52.243129"
  }, {
  	"id": 354,
  	"country": "United Kingdom",
@@ -5835,7 +5861,7 @@
  	"postcode": "DD2 1XD",
  	"company": "1 Office Equipment Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-3.020317500000033",
  	"latitude": "56.4539342"
  }, {
@@ -5858,11 +5884,11 @@
  	"id": 315,
  	"country": "Ireland",
  	"region": "",
- 	"city": null,
+ 	"city": "Bray",
  	"contact": "",
  	"phone": "353872363803",
  	"email": "patricklennon@smarterbusiness.ie",
- 	"website": "",
+ 	"website": "www.smarterbusiness.ie",
  	"address": "15 Ashton Wood, Bray, Ireland",
  	"postcode": "x",
  	"company": "Smarter Business",
