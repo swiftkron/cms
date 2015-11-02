@@ -467,3 +467,70 @@ Win32 ThreadId:8432
 
 Extended Properties: 
 ----------------------------------------
+----------------------------------------
+Timestamp: 10/30/2015 3:24:37 PM
+
+Message: HandlingInstanceID: b6a8e0eb-f7cc-4411-af01-3e6d934e595c
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+10/30/2015 09:24:37
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The specified template has pages based on it. You can only delete a template when no pages, email campaigns or templates reference it. Referencing pages: 1
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Delete(Telerik.Sitefinity.Pages.Model.PageTemplate)
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.PageManager.Delete(PageTemplate item)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.Delete(PageTemplate template, CultureInfo language)
+   at Telerik.Sitefinity.Fluent.Pages.PageTemplateFacade.Delete(CultureInfo language)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PageTemplatesService.BatchDeletePageTemplateInternal(String[] Ids, String deletedLanguage)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.PageTemplatesService.BatchDeletePageTemplates(String[] Ids, String providerName, String deletedLanguage)
+   at SyncInvokeBatchDeletePageTemplates(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 10/30/2015 3:24:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130906916887926774
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PageTemplatesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=Telerik.Sitefinity.Modules.Pages.PageManager&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageTemplate&provider=OpenAccessDataProvider&skip=0&take=50&filter=
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130906916887926774
+
+ProcessId: 1120
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10976
+
+Extended Properties: 
+----------------------------------------
