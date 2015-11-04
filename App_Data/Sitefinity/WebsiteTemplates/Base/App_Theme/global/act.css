@@ -95,7 +95,20 @@ p{
     margin-bottom:12px;
 }
 
-/* Home */
+/* Heros */
+#home .hero{
+    background:url(../../App_Theme/img/kevincaron-working-englishwheel.jpg) top center no-repeat;
+    background-size:cover;
+    min-height:300px;
+}
+@media(min-width:768px){
+    #home .hero{
+        min-height:800px;
+        background-position:0 100px;
+    }
+}
+
+/* Page Specific Styles */
 .hero, .platform, .solutions, .features, .testimonial, .trust, .products, .productFeatures, .ctaMod{
 }
 .hero p{
@@ -107,21 +120,6 @@ p{
 }
 .hero2{
     text-align:center;
-}
-
-.solutions{
-    text-align:center;
-}
-.solutions img{
-    max-width:120px;
-    max-height:120px;
-    display:block;
-    margin:auto;
-}
-.solutions h3{
-    margin:.5em auto;
-}
-.solutions p{
 }
 .flushLeftImage{
     padding-left:0;
@@ -280,20 +278,78 @@ table td, table th, .downloadTable td, .downloadTable th{
     margin-top:-140px;
 }
 
-/* Support */
+/* Tiles */
+.tiles{
+    margin:0 auto;
+}
 .tile{
     background:#39464f;
     color:#FFF;
     text-align:center;
-    padding:24px 12px;
-}
-.tile h3{
-font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;        
-}
-.tile:hover{
-    background:#2a353d;
+    padding:12px;
     cursor:pointer;
 }
+.tile h3{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    margin:20% auto;     
+}
+.tile p, .tile .button{
+    display:none;
+}
+
+.tile:hover{
+    background:#2a353d;
+}
+.tile:hover h3{
+    font-size:1.2em;
+    margin:5% auto auto;
+}
+.tile:hover p{
+    display:block;
+}
+.tile:hover .button{
+    display:inline-block;
+}
+
+@media(min-width:1280px) {
+    .tiles {
+        width: 948px;
+        margin: 0 auto;
+    }
+
+    .tile {
+        padding: 24px;
+        cursor: pointer;
+        width: 300px;
+        height: 300px;
+    }
+
+        .tile h3 {
+            margin: 25% auto;
+        }
+
+        .tile p, .tile .button {
+            display: none;
+        }
+
+        .tile:hover {
+            background: #2a353d;
+        }
+
+            .tile:hover h3 {
+                font-size: 1.2em;
+                margin: 5% auto auto;
+            }
+
+            .tile:hover p {
+                display: block;
+            }
+
+            .tile:hover .button {
+                display: inline-block;
+            }
+}
+/* Chat Banner */
 .banner {
     padding:12px 24px;
     margin:24px auto;

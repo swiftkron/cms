@@ -84,7 +84,7 @@
             <li><a href="/partners/become-a-partner">Become an Act! Certified Consultant</a></li>
          </ul>
       </li>
-      <li><a href="/blog">Blog</a></li>
+      <li><a href="http://blog.act.com" target="_blank">Blog</a></li>
       <li><a href="/about">About</a>
          <ul class="last">
             <li><a href="#">Link one</a></li>

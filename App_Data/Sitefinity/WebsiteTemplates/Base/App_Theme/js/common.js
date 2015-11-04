@@ -27,6 +27,14 @@ $(document).ready(function () {
         $('.modal').css('opacity', '0');
         $('.modal').css('pointer-events', 'none');
     });
+
+    // Flip Tiles
+    $('.tile').hover(function () {
+        $(this).addClass('flip');
+    }, function () {
+        $(this).removeClass('flip');
+    });
+
     // Chat
     $('#open_chatModal').click(function () {
         $('#chatModal').css('opacity', '1');
