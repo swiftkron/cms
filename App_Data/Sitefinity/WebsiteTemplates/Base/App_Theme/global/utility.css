@@ -29,6 +29,9 @@
     left:90px;
     margin-top: -65px;
 }
+.uTrial .btnSecondary{
+    border:#Fe5000 2px solid;
+}
 .uPhone {
     position:relative;
     left:250px;

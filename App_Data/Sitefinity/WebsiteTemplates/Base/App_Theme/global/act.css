@@ -95,26 +95,38 @@ p{
     margin-bottom:12px;
 }
 
-/* Heros */
+/* Heros & other common elements */
 #home .hero{
     background:url(../../App_Theme/img/kevincaron-working-englishwheel.jpg) top center no-repeat;
     background-size:cover;
     min-height:300px;
+}
+#home .hero h1{
+    color:#fe5000;
+}
+#home .hero .btnDefault{
+    background-color: #308dc6;  
+}
+#home .hero .btnDefault:hover{
+    background-color: #2e81b6;  
 }
 @media(min-width:768px){
     #home .hero{
         min-height:800px;
         background-position:0 100px;
     }
-}
-
-/* Page Specific Styles */
-.hero, .platform, .solutions, .features, .testimonial, .trust, .products, .productFeatures, .ctaMod{
+    #home .hero h1{
+        font-size:54px;
+        margin:1.2em auto .75em;
+    }
+    #home .hero p{
+        font-size:1.25em;
+        line-height:1.5em;
+    }
 }
 .hero p{
     line-height:1.25em;
 }
-
 .hero2{
     padding:48px 0;
 }
@@ -130,29 +142,55 @@ p{
     margin-right:0;
 }
 .testimonialCopy{
-    padding:12px;
+    font-size:1.45em;
+    padding:24px;
+}
+.testimonialCopy p{
+    margin:0 0 24px;
+}
+.testimonialCopy a{
+    color:#bffff9;
 }
 .quote {
+    font-size:1em;
     line-height:1.35em;
-    margin-bottom:12px;
 }
 .byline{
-    font-weight:bold;
     font-size:.75em;
-    color:#FE5000;
+    margin-top:24px;
 }
-.stat{
-    font-size:48px;
-    font-weight:bold;
+.trust{
+    margin:96px auto;
+}
+.trust img{
+    margin:12px auto;
+}
+.brand {
+    padding:48px;
+}
+.trialCTA{
+    padding:48px 0;
     text-align:center;
-    margin:12px auto 36px;
 }
-.statDets {
-    font-size:16px;
-    line-height:1.75em;
-    margin:12px 24px;
-    text-align:center;
+.trialCTA a{
+    color:#FFF;
 }
+.phoneCTA{
+    display:block;
+    font-size:2em;
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    margin-top:6px;
+}
+
+/* Solutions */
+.solutions{
+    margin:24px auto 96px;
+}
+.solutions h2{
+    margin:.5em auto 1em;
+    font-size:2em;
+}
+
 .products h1, .products h1 ~ p{
     text-align:center !important;
 }
@@ -282,73 +320,101 @@ table td, table th, .downloadTable td, .downloadTable th{
 .tiles{
     margin:0 auto;
 }
-.tile{
+.tile, .tileCTA{
     background:#39464f;
     color:#FFF;
     text-align:center;
-    padding:12px;
-    cursor:pointer;
+    padding:24px;
+    width:100%;
+    margin:4px auto;
 }
 .tile h3{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
-    margin:20% auto;     
-}
-.tile p, .tile .button{
-    display:none;
 }
 
-.tile:hover{
-    background:#2a353d;
+.tileCTA{
+    background:#FE5000;
+    padding:24px;
 }
-.tile:hover h3{
-    font-size:1.2em;
-    margin:5% auto auto;
+.tileCTA a{
+    color:#FFF;
 }
-.tile:hover p{
-    display:block;
-}
-.tile:hover .button{
-    display:inline-block;
+.tileCTA h3{
+    font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+    font-size:250%;
+    margin-top:2%;
 }
 
 @media(min-width:1280px) {
-    .tiles {
-        width: 948px;
-        margin: 0 auto;
+    .tiles{
+        width:948px;
     }
-
-    .tile {
+    .tile, .tileCTA {
         padding: 24px;
-        cursor: pointer;
         width: 300px;
         height: 300px;
     }
-
-        .tile h3 {
-            margin: 25% auto;
-        }
-
-        .tile p, .tile .button {
-            display: none;
-        }
-
-        .tile:hover {
-            background: #2a353d;
-        }
-
-            .tile:hover h3 {
-                font-size: 1.2em;
-                margin: 5% auto auto;
-            }
-
-            .tile:hover p {
-                display: block;
-            }
-
-            .tile:hover .button {
-                display: inline-block;
-            }
+    .tile h3 {
+        margin: 25% auto;
+    }
 }
+
+@media(max-width:1279px) and (min-width:768px) {
+    .tiles {
+        width:768px;
+        margin: 0 auto;
+    }
+    .tile, .tileCTA {
+        padding: 16px;
+        width: 240px;
+        height: 240px;
+    }
+    .tile h3 {
+        margin: 25% auto;
+        font-size:1.15em;
+    }
+    .tile p{
+        margin-bottom:0;
+    }
+    .tile .button{
+        font-size:.85em;
+        padding:6px;
+    }
+    .tile:hover h3{
+        display:none;
+    }
+}
+@media(min-width:768px) {
+    .tile, .tileCTA{
+        margin:0 auto;
+    }
+    .tile p, .tile .button {
+        display: none;
+        font-size:14px;
+    }
+    .tileCTA .button{
+        display:inline-block;
+        background:#Fe5000;
+        border:#FFF 2px solid;
+    }
+    .tileCTA .button:hover{
+        background:#da4c1f;
+    }
+    .tile:hover{
+        background:#2a353d;
+    }
+    .tile:hover h3{
+        font-size:1.2em;
+        margin:5% auto auto;
+    }
+    .tile:hover p{
+        display:block;
+    }
+    .tile:hover .button {
+        display: inline-block;
+    }
+}
+
 /* Chat Banner */
 .banner {
     padding:12px 24px;

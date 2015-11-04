@@ -25,26 +25,26 @@
 
         <!-- HERO -->
         <div class="outer bg_dark-grey hero">
-            <div class="container">
+            <div class="container inner">
                 <div class="row">
-                    <div class="col-4 inner">
+                    <div class="col-6">
                         <asp:ContentPlaceHolder ID="HomeHeroCopy" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-8">
+                    <div class="col-6">
                         <asp:ContentPlaceHolder ID="HomeHeroImage" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- HERO -->
-        <div class="outer bg_blue">
-            <div class="container">
+        <!-- BRAND STATEMENT -->
+        <div class="outer bg_blue brand">
+            <div class="container inner">
                 <div class="row">
-                    <div class="col-6 inner">
+                    <div class="col-6">
                         <asp:ContentPlaceHolder ID="UIGraphic1" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-6 inner pullLeft">
+                    <div class="col-6">
                         <asp:ContentPlaceHolder ID="BrandMessage" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
@@ -57,71 +57,38 @@
                 <h2 class="text-center"><asp:ContentPlaceHolder ID="FeatureHeadline" runat="server"></asp:ContentPlaceHolder></h2>
                 <div class="row">
                     <div class="col-4 tile">
-                        <h3>Know Your Customers</h3>
+                        <asp:ContentPlaceHolder ID="SolutionTile1" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 tile">
-                        <h3>Understand Your Business</h3>
+                        <asp:ContentPlaceHolder ID="SolutionTile2" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 tile">
-                        <h3>Extend Your Reach</h3>
+                        <asp:ContentPlaceHolder ID="SolutionTile3" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-4 tile">
-                        <h3>Get Organized</h3>
+                        <asp:ContentPlaceHolder ID="SolutionTile4" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 tile">
-                        <h3>Drive Sales</h3>
+                        <asp:ContentPlaceHolder ID="SolutionTile5" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4 tile cta">
-                        <h3>Call to Action</h3>
+                    <div class="col-4 tileCTA">
+                        <asp:ContentPlaceHolder ID="SolutionTile6" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- SOLUTIONS 
-        <div class="outer bg_white solutions">
-            <div class="container inner">
-                <h2 class="text-center"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></h2>
-                <div class="row">
-                    <div class="col-4 inner">
-                       <div><asp:ContentPlaceHolder ID="Feature1Image" runat="server"></asp:ContentPlaceHolder></div>
-                       <div><asp:ContentPlaceHolder ID="Feature1Copy" runat="server"></asp:ContentPlaceHolder></div>
-                    </div>
-                    <div class="col-4 inner">
-                       <div><asp:ContentPlaceHolder ID="Feature2Image" runat="server"></asp:ContentPlaceHolder></div>
-                       <div><asp:ContentPlaceHolder ID="Feature2Copy" runat="server"></asp:ContentPlaceHolder></div>
-                    </div>
-                    <div class="col-4 inner">
-                       <div><asp:ContentPlaceHolder ID="Feature3Image" runat="server"></asp:ContentPlaceHolder></div>
-                       <div><asp:ContentPlaceHolder ID="Feature3Copy" runat="server"></asp:ContentPlaceHolder></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-4 inner">
-                       <div><asp:ContentPlaceHolder ID="Feature4Image" runat="server"></asp:ContentPlaceHolder></div>
-                       <div><asp:ContentPlaceHolder ID="Feature4Copy" runat="server"></asp:ContentPlaceHolder></div>
-                    </div>
-                    <div class="col-4 inner">
-                       <div><asp:ContentPlaceHolder ID="Feature5Image" runat="server"></asp:ContentPlaceHolder></div>
-                       <div><asp:ContentPlaceHolder ID="Feature5Copy" runat="server"></asp:ContentPlaceHolder></div>
-                    </div>
-                    <div class="col-2"></div>
-                </div>
-            </div>
-        </div>
-        -->
 
         <!-- TESTIMONIAL -->
         <div class="outer bg_dark-grey testimonial">
             <div class="container">
                 <div class="row">
-                    <div class="col-4 pullLeft flushLeftImage">
+                    <div class="col-5 pullLeft flushLeftImage">
                         <asp:ContentPlaceHolder ID="TestimonialImage" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-8 pullLeft testimonialCopy">
+                    <div class="col-7 pullLeft testimonialCopy">
                         <div class="quote"><asp:ContentPlaceHolder ID="TestimonialCopy" runat="server"></asp:ContentPlaceHolder></div>
                         <div class="byline"><asp:ContentPlaceHolder ID="ByLine" runat="server"></asp:ContentPlaceHolder></div>
                     </div>
@@ -133,19 +100,30 @@
         <div class="outer bg_white trust">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="stat"><asp:ContentPlaceHolder ID="Fact1" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="statDets"><asp:ContentPlaceHolder ID="Fact1Details" runat="server"></asp:ContentPlaceHolder></div>
+                    <div class="col-3">
+                        <asp:ContentPlaceHolder ID="Fact1" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4">
-                        <div class="stat"><asp:ContentPlaceHolder ID="Fact2" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="statDets"><asp:ContentPlaceHolder ID="Fact2Details" runat="server"></asp:ContentPlaceHolder></div>
+                    <div class="col-3">
+                        <asp:ContentPlaceHolder ID="Fact2" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4">
-                        <div class="stat"><asp:ContentPlaceHolder ID="Fact3" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="statDets"><asp:ContentPlaceHolder ID="Fact3Details" runat="server"></asp:ContentPlaceHolder></div>
+                    <div class="col-3">
+                        <asp:ContentPlaceHolder ID="Fact3" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                </div>
+                      <div class="col-3">
+                        <asp:ContentPlaceHolder ID="Fact4" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Start free trial CTA -->
+        <div class="outer bg_blue trialCTA">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <asp:ContentPlaceHolder ID="FinalCTAContent" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+              </div>
             </div>
         </div>
 

@@ -168,10 +168,16 @@ input:focus {
 .btnSecondary{
 	background:#FFF;
 	color:#FE5000;
-    border:#FE5000 2px solid !important;
 }
 .btnSecondary:hover {
     background: #edf0f2;
+}
+.btnCTA{
+    background:#308dc6;
+    border:#FFF 2px solid;
+}
+.btnCTA:hover{
+    background:#2e81b6;
 }
 .button > span.glyphicon, button > span.glyphicon, input[type='button'] > span.glyphicon, input[type='submit'] > span.glyphicon{
     display:inline-block;

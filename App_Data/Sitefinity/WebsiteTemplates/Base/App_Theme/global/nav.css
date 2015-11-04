@@ -137,7 +137,7 @@
                 nav ul li a {
                     display: block;
                     margin: 0;
-                    padding: 6px 24px;
+                    padding: 6px 16px;
                     background: #2a353d;
                     text-decoration: none;
                     color: #FFF !important;
@@ -204,4 +204,7 @@
             nav ul li.hover ul { /* This line is required for IE 6 and below */
                 display: block; /* Show the sub menus */
             }
+}
+@media(min-width:842px){
+    nav ul li a{padding:6px 24px;}
 }
