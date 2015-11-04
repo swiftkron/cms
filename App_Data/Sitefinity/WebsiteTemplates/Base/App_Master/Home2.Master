@@ -56,21 +56,21 @@
             <div class="container tiles inner">
                 <h2 class="text-center"><asp:ContentPlaceHolder ID="FeatureHeadline" runat="server"></asp:ContentPlaceHolder></h2>
                 <div class="row">
-                    <div class="col-4 tile">
+                    <div id="guy1" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile1" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4 tile">
+                    <div id="guy2" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile2" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4 tile">
+                    <div id="guy3" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile3" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4 tile">
+                    <div id="girl1" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile4" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-4 tile">
+                    <div id="girl2" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile5" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 tileCTA">
