@@ -61,5 +61,4 @@ $(document).ready(function () {
         $('#form1').attr('method', 'post');
         $('#form1').submit();
     })
-
 });

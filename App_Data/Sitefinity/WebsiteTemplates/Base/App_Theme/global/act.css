@@ -82,8 +82,14 @@ p{
     padding:0 12px;
 }
 .inner{
-    padding:24px 12px;
+    padding:24px;
 }
+span.reverse{
+    display:inline-block;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);}
 
 /* Footer */
 .footer {
@@ -97,7 +103,7 @@ p{
 
 /* Heros & other common elements */
 #home .hero{
-    background:url(../../App_Theme/img/kevincaron-working-englishwheel.jpg) top center no-repeat;
+    background:url(../../App_Theme/img/home_hero.jpg) top center no-repeat;
     background-size:cover;
     min-height:300px;
 }
@@ -128,10 +134,7 @@ p{
     line-height:1.25em;
 }
 .hero2{
-    padding:48px 0;
-}
-.hero2{
-    text-align:center;
+    padding:48px 24px 24px;
 }
 .flushLeftImage{
     padding-left:0;
@@ -287,22 +290,73 @@ table td, table th, .downloadTable td, .downloadTable th{
 }
 
 /* Solutions (Why Act) */
+#why{
+    background:url(../../App_Theme/img/bgimg-ph.gif) top center no-repeat;
+    background-size:100% auto;
+}
+
 .solutionHero .quote p{
     font-size:1.5em;
     line-height:1.3em;
     color:#788e9e;
 }
+.solutionFeatures h3{
+    border-top:#a5b7c2 2px solid;
+    padding-top:48px;
+}
 .solutionFeatures img{
     max-width:120px;
     margin:1.5em auto;
 }
-@media(min-width:768px){
-    .solutionHero .heroImg img{
-        position:absolute;
-        z-index:700;
-        top:180px;
-        margin-left:60px;
-    }
+.solutionHero h2{
+    font-size:1.25em;
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+.solutionHero ul{
+    text-align:right;
+    list-style-type:none;
+}
+.solutionHero .glyphicon{
+    font-size:.8em;
+    padding-right:8px;
+}
+.solutionHero a.active {
+    color:#FFF;
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+.solutionIntro img{
+    margin:48px 0;
+}
+.solutionIntro .quote{
+    border:#308dc6 2px solid;
+    color:#308dc6;
+    padding:12px 24px;
+    margin:48px 0;
+}
+.solutionIntro .quote p:first-child{
+    font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+    font-size:1.5em;
+}
+.solutionCallout p{
+    font-size:1.5em;
+}
+.solutionCallout p a{
+    font-size:.75em;
+    color:#fe5000;
+}
+.solutionFeatures{
+    padding-bottom:48px;
+    text-align:center;
+}
+.solutionFeatures h4{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    font-size:1em;
+    color:#308dc6;
+}
+.solutionFeatures .ctas a{
+    color:#Fe5000;
+    padding-left:12px;
+    padding-top:0px;
 }
 
 /* anchors */
@@ -331,6 +385,11 @@ table td, table th, .downloadTable td, .downloadTable th{
 .tile h3{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
 }
+.tile a{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    color:#91d5ff;
+    text-decoration:underline;
+}
 
 .tileCTA{
     background:#FE5000;
@@ -344,11 +403,21 @@ table td, table th, .downloadTable td, .downloadTable th{
     font-size:250%;
     margin-top:2%;
 }
-    #guy1{background:url(../../App_Theme/img/guy1hov.jpg) no-repeat; background-size:cover; background-position:0 -100px;}
-    #guy2{background:url(../../App_Theme/img/guy2hov.jpg) no-repeat; background-size:cover; background-position:0 -50px;}
-    #guy3{background:url(../../App_Theme/img/guy3hov.jpg) no-repeat; background-size:cover; background-position:0 -100px;}
-    #girl1{background:url(../../App_Theme/img/girl1hov.jpg) no-repeat; background-size:cover; background-position:0 -100px;}
-    #girl2{background:url(../../App_Theme/img/girl2hov.jpg) no-repeat; background-size:cover; background-position:0 -100px;}
+
+#guy1{background:url(../../App_Theme/img/tile_get-organized-hov.jpg) no-repeat; background-size:cover;}
+#guy2{background:url(../../App_Theme/img/tile_know-customers-hov.jpg) no-repeat; background-size:cover;}
+#guy3 {
+    background: url(../../App_Theme/img/tile_extend-reach-hov.jpg) no-repeat;
+    background-size: cover;
+}
+#girl1 {
+    background: url(../../App_Theme/img/tile_drive-sales-hov.jpg) no-repeat;
+    background-size: cover;
+}
+#girl2 {
+    background: url(../../App_Theme/img/tile_understand-biz-hov.jpg) no-repeat;
+    background-size: cover;
+}
 
 
 @media(min-width:1280px) {
@@ -412,7 +481,7 @@ table td, table th, .downloadTable td, .downloadTable th{
     .tile:hover h3{
         font-size:1.2em;
         margin:5% auto auto;
-        color:#8ec9ee;
+        color:#91d5ff;
     }
     .tile:hover p{
         display:block;
@@ -420,16 +489,16 @@ table td, table th, .downloadTable td, .downloadTable th{
     .tile:hover .button {
         display: inline-block;
     }
-    #guy1{background:url(../../App_Theme/img/guy1.jpg) center center no-repeat;}
-    #guy1:hover{background:url(../../App_Theme/img/guy1hov.jpg) center center no-repeat;}
-    #guy2{background:url(../../App_Theme/img/guy2.jpg) center center no-repeat;}
-    #guy2:hover{background:url(../../App_Theme/img/guy2hov.jpg) center center no-repeat;}
-    #guy3{background:url(../../App_Theme/img/guy3.jpg) center center no-repeat;}
-    #guy3:hover{background:url(../../App_Theme/img/guy3hov.jpg) center center no-repeat;}
-    #girl1{background:url(../../App_Theme/img/girl1.jpg) center center no-repeat;}
-    #girl1:hover{background:url(../../App_Theme/img/girl1hov.jpg) center center no-repeat;}
-    #girl2{background:url(../../App_Theme/img/girl2.jpg) center center no-repeat;}
-    #girl2:hover{background:url(../../App_Theme/img/girl2hov.jpg) center center no-repeat;}
+    #guy1{background:url(../../App_Theme/img/tile_get-organized.jpg) center center no-repeat;}
+    #guy1:hover{background:url(../../App_Theme/img/tile_get-organized-hov.jpg) center center no-repeat;}
+    #guy2{background:url(../../App_Theme/img/tile_know-customers.jpg) center center no-repeat;}
+    #guy2:hover{background:url(../../App_Theme/img/tile_know-customers-hov.jpg) center center no-repeat;}
+    #guy3{background:url(../../App_Theme/img/tile_extend-reach.jpg) center center no-repeat;}
+    #guy3:hover{background:url(../../App_Theme/img/tile_extend-reach-hov.jpg) center center no-repeat;}
+    #girl1{background:url(../../App_Theme/img/tile_drive-sales.jpg) center center no-repeat;}
+    #girl1:hover{background:url(../../App_Theme/img/tile_drive-sales-hov.jpg) center center no-repeat;}
+    #girl2{background:url(../../App_Theme/img/tile_understand-biz.jpg) center center no-repeat;}
+    #girl2:hover{background:url(../../App_Theme/img/tile_understand-biz-hov.jpg) center center no-repeat;}
 }
 
 

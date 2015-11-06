@@ -24,64 +24,46 @@
         <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
 
         <!-- Hero -->
-        <div class="outer bg_white solutionHero">
+        <div class="outer bg_blue solutionHero">
             <div class="container">
                 <div class="row">
-                    <div class="col-4 heroImg">
-                        <asp:ContentPlaceHolder ID="HeroImage" runat="server"></asp:ContentPlaceHolder>
-                    </div>
                     <div class="col-8 inner">
-                        <div class="quote"><asp:ContentPlaceHolder ID="IntroQuote" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="byline"><asp:ContentPlaceHolder ID="Byline" runat="server"></asp:ContentPlaceHolder></div>
+                        <h2>Why Act!</h2>
+                        <asp:ContentPlaceHolder ID="SolutionOverview" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-4 inner">
+                        <ul>
+                            <li id="get_organized"><a href="/why-act/get-organized">Get Organized</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                            <li id="know_customers"><a href="/why-act/know-your-customers">Know Your Customers</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                            <li id="extend_reach"><a href="/why-act/extend-your-reach">Extend Your Reach</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                            <li id="drive_sales"><a href="/why-act/drive-sales">Drive Sales</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                            <li id="understand_biz"><a href="/why-act/understand-your-business">Understand Your Business</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Intro -->
-        <div class="outer bg_grey solutionIntro">
+        <div class="outer solutionIntro">
             <div class="container">
                 <div class="row">
-                    <div class="col-4 pullLeft"><!-- empty --></div>
-                    <div class="col-8 pullLeft inner">
-                        <asp:ContentPlaceHolder ID="IntroCopy" runat="server"></asp:ContentPlaceHolder>
+                    <div class="col-6"><asp:ContentPlaceHolder ID="HeroPhoto" runat="server"></asp:ContentPlaceHolder></div>
+                    <div class="col-6">
+                        <div class="quote"><asp:ContentPlaceHolder ID="CustomerQuote" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="intro"><asp:ContentPlaceHolder ID="IntroCopy" runat="server"></asp:ContentPlaceHolder></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Callout -->
-        <div class="outer bg_blue solutionCallout">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8 inner">
-                        <asp:ContentPlaceHolder ID="CalloutCopy" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                    <div class="col-4">
-                        <asp:ContentPlaceHolder ID="CalloutImg" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Conclusion -->
-        <div class="outer bg_grey solutionConclude">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 pullLeft">
-                        <asp:ContentPlaceHolder ID="ConcludeImg" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                    <div class="col-8 pullLeft inner">
-                        <asp:ContentPlaceHolder ID="ConcludeCopy" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- Additional Content -->
+        <asp:ContentPlaceHolder ID="AdditionalStoryContent" runat="server"></asp:ContentPlaceHolder>
 
         <!-- Features -->
-        <div class="outer bg_white solutionFeatures">
+        <div class="outer solutionFeatures">
             <div class="container inner">
-                <asp:ContentPlaceHolder ID="FeatureHeadline" runat="server"></asp:ContentPlaceHolder>
+                <h3 class="text-center"><asp:ContentPlaceHolder ID="FeatureHeadline" runat="server"></asp:ContentPlaceHolder></h3>
                 <div class="row">
                     <div class="col-4 inner">
                         <asp:ContentPlaceHolder ID="FeatureImg1" runat="server"></asp:ContentPlaceHolder>
@@ -96,7 +78,28 @@
                         <asp:ContentPlaceHolder ID="FeatureCopy3" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
-                <asp:ContentPlaceHolder ID="FeatureCTA" runat="server"></asp:ContentPlaceHolder>
+                <div class="row ctas">
+                    <div class="col-4">
+                        <asp:ContentPlaceHolder ID="FeatureCTA1" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-4">
+                        <asp:ContentPlaceHolder ID="FeatureCTA2" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-4">
+                        <asp:ContentPlaceHolder ID="FeatureCTA3" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start free trial CTA -->
+        <div class="outer bg_blue trialCTA">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <asp:ContentPlaceHolder ID="FinalCTAContent" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+              </div>
             </div>
         </div>
 

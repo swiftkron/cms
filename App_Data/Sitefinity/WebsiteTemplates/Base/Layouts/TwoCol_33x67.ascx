@@ -6,7 +6,7 @@
          <div runat="server" class="sf_colsIn sf_2col_1in_33">
          </div>
      </div>
-     <div runat="server" class="sf_colsOut sf_2cols_2_67  col-8 inner">
+     <div runat="server" class="sf_colsOut sf_2cols_2_67 col-8 inner">
          <div runat="server" class="sf_colsIn sf_2col_2in_67">
          </div>
      </div>

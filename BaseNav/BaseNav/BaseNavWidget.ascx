@@ -49,11 +49,11 @@
    <ul id="main-nav">
       <li><a href="/why-act">Why Act!</a>
          <ul>
-            <li><a href="/why-act/simplify-your-process">Simplify your process</a></li>
-            <li><a href="/why-act/manage-your-contacts">Manage your contacts</a></li>
-            <li><a href="/why-act/extend-your-reach">Extend your reach</a></li>
+            <li><a href="/why-act/get-organized">Get Organized</a></li>
+            <li><a href="/why-act/know-your-customers">Know Your Customers</a></li>
+            <li><a href="/why-act/extend-your-reach">Extend Your Reach</a></li>
             <li><a href="/why-act/drive-sales">Drive Sales</a></li>
-            <li><a href="/why-act/track-your-goals">Track your goals</a></li>
+            <li><a href="/why-act/understand-your-business">Understand Your Business</a></li>
             <li><a href="/why-act/customer-success">Customer Successes</a></li>
          </ul>
       </li>
