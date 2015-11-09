@@ -19,7 +19,7 @@
                 <div class="uBrand" title="Act!"></div>
                 <div class="uToggleElements">
                     <div class="uTrial">
-                        <a href="https://buy.act.com/trial/product/ActPremium/plan/Month"><asp:Button ID="TrialButton1" PostBackUrl="https://buy.act.com/trial/product/ActPremium/plan/Month" runat="server" text="Free Trial" CssClass="btnSecondary" ToolTip="Free Trial"></asp:Button></a>
+                        <a href="https://buy.act.com/trial/product/ActPremium/plan/Month"><span class="button btnSecondary">Free trial</span></a>
                     </div>
                     <div class="uPhone"><a href="tel:1-866-873-2006">866-873-2006</a></div>
                     <div class="uIntl">
@@ -32,7 +32,7 @@
                             <li><a href="/nl-nl/">Netherlands</a></li>
                         </ul>
                     </div>
-                    <!-- <div class="uLogin"><a href="#"><span class="glyphicon glyphicon-user" title="Login"></span></a></div> -->
+                    <div class="uLogin"><a href="https://mycloud.act.com/#/login"><span class="glyphicon glyphicon-user" title="Login"></span></a></div>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
       </li>
       <li><a href="/products">Products &amp; Pricing</a>
          <ul>
-            <li><a href="/products/act-premium">Act! Premium</a></li>
+            <li><a href="/products">Act! Premium</a></li>
             <li><a href="/products/act-emarketing">Act! emarketing</a></li>
             <li><a href="/products/act-essentials">Act! Essentials</a></li>
             <li><a href="/products/whats-new">What&rsquo;s New</a></li>
@@ -87,11 +87,9 @@
       <li><a href="http://blog.act.com" target="_blank">Blog</a></li>
       <li><a href="/about">About</a>
          <ul class="last">
-            <li><a href="#">Link one</a></li>
-            <li><a href="#">Link two</a></li>
-            <li><a href="#">Link three</a></li>
-            <li><a href="#">Link four</a></li>
-            <li><a href="#">Link five</a></li>
+            <li><a href="/about/leadership">Leadership</a></li>
+            <li><a href="http://swiftpage.com/en-us/about/careers" target="_blank">Careers</a></li>
+            <li><a href="http://swiftpage.com/privacy-policy" target="_blank">Privacy Policy</a></li>
          </ul>
       </li>
    </ul>

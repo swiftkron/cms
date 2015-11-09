@@ -48,13 +48,9 @@
     cursor:pointer;
 }
 .uLogin{
-    display:none;
     position:relative;
     float:right;
     margin-top:-18px;
-}
-.uLogin a{
-    color:#526774 !important;
 }
 .uDropdown {
     display:none;

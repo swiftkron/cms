@@ -23,69 +23,93 @@
         
         <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
 
-        <!-- OVERVIEW & FEATURES -->
-        <div class="outer bg_white features">
+        <!-- HERO -->
+        <div class="outer products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 bg_black trans85">
+                        <div class="trans100 inner">
+                            <asp:ContentPlaceHolder ID="HeroCopy" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <div class="col-6"><!-- empty div --></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCT FEATURES -->
+        <div class="outer productFeatures">
             <div class="container inner">
-                <h2 class="text-center"><asp:ContentPlaceHolder ID="ProductPageOverview" runat="server"></asp:ContentPlaceHolder></h2>
-                <div class="row">
+                <h2><asp:ContentPlaceHolder ID="ProductFeaturesHeadline" runat="server"></asp:ContentPlaceHolder></h2>
+                <!-- row 1 --><div class="row">
                     <div class="col-6 inner">
                         <div class="row">
-                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature1Image" runat="server"></asp:ContentPlaceHolder></div>
-                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature1Copy" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon1" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy1" runat="server"></asp:ContentPlaceHolder></div>
                         </div>
                     </div>
                     <div class="col-6 inner">
                         <div class="row">
-                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature2Image" runat="server"></asp:ContentPlaceHolder></div>
-                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature2Copy" runat="server"></asp:ContentPlaceHolder></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 inner">
-                        <div class="row">
-                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature3Image" runat="server"></asp:ContentPlaceHolder></div>
-                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature3Copy" runat="server"></asp:ContentPlaceHolder></div>
-                        </div>
-                    </div>
-                    <div class="col-6 inner">
-                        <div class="row">
-                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature4Image" runat="server"></asp:ContentPlaceHolder></div>
-                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature4Copy" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon2" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy2" runat="server"></asp:ContentPlaceHolder></div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <!-- row 2 --><div class="row">
                     <div class="col-6 inner">
                         <div class="row">
-                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature5Image" runat="server"></asp:ContentPlaceHolder></div>
-                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature5Copy" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon3" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy3" runat="server"></asp:ContentPlaceHolder></div>
                         </div>
                     </div>
                     <div class="col-6 inner">
                         <div class="row">
-                            <div class="col-2"><asp:ContentPlaceHolder ID="Feature6Image" runat="server"></asp:ContentPlaceHolder></div>
-                            <div class="col-10"><asp:ContentPlaceHolder ID="Feature6Copy" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon4" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy4" runat="server"></asp:ContentPlaceHolder></div>
                         </div>
+                    </div>
+                </div>
+                <!-- row 3 --><div class="row">
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon5" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy5" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon6" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy6" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center"><asp:ContentPlaceHolder ID="ProductFeaturesCTA" runat="server"></asp:ContentPlaceHolder></div>
+            </div>
+        </div>
+
+        <!-- TESTIMONIAL -->
+        <div class="outer bg_dark-grey testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 pullLeft flushLeftImage">
+                        <asp:ContentPlaceHolder ID="TestimonialImage" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-7 pullLeft testimonialCopy">
+                        <div class="quote"><asp:ContentPlaceHolder ID="TestimonialCopy" runat="server"></asp:ContentPlaceHolder></div>
+                        <div class="byline"><asp:ContentPlaceHolder ID="ByLine" runat="server"></asp:ContentPlaceHolder></div>
                     </div>
                 </div>
             </div>
         </div>
 
-
-        <!-- TESTIMONIAL -->
-        <div class="outer bg_blue testimonial">
+        <!-- Start free trial CTA -->
+        <div class="outer bg_blue trialCTA">
             <div class="container">
                 <div class="row">
-                    <div class="col-4 pullLeft">
-                        <asp:ContentPlaceHolder ID="TestimonialImage" runat="server"></asp:ContentPlaceHolder>
+                    <div class="col-12">
+                        <asp:ContentPlaceHolder ID="FinalCTAContent" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-8 pullLeft testimonialCopy">
-                        <div class="quote"><asp:ContentPlaceHolder ID="TestimonialCopy" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="byline"><asp:ContentPlaceHolder ID="ByLine" runat="server"></asp:ContentPlaceHolder></div>
-                        <div class="pullQuote"><asp:ContentPlaceHolder ID="TestimonialPullQuote" runat="server"></asp:ContentPlaceHolder></div>
-                    </div>
-                </div>
+              </div>
             </div>
         </div>
 

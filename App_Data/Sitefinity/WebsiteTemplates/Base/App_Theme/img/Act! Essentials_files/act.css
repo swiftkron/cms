@@ -379,10 +379,12 @@ table td, table th, .downloadTable td, .downloadTable th{
 #prodDetails h2{
     color:#308dc6;
 }
+/* _ essentials _ */
 #essentials .hero{
-    background-color:#edf0f2;
+    background: url(../../App_Theme/img/hero-ess.jpg) top center no-repeat;
+    background-size:cover;
+    background-position:0 100px;
     color:#2a353d;
-    text-align:center;
 }
 
 /* anchors */
