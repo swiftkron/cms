@@ -21,6 +21,7 @@
                     </ul>
                 </div>
                 <div class="col-3">
+                    <h4>Connect with Act!</h4>
                     <a href="https://www.linkedin.com/groups/?gid=1914089" target="_blank"><span class="socialIcons glyphicon-linkedin"></span></a>
                     <a href="https://www.facebook.com/actcrm" target="_blank"><span class="socialIcons glyphicon-facebook"></span></a>
                     <a href="https://twitter.com/actstory" target="_blank"><span class="socialIcons glyphicon-twitter"></span></a>
@@ -29,7 +30,7 @@
                 </div>
                 <div class="col-3">
                     <h4>Stay in the know!</h4>
-                    <p>Sign up for the Act! eNewsletter</p>
+                    <p>Sign up for emails from Act!</p>
                     <!-- <form id="enewsSub" name="emailsubscribehome" action="https://s1966950654.t.eloqua.com/e/f2"> -->
     	              <input type="hidden" name="elqFormName" value="">
                       <input type="hidden" name="elqSiteID" value="1966950654">
