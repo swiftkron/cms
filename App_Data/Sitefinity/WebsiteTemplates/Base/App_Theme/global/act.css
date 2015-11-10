@@ -185,6 +185,10 @@ span.reverse{
 }
 .trialCTA a{
     color:#FFF;
+    text-decoration:none;
+}
+.trialCTA .button{
+    margin-right:0;
 }
 .phoneCTA{
     display:block;
@@ -249,6 +253,7 @@ table td, table th, .downloadTable td, .downloadTable th{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
     font-size:21px;
     color:#FFF;
+    text-decoration:none;
 }
 .sidebar h3 a .glyphicon{
     font-size:2em;   
