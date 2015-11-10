@@ -1,3 +1,28 @@
+// Get URL Parameters
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+// Define UTM Variables
+var utm_source = getParameterByName('utm_source');
+var utm_medium = getParameterByName('utm_medium');
+var utm_content = getParameterByName('utm_content');
+var utm_campaign = getParameterByName('utm_campaign');
+var utm_name = getParameterByName('utm_name');
+var utm_term = getParameterByName('utm_term');
+// Preload UTM Data for Elq Forms
+$(document).ready(function () {
+    $('input[name="utm_source"]').attr('value', utm_source);
+    $('input[name="utm_medium"]').attr('value', utm_medium);
+    $('input[name="utm_content"]').attr('value', utm_content);
+    $('input[name="utm_campaign"]').attr('value', utm_campaign);
+    $('input[name="utm_name"]').attr('value', utm_name);
+    $('input[name="utm_term"]').attr('value', utm_term);
+});
+
 $(document).ready(function () {
     // Common vars 
     var width = $(window).width();
@@ -40,6 +65,54 @@ $(document).ready(function () {
         $('#chatModal').css('opacity', '1');
         $('#chatModal').css('pointer-events', 'auto');
     });
+
+    // Pricing
+    // define partner attribution Variables
+    var srid = getParameterByName('srid');
+    var ror = getParameterByName('ror');
+    /* toggle product displays */
+    $('#toggleCloud').click(function(){
+        $('.cloudOnly').css('display','none');
+        $('.notCloud').css('display','block');
+    });
+    $('#togglePrem').click(function () {
+        $('.cloudOnly').css('display', 'block');
+        $('.notCloud').css('display', 'none');
+    });
+    /* change pricing term and destination */
+    //cloud
+    $('#cloudBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremiumCloud/plan/Annual?srid=' + srid + '&ror=' + ror + '');
+    $('#cloudFreq').change(function () {
+        var cloudVal = $('#cloudFreq').val();
+        if (cloudVal == "monthly"){
+            $('#cloudPrice').html('<span class="usd">$</span>42');
+            $('#cloudBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremiumCloud/plan/Month?srid=' + srid + '&ror=' + ror + '');
+        }
+        else {
+            $('#cloudPrice').html('<span class="usd">$</span>35');
+            $('#cloudBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremiumCloud/plan/Annual?srid=' + srid + '&ror=' + ror + '');
+        }
+    });
+    //prem
+    $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Month?srid=' + srid + '&ror=' + ror + '');
+    $('#premFreq').change(function () {
+        var premVal = $('#premFreq').val();
+        if (premVal == "annual") {
+            $('#premPrice').html('<span class="usd">$</span>250');
+            $('#premTerm').html('USD/user');
+            $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Annual?srid=' + srid + '&ror=' + ror + '');
+        }
+        else if (premVal == "license") {
+            $('#premPrice').html('<span class="usd">$</span>500');
+            $('#premTerm').html('USD/user');
+            $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Annual?per=true&srid=' + srid + '&ror=' + ror + '');
+        }
+        else {
+            $('#premPrice').html('<span class="usd">$</span>25');
+            $('#premTerm').html('USD/user/month');
+            $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Month?srid=' + srid + '&ror=' + ror + '');
+        }
+    });
     
     // Submit forms to 3rd Party
     $('#form1').removeAttr('runat');
@@ -62,3 +135,5 @@ $(document).ready(function () {
         $('#form1').submit();
     })
 });
+
+

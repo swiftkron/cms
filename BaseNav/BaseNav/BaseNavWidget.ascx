@@ -57,7 +57,7 @@
             <li><a href="/why-act/customer-success">Customer Successes</a></li>
          </ul>
       </li>
-      <li><a href="/products">Products &amp; Pricing</a>
+      <li><a href="/products">Products</a>
          <ul>
             <li><a href="/products">Act! Premium</a></li>
             <li><a href="/products/act-emarketing">Act! emarketing</a></li>
@@ -65,11 +65,12 @@
             <li><a href="/products/whats-new">What&rsquo;s New</a></li>
          </ul>
       </li>
-      <li><a href="/resources">Customer Resources</a>
+      <li><a href="pricing">Buy Now</a></li>
+      <li><a href="/support">Customer Support</a>
          <ul>
-            <li><a href="/resources/act-premium-resources">Act! Premium Resources</a></li>
-            <li><a href="/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
-            <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Resources</a></li>
+            <li><a href="/support/act-premium-resources">Act! Premium Support</a></li>
+            <li><a href="/support/act-emarketing-getting-started">Act! emarketing Support</a></li>
+            <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Support</a></li>
          </ul>
       </li>
       <li><a href="/partners">Partners</a>

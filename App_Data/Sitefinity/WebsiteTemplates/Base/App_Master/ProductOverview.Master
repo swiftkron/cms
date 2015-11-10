@@ -91,10 +91,7 @@
         <div class="outer bg_dark-grey testimonial">
             <div class="container">
                 <div class="row">
-                    <div class="col-5 pullLeft flushLeftImage">
-                        <asp:ContentPlaceHolder ID="TestimonialImage" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                    <div class="col-7 pullLeft testimonialCopy">
+                    <div class="col-12 testimonialCopy">
                         <div class="quote"><asp:ContentPlaceHolder ID="TestimonialCopy" runat="server"></asp:ContentPlaceHolder></div>
                         <div class="byline"><asp:ContentPlaceHolder ID="ByLine" runat="server"></asp:ContentPlaceHolder></div>
                     </div>

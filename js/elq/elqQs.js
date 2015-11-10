@@ -12,7 +12,7 @@ var pLocHTMLName="firstPage,elq_firstPage";							//The HTML name for the first 
 var wRefHTMLName="referrer,elq_referrer"										//The HTML name for the referrer. It usually is a search engine, may be something else. If there are various fields with the same purpose, indicate them separated by commas (referrer,visitSource)
 var inputType="hidden";
 //var inputType="text";
-var cookieDomain="act";
+var cookieDomain="stagecms.act";
 var domainExtension=".com";
 var altSeparator=".";
 try{
