@@ -30,7 +30,7 @@ $(document).ready(function () {
     $(document).click(function () {
         $('.uDropdown').hide();
     });
-    $('.uBrand').click(function (event) {
+    $('.navLink').click(function (event) {
         event.stopPropagation();
         location.href = "/";
     });

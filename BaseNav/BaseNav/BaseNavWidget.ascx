@@ -2,6 +2,7 @@
 <!-- UTILITY NAV -->
     <div class="outer bg_white">
         <div class="container">
+            <div class="navLink"></div>
             <div class="utility">
                 <div class="uToggle">
                     <span class="glyphicon glyphicon-chevron-down"></span>
@@ -65,7 +66,7 @@
             <li><a href="/products/whats-new">What&rsquo;s New</a></li>
          </ul>
       </li>
-      <li><a href="pricing">Buy Now</a></li>
+      <li><a href="/pricing">Buy Now</a></li>
       <li><a href="/support">Customer Support</a>
          <ul>
             <li><a href="/support/act-premium-resources">Act! Premium Support</a></li>
