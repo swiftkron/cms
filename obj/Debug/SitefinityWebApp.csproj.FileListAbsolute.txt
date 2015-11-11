@@ -9,4 +9,3 @@ C:\inetpub\wwwroot\act_com\bin\BaseFooter.dll
 C:\inetpub\wwwroot\act_com\bin\BaseFooter.pdb
 C:\inetpub\wwwroot\act_com\bin\MarketplaceList.dll
 C:\inetpub\wwwroot\act_com\bin\MarketplaceList.pdb
-C:\inetpub\wwwroot\act_com\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache

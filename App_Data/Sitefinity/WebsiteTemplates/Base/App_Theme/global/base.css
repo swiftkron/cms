@@ -87,6 +87,7 @@ section {
 }
 
 /* _ common classes _ */
+.hidden{display:none;}
 .left{float:left;}
 .right{float:right;}
 .clearfix{clear:both;}
