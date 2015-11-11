@@ -1506,3 +1506,67 @@ Win32 ThreadId:11208
 
 Extended Properties: 
 ----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 7:59:46 PM
+
+Message: HandlingInstanceID: 2a5a59f2-6df5-4d46-bfa1-33e0f067826e
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+11/11/2015 12:59:46
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The ContentViewDefinition with name 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.MemberBackendDefinition' does not exist in configuration files. 
+            You should either add the ContentViewDefiniton with such name to the configuration;
+            change ControlDefinitionName or load ControlDefinition programmatically by setting 
+            the ControlDefinition property.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition get_ControlDefinition()
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.BackendContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 7:59:46 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-5-130917455230041603
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Content/executive-leadership-team
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-5-130917455230041603
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8328
+
+Extended Properties: 
+----------------------------------------
