@@ -1,40 +1,73 @@
 ----------------------------------------
-Timestamp: 11/10/2015 4:27:56 PM
+Timestamp: 11/11/2015 5:26:32 PM
 
-Message: HandlingInstanceID: ab861f19-5182-452d-a6f9-aedadbf851a7
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 09:27:56
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
-Source : Telerik.Sitefinity
+Message: HandlingInstanceID: f335ea8e-800e-4958-a000-ff2be6217c7e
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/11/2015 10:26:32
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : DataBinding: 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.Member' does not contain a property with the name 'ThumbnailUrl'.
+Source : System.Web
 Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : System.Object GetPropertyValue(System.Object, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.sfctrlpresentation_openaccessdataprovider_2c5361e796e1633a9d88ff00001e67f5_ascx.__DataBind__control5(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 4:27:56 PM
+TimeStamp : 11/11/2015 5:26:32 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-2-130916464495722814
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -42,55 +75,88 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-2-130916464495722814
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:9712
+Win32 ThreadId:11180
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/10/2015 4:28:01 PM
+Timestamp: 11/11/2015 5:27:10 PM
 
-Message: HandlingInstanceID: 558fa608-1c95-4939-a85f-69d035cd97ef
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 09:28:01
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
-Source : Telerik.Sitefinity
+Message: HandlingInstanceID: 1ab78ab3-a059-458a-a89e-25d2f1413e39
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/11/2015 10:27:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : DataBinding: 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.Member' does not contain a property with the name 'AlternativeText'.
+Source : System.Web
 Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : System.Object GetPropertyValue(System.Object, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.sfctrlpresentation_openaccessdataprovider_2c5361e796e1633a9d88ff00001e67f5_ascx.__DataBind__control5(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at Telerik.Web.UI.RadListView.BuildDataItem(Int32 itemsCreatedCount, Control itemContainer, Boolean dataBinding, Object dataItem, Int32& controlIndex)
+   at Telerik.Web.UI.RadListView.CreateDataItems(Control container, IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at Telerik.Web.UI.RadListView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at Telerik.Web.UI.RadListView.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Telerik.Web.UI.RadListView.DataBind()
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 4:28:01 PM
+TimeStamp : 11/11/2015 5:27:10 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-3-130916464774210660
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -98,55 +164,85 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-3-130916464774210660
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:9712
+Win32 ThreadId:5228
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/10/2015 7:30:24 PM
+Timestamp: 11/11/2015 6:43:00 PM
 
-Message: HandlingInstanceID: 5bf8206c-6701-4f19-99e6-5a2eaa28c30f
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 12:30:24
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: f78e0747-b36f-4cfc-abcb-d0e51ff39310
+An exception of type 'System.MemberAccessException' occurred and was caught.
+----------------------------------------------------------------------------
+11/11/2015 11:43:00
+Type : System.MemberAccessException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : No 'Type' member found in type 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.Member'
 Source : Telerik.Sitefinity
 Help link : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : System.Linq.Expressions.Expression ParseMemberAccess(System.Type, System.Linq.Expressions.Expression)
+HResult : -2146233062
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMemberAccess(Type type, Expression instance)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseIdentifier()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimaryStart()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseUnary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMultiplicative()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseAdditive()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 7:30:24 PM
+TimeStamp : 11/11/2015 6:43:00 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-4-130916574035455692
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -154,55 +250,92 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-4-130916574035455692
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:5872
+Win32 ThreadId:16364
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/10/2015 10:12:26 PM
+Timestamp: 11/11/2015 6:43:06 PM
 
-Message: HandlingInstanceID: 3bb199b8-6311-4a7a-ad75-8d8774a779dd
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 15:12:26
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: c043a647-a95f-4ccb-b38b-d2fb46078841
+An exception of type 'System.MemberAccessException' occurred and was caught.
+----------------------------------------------------------------------------
+11/11/2015 11:43:06
+Type : System.MemberAccessException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : No 'Type' member found in type 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.Member'
 Source : Telerik.Sitefinity
 Help link : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : System.Linq.Expressions.Expression ParseMemberAccess(System.Type, System.Linq.Expressions.Expression)
+HResult : -2146233062
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMemberAccess(Type type, Expression instance)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseIdentifier()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimaryStart()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseUnary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMultiplicative()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseAdditive()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 10:12:26 PM
+TimeStamp : 11/11/2015 6:43:06 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-5-130916671333484522
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership/Action/Preview
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -210,55 +343,63 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-5-130916671333484522
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:12892
+Win32 ThreadId:2716
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/10/2015 10:19:16 PM
+Timestamp: 11/11/2015 6:43:18 PM
 
-Message: HandlingInstanceID: b450875b-d423-4767-a58b-3a93bce44e5e
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 15:19:16
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: 7c8a5962-35a9-4607-8b4a-d5df292b5f3d
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+11/11/2015 11:43:18
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The ContentViewDefinition with name 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.MemberBackendDefinition' does not exist in configuration files. 
+            You should either add the ContentViewDefiniton with such name to the configuration;
+            change ControlDefinitionName or load ControlDefinition programmatically by setting 
+            the ControlDefinition property.
 Source : Telerik.Sitefinity
 Help link : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition get_ControlDefinition()
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.BackendContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 10:19:16 PM
+TimeStamp : 11/11/2015 6:43:18 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-6-130916675481549287
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Content/executive-leadership-team
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -266,55 +407,80 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-6-130916675481549287
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:14260
+Win32 ThreadId:12348
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/10/2015 10:36:11 PM
+Timestamp: 11/11/2015 6:44:39 PM
 
-Message: HandlingInstanceID: ae515000-ee30-4c52-ba15-b8a1e7ceee18
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 15:36:11
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: 61d41472-01f7-48bf-a89c-91d7db181449
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/11/2015 11:44:39
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String[]' and 'Int32'
 Source : Telerik.Sitefinity
 Help link : 
+Position : 48
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 10:36:11 PM
+TimeStamp : 11/11/2015 6:44:39 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-7-130916685490740106
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -322,55 +488,87 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-7-130916685490740106
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:9316
+Win32 ThreadId:16636
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/10/2015 10:36:20 PM
+Timestamp: 11/11/2015 6:44:42 PM
 
-Message: HandlingInstanceID: 8f9ff01b-e72b-4ebb-9210-31401aa40119
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 15:36:20
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: a9801749-1be0-4cf6-9f5c-63d9b688713d
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/11/2015 11:44:42
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String[]' and 'Int32'
 Source : Telerik.Sitefinity
 Help link : 
+Position : 48
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 10:36:20 PM
+TimeStamp : 11/11/2015 6:44:42 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-8-130916685717422772
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership/Action/Preview
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -378,55 +576,63 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-8-130916685717422772
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:9316
+Win32 ThreadId:6080
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/10/2015 10:38:48 PM
+Timestamp: 11/11/2015 6:45:00 PM
 
-Message: HandlingInstanceID: 1f9011ed-40b3-481c-8dba-b23eb92e1861
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/10/2015 15:38:48
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: b7195877-2106-4364-8a09-df4bbfe72d88
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+11/11/2015 11:45:00
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The ContentViewDefinition with name 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.MemberBackendDefinition' does not exist in configuration files. 
+            You should either add the ContentViewDefiniton with such name to the configuration;
+            change ControlDefinitionName or load ControlDefinition programmatically by setting 
+            the ControlDefinition property.
 Source : Telerik.Sitefinity
 Help link : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition get_ControlDefinition()
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.BackendContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/10/2015 10:38:48 PM
+TimeStamp : 11/11/2015 6:45:00 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-9-130916687200371052
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Content/executive-leadership-team
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -434,15 +640,869 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-9-130916687200371052
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
 
-ProcessId: 5356
+ProcessId: 12492
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:12884
+Win32 ThreadId:11208
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 6:45:21 PM
+
+Message: HandlingInstanceID: a0c01e6f-e120-4627-8576-b344922c2318
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/11/2015 11:45:21
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String[]' and 'Int32'
+Source : Telerik.Sitefinity
+Help link : 
+Position : 48
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 6:45:21 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8328
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 6:45:33 PM
+
+Message: HandlingInstanceID: 5d2dff85-f172-49bc-afcc-5b43ba6a56ba
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/11/2015 11:45:33
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String[]' and 'Int32'
+Source : Telerik.Sitefinity
+Help link : 
+Position : 48
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 6:45:33 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 6:46:26 PM
+
+Message: HandlingInstanceID: 7066940b-b1f4-4b29-b6d1-9586f3cdfc8a
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+11/11/2015 11:46:26
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The ContentViewDefinition with name 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.MemberBackendDefinition' does not exist in configuration files. 
+            You should either add the ContentViewDefiniton with such name to the configuration;
+            change ControlDefinitionName or load ControlDefinition programmatically by setting 
+            the ControlDefinition property.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition get_ControlDefinition()
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.BackendContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 6:46:26 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Content/executive-leadership-team
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8624
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 6:46:28 PM
+
+Message: HandlingInstanceID: 8ea60764-433b-4a91-9a96-b7e8463eec3a
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+11/11/2015 11:46:28
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The ContentViewDefinition with name 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.MemberBackendDefinition' does not exist in configuration files. 
+            You should either add the ContentViewDefiniton with such name to the configuration;
+            change ControlDefinitionName or load ControlDefinition programmatically by setting 
+            the ControlDefinition property.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition get_ControlDefinition()
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.BackendContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 6:46:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Content/executive-leadership-team
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15952
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 6:46:37 PM
+
+Message: HandlingInstanceID: 75cd61e3-24be-4989-892f-9f2b3e2350ac
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+11/11/2015 11:46:37
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The ContentViewDefinition with name 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.MemberBackendDefinition' does not exist in configuration files. 
+            You should either add the ContentViewDefiniton with such name to the configuration;
+            change ControlDefinitionName or load ControlDefinition programmatically by setting 
+            the ControlDefinition property.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition get_ControlDefinition()
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.BackendContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 6:46:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130917345840887979
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Content/executive-leadership-team
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-3-130917345840887979
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16320
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 7:07:25 PM
+
+Message: HandlingInstanceID: 568566bd-02aa-4ae5-8fd0-2e38ffb75226
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+11/11/2015 12:07:25
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The ContentViewDefinition with name 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.MemberBackendDefinition' does not exist in configuration files. 
+            You should either add the ContentViewDefiniton with such name to the configuration;
+            change ControlDefinitionName or load ControlDefinition programmatically by setting 
+            the ControlDefinition property.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Sitefinity.Web.UI.ContentUI.ContentViewControlDefinition get_ControlDefinition()
+HResult : -2146233079
+Stack Trace :    at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.BackendContentView.get_ControlDefinition()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveContentManager()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.ResolveDetailItem()
+   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 7:07:25 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130917412577786804
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Content/executive-leadership-team
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-4-130917412577786804
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 7:22:20 PM
+
+Message: HandlingInstanceID: 4bd70af3-d6e3-4f41-a354-bdbc24bd2e96
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/11/2015 12:22:20
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String[]' and 'Int32'
+Source : Telerik.Sitefinity
+Help link : 
+Position : 48
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 7:22:20 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130917412577786804
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-4-130917412577786804
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 7:22:54 PM
+
+Message: HandlingInstanceID: 7badca24-2bf5-4ce1-930b-5a20245a5f6e
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/11/2015 12:22:54
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String[]' and 'Int32'
+Source : Telerik.Sitefinity
+Help link : 
+Position : 48
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 7:22:54 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130917412577786804
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-4-130917412577786804
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6080
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 7:23:14 PM
+
+Message: HandlingInstanceID: 34703cbe-6a26-4b49-92a4-75b1493255ca
+An exception of type 'Telerik.Sitefinity.Data.Linq.Dynamic.ParseException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/11/2015 12:23:14
+Type : Telerik.Sitefinity.Data.Linq.Dynamic.ParseException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Operator '=' incompatible with operand types 'String[]' and 'Int32'
+Source : Telerik.Sitefinity
+Help link : 
+Position : 48
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckAndPromoteOperands(System.Type, System.String, System.Linq.Expressions.Expression ByRef, System.Linq.Expressions.Expression ByRef, Int32)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.CheckAndPromoteOperands(Type signatures, String opName, Expression& left, Expression& right, Int32 errorPos)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 7:23:14 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130917412577786804
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-4-130917412577786804
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10220
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 7:24:24 PM
+
+Message: HandlingInstanceID: 2ef02752-ccb3-4dc7-b9ca-6fdb6148ba4f
+An exception of type 'System.MemberAccessException' occurred and was caught.
+----------------------------------------------------------------------------
+11/11/2015 12:24:24
+Type : System.MemberAccessException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : No 'board' member found in type 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.Member'
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Linq.Expressions.Expression ParseMemberAccess(System.Type, System.Linq.Expressions.Expression)
+HResult : -2146233062
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMemberAccess(Type type, Expression instance)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseIdentifier()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimaryStart()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseUnary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMultiplicative()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseAdditive()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 7:24:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130917412577786804
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-4-130917412577786804
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17364
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/11/2015 7:24:27 PM
+
+Message: HandlingInstanceID: d603a3f8-41d7-4a31-ae7a-5c1c7650cbdc
+An exception of type 'System.MemberAccessException' occurred and was caught.
+----------------------------------------------------------------------------
+11/11/2015 12:24:27
+Type : System.MemberAccessException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : No 'board' member found in type 'Telerik.Sitefinity.DynamicTypes.Model.ExecutiveLeadershipTeam.Member'
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Linq.Expressions.Expression ParseMemberAccess(System.Type, System.Linq.Expressions.Expression)
+HResult : -2146233062
+Stack Trace :    at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMemberAccess(Type type, Expression instance)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseIdentifier()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimaryStart()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParsePrimary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseUnary()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseMultiplicative()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseAdditive()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseComparison()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalAnd()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseLogicalOr()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.ParseExpression()
+   at Telerik.Sitefinity.Data.Linq.Dynamic.ExpressionParser.Parse(Type resultType)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(ParameterExpression[] parameters, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicExpression.ParseLambda(Type itType, Type resultType, String expression, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where(IQueryable source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.Linq.Dynamic.DynamicQueryable.Where[T](IQueryable`1 source, String predicate, Object[] values)
+   at Telerik.Sitefinity.Data.DataProviderBase.SetExpressions[T](IQueryable`1 query, String filterExpression, String orderExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.SetExpressions(IQueryable`1 query, String filterExpression, String sortExpression, Nullable`1 skip, Nullable`1 take, Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.GetDataSource(Nullable`1& totalCount)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewMaster.DynamicContentListView_NeedDataSource(Object sender, RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.OnNeedDataSource(RadListViewNeedDataSourceEventArgs e)
+   at Telerik.Web.UI.RadListView.ObtainDataSource(RadListViewRebindReason rebindReason, Boolean isBoundUsingDataSourceId)
+   at Telerik.Web.UI.RadListView.AutoDataBind(RadListViewRebindReason rebindReason)
+   at Telerik.Web.UI.RadListView.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/11/2015 7:24:27 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130917412577786804
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/about/leadership/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-4-130917412577786804
+
+ProcessId: 12492
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11208
 
 Extended Properties: 
 ----------------------------------------

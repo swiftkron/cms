@@ -43,7 +43,7 @@
 /* _ transparencies */
 .trans25{opacity:0.25;}
 .trans50{opacity:0.5;}
-.trans85{opacity:0.85;}
+.trans85{opacity:0.90;}
 .trans100{opacity:1;}
 
 /* Base Styles */
@@ -117,11 +117,6 @@ span.reverse{
 }
 
 /* Heros & other common elements */
-#home .hero{
-    background:url(../../App_Theme/img/home_hero.jpg) top center no-repeat;
-    background-size:cover;
-    min-height:300px;
-}
 #home .hero h1{
     color:#fe5000;
 }
@@ -136,10 +131,11 @@ span.reverse{
     #home .hero{
         min-height:800px;
         background-position:0 100px;
+        padding-bottom:48px;
     }
     #home .hero h1{
         font-size:54px;
-        margin:1.2em auto .75em;
+        margin:.5em auto .75em;
     }
     #home .hero p{
         font-size:1.25em;
@@ -364,11 +360,6 @@ table td, table th, .downloadTable td, .downloadTable th{
 }
 
 /* Products */
-.products {
-    background: url(../../App_Theme/img/bgimg-ph.gif) top center no-repeat;
-    background-size:cover;
-    border-bottom:#a5b7c2 1px solid;
-}
 .products a{
     color:#FFF;
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
@@ -767,3 +758,76 @@ iframe#chatFrame {
 .premToggle, .cloudToggle{
     margin:24px 0 0;
 }
+
+/* ELT */
+.eltIntro{
+    padding:24px 0 60px;
+}
+.eltRow1{
+    margin:-84px auto 48px;
+}
+.sfPageEditor .eltRow1{
+    margin-top:0;
+}
+.elt{
+    text-align:center;
+}
+.elt h2{
+    font-size:1.6em;
+    margin:.5em auto .2em;
+}
+.elt h3{
+    font-size:1em;
+}
+
+
+.board{
+	overflow:hidden;
+	margin:48px 0;
+}
+.board h2{
+	text-align:center;
+	color:#2A353D;
+    margin-bottom:24px;
+}
+.board h3 .glyphicon{
+    display:none;
+}
+.board h3 strong{
+	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
+}
+@media(min-width:768px){
+.board h3{
+	cursor:pointer;
+	padding:4px 12px;
+	margin:12px 0;
+    font-size:1.2em;
+}
+.board h3 .glyphicon{
+	display:block;
+	text-align:center;
+}
+.boardInner{
+	max-width:1170px;
+	margin:0 auto;
+}
+.boardBio{
+	display:none;
+	padding:0 12px 24px;
+}
+.bioOff{
+	background:#F7F9FA;
+	color:#526774;
+}
+.bioOn{
+	background:#2A353D;
+	color:#FFF !important;
+}
+.board h3{
+	text-align:left;
+}
+.board h3 .glyphicon{
+	float:right;
+}
+}
+
