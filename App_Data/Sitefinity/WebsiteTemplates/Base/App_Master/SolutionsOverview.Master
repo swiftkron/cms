@@ -71,6 +71,9 @@
         </div>
 
         <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
+        <div class="disclaimers">
+            <asp:ContentPlaceHolder ID="Disclaimers" runat="server"></asp:ContentPlaceHolder>
+        </div>
 
     </form>
     <!--#include virtual="/tracking/foot-tracking.aspx" -->	
