@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Delete in production --><meta name="robots" content="nofollow" />
+    <!--#include virtual="/tracking/head-tracking.aspx" -->	
 </head>
 
 <body id="home">
@@ -127,6 +128,6 @@
         <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
 
     </form>
-
+    <!--#include virtual="/tracking/foot-tracking.aspx" -->	
 </body>
 </html>

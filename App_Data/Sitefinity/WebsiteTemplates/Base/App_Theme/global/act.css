@@ -835,7 +835,8 @@ iframe#chatFrame {
 	background:#39464f;
 	color:#FFF;
 	text-align:center;
-	padding:120px 0 24px;
+	padding:40px 0 24px;
+    overflow:hidden;
 }
 .impression h1, .impression h3{
 	color:#FFF;
@@ -895,6 +896,7 @@ iframe#chatFrame {
 	.impression{
 		padding:220px 0 110px;
 		text-align:left;
+        overflow:unset;
 	}
 	.impression-wrapper{
 		max-width:1170px;

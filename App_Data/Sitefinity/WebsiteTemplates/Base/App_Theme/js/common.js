@@ -113,6 +113,20 @@ $(document).ready(function () {
             $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Month?srid=' + srid + '&ror=' + ror + '');
         }
     });
+    // KM tracking on buy click
+    $('#cloudBuy').click(function () {
+        var term = $('#cloudFreq').val();
+        _kmq.push(["record", "buyClick", ['Product':'Premium Cloud - 'term]]);
+    });
+    $('#premBuy').click(function () {
+        var term = $('#premFreq').val();
+        _kmq.push(["record", "buyClick", ['Product':'Premium - 'term]]);
+    });
+
+    // KM tracking blue CTA
+    $('.pageBottomTrialCTA').click(function () {
+        _kmq.push(["record", "Initiated Trial", ["CTA" : "Page Bottom CTA Blue"]]);
+    });
     
     // Submit forms to 3rd Party
     $('#form1').removeAttr('runat');
