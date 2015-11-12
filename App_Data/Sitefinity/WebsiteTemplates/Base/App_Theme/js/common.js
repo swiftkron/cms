@@ -116,16 +116,16 @@ $(document).ready(function () {
     // KM tracking on buy click
     $('#cloudBuy').click(function () {
         var term = $('#cloudFreq').val();
-        _kmq.push(["record", "buyClick", ['Product':'Premium Cloud - 'term]]);
+        _kmq.push(["record", "buyClick", [term]]);
     });
     $('#premBuy').click(function () {
         var term = $('#premFreq').val();
-        _kmq.push(["record", "buyClick", ['Product':'Premium - 'term]]);
+        _kmq.push(["record", "buyClick", [term]]);
     });
 
     // KM tracking blue CTA
     $('.pageBottomTrialCTA').click(function () {
-        _kmq.push(["record", "Initiated Trial", ["CTA" : "Page Bottom CTA Blue"]]);
+        _kmq.push(["record", "Initiated Trial", ["Page Bottom CTA Blue"]]);
     });
     
     // Submit forms to 3rd Party
