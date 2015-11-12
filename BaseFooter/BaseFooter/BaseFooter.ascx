@@ -15,19 +15,20 @@
                             </ul>
                         </div>
                         <div class="col-4">
-                            <h4>Act! Premium</h4>
+                            <h4><a href="/products">Act! Premium</a></h4>
                             <ul>
                                 <li><a href="/products/act-emarketing">Email Marketing</a></li>
                                 <li><a href="/marketplace">Marketplace</a></li>
                                 <li><a href="http://community.act.com" target="_blank">Community</a></li>
-                                <li><a href="/pricing">Pricing Flexibility</a></li>
+                                <li><a href="/pricing">Pricing</a></li>
                                 <li><a href="https://buy.act.com/trial/product/ActPremium/plan/Month">Free Trial</a></li>
                             </ul>
                         </div>
                         <div class="col-4">
-                            <h4>Act! Essentials</h4>
+                            <h4><a href="/products/act-essentials">Act! Essentials</a></h4>
                             <ul>
                                 <li><a href="https://mycloud.act.com/#/login" target="_blank">Login</a></li>
+                                <li><a href="/pricing/act-essentials">Pricing</a></li>
                                 <li><a href="https://mycloud.act.com/signup" target="_blank">Free Trial</a></li>
                             </ul>
                         </div>

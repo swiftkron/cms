@@ -84,6 +84,21 @@
                         </div>
                     </div>
                 </div>
+                <!-- row 4 --><div class="row">
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon7" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy7" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                    <div class="col-6 inner">
+                        <div class="row">
+                            <div class="col-3 pullLeft"><asp:ContentPlaceHolder ID="FeatureIcon8" runat="server"></asp:ContentPlaceHolder></div>
+                            <div class="col-9 pullLeft"><asp:ContentPlaceHolder ID="FeatureCopy8" runat="server"></asp:ContentPlaceHolder></div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="text-center"><asp:ContentPlaceHolder ID="ProductFeaturesCTA" runat="server"></asp:ContentPlaceHolder></div>
             </div>
         </div>

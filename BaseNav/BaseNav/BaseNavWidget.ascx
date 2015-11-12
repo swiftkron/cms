@@ -51,10 +51,10 @@
       <li><a href="/why-act">Why Act!</a>
          <ul>
             <li><a href="/why-act/get-organized">Get Organized</a></li>
-            <li><a href="/why-act/know-your-customers">Know Your Customers</a></li>
-            <li><a href="/why-act/extend-your-reach">Extend Your Reach</a></li>
+            <li><a href="/why-act/know-my-customers">Know My Customers</a></li>
+            <li><a href="/why-act/market-my-business">Market My Business</a></li>
             <li><a href="/why-act/drive-sales">Drive Sales</a></li>
-            <li><a href="/why-act/understand-your-business">Understand Your Business</a></li>
+            <li><a href="/why-act/understand-my-business">Understand My Business</a></li>
             <li><a href="/why-act/customer-success">Customer Successes</a></li>
          </ul>
       </li>
