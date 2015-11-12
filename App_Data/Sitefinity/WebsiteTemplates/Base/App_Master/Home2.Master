@@ -99,13 +99,13 @@
             <div class="container">
                 <h2><asp:ContentPlaceHolder ID="TrustFactsHeadline" runat="server"></asp:ContentPlaceHolder></h2>
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-4">
                         <asp:ContentPlaceHolder ID="Fact1" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div class="col-3">
+                    <div class="col-4">
                         <asp:ContentPlaceHolder ID="Fact3" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                      <div class="col-3">
+                      <div class="col-4">
                         <asp:ContentPlaceHolder ID="Fact4" runat="server"></asp:ContentPlaceHolder>
                     </div>
               </div>

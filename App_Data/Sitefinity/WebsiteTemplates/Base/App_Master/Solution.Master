@@ -35,10 +35,10 @@
                     <div class="col-4 inner">
                         <ul>
                             <li id="get_organized"><a href="/why-act/get-organized">Get Organized</a><span class="glyphicon glyphicon-play reverse"></span></li>
-                            <li id="know_customers"><a href="/why-act/know-your-customers">Know Your Customers</a><span class="glyphicon glyphicon-play reverse"></span></li>
-                            <li id="extend_reach"><a href="/why-act/extend-your-reach">Extend Your Reach</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                            <li id="know_customers"><a href="/why-act/know-my-customers">Know My Customers</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                            <li id="extend_reach"><a href="/why-act/market-my-business">Market My Business</a><span class="glyphicon glyphicon-play reverse"></span></li>
                             <li id="drive_sales"><a href="/why-act/drive-sales">Drive Sales</a><span class="glyphicon glyphicon-play reverse"></span></li>
-                            <li id="understand_biz"><a href="/why-act/understand-your-business">Understand Your Business</a><span class="glyphicon glyphicon-play reverse"></span></li>
+                            <li id="understand_biz"><a href="/why-act/understand-my-business">Understand My Business</a><span class="glyphicon glyphicon-play reverse"></span></li>
                         </ul>
                     </div>
                 </div>
