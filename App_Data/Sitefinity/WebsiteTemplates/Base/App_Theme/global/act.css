@@ -115,6 +115,15 @@ span.reverse{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
     margin-bottom:12px;
 }
+.disclaimers p.copyright{
+    max-width:600px;
+    margin:48px auto;
+    text-align:center;
+}
+.disclaimers, .disclaimers p{
+    font-size:12px;
+    margin-bottom:6px;
+}
 
 /* Heros & other common elements */
 #home .hero h1{

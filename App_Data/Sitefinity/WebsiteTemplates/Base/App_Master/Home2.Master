@@ -124,8 +124,10 @@
         </div>
 
         <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
-        <div class="disclaimers">
-            <asp:ContentPlaceHolder ID="Disclaimers" runat="server"></asp:ContentPlaceHolder>
+        <div class="outer bg_grey">
+            <div class="container disclaimers">
+                <asp:ContentPlaceHolder ID="Disclaimers" runat="server"></asp:ContentPlaceHolder>
+            </div>
         </div>
 
     </form>
