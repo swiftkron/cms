@@ -99,11 +99,13 @@ $(document).ready(function () {
         var premVal = $('#premFreq').val();
         if (premVal == "annual") {
             $('#premPrice').html('<span class="usd">$</span>250');
+            $('#premPriceU').html('<span class="usd">$</span>190');
             $('#premTerm').html('USD/user');
             $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Annual?srid=' + srid + '&ror=' + ror + '');
         }
         else if (premVal == "license") {
             $('#premPrice').html('<span class="usd">$</span>500');
+            $('#premPriceU').html('<span class="usd">$</span>380');
             $('#premTerm').html('USD/user');
             $('#premBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremium/plan/Annual?per=true&srid=' + srid + '&ror=' + ror + '');
         }
