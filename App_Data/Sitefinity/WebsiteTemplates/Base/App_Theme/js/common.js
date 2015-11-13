@@ -41,6 +41,7 @@ $(document).ready(function () {
     $('.navToggle').click(function (event) {
         event.stopPropagation();
         $('nav').slideToggle(400);
+        $('.uAlt').hide();
     });
     $('.uToggle').click(function (event) {
         event.stopPropagation();
@@ -73,11 +74,13 @@ $(document).ready(function () {
     /* toggle product displays */
     $('#toggleCloud').click(function(){
         $('.cloudOnly').css('display','none');
-        $('.notCloud').css('display','block');
+        $('.notCloud').css('display', 'block');
+        location.hash = "apH2";
     });
     $('#togglePrem').click(function () {
         $('.cloudOnly').css('display', 'block');
         $('.notCloud').css('display', 'none');
+        location.hash = "apcH2";
     });
     /* change pricing term and destination */
     //cloud

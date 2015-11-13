@@ -99,54 +99,54 @@
 <asp:Content ID="ScriptContent" ContentPlaceHolderID="ScriptContent" runat="server">
 <!-- carousel -->
 <script type="text/javascript">
-$(document).ready(function(){
-	$('.carousel').carousel({
-    interval: false
-	}) 
-});
+    $(document).ready(function () {
+        $('.carousel').carousel({
+            interval: false
+        })
+    });
 </script>
 
 <!-- step -->
 	<script type="text/javascript">
-		// Get URL Parameters
-    function getParameterByName(name) {
-    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-    results = regex.exec(location.search);
-    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-    }
-		//Parse URL Parameters and Record
-		var step = getParameterByName('step');
-		$(document).ready(function(){
-			if (step == "2"){
-				$('#step2').addClass('active');
-				$('#stepCurrent').html('2');			
-			}
-			else if (step == "3"){
-				$('#step3').addClass('active');			
-				$('#stepCurrent').html('3');			
-			}
-			else if (step == "4"){
-				$('#step4').addClass('active');			
-				$('#stepCurrent').html('4');			
-			}
-			else if (step == "5"){
-				$('#step5').addClass('active');			
-				$('#stepCurrent').html('5');			
-			}
-			else if (step == "6"){
-				$('#step6').addClass('active');			
-				$('#stepCurrent').html('6');			
-			}
-			else if (step == "7"){
-				$('#step7').addClass('active');			
-				$('#stepCurrent').html('7');			
-			}
-			else{
-				$('#step1').addClass('active');			
-				$('#stepCurrent').html('1');			
-			}
-		});
+	    // Get URL Parameters
+	    function getParameterByName(name) {
+	        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+	        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+	        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+	    }
+	    //Parse URL Parameters and Record
+	    var step = getParameterByName('step');
+	    $(document).ready(function () {
+	        if (step == "2") {
+	            $('#step2').addClass('active');
+	            $('#stepCurrent').html('2');
+	        }
+	        else if (step == "3") {
+	            $('#step3').addClass('active');
+	            $('#stepCurrent').html('3');
+	        }
+	        else if (step == "4") {
+	            $('#step4').addClass('active');
+	            $('#stepCurrent').html('4');
+	        }
+	        else if (step == "5") {
+	            $('#step5').addClass('active');
+	            $('#stepCurrent').html('5');
+	        }
+	        else if (step == "6") {
+	            $('#step6').addClass('active');
+	            $('#stepCurrent').html('6');
+	        }
+	        else if (step == "7") {
+	            $('#step7').addClass('active');
+	            $('#stepCurrent').html('7');
+	        }
+	        else {
+	            $('#step1').addClass('active');
+	            $('#stepCurrent').html('1');
+	        }
+	    });
   </script>
 
 </asp:Content>
@@ -162,11 +162,11 @@ $(document).ready(function(){
             	<div class="heroTextInner">
                 <h1>Get started with your 30-day Act! Free Trial</h1>
                 <h2>Haven't started a trial yet?</h2>
-                    <p><a href="http://cdn.act.dlm.swiftpage.com/3884/act_prem_172x217_us_ca_la.exe"><button class="btn-md">Download Trial Here</button></a> or <a href="http://act.com/buy/act-premium/"><button class="btn-md">Buy Now</button></a></p>
+                    <p><a href="http://cdn.act.dlm.swiftpage.com/3884/act_prem_172x217_us_ca_la.exe"><button class="btn-md">Download Trial Here</button></a> or <a href="/pricing"><button class="btn-md">Buy Now</button></a></p>
                     <h2>Act! Premium Trial Quick Start Guide</h2>
                     <ul>
                         <li>View the short videos below to make the most of your trial.</li>
-                        <li>Installation questions? Download the installation guide <a href="/support/docs/Install-Guide.pdf" target="_blank">here.</a></li>
+                        <li>Installation questions? Download the installation guide <a href="/docs/default-source/user-guides/install-guide.pdf" target="_blank">here.</a></li>
                     </ul>
             
               </div>

@@ -24,7 +24,6 @@
 }
 .bg_blue a{
     color:#FFF;
-    text-decoration:underline;
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
 }
 .bg_blue a:hover{
@@ -115,6 +114,9 @@ span.reverse{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
     margin-bottom:12px;
 }
+.disclaimers{
+    padding:0 24px;
+}
 .disclaimers p.copyright{
     max-width:600px;
     margin:48px auto;
@@ -126,17 +128,26 @@ span.reverse{
 }
 
 /* Heros & other common elements */
+.heroCta2{
+    display:block;
+    margin:0 auto;
+    text-align:center;
+    text-decoration:underline;
+}
 #home .hero h1{
     color:#fe5000;
 }
 #home .hero .btnDefault{
     background-color: #308dc6;
-    margin-right:24px;
 }
 #home .hero .btnDefault:hover{
     background-color: #2e81b6;  
 }
 @media(min-width:768px){
+    .heroCta2{
+        display:inline-block;
+        margin-left:24px;
+    }
     #home .hero{
         min-height:800px;
         background-position:0 100px;
@@ -190,9 +201,6 @@ span.reverse{
 .trust img{
     margin:12px auto;
 }
-.brand {
-    padding:48px;
-}
 .trialCTA{
     padding:48px 0;
     text-align:center;
@@ -200,9 +208,6 @@ span.reverse{
 .trialCTA a{
     color:#FFF;
     text-decoration:none;
-}
-.trialCTA .button{
-    margin-right:0;
 }
 .phoneCTA{
     display:block;
@@ -363,9 +368,21 @@ table td, table th, .downloadTable td, .downloadTable th{
     color:#308dc6;
 }
 .solutionFeatures .ctas a{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
     color:#Fe5000;
-    padding-left:12px;
     padding-top:0px;
+    text-decoration:underline;
+}
+@media(max-width:767px){
+    .solutionHero li{
+        padding:12px 0;
+    }
+    .solutionHero a {
+        font-size:1.2em;    
+    }
+    .solutionIntro .quote{
+        margin-top:-24px;
+    }
 }
 
 /* Products */
@@ -411,16 +428,32 @@ table td, table th, .downloadTable td, .downloadTable th{
     color:#2a353d;
     text-align:center;
 }
+@media(max-width:767px){
+    .productFeatures{
+        text-align:center;
+    }
+    .productFeatures h3{
+        font-size:1em;
+        margin-top:24px;
+    }
+    .productFeatures a{
+        padding-left:12px;
+        padding-top:0px;
+    }
+}
 
 /* anchors */
-#videoTraining, 
-#upgrade, 
-#newusers,
-#prem,
-#troubleshooting,
-#support{
-    padding-top:180px;
-    margin-top:-140px;
+@media(min-width:768px) {
+    .anchor,
+    #videoTraining,
+    #upgrade,
+    #newusers,
+    #prem,
+    #troubleshooting,
+    #support {
+        padding-top: 180px;
+        margin-top: -140px;
+    }
 }
 
 /* Tiles */

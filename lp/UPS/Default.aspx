@@ -44,7 +44,7 @@ $('.login p').css('display','none');
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 <div class="essentials">
 
-<!--#include virtual="/products/includes/act-essentials_login.aspx" -->
+<!--#include virtual="/includes/act-essentials_login.aspx" -->
 
 
 

@@ -157,7 +157,7 @@ $(document).ready(function(){
                 <h1>Getting Started with Act! Premium Cloud</h1>
                 <h2>View the short videos below to make the most of your trial.</h2>
                 <h3>Ready to buy?</h3>
-                <p><a href="https://buy.act.com">Buy now</a> by logging into your Act! user account or call us at <span class="orange">866-873-2006</span></p>
+                <p><a href="/pricing">Buy now</a> by logging into your Act! user account or call us at <span class="orange">866-873-2006</span></p>
               </div>
             </div>
           </div>

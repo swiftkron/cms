@@ -69,3 +69,30 @@ a:hover .glyphicon-linkedin, a:hover .glyphicon-facebook, a:hover .glyphicon-twi
 .footer a:hover .glyphicon-play{
 	background-color:#8495A0;
 }
+@media(max-width:767px){
+    .footer .socialIcons{	
+        font-size:48px;
+}
+.footer a .glyphicon-play{
+	color:#FFF;
+   background-color:#e52d27;
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size:21px;
+	padding:14px;
+	top:-12px;
+}
+    .footer div[class*='col-']{
+        margin-bottom:24px;
+    }
+    .footer h4{
+        font-size:1.2em;
+    }
+    .footer ul{
+        font-size:1em;
+    }
+    .footer li{
+        padding:12px 0;
+    }
+}

@@ -66,12 +66,12 @@
             <li><a href="/products/whats-new">What&rsquo;s New</a></li>
          </ul>
       </li>
-      <li><a href="/pricing">Buy Now</a></li>
-      <li><a href="/support">Customer Support</a>
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/resources">Customer Resources</a>
          <ul>
-            <li><a href="/support/act-premium-resources">Act! Premium Support</a></li>
-            <li><a href="/support/act-emarketing-getting-started">Act! emarketing Support</a></li>
-            <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Support</a></li>
+            <li><a href="/resources/act-premium-resources">Act! Premium Resources</a></li>
+            <li><a href="/resources/act-emarketing-getting-started">Act! emarketing Resources</a></li>
+            <li><a href="https://actcloud1.zendesk.com/hc/en-us" target="_blank">Act! Essentials Resources</a></li>
          </ul>
       </li>
       <li><a href="/partners">Partners</a>

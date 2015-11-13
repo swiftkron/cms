@@ -69,24 +69,16 @@
                     <div class="col-4 inner">
                         <asp:ContentPlaceHolder ID="FeatureImg1" runat="server"></asp:ContentPlaceHolder>
                         <asp:ContentPlaceHolder ID="FeatureCopy1" runat="server"></asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="FeatureCTA1" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 inner">
                         <asp:ContentPlaceHolder ID="FeatureImg2" runat="server"></asp:ContentPlaceHolder>
                         <asp:ContentPlaceHolder ID="FeatureCopy2" runat="server"></asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="FeatureCTA2" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 inner">
                         <asp:ContentPlaceHolder ID="FeatureImg3" runat="server"></asp:ContentPlaceHolder>
                         <asp:ContentPlaceHolder ID="FeatureCopy3" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                </div>
-                <div class="row ctas">
-                    <div class="col-4">
-                        <asp:ContentPlaceHolder ID="FeatureCTA1" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                    <div class="col-4">
-                        <asp:ContentPlaceHolder ID="FeatureCTA2" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                    <div class="col-4">
                         <asp:ContentPlaceHolder ID="FeatureCTA3" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>

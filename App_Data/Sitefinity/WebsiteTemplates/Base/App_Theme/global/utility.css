@@ -76,7 +76,7 @@
 	border-radius: 2px;
     box-shadow:#a5b7c2 0px 2px 3px;
 }
-.uDropdown > li {
+.uDropdown > li{
     font-size:.9em;
     padding:6px;
 }
@@ -90,13 +90,17 @@
     .utility {
         padding: 12px 0 12px;
     }    
+    .uDropdown > li a{
+        display:inline-block;
+        font-size:1.2em;
+        padding:18px;
+    }
     .uToggle{
         display:block;
         float:right;
-        right:36px;
-        padding-top:16px;
-        padding-right:12px;
-        font-size:32px;
+        padding-top:20px;
+        padding-right:24px;
+        font-size:20px;
         cursor:pointer;
     }
     .uToggleElements{
