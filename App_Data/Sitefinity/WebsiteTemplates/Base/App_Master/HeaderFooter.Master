@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" %>
+<%@ Register TagPrefix="sf" Assembly="Telerik.Sitefinity" Namespace="Telerik.Sitefinity.Web.UI.PublicControls"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Delete in production --><meta name="robots" content="nofollow" />
+    <!--#include virtual="/tracking/head-tracking.aspx" -->	
+
+</head>
+
+<body>
+
+
+    <form id="form1" runat="server">
+        <sf:JavaScriptEmbedControl runat="server" ID="jsLink1" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/jquery-1.11.3.min.js"></sf:JavaScriptEmbedControl>
+        <sf:JavaScriptEmbedControl runat="server" ID="jsLink2" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/common.js"></sf:JavaScriptEmbedControl>
+        
+        <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
+
+        <!-- CONTENT MODULE -->
+        <div class="outer">
+            <div class="container bg_white">
+                <div class="row">
+                    <div class="col-12 article">
+                        <asp:ContentPlaceHolder ID="BodyContent" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
+        <div class="outer bg_grey">
+            <div class="container disclaimers">
+                <asp:ContentPlaceHolder ID="Disclaimers" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+    </form>
+
+    <!--#include virtual="/tracking/foot-tracking.aspx" -->	
+
+</body>
+</html>

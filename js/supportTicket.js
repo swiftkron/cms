@@ -2,7 +2,7 @@
 function GetTicket(country, firstname, lastname, email, phone, product, description, accountnumber, companyname, language, postcode, querytype) {
     // Production 
     // var url = "https://crm-web1.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
-    //Test
+    // Test 
     var url = "https://crm-web1-stg.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
     var value = {
         "Country": country, "EmailAddress": email, "FirstName": firstname,
