@@ -1,40 +1,48 @@
 ----------------------------------------
-Timestamp: 11/13/2015 6:43:57 PM
+Timestamp: 11/16/2015 5:16:23 PM
 
-Message: HandlingInstanceID: 867f802b-6f05-41e1-be59-274c755ddfb4
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/13/2015 11:43:57
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: c832d59f-3a8b-412f-86a6-b40de64532b9
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+11/16/2015 10:16:23
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider,aab261e796e1633a9d88ff00001e67f5.ascx". The control must be assignable from type "Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicDetailContainer" and must have ID "detailContainer".
 Source : Telerik.Sitefinity
 Help link : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.get_DetailContainer()
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.WebControls.CompositeControl.DataBind()
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentView.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/13/2015 6:43:57 PM
+TimeStamp : 11/16/2015 5:16:23 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-6-130919079504148957
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-1-130921630250541296
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/why-act/customer-success/american-health-insurance
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -42,55 +50,63 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-6-130919079504148957
+App Domain: /LM/W3SVC/2/ROOT-1-130921630250541296
 
-ProcessId: 4936
+ProcessId: 6800
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:9660
+Win32 ThreadId:7384
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/13/2015 6:44:05 PM
+Timestamp: 11/16/2015 5:16:42 PM
 
-Message: HandlingInstanceID: 0d398031-17cc-417e-ae44-e0a5f05b8b52
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/13/2015 11:44:05
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
+Message: HandlingInstanceID: f00065d8-2005-46f4-a558-a78cfb5a98bc
+An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+11/16/2015 10:16:42
+Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider,aab261e796e1633a9d88ff00001e67f5.ascx". The control must be assignable from type "Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicDetailContainer" and must have ID "detailContainer".
 Source : Telerik.Sitefinity
 Help link : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : Void ThrowException(System.Type, System.String)
+HResult : -2146233088
+Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
+   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.get_DetailContainer()
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.WebControls.CompositeControl.DataBind()
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentView.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/13/2015 6:44:05 PM
+TimeStamp : 11/16/2015 5:16:42 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-7-130919138378923275
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-1-130921630250541296
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/why-act/customer-success/amerifund
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -98,55 +114,83 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-7-130919138378923275
+App Domain: /LM/W3SVC/2/ROOT-1-130921630250541296
 
-ProcessId: 4936
+ProcessId: 6800
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:9660
+Win32 ThreadId:4032
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/13/2015 7:05:33 PM
+Timestamp: 11/16/2015 6:24:59 PM
 
-Message: HandlingInstanceID: 1c64e6cf-28b1-4bb3-add4-11c72b5b22cb
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/13/2015 12:05:33
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
-Source : Telerik.Sitefinity
+Message: HandlingInstanceID: 473179ed-d792-4b6d-834e-0b4869751453
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/16/2015 11:24:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : DataBinding: 'Telerik.Sitefinity.DynamicTypes.Model.CustomerSuccesses.SuccessStory' does not contain a property with the name 'Result'.
+Source : System.Web
 Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+TargetSite : System.Object GetPropertyValue(System.Object, System.String)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.sfctrlpresentation_openaccessdataprovider_aab261e796e1633a9d88ff00001e67f5_ascx.__DataBind__control7(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicDetailContainer.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.WebControls.CompositeControl.DataBind()
+   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentView.OnPreRender(EventArgs e)
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/13/2015 7:05:33 PM
+TimeStamp : 11/16/2015 6:24:59 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-8-130919151244140896
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
+AppDomainName : /LM/W3SVC/2/ROOT-1-130921630250541296
+ThreadIdentity : admin
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/why-act/customer-success/american-health-insurance
 
 
 Category: ErrorLog
 
 Priority: 0
 
-EventId: 90030
+EventId: 90000
 
 Severity: Error
 
@@ -154,239 +198,15 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-8-130919151244140896
+App Domain: /LM/W3SVC/2/ROOT-1-130921630250541296
 
-ProcessId: 4936
+ProcessId: 6800
 
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
-
-Thread Name: 
-
-Win32 ThreadId:8232
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 11/13/2015 7:05:43 PM
-
-Message: HandlingInstanceID: e72d4994-81f3-4e2f-99a9-4c3907327e5b
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/13/2015 12:05:43
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
-Source : Telerik.Sitefinity
-Help link : 
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 11/13/2015 7:05:43 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-9-130919151345971078
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 90030
-
-Severity: Error
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-9-130919151345971078
-
-ProcessId: 4936
-
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:8232
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 11/13/2015 7:31:22 PM
-
-Message: HandlingInstanceID: 13446392-8a4d-4a7f-9a3e-4de861b48c83
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/13/2015 12:31:22
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
-Source : Telerik.Sitefinity
-Help link : 
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 11/13/2015 7:31:22 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-10-130919166702966624
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 90030
-
-Severity: Error
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-10-130919166702966624
-
-ProcessId: 4936
-
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
-
-Thread Name: 
-
-Win32 ThreadId:2636
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 11/13/2015 8:25:26 PM
-
-Message: HandlingInstanceID: 4f5fc343-bfbc-42f6-83d2-47132e7fcd66
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/13/2015 13:25:26
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
-Source : Telerik.Sitefinity
-Help link : 
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 11/13/2015 8:25:26 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-11-130919199159362315
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 90030
-
-Severity: Error
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-11-130919199159362315
-
-ProcessId: 4936
-
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
-
-Thread Name: 
-
-Win32 ThreadId:10136
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 11/13/2015 8:32:15 PM
-
-Message: HandlingInstanceID: 0fe9bfd4-6520-460c-b8bc-a8a6f20a402a
-An exception of type 'System.NullReferenceException' occurred and was caught.
------------------------------------------------------------------------------
-11/13/2015 13:32:15
-Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : Object reference not set to an instance of an object.
-Source : Telerik.Sitefinity
-Help link : 
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void VerifySectionRegistered(System.Type, System.String)
-HResult : -2147467261
-Stack Trace :    at Telerik.Sitefinity.Configuration.Config.VerifySectionRegistered(Type sectionType, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionInternal(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate(Type sectionType, Boolean safeMode, String sectionName)
-   at Telerik.Sitefinity.Configuration.Config.GetSectionPrivate[TSection](Boolean safeMode)
-   at Telerik.Sitefinity.Localization.ResourceManager.get_ProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.GetProvidersSettings()
-   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 11/13/2015 8:32:15 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-12-130919203256571995
-ThreadIdentity : SWIFTPAGE\Jeremy.Kron
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 90030
-
-Severity: Error
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-12-130919203256571995
-
-ProcessId: 4936
-
-Process Name: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Microsoft.VisualStudio.Web.Host.exe
-
-Thread Name: 
-
-Win32 ThreadId:8860
+Win32 ThreadId:8276
 
 Extended Properties: 
 ----------------------------------------
