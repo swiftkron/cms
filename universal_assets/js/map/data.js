@@ -101,7 +101,7 @@
  	"postcode": "",
  	"company": "Capability Philippines, Inc.",
  	"description": "",
- 	"level": 3,
+ 	"level": 2,
  	"longitude": "121.061515",
  	"latitude": "14.589618"
  }, {
@@ -5061,7 +5061,7 @@
  	"postcode": "5018",
  	"company": "Gianos Consulting ",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "12.125258199999962",
  	"latitude": "42.7191784"
  }, {
@@ -5301,7 +5301,7 @@
  	"postcode": "WA15 6TG",
  	"company": "Ceetec Solutions Ltd",
  	"description": "",
- 	"level": 4,
+ 	"level": 3,
  	"longitude": "-2.3354134999999587",
  	"latitude": "53.4032011"
  }, {

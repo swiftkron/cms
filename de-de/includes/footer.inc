@@ -55,6 +55,7 @@
                                     <li>
                                           <a href="http://kb-de.swiftpage.com/" target="_blank">Knowledgebase</a>
                                     </li>
+                                                <li><a href="produkte/Systemvoraussetzungen/">Systemvoraussetzungen</a></li>
       				</ul>
 
       			</div>
@@ -68,7 +69,7 @@
                                           <li>  <a href="http://www.swiftpage.com/en-us/about/legal.shtml" target="_blank">Richtlinien</a></li>
                                           <li>  <a href="zahlungsmoeglichkeiten">Zahlungen</a></li> 
                                           <li>  <a href="impressum">Impressum</a></li> 
-                                          <li><a href="produkte/Systemvoraussetzungen/">Systemvoraussetzungen</a></li>
+                              
                               </ul>
 
                         </div>

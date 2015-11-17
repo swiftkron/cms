@@ -65,6 +65,12 @@
       						<a href="http://kb-fr.swiftpage.com/" target="_blank">Knowledgebase</a>
       					</li>
 
+                                    <li>
+                                          <a href="produits/systeme/">Configuration système</a>
+                                    </li>
+
+                            
+
 
 
       				</ul>

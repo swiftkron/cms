@@ -11,7 +11,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Delete in production --><meta name="robots" content="nofollow" />
     <!--#include virtual="/tracking/head-tracking.aspx" -->	
 
 </head>
@@ -24,17 +23,6 @@
         <sf:JavaScriptEmbedControl runat="server" ID="jsLink2" ScriptEmbedPosition="Head" Url="~/Sitefinity/WebsiteTemplates/Base/App_Theme/js/common.js"></sf:JavaScriptEmbedControl>
         
         <asp:ContentPlaceHolder ID="MainNavigation" runat="server"></asp:ContentPlaceHolder>
-
-        <!-- CONTENT MODULE -->
-        <div class="outer">
-            <div class="container bg_white">
-                <div class="row">
-                    <div class="col-12 article">
-                        <asp:ContentPlaceHolder ID="BodyContent" runat="server"></asp:ContentPlaceHolder>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <asp:ContentPlaceHolder ID="Footer" runat="server"></asp:ContentPlaceHolder>
         <div class="outer bg_grey">

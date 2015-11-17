@@ -153,7 +153,7 @@
                 <div class="stepDets">
                     <div class="col-md-12">
                         <ul>
-                            <li><span>Keep contact info and associated notes, history, activities, documents, opportunities, and social media updates in one organized place</span></li>
+                            <li><span>Keep contact info and associated notes, history, activities, documents, opportunities, and social media updates in one organised place</span></li>
                             <li><span>Customise your contact layout with over 60+ fields</span></li>
                             <li><span>See a full view of your interactions with a customer in a single view</span></li>
                             <li><span>Easily organise contacts and prospects into Groups</span></li>
@@ -195,7 +195,7 @@
                             <li><span>Effectively reach your customers and prospects with powerful, easy-to-use emarketing tools</span></li>
                             <li><span>Use the Contacts, Groups, and Lists you already manage in Act! to easily send targeted email campaigns</span></li>
                             <li><span>Create professional, eye-catching email campaigns using our unparalleled drag-and-drop template editor</span></li>
-                            <li><span>Record results to Act history and view insightful, actionable metrics</span></li>
+                            <li><span>Record results to Act! history and view insightful, actionable metrics</span></li>
                         </ul>
                         <p><a href="/en-uk/resources/">View more Act! Premium resources</a></p>
                     </div>
@@ -251,7 +251,7 @@
             <div class="step item" id="step7">
                 <h3>Step 7: <strong>Buy Act! Premium Cloud Today</strong></h3>
                 <div class="step7Wrapper">
-                    <p>Act! has a solution that's perfect for your business. The Act! suite of solutions works the way you work – with ultimate flexibility to meet all your payment, deployment, and access needs. And, with expert support, intelligent recommendations, and rich integrations with the business tools you rely on every day, Act! fits neatly into your business.</p>
+                    <p>Act! has a solution that's perfect for your business. The Act! suite of solutions works the way you work - with ultimate flexibility to meet all your payment, deployment, and access needs. And, with expert support, intelligent recommendations, and rich integrations with the business tools you rely on every day, Act! fits neatly into your business.</p>
                     <div class="bulletWrapper">
                         <div class="col-md-6">
                             <ul>

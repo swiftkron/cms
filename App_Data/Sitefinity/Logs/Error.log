@@ -1,41 +1,45 @@
 ----------------------------------------
-Timestamp: 11/16/2015 5:16:23 PM
+Timestamp: 11/17/2015 6:10:40 PM
 
-Message: HandlingInstanceID: c832d59f-3a8b-412f-86a6-b40de64532b9
-An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
--------------------------------------------------------------------------------------------
-11/16/2015 10:16:23
-Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider,aab261e796e1633a9d88ff00001e67f5.ascx". The control must be assignable from type "Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicDetailContainer" and must have ID "detailContainer".
-Source : Telerik.Sitefinity
+Message: HandlingInstanceID: e522c2ca-0bed-4adf-8ca3-b2208fffc8e6
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 11:10:40
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "SitefinityWebApp.NotFoundStatusCodeSetter" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
 Help link : 
+ParamName : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ThrowException(System.Type, System.String)
-HResult : -2146233088
-Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
-   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.get_DetailContainer()
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.InitializeControls(GenericContainer container)
-   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
-   at System.Web.UI.Control.EnsureChildControls()
-   at System.Web.UI.WebControls.CompositeControl.DataBind()
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentView.OnPreRender(EventArgs e)
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/16/2015 5:16:23 PM
+TimeStamp : 11/17/2015 6:10:40 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130921630250541296
-ThreadIdentity : admin
+AppDomainName : /LM/W3SVC/2/ROOT-9-130922571523084450
+ThreadIdentity : 
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://localhost:60876/why-act/customer-success/american-health-insurance
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
 
 
 Category: ErrorLog
@@ -50,56 +54,60 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-1-130921630250541296
+App Domain: /LM/W3SVC/2/ROOT-9-130922571523084450
 
-ProcessId: 6800
+ProcessId: 10180
 
 Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:7384
+Win32 ThreadId:3460
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/16/2015 5:16:42 PM
+Timestamp: 11/17/2015 6:20:41 PM
 
-Message: HandlingInstanceID: f00065d8-2005-46f4-a558-a78cfb5a98bc
-An exception of type 'Telerik.Sitefinity.Web.UI.TemplateException' occurred and was caught.
--------------------------------------------------------------------------------------------
-11/16/2015 10:16:42
-Type : Telerik.Sitefinity.Web.UI.TemplateException, Telerik.Sitefinity, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-Message : A required control was not found in the template for "~/SfCtrlPresentation/OpenAccessDataProvider,aab261e796e1633a9d88ff00001e67f5.ascx". The control must be assignable from type "Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicDetailContainer" and must have ID "detailContainer".
-Source : Telerik.Sitefinity
+Message: HandlingInstanceID: ae047b9b-060a-43b1-8c4a-870b3ac3c420
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 11:20:41
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "SitefinityWebApp.NotFoundStatusCodeSetter" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
 Help link : 
+ParamName : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ThrowException(System.Type, System.String)
-HResult : -2146233088
-Stack Trace :    at Telerik.Sitefinity.Web.UI.GenericContainer.ThrowException(Type requiredType, String controlId)
-   at Telerik.Sitefinity.Web.UI.GenericContainer.GetControl[T](String id, Boolean required)
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.get_DetailContainer()
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentViewDetail.InitializeControls(GenericContainer container)
-   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
-   at System.Web.UI.Control.EnsureChildControls()
-   at System.Web.UI.WebControls.CompositeControl.DataBind()
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentView.OnPreRender(EventArgs e)
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/16/2015 5:16:42 PM
+TimeStamp : 11/17/2015 6:20:41 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130921630250541296
-ThreadIdentity : admin
+AppDomainName : /LM/W3SVC/2/ROOT-9-130922571523084450
+ThreadIdentity : 
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://localhost:60876/why-act/customer-success/amerifund
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
 
 
 Category: ErrorLog
@@ -114,76 +122,1102 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-1-130921630250541296
+App Domain: /LM/W3SVC/2/ROOT-9-130922571523084450
 
-ProcessId: 6800
+ProcessId: 10180
 
 Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:4032
+Win32 ThreadId:7340
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 11/16/2015 6:24:59 PM
+Timestamp: 11/17/2015 6:34:22 PM
 
-Message: HandlingInstanceID: 473179ed-d792-4b6d-834e-0b4869751453
+Message: HandlingInstanceID: 2245f8c7-0418-4107-a145-a9fb1688e71f
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 11:34:22
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "SitefinityWebApp.NotFoundStatusCodeSetter" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:34:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7256
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:39:16 PM
+
+Message: HandlingInstanceID: 68430766-c027-458f-8904-9bf346c9e929
+An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.
+----------------------------------------------------------------------------------
+11/17/2015 11:39:16
+Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Specified argument was out of the range of valid values.
+Parameter name: name
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ActualValue : 
+ParamName : name
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2146233086
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:39:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:39:16 PM
+
+Message: HandlingInstanceID: 656d71e0-12f9-4eab-be81-bd218242f634
+An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.
+----------------------------------------------------------------------------------
+11/17/2015 11:39:16
+Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Specified argument was out of the range of valid values.
+Parameter name: name
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ActualValue : 
+ParamName : name
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2146233086
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:39:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:39:16 PM
+
+Message: HandlingInstanceID: 68c6707d-364b-45b0-92c5-7b17ce5c16fb
+An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.
+----------------------------------------------------------------------------------
+11/17/2015 11:39:16
+Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Specified argument was out of the range of valid values.
+Parameter name: name
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ActualValue : 
+ParamName : name
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2146233086
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:39:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:39:16 PM
+
+Message: HandlingInstanceID: 65ff7d4a-d000-45e6-987c-905ceadc9a99
+An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.
+----------------------------------------------------------------------------------
+11/17/2015 11:39:16
+Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Specified argument was out of the range of valid values.
+Parameter name: name
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ActualValue : 
+ParamName : name
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2146233086
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:39:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:39:17 PM
+
+Message: HandlingInstanceID: c20a8050-b75a-4ebd-a041-e06cbef761e8
+An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.
+----------------------------------------------------------------------------------
+11/17/2015 11:39:17
+Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Specified argument was out of the range of valid values.
+Parameter name: name
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ActualValue : 
+ParamName : name
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2146233086
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:39:17 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:39:17 PM
+
+Message: HandlingInstanceID: b359bd83-1b16-4e70-913f-251eba31363b
+An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.
+----------------------------------------------------------------------------------
+11/17/2015 11:39:17
+Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Specified argument was out of the range of valid values.
+Parameter name: name
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ActualValue : 
+ParamName : name
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2146233086
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:39:17 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2504
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:45:06 PM
+
+Message: HandlingInstanceID: b1096ea7-4718-4381-9974-3adff90dbb04
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 11:45:06
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "SitefinityWebApp.UserControls.NotFoundStatusCodeSetter" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:45:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7888
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:46:06 PM
+
+Message: HandlingInstanceID: 3f383912-e6d4-4b4d-b9e3-a94f6c7e8e52
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 11:46:06
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\UserControls\NotFoundStatusCodeSetter.ascx
+VirtualPath : /UserControls/NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:46:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6480
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:49:30 PM
+
+Message: HandlingInstanceID: bc4c298e-7f7f-4687-abbc-52a5d6bec6a4
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 11:49:30
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\UserControls\NotFoundStatusCodeSetter.ascx
+VirtualPath : /UserControls/NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:49:30 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1448
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:50:36 PM
+
+Message: HandlingInstanceID: e3d930cd-3875-43e8-be95-66d64283116d
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 11:50:36
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\UserControls\NotFoundStatusCodeSetter.ascx
+VirtualPath : /UserControls/NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:50:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:8264
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:52:22 PM
+
+Message: HandlingInstanceID: 65d04a2d-ce1e-4cb3-a884-2a26f399c7b0
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 11:52:22
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\UserControls\NotFoundStatusCodeSetter.ascx
+VirtualPath : /UserControls/NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:52:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.UserControls.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7600
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:54:09 PM
+
+Message: HandlingInstanceID: b9af226a-7306-4979-9f71-24585c23ef0f
 An exception of type 'System.Web.HttpException' occurred and was caught.
 ------------------------------------------------------------------------
-11/16/2015 11:24:59
+11/17/2015 11:54:09
 Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-Message : DataBinding: 'Telerik.Sitefinity.DynamicTypes.Model.CustomerSuccesses.SuccessStory' does not contain a property with the name 'Result'.
+Message : The file '/UserControls/NotFoundStatusCodeSetter' does not exist.
 Source : System.Web
 Help link : 
 WebEventCode : 0
 ErrorCode : -2147467259
 Data : System.Collections.ListDictionaryInternal
-TargetSite : System.Object GetPropertyValue(System.Object, System.String)
+TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
 HResult : -2147467259
-Stack Trace :    at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
-   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
-   at System.Web.UI.DataBinder.Eval(Object container, String expression)
-   at System.Web.UI.TemplateControl.Eval(String expression)
-   at ASP.sfctrlpresentation_openaccessdataprovider_aab261e796e1633a9d88ff00001e67f5_ascx.__DataBind__control7(Object sender, EventArgs e)
-   at System.Web.UI.Control.OnDataBinding(EventArgs e)
-   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
-   at System.Web.UI.Control.DataBind()
-   at System.Web.UI.Control.DataBindChildren()
-   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
-   at System.Web.UI.Control.DataBind()
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicDetailContainer.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
-   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
-   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
-   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
-   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
-   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
-   at System.Web.UI.Control.DataBindChildren()
-   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
-   at System.Web.UI.Control.DataBind()
-   at System.Web.UI.Control.DataBindChildren()
-   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
-   at System.Web.UI.Control.DataBind()
-   at System.Web.UI.Control.DataBindChildren()
-   at System.Web.UI.WebControls.CompositeControl.DataBind()
-   at Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentView.OnPreRender(EventArgs e)
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Control.PreRenderRecursiveInternal()
-   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+Stack Trace :    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
 
 Additional Info:
 
 MachineName : DEN-100001176
-TimeStamp : 11/16/2015 6:24:59 PM
+TimeStamp : 11/17/2015 6:54:09 PM
 FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130921630250541296
-ThreadIdentity : admin
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : 
 WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://localhost:60876/why-act/customer-success/american-health-insurance
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
 
 
 Category: ErrorLog
@@ -198,15 +1232,1260 @@ Title:Enterprise Library Exception Handling
 
 Machine: DEN-100001176
 
-App Domain: /LM/W3SVC/2/ROOT-1-130921630250541296
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
 
-ProcessId: 6800
+ProcessId: 10180
 
 Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
 
 Thread Name: 
 
-Win32 ThreadId:8276
+Win32 ThreadId:7600
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:55:34 PM
+
+Message: HandlingInstanceID: 15ae6977-e256-42b4-b441-df9f3d5c8fd8
+An exception of type 'System.ArgumentNullException' occurred and was caught.
+----------------------------------------------------------------------------
+11/17/2015 11:55:34
+Type : System.ArgumentNullException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Value cannot be null.
+Parameter name: originalControl
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : originalControl
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void .ctor(System.Web.UI.Control)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Web.UI.DesignTimeControl..ctor(Control originalControl)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:55:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6484
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:55:46 PM
+
+Message: HandlingInstanceID: b313747c-4ea6-4872-b028-e945c5c39c51
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 11:55:46
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : Telerik.Sitefinity
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void InitializeControls(Telerik.Sitefinity.Web.UI.GenericContainer)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Web.UI.PropertyEditor.InitializeControls(GenericContainer dialogContainer)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at Telerik.Sitefinity.Web.UI.DialogBase.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.WebControls.CompositeControl.get_Controls()
+   at Telerik.Sitefinity.Web.UI.PropertyEditor.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Control.AddedControl(Control control, Int32 index)
+   at System.Web.UI.ControlCollection.Add(Control child)
+   at Telerik.Sitefinity.Web.DialogRouteHandler.InitializeContent(Page handler, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandlerBase.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:55:46 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Dialog/PropertyEditor?Id=02c261e7-96e1-633a-9d88-ff00001e67f5&MediaType=0&PageId=d9bd61e7-96e1-633a-9d88-ff00001e67f5&propertyValueCulture=&hideSaveAllTranslations=true&rwndrnd=0.17385438707937362
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:55:56 PM
+
+Message: HandlingInstanceID: 1682eda0-82bf-447d-b4e0-4924918f0796
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+11/17/2015 11:55:56
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'System.Web.Compilation.BuildResultCompiledAssembly' to type 'System.Web.Util.IWebObjectFactory'.
+Source : System.Web
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.Control LoadControl(System.Web.VirtualPath)
+HResult : -2147467262
+Stack Trace :    at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Telerik.Sitefinity.Modules.Pages.ControlBuilder.CreateControl(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageHelperImplementation.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.PageHelper.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageDraftProxy.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Web.PageEditorRouteHandler.ApplyLayoutsAndControls(Page page, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.InitializeContent(Page handler, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:55:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7540
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:57:02 PM
+
+Message: HandlingInstanceID: f489ca9a-1f02-4174-b34c-4ad4cad44e75
+An exception of type 'System.ArgumentNullException' occurred and was caught.
+----------------------------------------------------------------------------
+11/17/2015 11:57:02
+Type : System.ArgumentNullException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Value cannot be null.
+Parameter name: originalControl
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : originalControl
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void .ctor(System.Web.UI.Control)
+HResult : -2147467261
+Stack Trace :    at Telerik.Sitefinity.Web.UI.DesignTimeControl..ctor(Control originalControl)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:57:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10288
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 6:57:42 PM
+
+Message: HandlingInstanceID: 20d479db-4168-4303-91a1-2cf5972d2c4b
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+11/17/2015 11:57:42
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'System.Web.Compilation.BuildResultCompiledAssembly' to type 'System.Web.Util.IWebObjectFactory'.
+Source : System.Web
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.Control LoadControl(System.Web.VirtualPath)
+HResult : -2147467262
+Stack Trace :    at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Telerik.Sitefinity.Modules.Pages.ControlBuilder.CreateControl(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageHelperImplementation.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.PageHelper.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageDraftProxy.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Web.PageEditorRouteHandler.ApplyLayoutsAndControls(Page page, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.InitializeContent(Page handler, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 6:57:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-10-130922586151327128
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-10-130922586151327128
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:01:57 PM
+
+Message: HandlingInstanceID: 4d9367d1-e1bd-4031-ae4f-1a3b151de696
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 12:01:57
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/UserControls/NotFoundStatusCodeSetter.ascx.cs' does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Modules.ControlManager`1.LoadControlOrObject(ObjectData objectData, CultureInfo culture)
+   at Telerik.Sitefinity.Modules.ControlManager`1.LoadControl(ObjectData controlData, CultureInfo culture)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.editor_ControlAdd(Object sender, ZoneEditorEventArgs e)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:01:57 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404/Action/Edit
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7584
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:01:59 PM
+
+Message: HandlingInstanceID: 462ab081-db23-4abd-b9dd-757e4af3e81c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 12:01:59
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : The file '/UserControls/NotFoundStatusCodeSetter.ascx.cs' does not exist.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckVirtualFileExists(System.Web.VirtualPath)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Abstractions.VirtualPath.PageResolverBase.BuildControls(PageData pageData, List`1 controlConatiners, CursorCollection placeHolders, DirectiveCollection directives)
+   at Telerik.Sitefinity.Abstractions.VirtualPath.SitefinityPageResolver.RenderPage(StringBuilder output, PageData pageData, RequestContext context, String virtualPath)
+   at Telerik.Sitefinity.Abstractions.VirtualPath.SitefinityPageResolver.Open(PathDefinition definition, String virtualPath)
+   at Telerik.Sitefinity.Abstractions.VirtualPath.PathDefinition.OpenFile(String virtualPath)
+   at Telerik.Sitefinity.Abstractions.VirtualPath.VirtualPathManager.OpenFile(String virtualPath)
+   at Telerik.Sitefinity.Abstractions.VirtualPath.SitefinityVirtualFile.Open()
+   at System.Web.Hosting.VirtualPathProvider.OpenFile(String virtualPath)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at Telerik.Sitefinity.Web.PageRouteHandler.InstantiateHandler(RequestContext requestContext, PageSiteNode pageDataNode, String& theme)
+   at Telerik.Sitefinity.Web.PageRouteHandler.BuildHttpHandler(RequestContext requestContext)
+   at Telerik.Sitefinity.Web.PageRouteHandler.GetHttpHandler(RequestContext requestContext)
+   at System.Web.Routing.UrlRoutingModule.PostResolveRequestCache(HttpContextBase context)
+   at System.Web.Routing.UrlRoutingModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:01:59 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404?404;http://localhost:60876/tracking/subscribe_elq.js
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7584
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:02:13 PM
+
+Message: HandlingInstanceID: c8a264d0-4df7-4cd3-8329-295f4213ef65
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 12:02:13
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "SitefinityWebApp.NotFoundStatusCodeSetter" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:02:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:3352
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:03:39 PM
+
+Message: HandlingInstanceID: 55c13d8f-9c1b-4419-9725-d2df8f53620e
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 12:03:39
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\NotFoundStatusCodeSetter.ascx
+VirtualPath : /NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:03:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:04:12 PM
+
+Message: HandlingInstanceID: 86654654-1970-4806-bcb8-c9fc8df175f7
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 12:04:12
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\NotFoundStatusCodeSetter.ascx
+VirtualPath : /NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:04:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5612
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:05:01 PM
+
+Message: HandlingInstanceID: 09d88760-72ad-48d6-8b6e-278fd4107e1b
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+11/17/2015 12:05:01
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'System.Web.Compilation.BuildResultCompiledAssembly' to type 'System.Web.Util.IWebObjectFactory'.
+Source : System.Web
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.Control LoadControl(System.Web.VirtualPath)
+HResult : -2147467262
+Stack Trace :    at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Telerik.Sitefinity.Modules.Pages.ControlBuilder.CreateControl(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageHelperImplementation.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.PageHelper.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageDraftProxy.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Web.PageEditorRouteHandler.ApplyLayoutsAndControls(Page page, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.InitializeContent(Page handler, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:05:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5372
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:06:19 PM
+
+Message: HandlingInstanceID: 501cf523-e507-4a65-ae6b-457cbdd2bf13
+An exception of type 'System.InvalidCastException' occurred and was caught.
+---------------------------------------------------------------------------
+11/17/2015 12:06:19
+Type : System.InvalidCastException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Unable to cast object of type 'System.Web.Compilation.BuildResultCompiledAssembly' to type 'System.Web.Util.IWebObjectFactory'.
+Source : System.Web
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.UI.Control LoadControl(System.Web.VirtualPath)
+HResult : -2147467262
+Stack Trace :    at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Telerik.Sitefinity.Modules.Pages.ControlBuilder.CreateControl(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageHelperImplementation.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.PageHelper.CreateChildControls(IList`1 controls, Page page, Boolean ignoreCultures, Boolean addControlIdScript)
+   at Telerik.Sitefinity.Modules.Pages.DraftProxyBase.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Modules.Pages.PageDraftProxy.CreateChildControls(Page page)
+   at Telerik.Sitefinity.Web.PageEditorRouteHandler.ApplyLayoutsAndControls(Page page, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.InitializeContent(Page handler, RequestContext requestContext)
+   at Telerik.Sitefinity.Web.RouteHandler.Handler_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:06:19 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : admin
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/error-pages/404/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7584
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:07:32 PM
+
+Message: HandlingInstanceID: 6e7d2af3-4034-4308-84a2-115ae38d2af2
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 12:07:32
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\NotFoundStatusCodeSetter.ascx
+VirtualPath : /NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:07:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10296
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:10:02 PM
+
+Message: HandlingInstanceID: 753dadc2-1e48-4d73-a451-2595534b7246
+An exception of type 'System.Web.HttpParseException' occurred and was caught.
+-----------------------------------------------------------------------------
+11/17/2015 12:10:02
+Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+Source : System.Web
+Help link : 
+FileName : C:\inetpub\wwwroot\act_com\NotFoundStatusCodeSetter.ascx
+VirtualPath : /NotFoundStatusCodeSetter.ascx
+Line : 1
+ParserErrors : System.Web.ParserErrorCollection
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ParseString(System.String, System.Web.VirtualPath, System.Text.Encoding)
+HResult : -2147467259
+Stack Trace :    at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:10:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+	Inner Exception
+	---------------
+	Type : System.Web.HttpParseException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+	Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+	Source : System.Web
+	Help link : 
+	FileName : Access failed
+	VirtualPath : 
+	Line : 0
+	ParserErrors : System.Web.ParserErrorCollection
+	WebEventCode : 0
+	ErrorCode : -2147467259
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ProcessException(System.Exception)
+	HResult : -2147467259
+	Stack Trace :    at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+	   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+	   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+
+		Inner Exception
+		---------------
+		Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		Message : Could not load type 'SitefinityWebApp.NotFoundStatusCodeSetter'.
+		Source : System.Web
+		Help link : 
+		WebEventCode : 0
+		ErrorCode : -2147467259
+		Data : System.Collections.ListDictionaryInternal
+		TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+		HResult : -2147467259
+		Stack Trace :    at System.Web.UI.TemplateParser.GetType(String typeName, Boolean ignoreCase, Boolean throwOnError)
+		   at System.Web.UI.TemplateParser.ProcessInheritsAttribute(String baseTypeName, String codeFileBaseTypeName, String src, Assembly assembly)
+		   at System.Web.UI.TemplateParser.PostProcessMainDirectiveAttributes(IDictionary parseData)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4068
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:10:52 PM
+
+Message: HandlingInstanceID: 95e5b9a4-e600-49e9-bed3-ae7710cbd7eb
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+11/17/2015 12:10:52
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Type "SitefinityWebApp.NotFoundStatusCodeSetter" cannot be resolved.
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Type GetType(System.String, Boolean, Boolean)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Utilities.TypeConverters.TypeResolutionService.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at Telerik.Sitefinity.Modules.ControlManager`1.GetControlType(ObjectData controlData)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.CreateNewControl(ZoneEditorWebServiceArgs state, IControlManager manager, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateControlState(ZoneEditorWebServiceArgs state)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:10:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-11-130922604136365452
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-11-130922604136365452
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:5932
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 11/17/2015 7:13:13 PM
+
+Message: HandlingInstanceID: a23d7274-b981-4354-be61-04827a5b5306
+An exception of type 'System.Security.Cryptography.CryptographicException' occurred and was caught.
+---------------------------------------------------------------------------------------------------
+11/17/2015 12:13:13
+Type : System.Security.Cryptography.CryptographicException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Bad Data.
+
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowCryptographicException(Int32)
+HResult : -2146893819
+Stack Trace :    at System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   at System.Security.Cryptography.Utils._DecryptData(SafeKeyHandle hKey, Byte[] data, Int32 ib, Int32 cb, Byte[]& outputBuffer, Int32 outputOffset, PaddingMode PaddingMode, Boolean fDone)
+   at System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   at System.Security.Cryptography.CryptoStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at Telerik.Sitefinity.Security.SecurityManager.DecryptData(Byte[] data)
+   at Telerik.Sitefinity.Security.Claims.SitefinityCookieTransform.Decode(Byte[] encoded)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ApplyTransforms(Byte[] cookie, Boolean outbound)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionTokenHandler.ReadToken(XmlReader reader, SecurityTokenResolver tokenResolver)
+   at Microsoft.IdentityModel.Tokens.SessionSecurityTokenHandler.ReadToken(Byte[] token, SecurityTokenResolver tokenResolver)
+   at Telerik.Sitefinity.Security.Claims.SitefinitySessionAuthenticationModule.ReadToken(Byte[] sessionCookie)
+
+Additional Info:
+
+MachineName : DEN-100001176
+TimeStamp : 11/17/2015 7:13:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-12-130922611321113855
+ThreadIdentity : 
+WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+Requested URL : http://localhost:60876/Sitefinity/Services/Dashboard/DashboardService.svc/GetRecentItems/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DEN-100001176
+
+App Domain: /LM/W3SVC/2/ROOT-12-130922611321113855
+
+ProcessId: 10180
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:7540
 
 Extended Properties: 
 ----------------------------------------
