@@ -21,7 +21,7 @@
                                 <li><a href="/marketplace">Marketplace</a></li>
                                 <li><a href="http://community.act.com" target="_blank">Community</a></li>
                                 <li><a href="/pricing">Pricing</a></li>
-                                <li><a href="https://buy.act.com/trial/product/ActPremium/plan/Month">Free Trial</a></li>
+                                <li><a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month">Free Trial</a></li>
                             </ul>
                         </div>
                         <div class="col-4">

@@ -8,7 +8,7 @@
                     <span class="glyphicon glyphicon-chevron-down"></span>
                     <ul class="uDropdown uAlt">
                         <li><a href="#">Login</a></li>
-                        <li><a href="https://buy.act.com/trial/product/ActPremium/plan/Month">Free Trial</a></li>
+                        <li><a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month">Free Trial</a></li>
                         <li><a href="tel:1-866-873-2006">866-873-2006</a></li>
                         <span class="separator"></span>
                         <li><a href="/en-uk/">International English</a></li>
@@ -20,7 +20,7 @@
                 <div class="uBrand" title="Act!"></div>
                 <div class="uToggleElements">
                     <div class="uTrial">
-                        <a href="https://buy.act.com/trial/product/ActPremium/plan/Month"><span class="button btnSecondary">Free trial</span></a>
+                        <a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"><span class="button btnSecondary">Free trial</span></a>
                     </div>
                     <div class="uPhone"><a href="tel:1-866-873-2006">866-873-2006</a></div>
                     <div class="uIntl">
