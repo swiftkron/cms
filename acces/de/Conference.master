@@ -36,7 +36,7 @@
 
 		<!-- 4thought utm capture -->
 		<script src="/js/elq/jquery.cookie.js"></script>
-		<script src="/js/elq/elqQs.js"></script>
+		<!-- <script src="/js/elq/elqQs.js"></script> -->
 
     <link href="/css/global.css" rel="stylesheet">
     <link href="/css/conference.css" rel="stylesheet">

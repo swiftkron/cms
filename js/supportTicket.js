@@ -1,8 +1,9 @@
 //Takes strings for each of the parameters, returns object containing ticket number and/or error message
 function GetTicket(country, firstname, lastname, email, phone, product, description, accountnumber, companyname, language, postcode, querytype) {
     // Production 
-    var url = "https://crm-web1.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
-    // Test var url = "https://crm-web1-stg.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
+    //var url = "https://crm-web1.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
+    // Test 
+    var url = "https://crm-web1-stg.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
     var value = {
         "Country": country, "EmailAddress": email, "FirstName": firstname,
         "LastName": lastname, "PhoneNumber": phone, "QueryType": querytype,
@@ -107,16 +108,34 @@ $(document).ready(function () {
             var ticketnumber = GetTicket(country.val(), firstname.val(), lastname.val(), email.val(), phone.val(), product.val(), description.val(), accountnumber.val(), company.val(), language, postcode.val(), "");
             var rmsg = JSON.parse(ticketnumber);
 
+            //Define Translations
+            if (language == "English (International)") {
+                geoConfirm = "<h2>Intl EN: Thank you &ndash; your ticket has been created.</h2><p>Ticket Number: <strong>" + rmsg.TicketNumber + "</strong></p><p><strong>An Act! Support representative will respond to your query within 4 business hours.</strong></p>";
+                geoError = "<h2>Sorry, we encountered an error generating the support ticket.</h2><p>Please contact customer support by calling 0845 268 0220 (UK), 0766 801 364 (Ireland), 0105 003 672 (South Africa) or by emailing us at <a href=\"mailto:software.support@swiftpage.com\">software.support@swiftpage.com</a>.</p>";
+            }
+            else if (language == "French (France)") {
+                geoConfirm = "<h2>Merci, votre ticket a été créé.</h2><p>Numéro de ticket : <strong>" + rmsg.TicketNumber + "</strong></p><p><strong>Un conseiller technique Act! va répondre à votre demande dans un délai de 4 heures ouvrables.</strong></p>";
+                geoError = "<h2>Nous avons rencontré une erreur lors de la création de ce ticket.</h2><p>Merci de contacter notre équipe d'assistance au <strong>09 75 18 23 09</strong> (France), <strong>078 483 840</strong> (Belgique) ou en écrivant à <a href=\"mailto:support-france@swiftpage.com\">support-france@swiftpage.com</a>.</p>";
+            }
+            else if (language == "German") {
+                geoConfirm = "<h2>Vielen Dank &ndash; ihr Support-Ticket wurde angelegt.</h2><p>Ticketnummer: <strong>" + rmsg.TicketNumber + "</strong></p><p><strong>Ein Mitarbeiter des Act! Supports wird ihre Anfrage innerhalb der nächsten 4 Stunden beantworten.</strong></p>";
+                geoError = "<h2>Bei der Erstellung ihres Support-Tickets ist leider ein Fehler aufgetreten.</h2><p>Bitte wenden Sie sich telefonisch an unseren Support. Die Rufnummer für Kunden in Deutschland: 069 643 508 433. Für Kunden in der Schweiz: 043 508 2364. Alternativ können Sie eine Email an <a href=\"mailto:support-deutsch@swiftpage.com\">support-deutsch@swiftpage.com schicken.</p>";
+            }
+            else {
+                geoConfirm = "<h2>Thank you &ndash; your ticket has been created</h2><p>Ticket Number: <strong>" + rmsg.TicketNumber + "</strong></p><p><strong>An Act! Support representative will respond to your query within 4 business hours.</strong></p>";
+                geoError = "<h2>Sorry, we encountered an error generating the support ticket.</h2><p>Please contact customer support by calling <strong>(866) 873-2006</strong> or by emailing us at <a href=\"mailto:support@act.com\">support@act.com</a>.</p>";
+            }
+
             //alert(ticketnumber);
             $('.supportForm').css('display', 'none');
 
             // Display confirmation or error message from REST service
             if (!rmsg.TicketNumber) {
                 $('.returnMsg').addClass('returnError');
-                $('.returnMsg').html("<h2>Sorry, we encountered an error generating the support ticket.</h2><p>Please contact customer support by calling <strong>(866) 873-2006</strong> or by emailing us at <a href=\"mailto:support@act.com\">support@act.com</a>.</p>");
+                $('.returnMsg').html(geoError);
             }
             else {
-                $('.returnMsg').html("<h2>Thank you – your ticket has been created</h2><p>Ticket Number: <strong>" + rmsg.TicketNumber + "</strong></p><p><strong>An Act! Support representative will respond to your query within 4 business hours.</strong></p>");
+                $('.returnMsg').html(geoConfirm);
             }
 
             $('.returnMsg').css('display', 'block');
