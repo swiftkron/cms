@@ -19,7 +19,7 @@
     color: #FFF;
 }
 .bg_blue {
-    background-color: #308dc6;
+    background-color: #008cc5;
     color: #FFF;
 }
 .bg_blue a{
@@ -138,7 +138,7 @@ span.reverse{
     color:#fe5000;
 }
 #home .hero .btnDefault{
-    background-color: #308dc6;
+    background-color: #008cc5;
 }
 #home .hero .btnDefault:hover{
     background-color: #2e81b6;  
@@ -237,7 +237,7 @@ table, .downloadTable{
     padding:0 0;
 }
 .downloadTable tr:first-child{
-    background:#308dc6;
+    background:#008cc5;
     color:#FFF;
 }
 table tr:nth-child(even), .downloadTable tr:nth-child(even){
@@ -342,8 +342,8 @@ table td, table th, .downloadTable td, .downloadTable th{
     margin:48px 0;
 }
 .solutionIntro .quote{
-    border:#308dc6 2px solid;
-    color:#308dc6;
+    border:#008cc5 2px solid;
+    color:#008cc5;
     padding:12px 24px;
     margin:48px 0;
 }
@@ -365,7 +365,7 @@ table td, table th, .downloadTable td, .downloadTable th{
 .solutionFeatures h4{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
     font-size:1em;
-    color:#308dc6;
+    color:#008cc5;
 }
 .solutionFeatures .ctas a{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
@@ -407,7 +407,7 @@ table td, table th, .downloadTable td, .downloadTable th{
 .productFeatures h3{
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
     font-size:1.25em;
-    color:#308dc6;
+    color:#008cc5;
 }
 .productFeatures a{
     color:#fe5000;
@@ -418,7 +418,7 @@ table td, table th, .downloadTable td, .downloadTable th{
     text-align:center;
 }
 #prodDetails h2{
-    color:#308dc6;
+    color:#008cc5;
 }
 #prodDetails .trialCTA h2{
     color:#FFF;
@@ -753,7 +753,7 @@ iframe#chatFrame {
 }
 .priceBlock h3{
     margin:1em 0;
-    color:#308dc6;
+    color:#008cc5;
     font-size:18px;
     font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
 }
@@ -981,7 +981,7 @@ iframe#chatFrame {
     background-color:#edf0f2;
 }
 .customers h3{
-    color:#308dc6;
+    color:#008cc5;
     text-align:center;
     margin:0 auto 24px;
 }
@@ -1015,6 +1015,6 @@ iframe#chatFrame {
     margin-bottom:12px;
 }
 .customerDetails .quote{
-    color:#308dc6;
+    color:#008cc5;
     font-style:oblique;
 }
