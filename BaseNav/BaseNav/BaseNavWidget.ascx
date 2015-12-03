@@ -14,6 +14,7 @@
                         <li><a href="/en-uk/">International English</a></li>
                         <li><a href="/de-de/">Deutch</a></li>
                         <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
+                        <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                         <li><a href="/nl-nl/">Netherlands</a></li>
                     </ul>
                 </div>
@@ -30,6 +31,7 @@
                             <li><a href="/en-uk/">International English</a></li>
                             <li><a href="/de-de/">Deutch</a></li>
                             <li><a href="/fr-fr/">Fran&ccedil;ais</a></li>
+                            <li><a href="/fr-ca/">Fran&ccedil;ais Canada</a></li>
                             <li><a href="/nl-nl/">Netherlands</a></li>
                         </ul>
                     </div>
