@@ -1,4 +1,4 @@
-<%@ Master Language="C#" %>
+﻿<%@ Master Language="C#" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,7 +62,7 @@
 
 		<!-- 4thought utm capture -->
 		<script src="/js/elq/jquery.cookie.js"></script>
-		<script src="/js/elq/elqQs.js"></script>
+		<!-- <script src="/js/elq/elqQs.js"></script> -->
 
 	<asp:ContentPlaceHolder runat="server" ID="ScriptContent" />
 
