@@ -14,7 +14,7 @@
         <base href="/de-de/" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Swiftpage Obsoleszenz Regelungen für die Act! Software</title>
+        <title>Upgrade-Preise und Support Obsoleszenz Regelungen</title>
         <meta name="description" content="Die Lebensspanne eines Act! Produktes endet dann, wenn das Produkt nicht mehr verkauft oder supported wird. Aktualisieren Sie jetzt Ihre alte Act! Version!">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -105,10 +105,9 @@ _elqQ.push(['elqOptOut']);
 
                   <div class="row section">
                     <div class="col-sm-9 col-md-8 bottom col-left mb-center">
-                        <h1 class="large_strapline">Swiftpage Obsoleszenz Regelungen: DACH Region</h1>
+                        <h1 class="large_strapline">Upgrade-Preise und Support Obsoleszenz Regelungen von Swiftpage: DACH Region</h1>
                         <div class="row">
                           <div class="col-lg-8 ">
-                                    <p class="strapline_intro">Die Lebensspanne eines Act! Produktes beginnt zu dem Zeitpunkt, an dem wir es am Markt einführen und endet dann, wenn das Produkt nicht mehr verkauft oder supported wird.</p>
                                   
                            </div>
                         </div>   
@@ -127,13 +126,14 @@ _elqQ.push(['elqOptOut']);
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <p class="semilead">Die Lebensspanne eines Act! Produktes beginnt zu dem Zeitpunkt, an dem wir es am Markt einführen und endet dann, wenn das Produkt nicht mehr verkauft oder supported wird.</p>
             <p class="semilead">Die Swiftpage Obsoleszenz Regelungen (obsolescence policy) treten dann ein, wenn ein Produkt nicht mehr am Markt zum Verkauf steht. Für nicht mehr am Markt erhältliche Produkte bieten wir dennoch für einen gewissen Zeitraum Support an. Nähere Informationen und genaue Daten hierzu können Sie der unten angeführten Tabelle entnehmen. Generell supported Swiftpage die drei aktuellsten Versionen der Software.</p>
             <p class="semilead">In einigen Regionen hat es bisher unterschiedliche oder aber keine dementsprechenden Obsoleszenz Regelungen gegeben - in diesem Fall sind diese Regelungen eine Neuerung für den Markt. Bevor die entsprechenden neuen Regelungen in Kraft treten, werden Sie jedoch rechtzeitig zu Änderungen in Ihrer Region informiert.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-12 txtcenter">
-            <h2 class="homeheading">Derzeit unterstützte Produkte:<sup>1</sup></h2>
+            <h2 class="homeheading">Upgrade-Preise und Support Obsoleszenz Regelungen von Swiftpage nach Version geordnet:</h2>
           </div>
         </div>
         <div class="row">
@@ -143,47 +143,33 @@ _elqQ.push(['elqOptOut']);
               <tr>
                 <th>Produkte</th>
                 <th>Verfügbar</th>
-                <th>Verkauf eingestellt</th>
-                <th>Support eingestellt</th>
+                <th>Anspruch auf Upgrade-Preise bis</th>
+                <th>Anspruch auf Support<sup>1</sup> bis</th>
               </tr>
                   <tr>
                     <td>Act! (v17.x) Produkte</td>
-                    <td >April 2015</td>
-                    <td >Noch nicht bekannt</td>
-                    <td >Noch nicht bekannt</td>
+                    <td>April 2015</td>
+                    <td>30. November 2017</td>
+                    <td>30. November 2018</td>
                   </tr>
                      <tr>
-                      <td >Act! (v16.x) Produkte</td>
-                      <td >September 2013</td>
-                      <td >Noch nicht bekannt</td>
-                      <td >Noch nicht bekannt</td>
+                      <td>Act! (v16.x) Produkte</td>
+                      <td>September 2013</td>
+                      <td>30. November 2016</td>
+                      <td>30. November 2017</td>
                   </tr>
                     <tr>
                       <td>Sage ACT! 2013 (v15.x) Produkte</td>
                       <td>September 2012</td>
-                      <td >Dezember 2015</td>
-                      <td >Dezember 2016</td>
+                      <td>30. November 2015</td>
+                      <td>30. November 2015</td>
                   </tr>
                     <tr>
-                      <td >Sage ACT! 2012 (v14.x) Produkte</td>
-                      <td >September 2011</td>
-                      <td >Juni 2015</td>
-                      <td >Juni 2016</td>
+                      <td>Sage ACT! 2012 (v14.x) Produkte</td>
+                      <td>September 2011</td>
+                      <td>30. Juni 2015</td>
+                      <td>30. Juni 2016</td>
                   </tr>
-                    <tr>
-                      <td>Sage ACT! 2011 (v13.x) Produkte</td>
-                      <td>September 2010</td>
-                      <td>September 2014</td>
-                      <td>September 2015</td>
-                  </tr>
-                    <tr>
-                      <td >ACT! by Sage 2010 (v12.x) Produkte</td>
-                      <td >September 2009</td>
-                      <td >Oktober 2014</td>
-                      <td >Oktober 2015</td>
-                  </tr>
-
-
             </table>
         </div>
 
@@ -201,6 +187,18 @@ _elqQ.push(['elqOptOut']);
                 <th>Verkauf eingestellt</th>
                 <th>Support eingestellt</th>
               </tr>
+                      <tr>
+                        <td>Sage ACT! 2011 (v13.x) Produkte</td>
+                        <td>September 2010</td>
+                        <td>September 2014</td>
+                        <td>September 2015</td>
+                      </tr>
+                      <tr>
+                        <td >ACT! by Sage 2010 (v12.x) Produkte</td>
+                        <td >September 2009</td>
+                        <td >Oktober 2014</td>
+                        <td >Oktober 2015</td>
+                    </tr>
                     <tr>
                       <td >ACT! by Sage 2009 (v11.x) Produkte</td>
                       <td >September 2008</td>
