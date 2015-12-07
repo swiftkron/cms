@@ -162,11 +162,10 @@
             	<div class="heroTextInner">
                 <h1>Get started with your 30-day Act! Free Trial</h1>
                 <h2>Haven't started a trial yet?</h2>
-                    <p><a href="http://cdn.act.dlm.swiftpage.com/3884/act_prem_172x217_us_ca_la.exe"><button class="btn-md">Download Trial Here</button></a> or <a href="/pricing"><button class="btn-md">Buy Now</button></a></p>
+                    <p><a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month"><button class="btn-md">Try now</button></a> or <a href="/pricing"><button class="btn-md">Buy Now</button></a></p>
                     <h2>Act! Premium Trial Quick Start Guide</h2>
                     <ul>
                         <li>View the short videos below to make the most of your trial.</li>
-                        <li>Installation questions? Download the installation guide <a href="/docs/default-source/user-guides/install-guide.pdf" target="_blank">here.</a></li>
                     </ul>
             
               </div>
@@ -181,7 +180,7 @@
         <!-- step -->
         <div class="step item" id="step1">
           <h3>Step 1: <strong>Explore your Act! Premium workspace</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/lunDMpKGCao" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/AygNewe8bMY" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <p style="text-align:center;">Everything you need at your fingertips</p>
@@ -193,7 +192,7 @@
         <!-- step -->
         <div class="step item" id="step2">
           <h3>Step 2: <strong>Manage Contacts and Groups</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/nxciYQzz1BE" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/Vg4rY0YXEqg" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -210,7 +209,7 @@
         <!-- step -->
         <div class="step item" id="step3">
           <h3>Step 3: <strong>Schedule Activities</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/fndMJ87Y1xE" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/dlSzE-jc7xo" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -226,7 +225,7 @@
         <!-- step -->
         <div class="step item" id="step4">
           <h3>Step 4: <strong>Send an Email Campaign</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/txSjpcqNbso" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/XOHt9K8pAKc" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -243,7 +242,7 @@
         <!-- step -->
         <div class="step item" id="step5">
           <h3>Step 5: <strong>Automate with Smart Tasks</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/D5PumeB7DJw" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/8dGjBaYIjKg" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -264,7 +263,7 @@
         <!-- step -->
         <div class="step item" id="step6">
           <h3>Step 6: <strong>Review your Dashboards</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/k4teNEJhRKI" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/VJQmNmeXJ1k" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
