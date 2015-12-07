@@ -2,6 +2,8 @@
 *.suo
 *.usr
 *.sln.docstates
+*.dwsync
+*/_notes
 
 #Build results
 [Bb]in/
