@@ -51,13 +51,12 @@ var google_remarketing_only = true;
 
 		<tr>    
                         <td class="style13" width="248">
-                            Amplify Act!</td>
+                            Self-service resources</td>
                 </tr>
                 <tr>
 		            <td style="padding-left: 13px; font-size: 10pt; font-family: Tahoma;">
-                      <p align="center">
-                          <a href="http://www.act.com/support/act-premium/" target="_blank">Have Access to Customer Support, Product Innovations, and Valuable Extras</a> </p>
-
+                      <p><a href="http://kb.swiftpage.com/" target="_blank">Act! Knowledgebase</a>: Search the extensive Act! knowledgebase to find answers to <a href="http://kb.swiftpage.com/" target="_blank">frequently asked questions</a>, details on what's new in Act!, and documentation to assist you in using your Act! product.</p>
+                      <p><a href="http://community.act.com/" target="_blank">Act! Community</a>: Connect with other Act! users in the Act! Community, get answers to your questions, and learn how to make the most of Act! from a community of over 50,000 Act! fanatics!</p>
                     </td>
                 </tr>
                 <tr>
