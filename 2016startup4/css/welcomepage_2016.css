@@ -181,9 +181,9 @@ nav a{
 	margin-bottom:3em;
 }
 #intro h2{
-	font-family:'HelveticaNeueW01-45Light',Helvetica,Arial,sans serif;
 	font-size:24px;
 	color:#39464f;
+	font-weight: normal;
 }
 #intro strong{
 	color:#006a8e;
@@ -442,7 +442,6 @@ a.control_prev, a.control_next {
 }
 /*_____ newsfeed xml styling ______ */
 #newsFeed h2{
-	font-family:'HelveticaNeueW01-45Light',Helvetica,Arial,sans serif;
 	font-size:24px;
 	color:#39464f;
 	padding-bottom:.53em;
