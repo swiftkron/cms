@@ -18,28 +18,17 @@
 <table width="570" border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td valign="top">
-            <p class="subheader">Business Services</p>
-            <p class="items">Get Act! on iPhone, iPad, and More - <a href="http://www.act.com/products/mobility/act-connect" target="_blank">Act! Pro Users Click Here</a><br />
-           Get Act! on iPhone, iPad, and More - <a href="http://www.act.com/products/act-premium" target="_blank">Act! Premium Users Click Here</a></p>
+            <td class="style8" style="padding-left: 13px; font-family: tahoma; font-size: 10pt;">
+            <a href="http://act.com/products/whats-new" target="_blank"><img src="img/v18_banner_welcome_2013 .png" border="0"></a>
+           
             </td>
         </tr>
         <tr>
-            <td valign="top">
-            <p class="subheader2">Promotions &amp; Announcements</p>
+           <td valign="top">
+            <p class="subheader2">Self-service resources</p>
             <p class="items"> 
-             <a href="http://www.act.com/buy/act-premium/" target="_blank" style="font-weight:bold;">Upgrade to v17 today!</a><br/>
-             <a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month" target="_blank">Try the all-new Act! Premium Cloud for free for 14 days</a><br />
-             <a href="https://www.swiftpage1.com/spesimplesignup.aspx?ref=316c9c3ed45a83ee318b1f859d9b8b79&Mkt_ID=ACTwel" target="_blank">Sign up for a Swiftpage emarketing free trial today!</a>
-           	</p>
-            </td>
-        </tr>
-        <tr>
-            <td valign="top">
-            <p class="subheader2">Act! Communities</p>
-          <p class="items">  <span class="style1"><em>Start Here!</em></span> <a href="http://www.act.com/support/getting-started" target="_blank">Get Started Quickly and Easily with Self-service Resources</a><br />
-            <a href="http://www.act.com/partners" target="_blank">Learn About Advanced Training, Customization, &amp; Hosting</a><br />
-            <a href="http://www.act.com/facebook" target="_blank">Facebook</a> | <a href="http://www.act.com/twitter" target="_blank">Twitter&trade;</a> | <a href="http://www.act.com/linkedin" target="_blank">LinkedIn&reg;</a> | <a href="http://www.act.com/youtube" target="_blank">YouTube&trade;</a></p>
+            <a href="http://kb.swiftpage.com/" target="_blank">Act! Knowledgebase</a>: Search the extensive Act! knowledgebase to find answers to <a href="http://kb.swiftpage.com/" target="_blank">frequently asked questions</a>, details on what's new in Act!, and documentation to assist you in using your Act! product.<br />
+            <a href="http://community.act.com/" target="_blank">Act! Community</a>: Connect with other Act! users in the Act! Community, get answers to your questions, and learn how to make the most of Act! from a community of over 50,000 Act! fanatics!</p>
           </td>
         </tr>
     </tbody>

@@ -43,15 +43,11 @@ var google_remarketing_only = true;
 <table style="width: 248px;" border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td class="style13" style="width: 248px;">Events and Announcements</td>
+            <td class="style13" style="width: 248px;">Act! v18 is here!</td>
         </tr>
         <tr>
             <td class="style8" style="padding-left: 13px; font-family: tahoma; font-size: 10pt;">
-            <a href="http://www.act.com/whats-new/" target="_blank">What’s new in Act! v17</a><br /><br />
-            <a href="https://www.swiftpage1.com/spesimplesignup.aspx?ref=316c9c3ed45a83ee318b1f859d9b8b79&Mkt_ID=ACTwelhttps://www.swiftpage1.com/spesimplesignup.aspx?ref=316c9c3ed45a83ee318b1f859d9b8b79&amp;Mkt_ID=ACTwel" target="_blank">Sign up for a Swiftpage emarketing free trial today!</a>    <br>
-            <br>
-            <a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month" target="_blank">Try the all-new Act! Premium Cloud for free for 14 days</a><br><br>
-           <a href="http://www.act.com/buy/act-premium/" target="_blank">Upgrade today!</a>
+            <a href="http://act.com/products/whats-new" target="_blank"><img src="img/v18_banner_welcome_2011windows.png" border="0"></a>
            
             </td>
         </tr>
@@ -60,4 +56,5 @@ var google_remarketing_only = true;
         </tr>
     </tbody>
 </table>
+
 <p>&nbsp;</p>

@@ -1,5 +1,5 @@
 /*** SWIFTPAGE RESET ***/
-@import url(http://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css);
+@import url(https://fast.fonts.net/cssapi/2b711b0d-fbe0-4a83-80e8-86e2497fcbcb.css);
 html{
 	overflow-y: inherit;
 }
@@ -15,11 +15,11 @@ h1, h2, h3, h4, h5, h6{
 }
 h1{
 	font-family:'HelveticaNeueW01-Thin',Helvetica,Arial,sans serif;
-	font-size:4em;
+	font-size:2em;
 }
 h2{
 	font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans serif;
-	font-size:3em;
+	font-size:2em;
 }
 h3{
 	font-family:'HelveticaNeueW01-65Medi',Helvetica,Arial,sans serif;
@@ -61,8 +61,8 @@ nav a{
 	display:inline-block;
 }
 .clear{clear:both;}
-.left{float:left; margin-right:24px;}
-.right{float:right; margin-left:24px;}
+.left{float:left;}
+.right{float:right;}
 .nobr{white-space:nowrap !important;}
 
 .ordinal{vertical-align:super;font-size:30%;}
@@ -71,24 +71,25 @@ nav a{
 
 /*______ header ________*/
 .header{
-	background:#444;
+	background:#2A353d;
+	font-size: 100%;
 }
 #logo{
 	background:url(../img/act-logo-circle-knockout.png) top left no-repeat;
-	width:100px;
-	height:100px;
-	background-size:100px 100px;
+	width:50px;
+	height:50px;
+	background-size:50px 50px;
 	position:absolute;
-	top:25px;
-	left:25px;
+	top:20px;
+	left:20px;
 }
 .header h1{
 	color:#fff;
-	margin:0px 0 20px 150px;
-	padding:35px 50px 25px 25px;
+	margin:0px 0 20px 100px;
+	padding:20px 50px 25px 25px;
 	border-left:#FFF 2px solid;
 }
-@media(max-width:1080px){
+@media(max-width:1024px){
 	#logo{
 		width:80px;
 		height:80px;
@@ -123,7 +124,7 @@ nav a{
 .container{
 	/*width:1024px;*/
 	width:90%;
-	margin:2em auto 2em 2em;
+	margin:2em 0 2em 0;
 	padding:0 0;
 }
 .container button{
@@ -148,31 +149,34 @@ nav a{
   transition: all .25s ease-in-out;
 }
 .leftCol{
-	border-right:#CCC 1px solid; 
+	border-right:#eee 1px solid;
+	float:left;
+	max-width:60%;
 }
 .rightCol{
-	border-left:#CCC 1px solid; 
+	border-left:#eee 1px solid; 
 	margin-left:-1px;
+	float:left;
+	max-width:40%;
 }
 .leftCol, .rightCol{
-	padding:0 6%;
+	padding:0 40px;
 }
-@media(max-width:1080px){
+@media(max-width:1050px){
 	.container{
-		width:inherit;
-		margin:2em auto 2em auto;
+		width:1024px;
+		margin:2em 0 2em 0;
 	}
 	.leftCol{
-		border-right:none;
+		max-width:500px;
+		border:none;
 	}
 	.rightCol{
-		clear:both;
-		margin:2em auto 0;
-		max-width:600px;
-		border-left:none;
+		margin-left:24px;
+		max-width:380px;
 	}
 	.leftCol, .rightCol{
-		padding:inherit 3%;
+		padding:0 12px;
 	}
 }
 #intro{
@@ -196,23 +200,23 @@ nav a{
 #intro span{
 	color:#444;
 }
-@media(max-width:1080px){
+@media(max-width:1050px){
 #intro{
 	margin-bottom:2em;
 }
 #intro ul{
-	font-size:1em;
-	max-width:500px;
+	font-size:.9em;
 	margin:0 auto;
-	padding-left:10%;
+	padding-left:50px;
 }
 #intro p{
 	text-align:center;
 	margin-top:1em;
 }
 #intro h2{
-	font-size:2em;
-	text-align:center;
+	font-size:27px;
+	padding-bottom:.53em;
+	border-bottom:#CCC 1px solid;
 }
 }
 
@@ -225,11 +229,12 @@ nav a{
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
+	width:500px;
 	margin:0 auto;
 }
 #slider ul#slideContainer {
 	position:relative;
-	margin:0 auto;
+	margin:0 0;
 	padding: 0;
 	list-style: none;
 }
@@ -244,12 +249,12 @@ nav a{
 }
 
 .slideDiv{
-	padding:1em;
+	padding:1em 1.5em;
 	/*margin-left:-24px;*/
 }
 #controls{
 	position:absolute;
-	top:350px;
+	top:560px;
 	z-index:999;
 	width:500px !important;
 	margin:0 auto;
@@ -262,6 +267,7 @@ a.control_prev, a.control_next {
 	color:#fe5000;
 	padding:10px;
 	background:#FFF;
+    cursor:pointer;
 }
 a.control_prev:hover, a.control_next:hover {
 	color:#444;
@@ -349,7 +355,7 @@ a.control_next{
 #whatsnew h3{
 	text-align:center;
 	color:#00dedc;
-	margin:0em 0 .2em 0 !important;
+	margin:0em 0 .2em 0;
 }
 #whatsnew ul{
 	margin-bottom:.5em;
@@ -365,11 +371,11 @@ a.control_next{
 #training h3{
 	text-align:center;
 	color:#00dedc;
-	margin:0em 0 .2em 0 !important;
+	margin:0em 0 .2em 0;;
 }
 #training p{
-	margin:.2em 1em .2em !important;
-	font-size:.85em;
+	margin:1em .5em 2em;
+	font-size:1.2em;
 	text-align:center;
 }
 /*** bizcare ***/
@@ -386,7 +392,7 @@ a.control_next{
 	font-size:1em;
 	text-align:center;
 }
-@media(max-width:760px){
+/*@media(max-width:760px){
 	#controls{
 	top:450px;
 }
@@ -406,7 +412,7 @@ a.control_prev, a.control_next {
 	margin-left:10px;
 	padding:0 10px;
 }
-}
+}*/
 /*** ___________ end sliders ___________***/		
 		
 .threeCol{
@@ -432,7 +438,7 @@ a.control_prev, a.control_next {
 /*#marketplace, #bizcare{
 	background:#eae6df;
 }*/
-@media(max-width:1080px){
+@media(max-width:1050px){
 .secondary p{
 	font-size:.8em;
 	min-height:0;
@@ -445,7 +451,7 @@ a.control_prev, a.control_next {
 	font-size:27px;
 	color:#006a8e;
 	padding-bottom:.53em;
-	border-bottom:#CCC 1px solid;
+	border-bottom:#eee 3px solid;
 }
 #newsFeed p{
 	margin: 0 0 0 0;
@@ -531,3 +537,19 @@ li#sm-blog:hover{
 	display:none;
 }
 }
+
+#video{
+	/*background:url(/2015Startup/img/video-icon.png) center left no-repeat;
+	background-size:40px 40px;
+	height:76px;*/
+	padding:18px 0 18px 0;
+	border-top:#eee 3px solid;
+	border-bottom:#eee 3px solid;
+	margin-top:1em;
+	cursor:pointer;
+}
+#video p{
+	padding-top:.25em;
+}
+
+.alert-warning{padding:12px;color:#000;font-weight:bold;}
