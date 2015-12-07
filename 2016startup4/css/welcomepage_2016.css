@@ -6,7 +6,7 @@ html{
 body{
 	margin:0;
 	font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans serif;
-	font-size:200%;
+	font-size:150%;
 	color:#444;
 }
 h1, h2, h3, h4, h5, h6{
@@ -86,7 +86,7 @@ nav a{
 .header h1{
 	color:#fff;
 	margin:0px 0 20px 100px;
-	padding:20px 50px 25px 25px;
+	padding:27px 50px 30px 25px;
 	border-left:#FFF 2px solid;
 }
 @media(max-width:1024px){
@@ -182,7 +182,7 @@ nav a{
 }
 #intro h2{
 	font-family:'HelveticaNeueW01-45Light',Helvetica,Arial,sans serif;
-	font-size:27px;
+	font-size:24px;
 	color:#39464f;
 }
 #intro strong{
@@ -210,7 +210,7 @@ nav a{
 	margin-top:1em;
 }
 #intro h2{
-	font-size:27px;
+	font-size:24px;
 	padding-bottom:.53em;
 	border-bottom:#CCC 1px solid;
 }
@@ -224,6 +224,7 @@ nav a{
 	overflow: hidden;
 	width:500px;
 	margin:0 0 0 24px;
+	font-size: 120%;
 }
 #slider ul#slideContainer {
 	position:relative;
@@ -442,14 +443,14 @@ a.control_prev, a.control_next {
 /*_____ newsfeed xml styling ______ */
 #newsFeed h2{
 	font-family:'HelveticaNeueW01-45Light',Helvetica,Arial,sans serif;
-	font-size:27px;
+	font-size:24px;
 	color:#39464f;
 	padding-bottom:.53em;
 	border-bottom:#eee 3px solid;
 }
 #newsFeed p{
 	margin: 0 0 0 0;
-	font-size:.85em;
+	font-size:1em;
 }
 #newsFeed p.pubDate{
 	color:#777;
