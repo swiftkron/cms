@@ -157,7 +157,7 @@ $(document).ready(function(){
                 <h1>Getting Started with Act! Premium Cloud</h1>
                 <h2>View the short videos below to make the most of your trial.</h2>
                 <h3>Ready to buy?</h3>
-                <p><a href="/pricing">Buy now</a> by logging into your Act! user account or call us at <span class="orange">866-873-2006</span></p>
+                <p><a href="https://buy.act.com">Buy now</a> by logging into your Act! user account or call us at <span class="orange">866-873-2006</span></p>
               </div>
             </div>
           </div>
@@ -170,7 +170,7 @@ $(document).ready(function(){
         <!-- step -->
         <div class="step item" id="step1">
           <h3>Step 1: <strong>Getting Started with Act! Premium Cloud</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/Dc-3Wz3jujU" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/AygNewe8bMY" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <p style="text-align:center;">Everything you need at your fingertips</p>
@@ -182,7 +182,7 @@ $(document).ready(function(){
         <!-- step -->
         <div class="step item" id="step2">
           <h3>Step 2: <strong>Manage Contacts and Groups</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/nxciYQzz1BE" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/Vg4rY0YXEqg" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -199,7 +199,7 @@ $(document).ready(function(){
         <!-- step -->
         <div class="step item" id="step3">
           <h3>Step 3: <strong>Schedule Activities</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/fndMJ87Y1xE" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/dlSzE-jc7xo" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -215,7 +215,7 @@ $(document).ready(function(){
         <!-- step -->
         <div class="step item" id="step4">
           <h3>Step 4: <strong>Send an Email Campaign</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/txSjpcqNbso" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/XOHt9K8pAKc" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -232,7 +232,7 @@ $(document).ready(function(){
         <!-- step -->
         <div class="step item" id="step5">
           <h3>Step 5: <strong>Automate with Smart Tasks</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/D5PumeB7DJw" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/8dGjBaYIjKg" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
@@ -253,7 +253,7 @@ $(document).ready(function(){
         <!-- step -->
         <div class="step item" id="step6">
           <h3>Step 6: <strong>Review your Dashboards</strong></h3>
-          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/k4teNEJhRKI" frameborder="0" allowfullscreen></iframe></div></div>          
+          	<div class="youtubewrap"><div class="videoContainer"><iframe src="https://www.youtube.com/embed/VJQmNmeXJ1k" frameborder="0" allowfullscreen></iframe></div></div>          
           <div class="stepDets">
             <div class="col-md-12">
               <ul>
