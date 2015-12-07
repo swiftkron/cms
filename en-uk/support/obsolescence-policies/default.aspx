@@ -14,7 +14,7 @@
         <base href="/en-uk/"/> 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Act! Obsolescence Policy: Europe and UK</title>
+        <title>Upgrade Pricing and Support Obsolescence Policy</title>
         <meta name="description" content="Every product has a lifecycle. Find out about the different support options for older versions of Act! Contact Management.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -107,10 +107,10 @@ _elqQ.push(['elqOptOut']);
 
                   <div class="row section">
                     <div class="col-sm-8 bottom col-left mb-center">
-                        <h1 class="large_strapline">Obsolescence Policy: <br />Europe and UK</h1>
+                        <h1 class="large_strapline">Upgrade Pricing and Support Obsolescence Policy:</h1>
                         <div class="row">
                           <div class="col-lg-8 ">
-                                    <p class="strapline_intro">Every product has a lifecycle and our products are no different. This lifecycle starts when a product is released to market and ends when the product is no longer sold or supported.</p>
+                                    <p class="strapline_intro">Europe, UK and Rest of World (excluding the Americas, Australia, New Zealand and other countries of the Pacific Islands Forum) </p>
                                   
                            </div>
                         </div>   
@@ -129,13 +129,14 @@ _elqQ.push(['elqOptOut']);
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
+            <p class="semilead">Every product has a lifecycle and our products are no different. This lifecycle starts when a product is released to market and ends when the product is no longer sold or supported.</p>
             <p class="semilead">We will continue to support the product for a period after withdrawing from sale, specific dates can be found in the below table. Swiftpage typically support the most recent three versions of the Act! software.</p>
             <p class="semilead">In some regions, obsolescence policies for Act! may not currently be in place or may vary. All changes in your region will be communicated to you in advance of any action required by you.</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-12 txtcenter">
-            <h2 class="homeheading">Products currently supported:<sup>1</sup></h2>
+            <h2 class="homeheading">Upgrade Pricing and Support Obsolescence by Version:</h2>
           </div>
         </div>
         <div class="row">
@@ -145,43 +146,40 @@ _elqQ.push(['elqOptOut']);
               <tr>
                 <th>Product</th>
                 <th>General Availability</th>
-                <th>Sale Discontinued</th>
-                <th>Support Discontinued</th>
+                <th>Eligible for Upgrade Pricing until</th>
+                <th>Eligible for Support until<sup>1</sup></th>
               </tr>
 
-
+                  <tr>
+                     <td >Act! (v18.x) products</td>
+                     <td >December 2015</td>
+                     <td >To be announced</td>
+                     <td >To be announced</td>
+                 </tr>
                  <tr>
                       <td >Act! (v17.x) products</td>
                       <td >October 2014</td>
-                      <td >To be determined</td>
-                      <td >To be determined</td>
+                      <td >30 November 2017</td>
+                      <td >30 November 2018</td>
                   </tr>
                      <tr>
                       <td >Act! (v16.x) products</td>
                       <td >September 2013</td>
-                      <td >To be determined</td>
-                      <td >To be determined</td>
+                      <td >30 November 2016</td>
+                      <td >30 November 2017</td>
                   </tr>
                     <tr>
                       <td>Sage ACT! 2013 (v15.x) products</td>
                       <td>September 2012</td>
-                      <td >December 2015</td>
-                      <td >December 2016</td>
+                      <td >30 November 2015</td>
+                      <td >30 November 2016</td>
                   </tr>
                   <tr>
                       <td >Sage ACT! 2012 (v14.x) products</td>
                       <td >September 2011</td>
-                      <td >June 2015</td>
-                      <td >June 2016</td>
+                      <td >30 June 2015</td>
+                      <td >30 June 2016</td>
                   </tr>
-                    <tr>
-                      <td>Sage ACT! 2011 (v13.x) products</td>
-                      <td>September 2010</td>
-                      <td>September 2014</td>
-                      <td>September 2015</td>
-                  </tr>
-
-
             </table>
         </div>
 
@@ -199,6 +197,12 @@ _elqQ.push(['elqOptOut']);
                 <th>Sale Discontinued</th>
                 <th>Support Discontinued</th>
               </tr>
+                  <tr>
+                      <td>Sage ACT! 2011 (v13.x) products</td>
+                      <td>September 2010</td>
+                      <td>September 2014</td>
+                      <td>September 2015</td>
+                  </tr>
                   <tr>
                       <td >ACT! by Sage 2010 (v12.x) products</td>
                       <td >September 2009</td>

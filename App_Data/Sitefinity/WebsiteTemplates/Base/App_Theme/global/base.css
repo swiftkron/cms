@@ -179,7 +179,7 @@ input:focus {
     background: #edf0f2;
 }
 .btnCTA{
-    background:#308dc6;
+    background:#008cc5;
     border:#FFF 2px solid;
 }
 .btnCTA:hover{
@@ -267,7 +267,7 @@ input:focus {
 	box-shadow: 1px 1px 3px #000;
     cursor:pointer;
 }
-.modalClose:hover { background: #308dc6; }
+.modalClose:hover { background: #008cc5; }
 
 /* Video */
 .video_wrap{

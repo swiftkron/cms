@@ -251,10 +251,9 @@ _elqQ.push(['elqOptOut']);
                       </tr>
                     </tbody>
                   </table>
-
-
-
-         
+            </div>
+            <div class="row col-md-12">
+              <p>Pour les téléchargements dans d'autres langues, veuillez cliquer sur l'un des liens suivants pour accéder au Centre de téléchargement souhaité : <a href="/en-uk/support/downloads/emea/">anglais international</a>, <a href="/de-de/support/downloads/">allemand</a>, <a href="/resources/downloads">anglais américain</a>.</p>
             </div>
           </div>
         </div>

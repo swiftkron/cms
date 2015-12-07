@@ -16,7 +16,7 @@
         <base href="/en-uk/"/> 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Act! Essentials - CRM for Start Up Business</title>
+        <title>Act! Essentials &ndash; Contact Management for Start Up Business</title>
         <meta name="description" content="Act! Essentials combines contact management and emarketing to help small businesses stay organised, convert prospects, and get more from existing customers.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -93,6 +93,15 @@ _elqQ.push(['elqOptOut']);
 
 </head>
 <body id="product">
+	
+	<div class="videoModal" id="popupVid">
+	<span class="CloseButton"><img src="/en-uk/img/cross.png" alt="cross"  /></span>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
+	<iframe src='http://www.youtube.com/v/y2fid-EG5vE?enablejsapi=1' frameborder='0' allowfullscreen style=""> </iframe>
+	
+	</div>
+</div>	
+
         <!--[if lt IE 7]>
         <p class="browsehappy">
           You are using an <strong>outdated</strong>
@@ -103,30 +112,26 @@ _elqQ.push(['elqOptOut']);
         <![endif]-->
         <!-- #Include File="/en-uk/includes/header.inc" -->
 
-        <div class="grey-bg slider-height">
-          <div class="container">
+    <div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/en-uk/img/Entrepreneur-using-Act-Essentials.jpg'); background-position: center top; ">
+        <div class="container">
 
             <div class="row section">
-              <div class="col-sm-6 bottom col-left">
-                <div class="row">
-                  <h1 class="large_strapline essential">Act! Essentials</h1>
-                  <span class="medium_strapline">Bring your business into focus
-                    <br />
-
-                  </span>
-                  <p class="strapline_intro">
-                    Act! Essentials helps you easily consolidate and manage contacts, activities, notes, and history, and connect with prospects and customers in one organised place, accessible from anywhere.
-                  </p>
-                </div>
-                <div class="btn-bottom row mb-center">
-                  <a target="_blank" href="https://mycloud.act.com/#/account/billing" class="btn-primary btn">buy now</a>
-                          <a target="_blank" href="https://mycloud.act.com/signup/" class="btn-second btn">free trial</a>
-                </div>
-              </div>
-              <div class="col-sm-5 bottom col-sm-offset-1">
-                <img src="/en-uk/img/act-cloud-from-seven-pounds-excluding-VAT.png" alt="Act! Cloud Essentials from seven pounds excluding Value Added Tax" class="block"></div>
-            </div>
-          </div>
+              	<div class="col-sm-7 col-md-7 col-lg-6 bottom col-left">
+                	<div class="row">
+						<h1 class="large_strapline essential">Act! Essentials</h1>
+						<span class="medium_strapline ">Bring your business into focus
+						<br />
+						</span>
+						<p class="strapline_intro pad-right">Act! Essentials helps you easily consolidate and manage contacts, activities, notes, and history, and connect with prospects and customers in one organised place, accessible from anywhere.</p>
+                	</div>
+    	            <div class="btn-bottom row mb-center">
+    	              	<a target="_blank" href="https://mycloud.act.com/#/account/billing" class="btn-primary btn">buy now</a>
+    	                <a target="_blank" href="https://mycloud.act.com/signup/" class="btn-second btn">free trial</a> 
+    	                <a  class="playVideo btn-second btn" data-video="y2fid-EG5vE" >Watch now</a>
+    	            </div>
+    	        </div>
+    	    </div>
+    	</div>
 
         </div>
 
@@ -135,16 +140,19 @@ _elqQ.push(['elqOptOut']);
         <div id="scroller-anchor">
           <ul class="second-nav container" >
             <li>
-              <a href="#create-interaction">Get organised</a>
+              <a href="#create-interaction">Contact & Agenda Management</a>
             </li>
             <li>
-              <a href="#messages-that-matter">Look professional</a>
+              <a href="#keep-it-together">Mobility</a>
             </li>
             <li>
-              <a href="#always-thinking">Always thinking</a>
+              <a href="#messages-that-matter">Email Marketing</a>
             </li>
             <li>
-              <a href="#integration">Stay connected</a>
+              <a href="#always-thinking">Social Integration</a>
+            </li>
+            <li>
+              <a href="#integration">Reporting</a>
             </li>
           </ul>
         </div>
@@ -163,11 +171,11 @@ _elqQ.push(['elqOptOut']);
             <div class="col-sm-4">
               <div class="row mobile-center">
                 <div class="col-sm-4">
-                  <img src="/en-uk/img/icon4.jpg" alt=""></div>
+                  <img src="/en-uk/img/contact-management-small-business.png" alt="contact management for SMB"></div>
                 <div class="col-sm-7 padding-bottom">
                   <p class="orangetitle list_title">Get organised</p>
                   <p>
-                    Bring your contacts and lists together in one organised place. Manage your time and activities and track customer interaction notes and history. Now you're organised for growth!
+                    Manage your contacts, activities, and most importantly, your time, by keeping your notes, history and interactions together in one organised place.
                   </p>
                 </div>
               </div>
@@ -177,30 +185,31 @@ _elqQ.push(['elqOptOut']);
             <div class="col-sm-4">
               <div class="row mobile-center">
                 <div class="col-sm-4">
-                  <img src="/en-uk/img/icon5.jpg" alt=""></div>
-                <div class="col-sm-7 padding-bottom">
-                  <p class="orangetitle list_title">Look professional</p>
-                  <p>
-                    Target and communicate with your customers for maximum results. Segment your lists, customise your message and creative, hit send - and watch the results roll in. Right message, right person, right time!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--ITEM END-->
-            <!--ITEM-->
-            <div class="col-sm-4">
-              <div class="row mobile-center">
-                <div class="col-sm-4">
-                  <img src="/en-uk/img/icon6.jpg" alt=""></div>
+                  <img src="/en-uk/img/customer-management-small-business.png" alt="customer management for SMB"></div>
                 <div class="col-sm-7 ">
                   <p class="orangetitle list_title">Stay connected</p>
                   <p>
-                    Rest easy knowing you're on top of every opportunity. prioritise your day using intelligent recommendations based on your customers' engagement level. Less guesswork means more time to focus on what you love.
+                   Know the latest details about your contacts, wherever you are, from any device, so you can prioritise your day and make informed decisions
                   </p>
                 </div>
               </div>
             </div>
-            <!--ITEM END--> </div>
+            <!--ITEM END-->             <!--ITEM-->
+            <div class="col-sm-4">
+              <div class="row mobile-center">
+                <div class="col-sm-4">
+                  <img src="/en-uk/img/CRM-start-ups.png" alt="CRM for Start-Up business"></div>
+                <div class="col-sm-7 padding-bottom">
+                  <p class="orangetitle list_title">Look professional</p>
+                  <p>
+                   Intelligently segment your target list, customise a relevant, engaging message, hit send &ndash; and watch the results roll in.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--ITEM END-->
+
+            </div>
           <!--ROW END-->
 
           </div>
@@ -217,11 +226,11 @@ _elqQ.push(['elqOptOut']);
             <!-- ROW (text right, image left) -->
             <div class="row section">
               <div class="col-sm-7  col-xs-12 bottom">
-                <img src="/en-uk/img/laptop-using-act-emarketing-contact-list.png" alt="Laptop with contact list on act emarketing" class="negative-left laptop-contact"></div>
+                <img src="/en-uk/img/small-business-contact-management.png" alt="contact management for small businesses" class="negative-left laptop-contact"></div>
               <div class="col-sm-offset-1 col-sm-4 col-xs-12 section-padding">
-                <h2>Get organised</h2>
+                <h2>Contact &amp; Agenda Management </h2>
                 <p class="lead">
-                  Keep all your contacts in one place - easily import from spreadsheets, Google&trade; or iCloud&reg; and organise by groups. Take notes and add activities right on the contact in Act! Essentials so you can prioritise and manage your day efficiently.
+                  Keep all your contacts in one place - easily import from spreadsheets, Google<sup>&trade;</sup> or iCloud<sup>&reg;</sup> and organise by groups. Take notes and add activities right on the contact in Act! Essentials so you can prioritise and manage your day efficiently.
                 </p>
               </div>
             </div>
@@ -232,10 +241,11 @@ _elqQ.push(['elqOptOut']);
             <!-- ROW (text left, image right) -->
             <div class="row">
               <div class="col-sm-5 col-sm-offset-1 section-padding">
-                <h2>Keep it together</h2>
+                <h2>Mobility</h2>
 
                 <p class="lead">
-                  Keep track of what needs to be accomplished, who you need to meet with, and what messages you should deliver, all from Act! Essentials.
+                 Stay connected to your business by accessing key contact and activity details from your iPhone<sup>&reg;</sup>, iPad<sup>&reg;</sup> or Android<sup>&trade;</sup> device.
+
                 </p>
               </div>
             </div>
@@ -246,11 +256,11 @@ _elqQ.push(['elqOptOut']);
             <!-- ROW (text right, image left) -->
             <div class="row section">
               <div class="col-sm-7 bottom">
-                <img src="/en-uk/img/act-cloud-mobile.png" alt="iphone using Act! Cloud Essentials for start ups" class="center" style="margin-top:-20px"></div>
+                <img src="/en-uk/img/act-essentials-on-ipad.png" alt="Act! Essentials software on iPad" class="center" style="margin-top:-20px"></div>
               <div class="col-sm-offset-1 col-sm-4 section-padding">
-                <h2 class="nomargin">Look professional</h2>
+                <h2 class="nomargin">Email marketing</h2>
                 <p class="lead">
-                  Create, send, and track professional, eye-catching campaigns that reach customers and prospects with the right message at the right time.  
+                  Create, send, and track professional, eye-catching campaigns that reach customers and prospects with the right message at the right time. 
                 </p>
               </div>
             </div>
@@ -261,9 +271,9 @@ _elqQ.push(['elqOptOut']);
             <!-- ROW (text left, image right) -->
             <div class="row">
               <div class="col-sm-5 col-sm-offset-1 section-padding">
-                <h2>Always thinking</h2>
+                <h2>Social integration</h2>
                 <p class="lead">
-                  Inside Act! Essentials lives an intelligent relationship analytics engine. It captures and examines all your interaction data, helping you plan your day better. It reacts to opportunities faster, and knows more about each of your relationships.
+                  Know more about your contacts by linking their Facebook<sup>&reg;</sup> accounts with their contact information in Act! Essentials.
                 </p>
               </div>
             </div>
@@ -275,11 +285,11 @@ _elqQ.push(['elqOptOut']);
             <!-- ROW (text right, image left) -->
             <div class="row section">
               <div class="col-sm-7 bottom">
-                <img src="/en-uk/img/act-cloud-on-ipad.png" alt="Act! Cloud Essentials software on iPad"></div>
+                <img src="/en-uk/img/CRM-reports-and-follow-up.png" alt="CRM reportings and email campaign follow up"></div>
               <div class="col-sm-offset-1 section-padding col-sm-4">
-                <h2 class="nomargin">Stay connected</h2>
+                <h2 class="nomargin">Reporting</h2>
                 <p class="lead">
-                  Know the latest details about your contacts, wherever you are, from any device, so you can prioritise your day and make informed decisions. Stay connected to your business by accessing key Contact and Activity details from your iPhone&reg;, iPad&reg; or Android&trade; device. Know more about your contacts by linking their Facebook&reg; account with their contact information in Act! Essentials.
+                  Track your success with real-time email campaign reporting, and know who to follow-up with first with intelligent, prioritised call lists &ndash; all from within Act! Essentials.
                 </p>
               </div>
             </div>
@@ -290,7 +300,7 @@ _elqQ.push(['elqOptOut']);
             <div class="row">
               <img src="/en-uk/img/from-7-excluding-VAT.png"></div>
             <div class="row">
-              <h2 class="homeheading">Ready to get Act!</h2>
+              <h2 class="homeheading">Ready to get Act! Essentials</h2>
             </div>
             <div class="row">
               <div class="col-sm-8 col-sm-push-2">
@@ -300,6 +310,7 @@ _elqQ.push(['elqOptOut']);
                  <div class="bluebuttons">
    <a target="_blank" href="https://mycloud.act.com/#/account/billing" class="btn-primary btn">buy now</a>
                           <a target="_blank" href="https://mycloud.act.com/signup/" class="btn-second btn">free trial</a>
+                          <a  class="playVideo btn-second btn" data-video="y2fid-EG5vE" >Watch now</a>
             </div>
               </div>
             </div>
@@ -311,8 +322,41 @@ _elqQ.push(['elqOptOut']);
         <!-- #Include File="/en-uk/includes/footer.inc" -->
         <!-- #Include File="/en-uk/includes/footer-scripts.inc" -->
         <!-- #Include File="/en-uk/includes/google.inc" -->
+<script>
+        function toggleVideo(state) {
+    // if state == 'hide', hide. Else: show video
+    var div = document.getElementById("popupVid");
+    var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+    $(".embed-container iframe").remove();
+    div.style.display = state == 'hide' ? 'none' : '';
+    func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+    iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+    console.log('hidden');
+}
 
-        <!-- GOOGLE RMKTG-->
+  $(document).on('click', '.CloseButton', function(){
+          toggleVideo('hide');
+          successOverlay.hide();  
+          videoModal.hide();  
+   
+          }); 
+          
+
+          $(document).on('click', '.playVideo', function(){
+		  	
+		  	var thisIframeID = $(this).data('video');
+			$(".embed-container iframe").remove();
+			$('<iframe frameborder="0" allowfullscreen></iframe>')
+    .attr("src", "http://www.youtube.com/embed/" + thisIframeID+'?enablejsapi=1&autoplay=1')
+    .appendTo(".embed-container");
+    
+
+		  	successOverlay.show();  
+		  	videoModal.show();  
+		  	return false;
+        
+          }); 
+</script>        <!-- GOOGLE RMKTG-->
 
         <!-- Google Remarketing -->
         <script type="text/javascript">

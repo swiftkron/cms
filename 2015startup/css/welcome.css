@@ -122,7 +122,6 @@ nav a{
 
 /*______ modules ________*/
 .container{
-	/*width:1024px;*/
 	width:90%;
 	margin:2em 0 2em 0;
 	padding:0 0;
@@ -230,11 +229,11 @@ nav a{
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	width:500px;
-	margin:0 auto;
+	margin:0 0 0 24px;
 }
 #slider ul#slideContainer {
 	position:relative;
-	margin:0 0;
+	margin:0 0 !important;
 	padding: 0;
 	list-style: none;
 }
@@ -242,10 +241,10 @@ nav a{
 	position:relative;
 	display: block;
 	float: left;
-	margin: 0;
-	padding: 0;
+	margin: 0 0 0 -24px;
+	padding: 0 72px;
 	height:300px;
-	width: 500px;
+	width: 560px;
 }
 
 .slideDiv{
@@ -254,9 +253,9 @@ nav a{
 }
 #controls{
 	position:absolute;
-	top:560px;
+	top:500px;
 	z-index:999;
-	width:500px !important;
+	width:480px !important;
 	margin:0 auto;
 	padding:0 0;
 }
@@ -291,6 +290,7 @@ a.control_next{
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
+
 
 	/*a.control_prev, a.control_next {
 			position: absolute;
@@ -374,7 +374,7 @@ a.control_next{
 	margin:0em 0 .2em 0;;
 }
 #training p{
-	margin:1em .5em 2em;
+	margin:1em .5em;
 	font-size:1.2em;
 	text-align:center;
 }
@@ -550,6 +550,9 @@ li#sm-blog:hover{
 }
 #video p{
 	padding-top:.25em;
+}
+video{
+    width:100%;
 }
 
 .alert-warning{padding:12px;color:#000;font-weight:bold;}

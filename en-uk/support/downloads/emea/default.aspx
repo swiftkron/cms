@@ -957,6 +957,9 @@ _elqQ.push(['elqOptOut']);
                 </tbody>
               </table>
             </div>
+            <div class="row col-md-12">
+              <p>For downloads in other languages, please click on your desired language to access the relevant Download Centre: <a href="/de-de/support/downloads/">German</a>, <a href="/fr-fr/assistance/telechargements/">French</a>, <a href="/resources/downloads">American English</a>.</p>
+            </div>
           </div>
         </div>
       </div>

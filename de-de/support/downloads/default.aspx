@@ -270,6 +270,9 @@ _elqQ.push(['elqOptOut']);
                     </tbody>
               </table>
             </div>
+            <div class="row col-md-12">
+              <p>Für Downloads in anderen Sprachen, wählen Sie die Download Center Seite bitte in der entsprechenden Sprache aus. Klicken Sie hierzu oben rechts auf die Sprachauswahl und wählen Sie <a href="/fr-fr/assistance/telechargements/">Französisch</a>, <a href="/en-uk/support/downloads/emea/">Internationales Englisch</a> oder <a href="/resources/downloads">American Englisch</a> aus.</p>
+            </div>
           </div>
           
         </div>

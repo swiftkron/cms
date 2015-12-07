@@ -14,7 +14,7 @@
         <base href="/fr-fr/">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Politique d'obsolescence Act! - France et Belgique</title>
+        <title>Eligibilité mise à niveau et politique d'obsolescence</title>
         <meta name="description" content="Chaque produit a un cycle de vie. Consultez les versions supportées du logiciel Act! et leur dates de fin de commercialisation. ">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -103,7 +103,7 @@ _elqQ.push(['elqOptOut']);
 
                   <div class="row ">
                     <div class="col-sm-8 bottom col-left mb-center">
-                        <h1 class="large_strapline">Politique d’obsolescence</h1>
+                        <h1 class="large_strapline">Eligibilité mise à niveau et politique d'obsolescence : </h1>
                         <div class="row">
                           <div class="col-lg-8 ">
                                   <span class="medium_large_strapline notopmargin">France et Belgique</span>
@@ -138,7 +138,7 @@ _elqQ.push(['elqOptOut']);
         </div>
         <div class="row">
           <div class="col-sm-12 txtcenter">
-            <h2 class="homeheading">Les produits couramment supportés<sup>1</sup> :</h2>
+            <h2 class="homeheading">Eligibilité mise à niveau et obsolescence assistance par version :</h2>
           </div>
         </div>
         <div class="row">
@@ -148,47 +148,33 @@ _elqQ.push(['elqOptOut']);
               <tr>
                 <th>Produits</th>
                 <th>Début de Commercialisation</th>
-                <th>Fin de  Commercialisation</th>
-                <th>Fin du Support Technique</th>
+                <th>Eligible au tarif de mise à niveau jusqu’au</th>
+                <th>Eligible à l'assistance technique jusqu’au<sup>1</sup></th>
               </tr>
                   <tr>
                     <td>Act! v17</td>
                     <td>Avril 2015</td>
-                    <td>A Confirmer</td>
-                    <td>A confirmer</td>
+                    <td>30 novembre 2017</td>
+                    <td>30 novembre 2018</td>
                   </tr>
                      <tr>
-                      <td >Act! v16</td>
+                      <td>Act! v16</td>
                       <td >Septembre 2013</td>
-                      <td >A confirmer</td>
-                      <td >A confirmer</td>
+                      <td>30 novembre 2016</td>
+                      <td>30 novembre 2017</td>
                   </tr>
                     <tr>
                       <td>Sage ACT! 2013 (v15.x)</td>
                       <td>Septembre 2012</td>
-                      <td >Decembre 2015</td>
-                      <td >Decembre 2016</td>
+                      <td>30 novembre 2015</td>
+                      <td>30 novembre 2016</td>
                   </tr>
                     <tr>
-                      <td >Sage ACT! 2012 (v14.x)</td>
-                      <td >Septembre 2011</td>
-                      <td >Juin 2015</td>
-                      <td >Juin 2016</td>
+                      <td>Sage ACT! 2012 (v14.x)</td>
+                      <td>Septembre 2011</td>
+                      <td>30 juin 2015</td>
+                      <td>30 juin 2016</td>
                   </tr>
-                    <tr>
-                      <td>Sage ACT! 2011 (v13.x)</td>
-                      <td>Septembre 2010</td>
-                      <td>Octobre 2014</td>
-                      <td>Octobre 2015</td>
-                  </tr>
-                    <tr>
-                      <td >ACT! by Sage 2010 (v12.x)</td>
-                      <td >Septembre 2009</td>
-                      <td >Octobre 2014</td>
-                      <td >Octobre 2015</td>
-                  </tr>
-
-
             </table>
         </div>
 
@@ -203,11 +189,22 @@ _elqQ.push(['elqOptOut']);
               <tr>
                 <th>Produits</th>
                 <th>Début de Commercialisation</th>
-                <th>Fin de  Commercialisation</th>
+                <th>Fin de Commercialisation</th>
                 <th>Fin du Support Technique</th>
               </tr>
            
-
+                    <tr>
+                        <td>Sage ACT! 2011 (v13.x)</td>
+                        <td>Septembre 2010</td>
+                        <td>Octobre 2014</td>
+                        <td>Octobre 2015</td>
+                    </tr>
+                    <tr>
+                        <td >ACT! by Sage 2010 (v12.x)</td>
+                        <td >Septembre 2009</td>
+                        <td >Octobre 2014</td>
+                        <td >Octobre 2015</td>
+                    </tr>
                     <tr>
                       <td >ACT! by Sage 2009 (v11.x)</td>
                       <td >Septembre 2008</td>
@@ -215,16 +212,16 @@ _elqQ.push(['elqOptOut']);
                       <td >2013</td>
                     </tr>
                     <tr>
-                      <td >ACT! by Sage 2008 (v10.x)</td>
-                      <td >Septembre 2007</td>
-                      <td >2013</td>
-                      <td >2013</td>
+                      <td>ACT! by Sage 2008 (v10.x)</td>
+                      <td>Septembre 2007</td>
+                      <td>2013</td>
+                      <td>2013</td>
                     </tr>
                     <tr>
-                      <td >ACT! by Sage 2007 (v9.x)</td>
-                      <td >Septembre 2006</td>
-                      <td >2013</td>
-                      <td >2013</td>
+                      <td>ACT! by Sage 2007 (v9.x)</td>
+                      <td>Septembre 2006</td>
+                      <td>2013</td>
+                      <td>2013</td>
                     </tr>
                     <tr>
                       <td valign="top">ACT!&nbsp; 2006    (v8.x)</td>
