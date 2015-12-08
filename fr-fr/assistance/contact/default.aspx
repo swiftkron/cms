@@ -56,7 +56,7 @@
 </script>
 <!-- .end ELOQUA -->
 <!-- Lead Forensics -->
-<script type="text/javascript" src="http://bux1le001.com/js/25202.js"></script>
+<script type="text/javascript" src="http://bux1le001.com/js/25203.js"></script>
 <noscript><img src="http://bux1le001.com/images/track/25202.png?trk_user=25202&trk_tit=jsdisabled&trk_ref=jsdisabled&trk_loc=jsdisabled" height="0px" width="0px" style="display:none;" /></noscript>
 
 
@@ -388,7 +388,7 @@
                       <option value="Act! Premium Cloud">Act! Premium Cloud</option>
                       <option value="AEM">Act! emarketing</option>
                       <!-- <option value="Act Essentials">Act! Essentials</option> -->
-                      <option value="Other">andere/nicht sicher</option>
+                      <option value="Other">Autre/incertain</option>
                     </select></div>
                     <div class="label"><label for="Description">Description du ticket <span class="required">*</span></label></div>
                     <div class="field"><textarea name="Description" id="description"></textarea></div>

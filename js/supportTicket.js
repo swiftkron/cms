@@ -67,7 +67,7 @@ $(document).ready(function () {
     if (language == "French (France)") {
         emailerror = "Veuillez saisir votre adresse email";
     }
-    else if (language = "German") {
+    else if (language == "German") {
         emailerror = "Bitte eine gueltige E-Mail Adresse eintragen.";
     }
     else {
@@ -77,7 +77,7 @@ $(document).ready(function () {
     if (language == "French (France)") {
         phoneerror = "Veuillez saisir votre numéro de téléphone";
     }
-    else if (language = "German") {
+    else if (language == "German") {
         phoneerror = "Bitte eine gueltige Telfonnummer eintragen.";
     }
     else {
@@ -87,7 +87,7 @@ $(document).ready(function () {
     if (language == "French (France)") {
         selecterror = "Veuillez sélectionner votre produit";
     }
-    else if (language = "German") {
+    else if (language == "German") {
         selecterror = "Bitte waehlen Sie Ihr Produkt.";
     }
     else {
