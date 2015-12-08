@@ -3,7 +3,7 @@ function GetTicket(country, firstname, lastname, email, phone, product, descript
     // Production 
     var url = "https://crm-web1.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
     // Test 
-    //var url = "https://crm-web1-stg.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
+    // var url = "https://crm-web1-stg.crmcloud.infor.com/RESTServices/CreateTicketService.svc/";
     var value = {
         "Country": country, "EmailAddress": email, "FirstName": firstname,
         "LastName": lastname, "PhoneNumber": phone, "QueryType": querytype,
@@ -54,10 +54,45 @@ $(document).ready(function () {
     errornotice = $("#error");
     postcode = $("#postalcode");
     // The text to show up within a field when it is incorrect
-    emptyerror = "Please fill out this field.";
-    emailerror = "Please enter a valid e-mail.";
-    phoneerror = "Please enter a valid phone number";
-    selecterror = "Please select an option";
+    if (language == "French (France)") {
+        emptyerror = "Veuillez remplir ce champ";
+    }
+    else if (language == "German") {
+        emptyerror = "Bitte dieses Feld ausfuellen.";
+    }
+    else {
+        emptyerror = "Please fill out this field.";
+    }
+    // email
+    if (language == "French (France)") {
+        emailerror = "Veuillez saisir votre adresse email";
+    }
+    else if (language = "German") {
+        emailerror = "Bitte eine gueltige E-Mail Adresse eintragen.";
+    }
+    else {
+        emailerror = "Please enter a valid e-mail.";
+    }
+    // phone
+    if (language == "French (France)") {
+        phoneerror = "Veuillez saisir votre numéro de téléphone";
+    }
+    else if (language = "German") {
+        phoneerror = "Bitte eine gueltige Telfonnummer eintragen.";
+    }
+    else {
+        phoneerror = "Please enter a valid phone number";
+    }
+    // select
+    if (language == "French (France)") {
+        selecterror = "Veuillez sélectionner votre produit";
+    }
+    else if (language = "German") {
+        selecterror = "Bitte waehlen Sie Ihr Produkt.";
+    }
+    else {
+        selecterror = "Please select an option";
+    }
 
     $("#ticketForm").submit(function () {
         //Validate required fields
@@ -110,7 +145,7 @@ $(document).ready(function () {
 
             //Define Translations
             if (language == "English (International)") {
-                geoConfirm = "<h2>Intl EN: Thank you &ndash; your ticket has been created.</h2><p>Ticket Number: <strong>" + rmsg.TicketNumber + "</strong></p><p><strong>An Act! Support representative will respond to your query within 4 business hours.</strong></p>";
+                geoConfirm = "<h2>Thank you &ndash; your ticket has been created.</h2><p>Ticket Number: <strong>" + rmsg.TicketNumber + "</strong></p><p><strong>An Act! Support representative will respond to your query within 4 business hours.</strong></p>";
                 geoError = "<h2>Sorry, we encountered an error generating the support ticket.</h2><p>Please contact customer support by calling 0845 268 0220 (UK), 0766 801 364 (Ireland), 0105 003 672 (South Africa) or by emailing us at <a href=\"mailto:software.support@swiftpage.com\">software.support@swiftpage.com</a>.</p>";
             }
             else if (language == "French (France)") {

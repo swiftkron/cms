@@ -134,8 +134,8 @@
 <div class="field">
                     <select id="country" name="Country">
                         <option value="France">France</option>
-                        <option value="Belgium">Belgium</option>
-                        <option value="Sweden">Sweden</option>
+                        <option value="Belgium">Belgique</option>
+                        <option value="Switzerland">Suisse</option>
                       <option value="">------------------</option>
                       <option value="Afghanistan">Afghanistan</option>
                       <option value="Aland Islands">Aland Islands</option>
@@ -382,7 +382,7 @@
 
                     <div class="label"><label for="Product">Produit <span class="required">*</span></label></div>
                     <div class="field"><select id="product" name="Product">
-                      <option value="">Please Select Your Product</option>
+                      <option value="">Veuillez sélectionner votre produit</option>
                       <option value="Act! Pro">Act! Pro</option>
                       <option value="On Premise">Act! Premium</option>
                       <option value="Act! Premium Cloud">Act! Premium Cloud</option>
