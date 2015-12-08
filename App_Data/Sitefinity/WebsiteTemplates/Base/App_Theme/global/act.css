@@ -134,32 +134,10 @@ span.reverse{
     text-align:center;
     text-decoration:underline;
 }
-#home .hero h1{
-    color:#fe5000;
-}
-#home .hero .btnDefault{
-    background-color: #008cc5;
-}
-#home .hero .btnDefault:hover{
-    background-color: #2e81b6;  
-}
 @media(min-width:768px){
     .heroCta2{
         display:inline-block;
         margin-left:24px;
-    }
-    #home .hero{
-        min-height:800px;
-        background-position:0 100px;
-        padding-bottom:48px;
-    }
-    #home .hero h1{
-        font-size:54px;
-        margin:.5em auto .75em;
-    }
-    #home .hero p{
-        font-size:1.25em;
-        line-height:1.5em;
     }
 }
 .hero p{
