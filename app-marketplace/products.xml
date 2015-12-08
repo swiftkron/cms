@@ -25,11 +25,11 @@
 		</product>
 		<!-- Whats New -->
 		<product id="3">
-			<name>What's New in v17</name>
-			<desc>Finally, sales process meets nurture marketing. Check out the new features in Act! v17!</desc>
+			<name>What's New in v18</name>
+			<desc>Act! v18 brings a host of compatibility and productivity enhancements, new Act! emarketing administrative features, a fresh, modern look for Act! Premium for Web, and more!</desc>
 			<price></price>
 			<cta>Learn more »</cta>
-			<url>http://www.act.com/products/upgrade</url>
+			<url>http://www.act.com/products/whats-new</url>
 			<tile>act_mkt_tile_bc_whatsnew.png</tile>
 			<thumb>act_mkt_thumb_whatsnew.png</thumb>
 		</product>
