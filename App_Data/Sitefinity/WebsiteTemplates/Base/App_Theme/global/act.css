@@ -566,8 +566,8 @@ table td, table th, .downloadTable td, .downloadTable th{
     #guy2:hover{background:url(../../App_Theme/img/tile_know-customers-hov.jpg) center center no-repeat;}
     #guy3{background:url(../../App_Theme/img/tile_extend-reach.jpg) center center no-repeat;}
     #guy3:hover{background:url(../../App_Theme/img/tile_extend-reach-hov.jpg) center center no-repeat;}
-    #girl1{background:url(../../App_Theme/img/tile_drive-sales.jpg) center center no-repeat;}
-    #girl1:hover{background:url(../../App_Theme/img/tile_drive-sales-hov.jpg) center center no-repeat;}
+    #girl1{background:url(../../App_Theme/img/tile_drive-sales.jpg) top left no-repeat;}
+    #girl1:hover{background:url(../../App_Theme/img/tile_drive-sales-hov.jpg) top left no-repeat;}
     #girl2{background:url(../../App_Theme/img/tile_understand-biz.jpg) center center no-repeat;}
     #girl2:hover{background:url(../../App_Theme/img/tile_understand-biz-hov.jpg) center center no-repeat;}
 }
