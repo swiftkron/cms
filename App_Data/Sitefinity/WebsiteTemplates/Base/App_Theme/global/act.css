@@ -1005,3 +1005,64 @@ iframe#chatFrame {
     font-size:12px;
     color:#FE5000;   
 }
+
+/* Blog */
+.blogs{
+}
+.blogContact{
+    margin:24px auto;
+    padding:0 12px;
+}
+.blogContact h5{
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+    margin:0 0;
+}
+.blogContact p{
+    margin:0 0 24px;
+    font-size:.8em;
+}
+.blogConnect{
+    margin:48px 0 12px;
+    background:#edf0f2;
+    padding:6px 12px;
+}
+.blogConnect a .glyphicon-play{
+	color:#FFF;
+   background-color:#e52d27;
+	-webkit-border-radius: 4px;    
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size:8px;
+	padding:5px;
+	top:-4px;
+}
+.post img.right{
+    max-width:350px;
+    margin:0 0 24px 24px;
+}
+.post img.left{
+    max-width:350px;
+    margin:0 24px 24px 0;
+}
+.sf_pagerNumeric{
+    padding:24px 12px 12px;
+    border-top:#dfe3e6 3px solid;
+}
+.sf_pagerNumeric a{
+    display:inline-block;
+}
+.sf_pagerNumeric a::before{
+    content:'\00a0';
+}
+.sf_pagerNumeric a::after{
+    content:' | ';
+}
+.sf_pagerNumeric a:last-child::after{
+    content:'';
+}
+.RadSocialShare_Default{
+    border:none;
+}
+.RadSocialShare{
+    padding:0;
+}
