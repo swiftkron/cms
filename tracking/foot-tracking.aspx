@@ -1,8 +1,3 @@
-<!-- Eloqua Subscribe Form Tracking -->
-<script src="/tracking/subscribe_elq.js"></script>
-<!-- Google Remarketing -->
-<!--#include virtual="/tracking/remarketingScripts.aspx" -->
-<!-- KISS -->
-<!--#include virtual="/tracking/kiss-metrics.aspx" -->
-<!-- Quantcast -->
-<!--#include virtual="/tracking/quantcast.aspx" -->
+<!-- 4thought -->
+<script src="/tracking/jquery.cookie.js"></script>
+<script src="/tracking/elqQs.js"></script>
