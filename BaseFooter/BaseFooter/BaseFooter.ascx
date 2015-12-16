@@ -11,7 +11,8 @@
                                 <li><a href="http://swiftpage.com/en-us/about/careers" target="_blank">Careers</a></li>
                                 <li><a href="/about/leadership">Leadership</a></li>
                                 <li><a href="http://www.swiftpage.com" target="_blank">Swiftpage</a></li>
-                                <li><a href="/about">Contact us</a></li>                        
+                                <li><a href="/about">Contact us</a></li> 
+                                <li><a href="/press-releases">Press Releases</a></li>                       
                             </ul>
                         </div>
                         <div class="col-4">

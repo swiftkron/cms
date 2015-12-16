@@ -88,10 +88,11 @@
             <li><a href="/partners/become-a-partner">Become an Act! Certified Consultant</a></li>
          </ul>
       </li>
-      <li><a href="http://blog.act.com" target="_blank">Blog</a></li>
+      <li><a href="/act-blog">Blog</a></li>
       <li><a href="/about">About</a>
          <ul class="last">
             <li><a href="/about/leadership">Leadership</a></li>
+             <li><a href="/press-releases">Press</a></li>
             <li><a href="http://swiftpage.com/en-us/about/careers" target="_blank">Careers</a></li>
             <li><a href="http://swiftpage.com/privacy-policy" target="_blank">Privacy Policy</a></li>
          </ul>
