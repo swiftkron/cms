@@ -162,7 +162,7 @@ _elqQ.push(['elqOptOut']);
                       <td>Sage ACT! 2013 (v15.x) Produkte</td>
                       <td>September 2012</td>
                       <td>30. November 2015</td>
-                      <td>30. November 2015</td>
+                      <td>30. November 2016</td>
                   </tr>
                     <tr>
                       <td>Sage ACT! 2012 (v14.x) Produkte</td>

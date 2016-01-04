@@ -29,17 +29,17 @@
 
 					<li class="cta">
 						<div class="slider-bg">
-							<img src="/nl-nl/img/act-voor-reebok-fitnesscentrum.jpg" alt="Testimonial Act! contactbeheer van Reebok fitnesscentrum" />
+							<img src="/en-uk/img/act-for-color-business-centers.jpg" alt="" />
 						</div>
 					<div class="slider-overlay">
 						<div class="container ">
 							<div class="row section">
-							  	<div class="col-sm-10  white bottom col-left mb-center col-xs-12">
-							    		<span class="large_strapline_home semibold"> Act! De ultieme salestool</span>
-							   <img src="/nl-nl/img/reebok.png" alt="" width="160" class="hidden-xs">
+							  	<div class="col-sm-10   bottom col-left mb-center col-xs-12">
+							    		<span class="large_strapline_home semibold"> Act! CRM als ondersteuning van het salesapparaat</span>
+							   <img src="/nl-nl/img/color-business-centers.png" alt="" width="160" class="hidden-xs">
 							   <br> <br>
-									 <div class="btn-bottom white">
-							      		<a href="testimonials/reebok" title="Act! CRM geeft Reebok Sports Club een voorsprong" class="btn-primary btn">lees verder</a>
+									 <div class="btn-bottom">
+							      		<a href="testimonials/color-business-centers" title="" class="btn-primary btn">lees verder</a>
 							      		<a href="testimonials-alle" title="Act! Testimonials over CRM voor klant- en contactbeheer" class="btn-second btn">bekijk alle testimonials</a>
 								  	</div>
 								 </div>
@@ -48,6 +48,8 @@
 						</div>
 						</div>
 					</li>
+
+
 
 
 					<li class="cta">

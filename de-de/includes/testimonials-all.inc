@@ -162,7 +162,7 @@
                 <div class="test-popout" style="background-image:url('/en-uk/img/mvmsmallbg.jpg');">
                   <div class="box">
                     <div class="img-container">
-                      <img src="/en-uk/img/mvmlogo.png" alt="Mvm logo"></div>
+                      <img src="/en-uk/img/mvmlogo.png" alt="MVM logo"></div>
 
                     <blockquote>
                       „Unser Erfolg ist auch auf die hervorragende IT-Unterstu&#776;tzung durch Act! zuru&#776;ckzufu&#776;hren..."

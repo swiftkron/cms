@@ -105,10 +105,13 @@
         </p>
         <![endif]-->
 <!-- #Include File="/nl-nl/includes/header.inc" -->
-<div class="grey-bg slider-height">
+
+
+
+<div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/nl-nl/img/zakenvrouw met-act-premium-cloud.jpg'); background-position: center top; ">
           <div class="container">
               <div class="row section">
-                  <div class="col-sm-7 bottom col-left mb-center">
+                                    <div class="col-sm-7 bottom col-left mb-center">
                           <h1 class="large_strapline semibold">Act! Premium</h1>
                     <span class="medium_strapline"><strong class="semibold">Platform:</strong> Windows&reg;, web en mobiel<br /></span>
                     <p class="strapline_intro">Act! helpt u al uw prospect- en klantgegevens op één plek te beheren, zodat u uw producten en diensten effectiever kunt marketen. Het resultaat? Meer sales en mogelijkheden om uw bedrijf te laten groeien. Werkt u in een team waarin iedereen moet weten wat er speelt? Act! Premium helpt u hierbij met toegang via uw mobiele apparaat.</p>
@@ -117,12 +120,12 @@
                   <a href="partners-kaart" title="Zoek een Act! Certified Consultant (ACC)" class="btn-second btn">partner zoeken</a>
                 </div>
               </div>
-              <div class="col-sm-4  col-sm-push-1 mb-center">
-                  <img src="/nl-nl/img/act-premium-doos.png" alt="Box of Act! CRM Premium" />
-              </div>
               </div>
           </div>
 </div>
+
+
+
 <!--SECOND NAV BAR-->
       <div id="scroller-anchor">
                  <ul class="second-nav container" >

@@ -105,19 +105,18 @@ _elqQ.push(['elqOptOut']);
         </p>
         <![endif]-->
 <!-- #Include File="/en-uk/includes/header.inc" -->
-<div class="grey-bg slider-height">
+<div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/en-uk/img/business-woman-using-act-premium-cloud.jpg'); background-position: center top; ">
           <div class="container">
               <div class="row section">
                   <div class="col-sm-7 bottom col-left mb-center">
-                          <h1 class="large_strapline semibold">Act! Premium</h1>
-                    <span class="medium_strapline"><strong class="semibold">Platform:</strong> Windows&reg;, Web and Mobile<br /></span>
-                    <p class="strapline_intro">Act! helps organise all your prospect and customer details in one place and market your products and services more effectively, driving sales results while creating customers for life. And if you work on a team that needs to stay in sync, Act! Premium has you covered with mobile access.</p>
+                          <h1 class="large_strapline semibold">Act! Premium and Act! Premium Cloud</h1>
+                    <span class="medium_strapline">Built for growth<br /></span>
+                    <p class="strapline_intro">Act! Premium and Act! Premium Cloud help organise all your prospect and customer details in one place so you can prioritise your day and market your products and services more effectively, driving sales results while creating customers for life.</p>
                       <div class="btn-bottom">
-                  <a href="partners-map" title="Find a local partner to help get you up and running effectively and keep you running smoothly" class="btn-primary btn">find partner</a> <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a> <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
+                  <a href="partners-map" title="Find a local partner to help get you up and running effectively and keep you running smoothly" class="btn-primary btn">find partner</a>
+                  <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a> 
+                  <a target="_blank" href="/en-uk/demo" class="btn-second btn">request demo</a>
                 </div>
-              </div>
-              <div class="col-sm-4  col-sm-push-1 mb-center">
-                  <img src="/en-uk/img/act-premium-box-shot.png" alt="Box of Act! CRM Premium" />
               </div>
               </div>
           </div>
@@ -125,12 +124,9 @@ _elqQ.push(['elqOptOut']);
 <!--SECOND NAV BAR-->
       <div id="scroller-anchor">
                  <ul class="second-nav container" >
-                   <li><a href="#Actpermiummobile">Act! Premium Mobile</a></li>
-                   <li><a href="#Customerscontacts">Customers &amp; contacts</a></li>
-                   <li><a href="#Sendemails">Make the most of your day</a></li>
-                   <li><a href="#Measureresults">Work seamlessly</a></li>
-                   <li><a href="#generateabuzz">Generate a buzz</a></li>
-                   <li><a href="#Prioritisefollowup">Business Care</a></li>
+                   <li><a href="#Actpermiummobile">Be Prepared</a></li>
+                   <li><a href="#Sendemails">Propel Productivity</a></li>
+                   <li><a href="#generateabuzz">Make Insightful Decisions</a></li>
                  </ul>
          </div>
 <!--END SECOND NAV BAR-->
@@ -205,69 +201,39 @@ _elqQ.push(['elqOptOut']);
          <div class="container">
           <div class="row ">
               <div class="col-sm-6">
-                <img src="/en-uk/img/ipad-and-iphone-running-act-crm.png" alt="Laptop using Act! showing details of contact data" class="negative-left" />
+                <img src="/en-uk/img/act-contact-management-on-laptop.png" alt="Act! contact management on laptop" class="negative-left" />
               </div>
           <div class="col-sm-6">
-          <h2>Access your data on the move with Act! Premium Mobile</h2>
-          <p class="lead">With Act! Premium Mobile<sup>1</sup> you can access your data whilst out and about, giving you key customer and contact details from your favourite supported device.</p>
+          <h2>Be Prepared</h2>
+          <p class="lead">Know every detail about your contacts and customers, so you're informed and prepared for every interaction. Quickly access and edit rich customer information - from anywhere!</p>
           <ul class="coloured_bullets">
-              <li><span>Real-time, mobile access to your contact, calendar, and opportunity details from your iPhone&reg;, iPad&reg; or Android&trade; device.</span></li>
-              <li><span>Access your groups and company records and drill down into them whilst you're out and about.</span></li>
-              <li><span>Email out to a group, contact or company from within Act! Premium Mobile. And as all communications are instantly saved into history it'll save you time when you're on the road.</span></li>
-              <li><span>Keep remote teams in sync with secured, shared access to the most recent Act! details.</span></li>
+              <li><span><b>Opportunity, Contact &amp; Lead Management</b> - Easily access and edit key customer and contact details so you can build productive relationships. Manage all key contact, opportunity, and lead data for maximum sales productivity and effectiveness - track probability of close, products, lead source, status, and competitors.</span></li>
+              <li><span><b>Calendar &amp; Activity Management</b> - Manage schedules and keep track of activities and events for yourself or your team on a shared calendar, so you can make the most of your day.</span></li>
+              <li><span><b>Lookups &amp; Groups</b> - Organise customers and prospects by grouping similar contacts using advanced query tools, so you can deliver targeted email marketing messages or sales offers to select customer segments.</span></li>
+              <li><span><b>Mobility</b> - Stay connected to your business by accessing key Contact, Opportunity, and Calendar details from your iPhone<sup>&reg;</sup>, iPad<sup>&reg;</sup> or Android<sup>&trade;</sup> device. <a href="act-productpage-mobility/">Find out more</a>.</span></li>
           </ul>
-                  <p><a href="act-productpage-mobility" class="btn-second btn">find out more</a></p>
         </div>
       </div>
     </div>
   </div>
           <!-- END ROW -->
 
-          <!-- ROW (text right, image left) -->
-    <div class="container" id="Customerscontacts">
-        <div class="row   section-padding">
-          <div class="col-sm-6 ">
-
-            <img style="max-width:100%;position:relative; margin-left:-40px;" src="/en-uk/img/act-crm-timeline-screenshot.jpg" alt="Screenshot of graphical representation of database timeline" />
-
-
-          </div>
-            <div class="col-sm-6    valign-middle-wrapper">
-          <div class="valign-middle">
-          <h2>Know every detail about your customers and contacts</h2>
-          <p class="lead">Act! enables you to drill down into specific details about your business relationships. Putting the latest information at your fingertips, from contacts and calendars to customer notes and history.</p>
-          <ul class="coloured_bullets">
-              <li><span>Keep customer contact information, plus associated notes, history, activities, documents, opportunities, social media profiles, and more in one organised place.</span></li>
-            <li><span>View a complete history list at a glance and drill down by date, type of history, user or keyword to find the information you need. Plus export this information to Excel to make reporting even easier.</span></li>
-            <li><span>Automatically link your existing and new contacts to company records, giving you an instant view of everyone you do business with at a single company.</span></li>
-
-            <li><span>  Increase productivity with team access to a central database from Windows&reg; and the web.</span></li>
-   <li><span> Benefit from team-based features like group dashboards and reports, team calendar view, and enhanced security settings. </span></li>
-          </ul>
-        </div>
-            </div>
-    </div>
-  </div>
-
-          <!-- END ROW -->
 
 
           <!-- ROW (text right, image left) -->
-  <div class="section-bg section-padding" id="Sendemails" style="min-height:530px;background-image:url('/en-uk/img/working-from-coffee-shop-with-act.jpg')">
+  <div class="section-bg section-padding" id="Sendemails" style="min-height:530px;background-image:url('/en-uk/img/working-from-coffee-shop-with-act-2.jpg')">
         <div class="container">
             <div class="row ">
-              <div class="col-sm-6 "></div>
           <div class="col-sm-6  valign-middle-wrapper">
             <div class="valign-middle">
-          <h2>Make the most of your  working day</h2>
-          <p class="lead">Act! can help you handle the things that need to get done every day, leaving you more time to focus on what counts - your customers and sales. </p>
+          <h2>Propel Productivity</h2>
+          <p class="lead">Seamlessly interact with the business and social tools you rely on so you can efficiently manage your day and quickly prioritise your activities. Easily automate best practice processes to maximise your time and work smarter to accomplish more.</p>
           <ul class="coloured_bullets">
-              <li><span>With Act! Scratchpad you can avoid duplication or loss of important information, a convenient virtual notepad.</span></li>
-              <li><span>Smart Tasks lets you accomplish more, it will put activities in your calendar, send emails for you and much more, even when your Act! software is closed.</span></li>
-              <li><span>Track scheduled activities and associate them to your contacts for a complete view of happenings with those relationships.</span></li>
-              <li><span>Stay up-to-date when a scheduled task completes successfully, or fails - giving you peace of mind that important database tasks are being completed.</span></li>
+              <li><span><b>Integration</b> - Seamlessly interact with the business and social tools you rely on - like Office, Outlook<sup>&reg;</sup>, Google<sup>&trade;</sup>, Dropbox, iCloud<sup>&reg;</sup>, Facebook<sup>&reg;</sup>, and LinkedIn<sup>&reg;</sup> - conveniently, right from within Act!. Marketplace solutions extend the power of what Act! can do for you, and integrations with popular accounting solutions provide visibility to payment status, open quotes, and sales orders for a holistic customer view.</span></li>
+              <li><span><b>Smart Tasks &amp; Sales Automation</b> - Save time by automating key follow-up activities based on dynamic criteria you define, with Smart Task options for automatically sending email campaigns, scheduling activities to follow up with hot leads, assigning contacts to a new owner, and more!</span></li>
           </ul>
             </div>
+          <div class="col-sm-6 "></div>
         </div>
       </div>
     </div>
@@ -275,25 +241,6 @@ _elqQ.push(['elqOptOut']);
           <!-- END ROW -->
 
 
-
-          <!-- ROW (text right, image left) -->
-         <div class="container" id="Measureresults">
-          <div class="row   section-padding">
-          <div class="col-sm-6 col-sm-push-6">
-            <img src="/en-uk/img/act-crm-linkedin-integration-screenshot.jpg" alt="Screenshot of Act! CRM contact view of LinkedIn integration" />
-        </div>
-              <div class="col-sm-6 col-sm-pull-6">
-          <h2>Work seamlessly with the  tools you rely on everyday</h2>
-          <p class="lead">You can do it all from just one place. Act! works seamlessly with the other tools you already rely on like: Microsoft&reg; Outlook&reg;, Gmail&reg;, Google&reg; Contacts, Google Calendar&trade;, LinkedIn&reg;, and Facebook&reg;.</p>
-          <ul class="coloured_bullets">
-              <li><span>Write an Outlook&reg; email from within Act! and a history is recorded on the associated contact for quick recall.</span></li>
-              <li><span>Sync your Act! contacts and calendar with Outlook&reg; and Google&reg;, then easily access them from either application.</span></li>
-              <li><span>View popular social media sites within Act! to see more detail about what your customers are up to now.</span></li>
-          </ul>
-              </div>
-      </div>
-      </div>
-          <!-- END ROW -->
 
 
         <!-- ROW (text right, image left) -->
@@ -301,62 +248,23 @@ _elqQ.push(['elqOptOut']);
         <div class="container" id="generateabuzz">
           <div class="row ">
             <div class="col-sm-6 ">
-              <img src="/en-uk/img/laptop-using-act-with-integration-and-data-source.png" alt="Laptop showing integrations and data source with Act!" class="negative-left"></div>
+              <img src="/en-uk/img/act-reports-and-dashboards.png" alt="Act! Reports and Dashboards" class="negative-left"></div>
             <div class="col-sm-6 section-padding valign-middle-wrapper buzz-section">
               <div class="valign-middle">
-                <h2 class="notopmargin">Generate a buzz and create new sales opportunities</h2>
+                <h2 class="notopmargin">Make Insightful Decisions</h2>
                 <p class="lead">
-                  With Act! emarketing emails are easy to create, send and track. A cost-effective way to grow your business by regularly communicating with your customers and prospects with the right message at the right time. Call lists automatically recommend hot leads to follow up with to generate sales.
+                  Intelligent Call Lists<sup>1</sup>, detailed reports, and actionable performance-based dashboards give you dynamic, up-to-date insights at any time, so you know what to do next.
                 </p>
-                <p class="list_title"><b>Integrated analytics</b></p>
                 <ul class="coloured_bullets">
                   <li>
-                    <span>Easily segment data, on any criteria with just one click.</span>
+                    <span><b>Email marketing</b> - Create, send, and track professional, eye-catching email campaigns that reach customers and prospects with the right message at the right time - all from within Act!, at no additional cost. And with intelligent, prioritised Call Lists<sup>1</sup>, know who to follow up with first. <a href="products/act-emarketing">Find out more</a>.</span>
                   </li>
                   <li>
                     <span>
-                      Get detailed reports - including opens, clicks, bounces, opt-outs, and more.
-                    </span>
-                  </li>
-                  <li>
-                    <span>Record history and notes back into your Act! database.</span>
-                  </li>
-                </ul>
-
-                     <p class="list_title"><b>Create sales opportunities</b></p>
-                <ul class="coloured_bullets">
-                  <li>
-                    <span>
-                      Rank your hottest leads based on up to date customer interaction.
+                      <b>Reports &amp; Dashboards</b> - Quickly gather critical business intelligence including email campaign effectiveness, pipeline efficiency, revenue by lead source, and more, so you can evaluate performance, guide strategic improvements, and know what to do next.
                     </span>
                   </li>
                 </ul>
-
-
-                  <p class="list_title"><b>Template editor</b></p>
-
-                <ul class="coloured_bullets">
-                  <li>
-                    <span>Dynamic online editing tool</span>
-                  </li>
-                  <li>
-                    <span>
-                      Choose from 100's of customisable templates - including mobile-friendly versions.
-                    </span>
-                  </li>
-                  <li>
-                    <span>Host &amp; Share images and documents.</span>
-                  </li>
-                  <li>
-                    <span>
-                      Personalisation options like dynamic data integration for smarter targeting.
-                    </span>
-                  </li>
-                </ul>
-
-                <p class="pro_btn">
-                  <a href="act-emarketing" title="Find out about Act! emarketing integrated bulk mailing feature" class="btn-second btn">find out more</a>
-                </p>
               </div>
             </div>
           </div>
@@ -364,46 +272,7 @@ _elqQ.push(['elqOptOut']);
         <!-- END ROW -->
 </div>
 
-          <!-- ROW (text right, image left) -->
-         <div class="container section-padding" id="Prioritisefollowup">
-           <div class="row ">
-             <div class="col-sm-12 ">
-               <h2 class="notopmargin">Act! Business Care - Taking care of what matters</h2>
-             </div>
-           </div>
-           <div class="row ">
-             <div class="col-sm-6  ">
-               <p class="lead">
-                 Our Act! Business Care memberships have been designed to ensure you get the most from your software and have the best possible support and advice on hand for your business. With an Act! Business Care membership, you'll receive great benefits including:
-               </p>
-             </div>
-             <div class="col-sm-6 ">
-               <ul class="coloured_bullets">
-                 <li>
-                   <span>
-                     Password Decode: Our experts can quickly and easily decode your password should the need arise.
-                   </span>
-                 </li>
-                 <li>
-                   <span>
-                     Telephone support: Our team of experts are available 9am to 5pm Monday to Friday. Business Care Silver members can benefit from extended hours (8am to 6pm).
-                   </span>
-                 </li>
-                 <li>
-                   <span>
-                     Email support: Email our experts with your query at any time. We answer all queries within 48 working hours.
-                   </span>
-                 </li>
-                 <li>
-                   <span>
-                     Knowledgebase: Access an online library of FAQs about Act! as well as general business queries.
-                   </span>
-                 </li>
-               </ul>
-             </div>
-           </div>
-         </div>
-          <!-- END ROW -->
+        
 
       <div class="darkgrey-section section-padding" id="Hostshare">
           <div class="container">
@@ -412,13 +281,13 @@ _elqQ.push(['elqOptOut']);
           <div class="container">
             <div class="row">
               <div class="col-sm-8 col-sm-push-2">
-                 <h2 class="homeheading">Ready to get Act!</h2>
-            <p class="lead notopmargin">Act! gives the power to see a 360-degree view of all customers, companies and relationships so you can be better prepared and focused on providing a unique customer experience. </p>
+                 <h2 class="homeheading">Ready to get Act! Premium</h2>
+            <p class="lead notopmargin">Act! Premium is purpose-built to help individuals, sales teams, and small businesses be prepared for every interaction, propel productivity, and make insightful decisions.</p>
 
           <div class=" greybuttons">
           <a href="partners-map" title="Find a local partner to help get you up and running effectively and keep you running smoothly" class="btn-primary btn">find partner</a>
               <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a>
-              <a href="demo" title="Request a demonstration of Act!" class="btn-second btn">request demo</a>
+              <a href="/en-uk/demo" class="btn-second btn">request demo</a>
             </div>
              </div>
            </div>
@@ -429,24 +298,9 @@ _elqQ.push(['elqOptOut']);
         <div class="row">
 
           <div class="col-sm-6">
-
-
- <p><b>Important Note:</b> Review Act! system requirements at <a href="products/system/v17/premium">act.com/systreq</a>. You must purchase one license of Act! per user. Scalability varies based on hardware, size, and usage of your database. For <strong>Act! emarketing</strong>: Basic account included (email up to 500 contacts per month). Product Features vary based on services chosen. Visit <a href="act-emarketing" title="Find out about Act! emarketing integrated bulk mailing feature">act.com/act-emarketing</a> for details.</p>
-
-
-
-
-
-
+            <p><sup>1</sup>Additional charge applies</p>
+            <p><b>Important Note:</b> Review Act! system and browser requirements at <a href="products/system/v18/premium">act.com/systreq</a>. Act! product capabilities and pricing vary based on edition and services chosen; view KB #37914 to learn more. Act! Premium Mobile requires set-up and configuration of Act! Premium (access via web). Data access available via active internet connection from supported device browsers. You are responsible for all data-related charges. Basic Act! emarketing account included (email up to 500 contacts per month). One license is required for each Act! user. View membership details at <a href="billing-policy">act.com/en-uk/billing-policy</a>.</p>
               </div>
-          <div class="col-sm-5 col-sm-push-1">
-            <p>
-
-For Act! Business Care: To ensure continuous service, your Act! Business Care Membership may automatically renew. Swiftpage&#8482; will notify you 30 days in advance of your expiration date. Your plan will be renewed and automatically billed or drafted for the same term, unless you contact us at least seven (7) calendar days prior to your expiration date. Renewal is not required for continuous access to product updates for your supported versions.</p>
-<p>
-<sup>1</sup> Act! Premium Mobile requires set-up and configuration of Act! Premium (access via web). Data access available via active Internet connection from supported device browsers. Review Act! system requirements here. You are responsible for all data-related charges to your device.
-            </p>
-          </div>
         </div>
       </div>
 

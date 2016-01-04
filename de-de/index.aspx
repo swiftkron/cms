@@ -270,15 +270,15 @@ Kommunizieren Sie effizienter mit Ihren Kunden: Act! emarketing verbindet intell
 			   </div>
           	</div>
           	<div class="col-sm-4 test-wrap">
-            	<div class="test-popout"  style="background-image: url('img/bg-referenzkunde-crm-software-fleischwaren.jpg')">
+            	<div class="test-popout"  style="background-image: url('img/mvmsmallbg.jpg')">
             		<div class="box">
-						<div class="img-container"><img src="img/mcj-casings-logo.png" alt="reebok sports club logo"></div>
+						<div class="img-container"><img src="img/mvmlogo.png" alt="MVM logo"></div>
 
-              			<blockquote>&bdquo;Dank Act! k&ouml;nnen die Mitglieder unseres Vertriebsteams alle n&ouml;tigen Kundendaten mit nur einem Klick abrufen...&ldquo;
-							<cite class="hidden-sm">Angela Banks<br> Sales Manager</cite>
-							<div class="comp_name hidden-sm">MCJ Casings</div>
+              			<blockquote>&#8222;Unser Erfolg ist auch auf die hervorragende IT-Unterstu&#776;tzung durch Act! zuru&#776;ckzufu&#776;hren..."
+							<cite class="hidden-sm">Micha Martin Lauterjung<br />Vorstand</cite>
+							<div class="comp_name hidden-sm">MVM</div>
 						</blockquote>
-               			<a href="kundenreferenzen/mcj-casings" title="Act! Referenzkunde MCJ Casings" class="btn-second-white btn-white">mehr Infos</a>
+               			<a href="kundenreferenzen/mvm" title="Act! Referenzkunde MVM" class="btn-second-white btn-white">mehr Infos</a>
             		</div>
 			   </div>
           	</div>

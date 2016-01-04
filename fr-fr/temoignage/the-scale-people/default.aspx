@@ -113,7 +113,7 @@ _elqQ.push(['elqOptOut']);
                  <a href="demo" title="Démonstration personnalisée Act!" class="btn-second btn share_btn">Demande de démo</a>
             </div>
         </div>
-      <div class="col-sm-6 bottom "> </div>
+      
     </div>
     </div>
   </div>

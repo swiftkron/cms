@@ -97,16 +97,13 @@ _elqQ.push(['elqOptOut']);
         </p>
         <![endif]-->
 <!-- #Include File="../../includes/header.inc" -->
-<div class="grey-bg slider-height">
+<div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/fr-fr/img/Responsable-marketing-lance-campagne-emailing.jpg'); background-position: center top; ">
           <div class="container">
             	<div class="row section">
             	  	<div class="col-sm-6 bottom col-left">
             	  	  	  	<h1 class="large_strapline">Act! emarketing</h1>
 		    	  	  		<p class="strapline_intro">Exigez plus de l&rsquo;emarketing avec Act! emarketing, une solution simple et &eacute;conomique de d&eacute;velopper vos activit&eacute;s qui met fin aux al&eacute;as du marketing et suivi client. Cr&eacute;ation, envoi et suivi de campagnes professionnelles et pertinentes pour communiquer le bon message au bon moment.</p>
 				  	  		<p class="mb_buttons"><a href="produits/act-emarketing/pdf/act-emarketing-FR.pdf" class="btn-primary btn" target="_blank">Fiche produit</a></p>
-            	</div>
-            	<div class="col-sm-4  col-sm-push-2 mb-center">
-            	  	<img src="img/solution-emarketing.png" alt="Solution Emarketing" />
             	</div>
             	</div>
           </div>

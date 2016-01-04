@@ -99,7 +99,7 @@ _elqQ.push(['elqOptOut']);
         </p>
         <![endif]-->
         <!-- #Include File="../../includes/header.inc" -->
-        <div class="grey-bg slider-height">
+        <div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/fr-fr/img/femme-affaires-utilise-act-premium-cloud.jpg'); background-position: center top; ">
           <div class="container">
             <div class="row section">
               <div class="col-sm-7 bottom col-left mb-center">
@@ -116,9 +116,6 @@ _elqQ.push(['elqOptOut']);
                   <a href="essai" title="Télécharger la démo de Act!" class="btn-second btn">essai gratuit</a>
                   <a href="demo" title="Démonstration personnalisée Act!" class="btn-second btn">Demande de d&eacute;mo</a>
                 </div>
-              </div>
-              <div class="col-sm-4 col-sm-push-1 mb-center">
-                <img src="img/logiciel-act-premium-v17.png" alt="Act! Premium" />
               </div>
             </div>
           </div>

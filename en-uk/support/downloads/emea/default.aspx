@@ -109,7 +109,7 @@ _elqQ.push(['elqOptOut']);
                         	<h1 class="large_strapline">Download Centre: <br />Europe and UK</h1>
                         	<div class="row">
 								<div class="col-lg-9 ">
-									<p class="strapline_intro"><strong class="semibold">Note:</strong>Act! v17, Act! v16, Sage ACT! 2013, and Sage ACT! 2012 Hot Fixes and Updates apply to Act! Pro, Act! Premium, Act! Premium (access via web), and are applicable to all locales, including Australia, Canada, UK, Europe, and Latin America. Visit the Act! <a href="http://kb.act.com/" target="_blank">Knowledgebase</a> to see what's new in each release.</p>
+									<p class="strapline_intro"><strong class="semibold">Note:</strong>Hotfixes for product versions 14.x (2012) and higher apply to all regional installations of Act! Pro, Act! Premium and Act! Premium (access via web). Visit the Act! <a href="http://kb.swiftpage.com" target="_blank">Knowledgebase</a> to see what's new in each release.</p>
                      			</div>
                      		</div>
                     </div>
@@ -144,6 +144,47 @@ _elqQ.push(['elqOptOut']);
 
                 <tbody>
 
+                      <tr>
+                        <td>11/12/2015</td>
+                        <td>Act! v18 Hotfix 2</td>
+                        <td>act18hf2b.exe</td>
+                        <td>22 MB</td>
+                        <td><a href="http://CDN.updates.swiftpage.act.com/updates/act18hf2b.exe">download</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>08/12/2015</td>
+                        <td>Act! v18 Hotfix 1</td>
+                        <td>act18hf1a.exe</td>
+                        <td>6.6 MB</td>
+                        <td><a href="http://CDN.updates.swiftpage.act.com/updates/act18hf1a.exe">download</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>02/12/2015</td>
+                        <td>Act! v17 SP2 Hotfix 2</td>
+                        <td>act17sp2hf2b.exe</td>
+                        <td>8.5 MB</td>
+                        <td><a href="http://CDN.updates.swiftpage.act.com/updates/act17sp2hf2b.exe">download</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>20/11/2015</td>
+                        <td>Act! v17 SP2 Hotfix 1</td>
+                        <td>act17sp2hf1b.exe</td>
+                        <td>5.9 MB</td>
+                        <td><a href="http://CDN.updates.swiftpage.act.com/updates/act17sp2hf1b.exe">download</td>
+                      </tr>
+                      
+                      <tr>
+                        <td>24/09/2015</td>
+                        <td>Act! v17 SP1 Hotfix 4</td>
+                        <td>act17sp1hf4a.exe</td>
+                        <td>6.2 MB</td>
+                        <td><a href="http://CDN.updates.swiftpage.act.com/updates/act17sp1hf4a.exe">download</td>
+                      </tr>
+                      
+                      
                       <tr>
                         <td>11/06/2015</td>
                         <td>Act! v17 SP1 Hotfix 3</td>
@@ -417,7 +458,7 @@ _elqQ.push(['elqOptOut']);
           </div>
           <div class="panel row col-md-12">
             <div class="title">
-              <h3>Updates &#12297;</h3>
+              <h3>Service Packs &#12297;</h3>
             </div>
             <div class="panel-content">
               <table class="col-sm-12 no-more-tables">
@@ -916,47 +957,6 @@ _elqQ.push(['elqOptOut']);
           </div>
           <div class="panel row col-md-12">
 
-            <div class="title">
-              <h3>Feature Packs &#12297;</h3>
-            </div>
-
-
-            <div class="panel-content">
-
-
-                  <p><b>Note:</b> Business Care Exclusive! Business Care subscribers are entitled to download and use the tools and services offered in Act! Feature Packs. Don't have a Business Care plan? <a href="contact-us" title="Get in touch by telephone, email or send us a message">Sign up now</a></p>
-
-
-              <table class="col-sm-12 no-more-tables">
-                <thead>
-                  <tr>
-                    <th>Date</th>
-                    <th>Title</th>
-                    <th>File Name</th>
-                    <th>Size</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-   <tr>
-                        <td>7/8/2014</td>
-                        <td>Act! v16 SP1 Feature<br>
-                          Pack 1 - Lead Capture</td>
-                        <td>act16sp1leadcapturefp1.exe</td>
-                        <td>595 KB</td>
-                        <td><a href="http://cdn.act.dlm.swiftpage.com/3222/act16sp1leadcapturefp1.exe">download</a></td>
-                      </tr>
-                      <tr>
-                        <td>7/8/2014</td>
-                        <td>Act! v16 SP1 Feature<br>
-                          Pack 1 - Contact Timeline</td>
-                        <td>act16sp1timelinefp1.exe</td>
-                        <td>2.7 MB</td>
-                        <td><a href="http://cdn.act.dlm.swiftpage.com/3223/act16sp1timelinefp1.exe">download</a></td>
-                      </tr>
-                </tbody>
-              </table>
-            </div>
             <div class="row col-md-12">
               <p>For downloads in other languages, please click on your desired language to access the relevant Download Centre: <a href="/de-de/support/downloads/">German</a>, <a href="/fr-fr/assistance/telechargements/">French</a>, <a href="/resources/downloads">American English</a>.</p>
             </div>

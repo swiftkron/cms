@@ -126,7 +126,7 @@ _elqQ.push(['elqOptOut']);
     <div class="col-sm-6 txtcenter" style="padding: 0;">
       <div class="row">
         <div class="col-sm-12 compare_head_l" >
-          <h2 class="">Act! Pro v17</h2>
+          <h2 class="">Act! Pro v18</h2>
 
         </div>
       </div>
@@ -155,7 +155,7 @@ _elqQ.push(['elqOptOut']);
     <div class="col-sm-6 txtcenter" style="padding: 0;">
       <div class="row">
       <div class="col-sm-12 compare_head_r" >
-        <h2>Act! Premium v17</h2>
+        <h2>Act! Premium v18</h2>
 
       </div>
     </div>
@@ -193,7 +193,8 @@ _elqQ.push(['elqOptOut']);
           <div class="col-sm-6">
             <p><sup>1</sup>For Act! emarketing: Basic account included (email up to 500 contacts per month). Product Features vary based on services chosen.</p><p>Visit <a href="act-emarketing" title="Find out about Act! emarketing integrated bulk mailing feature">act.com/en-uk/act-emarketing</a> for details.</p>          </div>
           <div class="col-sm-5 col-sm-push-1">
-            <p><sup>2</sup> Act! Premium Mobile requires set-up and configuration of Act! Premium (access via web). Data access available via active internet connection from supported device browsers. Review <a href="products/system/v17">Act! system requirements</a>.</p><p>You are responsible for all data-related charges.</p>
+            <p><sup>2</sup> Act! Premium Mobile requires set-up and configuration of Act! Premium (access via web). Data access available via active internet connection from supported device browsers. Review Act! <a href="/en-uk/products/system/v18/">system requirements</a>.</p>
+
           </div>
         </div>
       </div>

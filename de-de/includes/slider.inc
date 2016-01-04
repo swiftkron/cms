@@ -28,18 +28,18 @@
 
 					<li class="cta">
 						<div class="slider-bg">
-							<img src="img/reebok-nutzt-act.jpg" />
+							<img src="img/act-for-color-business-centers.jpg" />
 						</div>
 					<div class="slider-overlay">
 						<div class="container ">
 							<div class="row section">
-							  	<div class="col-sm-8 col-lg-8 col-md-7 col-left white bottom col-left mb-center">
-							    		<span class="large_strapline_home semibold">Act! ist das ultimative „Fitnesstool“ für den Vertrieb</span>
-							   <img src="img/reebok.png" alt="reebok sports club logo" width="160" style="display:none">
+							  	<div class="col-sm-9 col-lg-9 col-md-9 col-left bottom col-left mb-center">
+							    		<span class="large_strapline_home semibold">Act! hilft B&uuml;roraumanbieter beim Aufr&auml;umen</span>
+							   <img src="img/color-business-centers.png"  width="160">
 							   <br> <br>
-									 <div class="btn-bottom white">
-							      		<a href="kundenreferenzen/reebok" title="Act! Referenzkunde Reebok" class="btn-primary btn">mehr Infos</a>
-							      		<a href="kundenreferenzen" title="Unternehmen, die die CRM Software Act! bereits nutzen" class="btn-second btn">Alle Kundenreferenzen</a>
+									 <div class="btn-bottom">
+							      		<a href="kundenreferenzen/color-business-centers" title="Act! Referenzkunde Reebok" class="btn-primary btn">mehr Infos</a>
+							      		<a href="kundenreferenzen" title="Unternehmen, die die CRM Software Act! bereits nutzen" class="btn-second btn fill-white">Alle Kundenreferenzen</a>
 								  	</div>
 								 </div>
 								  <div class="col-sm-2 imagefix hidden-xs"></div>

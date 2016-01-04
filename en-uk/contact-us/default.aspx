@@ -130,7 +130,7 @@ _elqQ.push(['elqGetCustomerGUID']);
 <!-- #Include File="/en-uk/includes/header.inc" -->
 
     <div class="container">
-    	<div class="row section">
+    	<div class="row ">
     	  	<div class="col-sm-8 col-sm-push-2 txtcenter">
     	  	  		<div class="row">
     	  	  	  		<h1 class="large_strapline">Contact us</h1>

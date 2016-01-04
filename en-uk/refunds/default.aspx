@@ -137,7 +137,7 @@ _elqQ.push(['elqOptOut']);
               <div class="col-sm-12">
               <h2></h2>
               <p class="lead">
-                <p style="text-align: left;">We hope you’re happy with what you’ve bought from us. If you think you need to return something or cancel your order with us please contact us on the contact numbers below. We will process your query in line with this returns &amp; cancellation policy. We will email you to confirm your cancellation. Please keep a copy of the emails from us.</p>
+                <p style="text-align: left;">We hope you’re happy with what you’ve bought from us. If you think you need to return something or cancel your order with us please contact us on the contact numbers below. We will process your query in line with this returns &amp; cancellation policy. We will email you to confirm your cancellation. Please keep a copy of the emails from us. Please note this returns policy is in addition to your rights as described in our terms of business and this policy does not affect your statutory rights. </p>
 <p style="text-align: left;"><strong>Call us on:</strong></p>
 <p style="text-align: left;"><strong>UK</strong> – 0845 268 0220<br />
 <strong>Ireland</strong> – 0766 801 364<br />
@@ -177,7 +177,7 @@ You may only cancel training and consultancy services if we receive your request
 <p style="text-align: left;"><strong>Returning software or cancelling services provided as part of a bundle</strong><br />
 If you have purchased your Software as part of a bundle with a support or other service contract, you may only return your software if this policy also entitles you to cancel the service element of your bundle. Similarly, if you wish to cancel the service element, you may only do so if this policy also entitles you to return the software provided as part of your bundle.</p>
 <p style="text-align: left;"><strong>How do I return something?</strong><br />
-To help us understand how we can improve our services and products in the future we’d like to discuss your return with you. Please call us on:</p>
+To help us understand how we can improve our services and products in the future we'd like to discuss your return with you. Please call us on:</p>
 <p style="text-align: left;"><strong>UK</strong> – 0845 268 0220<br />
 <strong>Ireland</strong> – 0766 801 364<br />
 <strong>South Africa</strong> – 0105 003 672<br />

@@ -56,7 +56,7 @@
                                                       <li><a href="support/downloads/emea" title="Download software hotfixes, updates and feature packs" >Download Centre</a></li>
                                                       <li><a  href="resources/getting-started/">Getting Started</a></li>
                                                       <li><a href="http://kb.act.com" target="_blank">Knowledgebase</a></li>
-                                                       <li><a href="products/system/v17/" >System Requirements</a></li>
+                                                       <li><a href="products/system/v18/" >System Requirements</a></li>
                                                       
       				</ul>
 

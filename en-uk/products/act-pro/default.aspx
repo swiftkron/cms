@@ -453,7 +453,7 @@ _elqQ.push(['elqOptOut']);
             <div class="col-sm-6">
 
 
- <p> <b>Important Note:</b> Review Act!     <a href="products/system/v17/pro">system requirements</a> . You must purchase one license of Act! per user. Scalability varies based on hardware, size, and usage of your database. For Act! emarketing: Basic account included (email up to 500 contacts per month). Product Features vary based on services chosen. Visit   <a href="http://www.act.com/marketplace">act.com/marketplace</a> for details.
+ <p> <b>Important Note:</b> Review Act!     <a href="products/system/v18/pro">system requirements</a> . You must purchase one license of Act! per user. Scalability varies based on hardware, size, and usage of your database. For Act! emarketing: Basic account included (email up to 500 contacts per month). Product Features vary based on services chosen. Visit   <a href="http://www.act.com/marketplace">act.com/marketplace</a> for details.
 </p>
             </div>
             <div class="col-sm-5 col-sm-push-1">

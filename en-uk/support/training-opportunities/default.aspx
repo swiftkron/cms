@@ -101,7 +101,7 @@ _elqQ.push(['elqOptOut']);
         <![endif]-->
 <!-- #Include File="/en-uk/includes/header.inc" -->
 
-      <div class="section-bg mb-bg-right toppadding slider-height" style="background-image:url('/en-uk/img/act-crm-training.jpg')">
+      <div class="section-bg mb-bg-right toppadding slider-height" style="background-image:url('/en-uk/img/marketing-team-using-act.jpg')">
         <div class="container">
          <div class="row section">
           <div class="col-sm-5 bottom col-left mb-center">

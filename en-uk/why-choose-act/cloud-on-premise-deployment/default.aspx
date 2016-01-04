@@ -159,7 +159,7 @@ _elqQ.push(['elqOptOut']);
 			</div>
 			</div>
           	<div class="row  ">
-					<p><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-primary btn">buy now</a> <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a></p>
+					<p><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-primary btn buy-popup">buy now</a> <a href="test-drive" title="Online access to Act! desktop software through your web browser" class="btn-second btn">test drive</a></p>
           <br>
           	</div>
 				</div>
@@ -175,9 +175,8 @@ _elqQ.push(['elqOptOut']);
           	<div class="row ">
 			  	<div class="col-sm-7 valign-middle-wrapper">
 				  	<div class="valign-middle">
-                <h2 class="homeheading nobottompad" >Cloud</h2>
-				  		<h2>Act! Hosted</h2>
-						<p class="lead">Act! Hosted is a Cloud solution, giving you and your team on-demand access to <a href="products/act-premium" title="Find out more about Act! Premium. Designed for individuals and teams of up to 10 or more users.">Act! Premium.</a> Jump right into complete contact, calendar, and opportunity details from your computer, smartphone, or tablet<sup>1</sup> anytime you're online. Need offline access too? No problem. There is an offline option for when a connection to the web is unavailable.<sup>2</sup></p>
+				  		<h2>Act! Premium Cloud</h2>
+						<p class="lead">Act! Premium and Act! Premium Cloud help organise all your prospect and customer details in one place so you can prioritise your day and market your products and services more effectively, driving sales results while creating customers for life.</p>
 						<p class="list_title">Cloud deployment is ideal for you if:</p>
 						<div class="row  ">
 						  	<div class="col-sm-6  ">
@@ -195,7 +194,10 @@ _elqQ.push(['elqOptOut']);
 							</div>
 						</div>
 						<div class="row  ">
-							<p><a href="contact-us" title="Get in touch by telephone, email or send us a message" class="btn-primary btn">contact us</a> </p>
+							<p>
+                <a href="test-drive" class="btn-primary btn">test drive</a>
+                <a target="_blank" href="/en-uk/demo" class="btn-second btn">request demo</a> 
+              </p>
               <br>
 						</div>
 				  	</div>
@@ -207,22 +209,20 @@ _elqQ.push(['elqOptOut']);
 			</div>
 		</div>
 	</div>
-          <!-- END ROW -->
-
-
-      <div class="container footnotes">
+  <div class="container footnotes">
         <div class="row ">
             <div class="col-sm-6">
-              	<p><strong>Important Notes:</strong></p>
-				<p><strong>For Act!:</strong> Review Act! system requirements <a href="products/system/v17/premium#windows">here</a>. You must purchase one license of Act! per user. Scalability varies based on hardware, size, and usage of your database.</p>
-				 <p><strong>For Act! Hosted:</strong> Review Act! system requirements  <a href="products/system/v17/premium#web">here</a>. You must purchase one Act! Hosted subscription per user. Feature limitations with Act! Premium (access via web) apply for online access.  <a href="http://kb.swiftpage.com/" target="_blank">View the KB to learn more.</a> </p>
+        <p><strong>For Act!:</strong> Review Act! system requirements <a href="/en-uk/products/system/v18/premium/#windows">here</a>. You must purchase one license of Act! per user. Scalability varies based on hardware, size, and usage of your database.</p>
+               
             </div>
             <div class="col-sm-6">
-              	<p><sup>1</sup> Supported tablets and smartphones include iPad<sup>&reg;</sup>, iPhone<sup>&reg;</sup>, and Android<sup>&#8482;</sup> devices.  Data access available via active Internet connection from supported device browsers. You are responsible for all data-related charges to your device.</p>
-				<p><sup>2</sup> Requires additional fee.</p>
+               <p><strong>For Act! Hosted:</strong> Review Act! system requirements <a href="/en-uk/products/system/v18/premium/#web">here</a>. You must purchase one Act! Hosted subscription per user. Feature limitations with Act! Premium (access via web) apply for online access. View the KB to learn more.</p>
             </div>
+           
         </div>
       </div>
+          <!-- END ROW -->
+
 
 
 

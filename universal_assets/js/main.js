@@ -393,14 +393,16 @@ $(function() {
 
     // Buy button popup
 	if ($(".buy-popup")[0]){
-		$('body').prepend('<div class="successOverlay"></div><div class="successModal largeContentModal buyModal"><span class="CloseButton"><img src="img/cross.png" alt="cross"  /></span><div class="box2"><span>Choose currency:</span><p><strong>Act! Pro</strong> will automatically be added to your Shopping Cart.</p><div class="col-md-6"><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN"><div class="icon-pound"></div></a><br><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-second btn">buy in pounds</a></div><div class="col-md-6"><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=en_EN"><div class="icon-euro"></div></a><br><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=7486&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-second btn">buy in euros</a></div></div>');
+		$('body').prepend('<div class="successOverlay"></div><div class="successModal largeContentModal buyModal"><span class="CloseButton"><img src="img/cross.png" alt="cross"  /></span><div class="box2"><span>Choose currency:</span><p><strong>Act! Pro</strong> will automatically be added to your Shopping Cart.</p><div class="col-md-6"><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8127&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN"><div class="icon-pound"></div></a><br><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8127&qty=1&selcurrency=2&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-second btn">buy in pounds</a></div><div class="col-md-6"><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8127&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=en_EN"><div class="icon-euro"></div></a><br><a target="_blank" href="http://store.act.com/app/site/backend/intl/additemtocart.nl?buyid=8127&qty=1&selcurrency=4&selsubsidiary=7&selshopperlanguage=en_EN" class="btn-second btn">buy in euros</a></div></div>');
 	}
 	$('.buy-popup').on("click", function(){
 	  $('.successOverlay').show();
 	  $('.successModal').show();
+	  return false;
 	});
 	$('.successModal .CloseButton').on("click", function(){
 	  $('.successOverlay').hide();
 	  $('.successModal').hide();
+	  return false;
 	});
 });

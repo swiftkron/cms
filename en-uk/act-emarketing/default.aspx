@@ -101,16 +101,15 @@ _elqQ.push(['elqOptOut']);
         </p>
         <![endif]-->
 <!-- #Include File="/en-uk/includes/header.inc" -->
-<div class="grey-bg slider-height">
+<div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/en-uk/img/Marketing-manager-creating-email-campaigns.jpg'); background-position: center top; ">
           <div class="container">
             	<div class="row section">
             	  	<div class="col-sm-6 bottom col-left">
             	  	  	  	<h1 class="large_strapline">Act! emarketing</h1>
 		    	  	  		<p class="strapline_intro">With Act! emarketing emails are easy to create, send and track. A cost-effective way to grow your business by regularly communicating with your customers and prospects with the right message at the right time. Call lists automatically recommend hot leads to follow up with to generate sales.</p>
-				  	  		<p class="mb_buttons"><a href="/media/en-uk/docs/briefs/Act!_emarketing_Brief_Intl_En.pdf" class="btn-primary btn" target="_blank">download brochure</a></p>
-            	</div>
-            	<div class="col-sm-4  col-sm-push-2 mb-center">
-            	  	<img src="/en-uk/img/act-emarketing.png" alt="emarketing business software" />
+				  	  		<p class="mb_buttons"><a href="/media/en-uk/docs/briefs/Act!_emarketing_Brief_Intl_En.pdf" class="btn-primary btn" target="_blank">download brochure</a>
+                  <a target="_blank" href="act-emarketing/getting-started/" class="btn-second btn">get started</a>
+                  </p>
             	</div>
             	</div>
           </div>
@@ -348,7 +347,7 @@ _elqQ.push(['elqOptOut']);
         <div class="container  section-padding footnotes">
          	<div class="row">
             	<div class="col-sm-6  ">
-					<p><strong>Important Note:</strong> Review Act! system requirements at act.com/en-uk/systreq. You must purchase one license of Act! per user. Scalability varies based on hardware, size, and usage of your database.</p>
+					<p><strong>Important Note:</strong> Review Act! system requirements <a href="/en-uk/products/system/v18">here</a>. You must purchase one license of Act! per user. Scalability varies based on hardware, size, and usage of your database.</p>
              	</div>
 			  	<div class="col-sm-5 col-sm-push-1">
 					<p><strong>For Act! emarketing:</strong> Basic account included (email up to 500 contacts per month). Product Features vary based on services chosen.</p>

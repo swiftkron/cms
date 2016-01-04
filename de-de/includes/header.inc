@@ -70,6 +70,7 @@
 								<ul>
 								<li><a href="http://www.act.com/en-uk/" lang="en" hreflang="en" title="Act! CRM Software">English</a></li>
 			   			 			<li><a href="http://www.act.com/fr-fr/" lang="fr" hreflang="fr" title="Act! Logiciel CRM">Fran&#231;ais</a></li>
+									<li><a href="http://www.act.com/fr-ca/" lang="fr" hreflang="fr" title="Act! Logiciel CRM">Fran&#231;ais Canada</a></li>
 			   			 			<li><a href="http://www.act.com/nl-nl/" lang="nl" hreflang="nl" title="Act! CRM Software">Nederlands</a></li>
 			   			 			<li><a href="http://www.act.com/?regLang=en-US" lang="en-us" hreflang="en-us" title="Act! CRM Software">U.S. English</a></li>
 							</li>

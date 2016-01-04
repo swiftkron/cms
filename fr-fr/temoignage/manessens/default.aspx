@@ -149,7 +149,7 @@ _elqQ.push(['elqOptOut']);
         <blockquote class="plainquote-test">&laquo; Nous avons choisi la solution Act! pour la grande latitude de parame&#769;trage qu&rsquo;elle offre et pour sa simplicite&#769; d&rsquo;utilisation &raquo;
           <br>
           <cite>Olivier Tardif
-            <br>Co-gérant et Directeur Commercial de Manessen</cite>
+            <br>Co-g&eacute;rant et Directeur Commercial de Manessens</cite>
         </blockquote>
 
 

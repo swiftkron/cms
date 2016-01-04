@@ -267,7 +267,7 @@ _elqQ.push(['elqOptOut']);
             		<div class="box">
 						  <div class="img-container"><img src="img/reeboklogo.png" alt="reebok sports club logo"></div>
 
-              			<blockquote>"Je réalise que sans Act!, nous n’arriverions pas à atteindre les <br> 5 000 nouveaux abonnements par an"
+              			<blockquote>&laquo; Je réalise que sans Act!, nous n’arriverions pas à atteindre les <br> 5 000 nouveaux abonnements par an &raquo;
 							<cite class="hidden-sm"> Diane Kay<br>Directrice ventes &amp; marketing</cite>
 							<div class="comp_name hidden-sm">Reebok Sports Club</div>
 						</blockquote>
@@ -275,26 +275,29 @@ _elqQ.push(['elqOptOut']);
             		</div>
 			   </div>
           	</div>
-          	<div class="col-sm-4 test-wrap">
-            	<div class="test-popout"  style="background-image: url('img/casings-bg.jpg')">
-            		<div class="box">
-						<div class="img-container"><img src="img/mcj-casings-logo.png" alt="reebok sports club logo"></div>
 
-              			<blockquote>"Avec Act!, nos commerciaux ont accès à toutes les données essentielles en un clic, ce qui fait que les relations client 
-coulent de source. "
-							<cite class="hidden-sm">Angela Banks<br> Directrice des ventes</cite>
-							<div class="comp_name hidden-sm">MCJ Casings</div>
+
+          	<div class="col-sm-4 test-wrap">
+            	<div class="test-popout"  style="background-image: url('img/bg-client-distributeurs-automatiques.jpg')">
+            		<div class="box">
+						<div class="img-container"><img src="img/ManessenslogoWHITE.png" alt="reebok sports club logo"></div>
+
+              			<blockquote>&laquo; Nous avons choisi la solution Act! pour la grande latitude de parame&#769;trage qu&rsquo;elle offre et pour sa simplicite&#769; d&rsquo;utilisation &raquo;
+							<cite class="hidden-sm">Olivier Tardif<br />Co-g&eacute;rant et Directeur Commercial</cite>
+							<div class="comp_name hidden-sm">Manessens</div>
 						</blockquote>
-               			<a href="temoignage/mcj-casings" title="Cas client prospection" class="btn-second-white btn-white">en savoir plus</a>
+               			<a href="temoignage/manessens" title="Cas client prospection" class="btn-second-white btn-white">en savoir plus</a>
             		</div>
 			   </div>
           	</div>
+
+
           	<div class="col-sm-4 test-wrap" >
             	<div class="test-popout" style="background-image:url('img/srtbg.jpg');">
             		<div class="box">
 						<div class="img-container"><img src="img/srtlogo.png" alt="srt logo"></div>
 
-              			<blockquote>"J&rsquo;ai toujours appr&eacute;ci&eacute; la simplicit&eacute; d&rsquo;utilisation d&rsquo;Act!, sa stabilit&eacute; et la flexibilit&eacute; de ses options."
+              			<blockquote>&laquo; J&rsquo;ai toujours appr&eacute;ci&eacute; la simplicit&eacute; d&rsquo;utilisation d&rsquo;Act!, sa stabilit&eacute; et la flexibilit&eacute; de ses options. &raquo;
 							<cite class="hidden-sm">R&eacute;al Thibault<br>Coiffeur-visagiste</cite>
 							<div class="comp_name hidden-sm">SRT</div>
 						</blockquote>

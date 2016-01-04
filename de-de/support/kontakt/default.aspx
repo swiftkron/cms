@@ -112,7 +112,7 @@
 <h2>Support-Ticket einreichen</h2>
 <form id="ticketForm" action="javascript:return;">
 <input type="hidden" name="PreferredLanguage" value="German" /> 
-<p class="smalltext">Die mit einem <span class="required">*</span> gekennzeichneten Felder sind Pflichtfelder, die ausgef&uuml;llt werden m&uuml;ssen.</p>
+<p class="smalltext">Die mit einem <span class="required">*</span> gekennzeichneten Felder sind Pflichtfelder die ausgef&uuml;llt werden m&uuml;ssen.</p>
 
 <div class="row">
 <div class="col-md-6">
@@ -378,7 +378,7 @@
 
                     <div class="label"><label for="Product">Produkt <span class="required">*</span></label></div>
                     <div class="field"><select id="product" name="Product">
-                      <option value="">Bitte waehlen Sie Ihr Produkt.</option>
+                      <option value="">Please Select Your Product</option>
                       <option value="Act! Pro">Act! Pro</option>
                       <option value="On Premise">Act! Premium</option>
                       <option value="Act! Premium Cloud">Act! Premium Cloud</option>
@@ -390,7 +390,7 @@
                     <div class="field"><textarea name="Description" id="description"></textarea></div>
                     <div class="label"><label for="AccountNumber">Kundennummer <span class="hint">411XXXXXX, 400XXXXXX, XXXXXXXX-ACT, AXXXXXXXX</span></label></div>
                     <div class="field"><input id="accountnumber" type="text" name="AccountNumber" /></div>
-                    <div class="label"><label for="CompanyName">Firmenname</label></div>
+                    <div class="label"><label for="CompanyName">Unternehmen</label></div>
                     <div class="field"><input id="company" type="text" name="CompanyName" /></div>
   
 </div>

@@ -56,20 +56,20 @@
 
  <li class="cta">
  <div class="slider-bg">
- <img src="img/reebok-utilise-act-prospects.jpg" alt="Reebok utilise Act! Pour ses prospects" />
+ <img src="img/act-for-color-business-centers.jpg" alt="Reebok utilise Act! Pour ses prospects" />
  </div>
  <div class="slider-overlay">
  <div class="container ">
  <div class="row section">
- <div class="col-sm-8 col-left white bottom col-left mb-center">
- <span class="large_strapline_home semibold"> "Act!, l'outil commercial qui a du tonnus" </span>
- <img src="img/reebok.png" alt="" width="160" class="hidden-xs">
+ <div class="col-sm-8 col-left bottom col-left mb-center">
+ <span class="large_strapline_home semibold">Act!, la solution bien agenc&eacute;e !</span>
+ <img src="img/color-business-centers.png" alt="" width="160" class="hidden-xs">
  <span class="hidden-xs"><br><br></span>
 
 
- <div class="btn-bottom white">
- <a href="temoignage/reebok" title="Témoignage CRM Reebok" class="btn-primary btn">en savoir plus</a>
- <a href="temoignages" title="Ils utilisent notre logiciel de gestion de contacts" class="btn-second btn">tous nos t&eacute;moignages</a>
+ <div class="btn-bottom">
+ <a href="temoignage/color-business-centers" class="btn-primary btn">en savoir plus</a>
+ <a href="temoignages" title="Ils utilisent notre logiciel de gestion de contacts" class="btn-second btn fill-white">tous nos t&eacute;moignages</a>
  </div>
  </div>
  <div class="col-sm-4 imagefix hidden-xs"></div>

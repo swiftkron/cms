@@ -100,16 +100,13 @@ _elqQ.push(['elqOptOut']);
         </p>
         <![endif]-->
 <!-- #Include File="../includes/header.inc" -->
-<div class="grey-bg slider-height">
+<div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/de-de/img/Marketing-Manager-Erstellung-email-Kampagnen.jpg'); background-position: center top; ">
           <div class="container">
             	<div class="row section">
             	  	<div class="col-sm-7 col-md-6 bottom col-left">
             	  	  	  	<h1 class="large_strapline">Act! emarketing</h1>
 		    	  	  		<p class="strapline_intro">Mit Act! emarketing k&ouml;nnen Sie einfach und kosteng&uuml;nstig professionelle E-Mail-Kampagnen erstellen und deren Wirkung messen. Ihre Kunden und Interessenten erhalten stets die richtige Botschaft zur richtigen Zeit und intelligente, priorisierte Anruflisten<sup>1</sup> verraten Ihnen, wer die vielversprechendsten Leads sind &ndash; und das alles mit Act!</p>
 				  	  		<p class="mb_buttons"><a href="docs/Act!-emarketing-DE.pdf" class="btn-primary btn" target="_blank">Produktbrosch&uuml;re</a></p>
-            	</div>
-            	<div class="col-sm-4  col-sm-push-1  mb-center">
-            	  	<img src="img/e-mail-marketing-Losung.png" alt="E-Mail-Marketing Lösung" />
             	</div>
             	</div>
           </div>

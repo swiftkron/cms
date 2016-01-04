@@ -94,8 +94,12 @@ _elqQ.push(['elqOptOut']);
 <body id="homepage">
 <div class="videoModal" id="popupVid">
 	<span class="CloseButton"><img src="/en-uk/img/cross.png" alt="cross"  /></span>
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/MSEHHvbAaRQ?enablejsapi=1' frameborder='0' allowfullscreen style="display:block!important"> </iframe></div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>
+	<iframe src='http://www.youtube.com/v/y2fid-EG5vE?enablejsapi=1' frameborder='0' allowfullscreen style=""> </iframe>
+	
+	</div>
 </div>	
+
         <!--[if lt IE 7]>
         <p class="browsehappy">
           You are using an <strong>outdated</strong>
@@ -159,7 +163,7 @@ _elqQ.push(['elqOptOut']);
 				<div class="row">
 					<div class="col-sm-5">
 						<h2 class="large_h2">Act! Premium</h2>
-						<p class="lead">You need a system that goes where you go. Act! Premium has all the features of Act! Pro PLUS new mobile and hosting enhancements that allow for fully secure, run anywhere capability. Perfect for workgroups and teams of over 10 people.</p>
+						<p class="lead">Act! Premium is purpose-built to help individuals, sales teams, and small businesses be prepared for every interaction, propel productivity, and make insightful decisions.</p>
 
               			<a href="products/act-premium" title="Find out more about Act! Premium. Designed for individuals and teams of up to 10 or more users." class="txtlink" style="display:block;"> read more &gt;</a>
               			<br>
@@ -180,19 +184,20 @@ _elqQ.push(['elqOptOut']);
               <h2 class="large_h2">Act! Essentials</h2>
 
               <p class="lead">
-              Act! Essentials is a simple, cost-effective way to help entrepreneurs get organised,  stay connected, and look professional.
+              Act! Essentials is a simple, cost-effective way to help you get organised, stay connected, and look professional. It&rsquo;s easy to get started, with no technical hoops to jump through, and no long-term commitment required.
               </p>
 
-              <span class="price">From &pound;7  </span> per month ex. VAT
+              <span class="price">From &pound;7  </span><br /> per user per month ex. VAT <br />
               <a href="products/act-essentials" title="Find out more about Act! Essentials. Designed for individuals and startups" class="txtlink">read more &gt;</a>
+              <br>
               <br>
 
               <a target="_blank" href=" https://mycloud.act.com/#/login" class="btn-primary btn">buy now</a>
-              <a href="https://mycloud.act.com/signup/" class="btn-second btn">free trial</a>
+              <a target="_blank" href="https://mycloud.act.com/signup/" class="btn-second btn">free trial</a>
 
             </div>
             <div class="col-sm-7">
-              <img src="/en-uk/img/act-cloud-on-mobile-phone.png" alt="Act! Essentials on mobile device"></div>
+              <img src="/en-uk/img/Act-Essentials-on-mobile-phone.png" alt="Act! Essentials on mobile device"></div>
           </div>
         </div>
       </div>
@@ -347,6 +352,7 @@ Take the guesswork out of marketing and convert more sales. Integrated <a href="
     // if state == 'hide', hide. Else: show video
     var div = document.getElementById("popupVid");
     var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+    $(".embed-container iframe").remove();
     div.style.display = state == 'hide' ? 'none' : '';
     func = state == 'hide' ? 'pauseVideo' : 'playVideo';
     iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
@@ -359,11 +365,20 @@ Take the guesswork out of marketing and convert more sales. Integrated <a href="
           videoModal.hide();  
    
           }); 
+          
 
           $(document).on('click', '.playVideo', function(){
-        
-        successOverlay.show();  
-          videoModal.show();  
+		  	
+		  	var thisIframeID = $(this).data('video');
+			$(".embed-container iframe").remove();
+			$('<iframe frameborder="0" allowfullscreen></iframe>')
+    .attr("src", "http://www.youtube.com/embed/" + thisIframeID+'?enablejsapi=1&autoplay=1')
+    .appendTo(".embed-container");
+    
+
+		  	successOverlay.show();  
+		  	videoModal.show();  
+		  	return false;
         
           }); 
 </script>

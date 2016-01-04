@@ -78,7 +78,7 @@
         </p>
         <![endif]-->
 <!-- #Include File="../../includes/header.inc" -->
-<div class="grey-bg slider-height">
+<div class="slider-height section-bg toppadding mb-bg-right" style="background-image:url('/de-de/img/business-Frau-mit-act-premium-cloud.jpg'); background-position: center top; ">
           <div class="container">
               <div class="row section">
                   <div class="col-sm-8 col-md-7 bottom col-left mb-center">
@@ -88,9 +88,6 @@
                       <div class="btn-bottom">
                   <a href="partner-finden" title="Finden Sie einen Act! Partner in Ihrer Nähe" class="btn-primary btn">Partner finden</a> <a href="kostenlos-testen" title="CRM Software Act! kostenlos testen" class="btn-second btn">Jetzt kostenlos testen</a> <a href="demo-anfordern" title="Fordern Sie eine Demo der CRM Software Act! an" class="btn-second btn">Demo anfordern</a>
                 </div>
-              </div>
-              <div class="col-sm-4  col-sm-push-1 mb-center">
-                  <img src="img/crm-software-act-premium-v17.png" alt="Act! Premium Software" />
               </div>
               </div>
           </div>
