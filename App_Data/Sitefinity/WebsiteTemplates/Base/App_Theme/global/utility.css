@@ -39,6 +39,11 @@
 .uTrial .btnSecondary{
     border:#Fe5000 2px solid;
 }
+.uAlt .uTrial{
+    position:unset;
+    left:unset;
+    margin-top:unset;
+}
 .uPhone {
     position:relative;
     left:250px;
@@ -62,6 +67,11 @@
 }
 .uLogin a{
     color:#526774 !important;
+}
+.uAlt .uLogin{
+    position:unset;
+    float:unset;
+    margin-top:unset;
 }
 .uDropdown {
     display:none;

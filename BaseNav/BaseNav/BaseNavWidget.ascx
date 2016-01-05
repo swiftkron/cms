@@ -7,8 +7,8 @@
                 <div class="uToggle">
                     <span class="glyphicon glyphicon-chevron-down"></span>
                     <ul class="uDropdown uAlt">
-                        <li><a href="#">Login</a></li>
-                        <li><a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month">Free Trial</a></li>
+                        <li class="uLogin"><a href="https://mycloud.act.com/#/login">Login</a></li>
+                        <li class="uTrial"><a href="https://buy.act.com/en-US/trial/product/ActPremium/plan/Month">Free Trial</a></li>
                         <li><a href="tel:1-866-873-2006">866-873-2006</a></li>
                         <span class="separator"></span>
                         <li><a href="/en-uk/">International English</a></li>
