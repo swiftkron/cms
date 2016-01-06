@@ -3,4 +3,3 @@ C:\inetpub\wwwroot\act_com\bin\SitefinityWebApp.dll
 C:\inetpub\wwwroot\act_com\bin\SitefinityWebApp.pdb
 C:\inetpub\wwwroot\act_com\obj\Debug\SitefinityWebApp.dll
 C:\inetpub\wwwroot\act_com\obj\Debug\SitefinityWebApp.pdb
-C:\inetpub\wwwroot\act_com\obj\Debug\SitefinityWebApp.csprojResolveAssemblyReference.cache
