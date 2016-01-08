@@ -756,6 +756,15 @@ iframe#chatFrame {
 	font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
     font-size:96px;
 }
+#proPrice{
+    font-size:84px;
+}
+.cents{
+    display:inline-block;
+    position:absolute;
+    font-size:24px;
+    margin-top:16px;
+}
 .usd{
     display:inline-block;
     position:absolute;
@@ -769,15 +778,86 @@ iframe#chatFrame {
 .freq{}
 #cloudBuy{}
 #cloudTry{}
-.notCloud{
+.notCloud, .prem, .pro{
     display:none;
 }
-.sfPageEditor .notCloud{
+.sfPageEditor .notCloud, .sfPageEditor .prem, .sfPageEditor .pro{
     display:unset;
 }
 .premToggle, .cloudToggle{
     margin:24px 0 0;
 }
+
+.toggleWrap{
+    margin:48px auto 0;
+}
+.toggleBox{
+    text-align: center;
+    cursor:pointer;
+    padding:24px 48px;
+    height:280px;
+}
+.toggleBox h3{
+    font-size:1.2em;
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+.toggleBox p{
+    font-size:.8em;
+}
+.toggleBox:hover, .toggleBox.active{
+    background-color:#008cc5;
+    color:#FFF;
+}
+.toggleBox:hover h3, .toggleBox.active h3{
+    color:#FFF;
+}
+#toggleCloud2{
+    border: #008cc5 1px solid;
+	-webkit-border-radius: 4px 0 0 4px;    
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+#togglePrem2{
+    border-top: #008cc5 1px solid;
+    border-bottom: #008cc5 1px solid;
+}
+#togglePro{
+    border: #008cc5 1px solid;
+	-webkit-border-radius: 0 4px 4px 0;    
+	-moz-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+}
+@media(max-width:1024px) {
+    .toggleBox{
+        height:320px;
+    }
+}
+@media(max-width:767px){
+.toggleWrap{
+    margin:12px auto 0;
+}
+.toggleBox{
+    padding:12px 12px;
+    height:unset;
+}
+#toggleCloud2{
+	-webkit-border-radius: 4px 4px 0 0; 
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+#togglePrem2{
+    border-top: none;
+    border-bottom: none;
+    border-left: #008cc5 1px solid;
+    border-right: #008cc5 1px solid;
+}
+#togglePro{
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+}
+
 
 /* ELT */
 .eltIntro{

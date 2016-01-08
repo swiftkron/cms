@@ -82,6 +82,36 @@ $(document).ready(function () {
         $('.notCloud').css('display', 'none');
         location.hash = "apcH2";
     });
+
+    /* toggle product displays */
+    $('#togglePrem2').click(function () {
+        $('.prem').css('display', 'block');
+        $('.premCloud').css('display', 'none');
+        $('.pro').css('display', 'none');
+        $('#togglePrem2').addClass('active');
+        $('#toggleCloud2').removeClass('active');
+        $('#togglePro').removeClass('active');
+        //location.hash = "apH2";
+    });
+    $('#toggleCloud2').click(function () {
+        $('.premCloud').css('display', 'block');
+        $('.prem').css('display', 'none');
+        $('.pro').css('display', 'none');
+        $('#togglePrem2').removeClass('active');
+        $('#toggleCloud2').addClass('active');
+        $('#togglePro').removeClass('active');
+        //location.hash = "apcH2";
+    });
+    $('#togglePro').click(function () {
+        $('.premCloud').css('display', 'none');
+        $('.prem').css('display', 'none');
+        $('.pro').css('display', 'block');
+        $('#togglePrem2').removeClass('active');
+        $('#toggleCloud2').removeClass('active');
+        $('#togglePro').addClass('active');
+        //location.hash = "aproH2";
+    });
+
     /* change pricing term and destination */
     //cloud
     $('#cloudBuy').attr('href', 'https://buy.act.com/en-us/purchase/product/ActPremiumCloud/plan/Annual?srid=' + srid + '&ror=' + ror + '');

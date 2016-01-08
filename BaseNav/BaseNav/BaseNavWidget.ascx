@@ -63,6 +63,7 @@
       <li><a href="/products">Products</a>
          <ul>
             <li><a href="/products">Act! Premium</a></li>
+            <li><a href="/products/act-pro">Act! Pro</a></li>
             <li><a href="/products/act-emarketing">Act! emarketing</a></li>
             <li><a href="/products/act-essentials">Act! Essentials</a></li>
             <li><a href="/products/whats-new">What&rsquo;s New</a></li>
