@@ -419,6 +419,28 @@ table td, table th, .downloadTable td, .downloadTable th{
         padding-top:0px;
     }
 }
+/* additional products banner */
+.adProducts{
+    margin:0 0 48px;
+}
+.adProduct{
+    text-align:center;
+    padding:48px;
+}
+.adProduct h3{
+    margin-bottom:24px;
+    color:#FFF;
+}
+.adProduct .button{
+    color:#FFF;
+    border:#FFF 2px solid;
+}
+#adPro{
+    background:#008cc5;
+}
+#adEssentials{
+    background:#00b19f;
+}
 
 /* anchors */
 @media(min-width:768px) {

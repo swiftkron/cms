@@ -189,7 +189,7 @@ _elqQ.push(['elqOptOut']);
 				        <span class="panel-content">Sie m&ouml;chten, dass Ihr Gesch&auml;ft reibungslos l&auml;uft? Das Act! Supportteam steht Ihnen mit Rat und Tat zur Seite, wenn Sie Hilfe brauchen. Die Act! Experten beantworten Ihre Fragen, zeigen Ihnen zeitsparende Tricks und l&ouml;sen Probleme mit Act! auf der Stelle. Sie erreichen das Act! Supportteam sowohl telefonisch als auch per E-Mail - ganz wie Sie m&ouml;chten.</span>
 			        </td>
 			
-			        <td class="silver">Montag bis Donnerstag von 8:30 bis 17:00 <br> Freitag von 8:30 bis 16:30</td>
+			        <td class="silver">Montag bis von<br>Freitag 9:00 bis 17:30</td>
 			        <td class="bronze hide"></td>
 			
 		        </tr>

@@ -60,7 +60,7 @@
             <li><a href="/why-act/customer-success">Customer Successes</a></li>
          </ul>
       </li>
-      <li><a href="/products">Products</a>
+      <li><a href="/products/Action/Preview">Products</a>
          <ul>
             <li><a href="/products">Act! Premium</a></li>
             <li><a href="/products/act-pro">Act! Pro</a></li>
@@ -69,7 +69,7 @@
             <li><a href="/products/whats-new">What&rsquo;s New</a></li>
          </ul>
       </li>
-      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/pricing-new/Action/Preview">Pricing</a></li>
       <li><a href="/resources">Customer Resources</a>
          <ul>
             <li><a href="/resources">Act! Premium Resources</a></li>

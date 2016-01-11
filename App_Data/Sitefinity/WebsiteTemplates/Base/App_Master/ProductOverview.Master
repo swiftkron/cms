@@ -114,6 +114,22 @@
             </div>
         </div>
 
+        <!-- ADDITIONAL PRODUCTS BANNER -->
+        <div class="outer adProducts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div id="adPro" class="col-4 adProduct">
+                        <asp:ContentPlaceHolder ID="ActProBanner" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div id="adEssentials" class="col-4 adProduct">
+                        <asp:ContentPlaceHolder ID="ActEssentialsBanner" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </div>
+
         <!-- TESTIMONIAL -->
         <div class="outer bg_dark-grey testimonial">
             <div class="container">
