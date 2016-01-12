@@ -39,6 +39,16 @@
 .bg_white h3{
     color:#2a353d;
 }
+.bg_lightgreen{
+    background:#e5f7f5;
+}
+.bg_lightgreen h2{
+    color:#00b19f;
+}
+.logotext{
+    font-family:'HelveticaNeueW01-Thin',Helvetica,Arial,sans serif;
+    font-size:2em;
+}
 /* _ transparencies */
 .trans25{opacity:0.25;}
 .trans50{opacity:0.5;}
@@ -879,7 +889,7 @@ iframe#chatFrame {
 	border-radius: 0 0 4px 4px;
 }
 }
-
+/* aem pricing is inline. */
 
 /* ELT */
 .eltIntro{
