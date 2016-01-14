@@ -288,11 +288,6 @@ table td, table th, .downloadTable td, .downloadTable th{
     font-size:2em;
 }
 
-#why{
-    /*background:url(../../App_Theme/img/bgimg-ph.gif) top center no-repeat;
-    background-size:100% auto;*/
-}
-
 .solutionHero .quote p{
     font-size:1.5em;
     line-height:1.3em;
@@ -371,6 +366,91 @@ table td, table th, .downloadTable td, .downloadTable th{
     .solutionIntro .quote{
         margin-top:-24px;
     }
+}
+/* revised solution template */
+#solution2 .solutionHero h1, #solution2 .solutionHero h2{
+    color:#008cc5;
+}
+#solution2 .solutionHero li.active a {
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+#solution2 .solutionHero li span.glyphicon{
+    color:#edf0f2;
+}
+#solution2 .solutionHero li.active span.glyphicon{
+    color:#008cc5;
+}
+.solutionQuote{
+  background: #FFF; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#edf0f2 50%,#FFF 50%); /*Safari 5.1-6*/
+  background: -o-linear-gradient(#edf0f2 50%,#FFF 50%); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(#edf0f2 50%,#FFF 50%); /*Fx 3.6-15*/
+  background: linear-gradient(#edf0f2 50%,#FFF 50%); /*Standard*/
+}
+
+.solutionQuote .container{
+    min-height:500px;
+}
+
+.quoteCircle{
+    background:#FFF;
+    border-radius:50%;
+    width:300px;
+    height:300px;
+    padding:48px 36px;
+    margin:25% 48px;
+    color:#fe5000;
+    text-align:center;
+}
+.quoteCircle .byline{
+    margin-top:-2em;
+}
+.pullQuote{
+    color:#FE5000;
+    font-family:'HelveticaNeueW01-45Ligh',Helvetica,Arial,sans serif;
+    font-size:1.25em;
+    text-align:center;
+    margin:2em auto;
+}
+.solutionSidebar h3{
+    font-size:1.2em;
+}
+.solutionSidebar h4 {
+    font-size: 1em;
+}
+.solutionSidebar h3, .solutionSidebar h4{
+    text-align:center;
+    font-family:'HelveticaNeueW01-75Bold',Helvetica,Arial,sans serif;
+}
+.moreSolutions ul{
+    list-style-type:none;
+    margin:1em 0 0 0;
+    padding:0 0;
+}
+@media(max-width:876px){
+    .solutionHero ul{
+    font-size:.8em;
+}
+}
+@media(max-width:768px) {
+    .solutionHero ul {
+        text-align:left;
+        margin:0;
+        padding:0;
+    }
+}
+@media(max-width:420px) {
+.solutionQuote .container{
+    min-height:unset;
+    background-image:none !important;
+    background-color:#008cc5 !important;
+}
+.solutionQuote{
+  background: unset !important;
+}
+.quoteCircle{
+    margin:25% 12px;
+}
 }
 
 /* Products */

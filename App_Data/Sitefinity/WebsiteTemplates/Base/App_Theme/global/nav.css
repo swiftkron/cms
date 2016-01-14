@@ -166,6 +166,7 @@
                 left: 0;
                 right: auto; /*resets the right:50% on the parent ul */
                 width: 196px; /* width of the drop-down menus */
+                border:#dfe3e6 1px solid;
             }
 
                 nav ul ul li {
