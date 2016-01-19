@@ -745,7 +745,10 @@ fieldset {
 }
 
 #whyfix {
-    margin-top: 6em;
+    margin-top: 7em;
+}
+#whyfix h1 {
+  float:left;
 }
 
 .box blockquote {
