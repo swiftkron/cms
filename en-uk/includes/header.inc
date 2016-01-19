@@ -34,7 +34,7 @@
 								<li><a href="act-emarketing/" title="Act! emarketing">Act! emarketing</a></li>
 								
 
-					  		 	<li><a href="products/upgrade" title="What's new in the latest release of Act!">What's new in Act! v17</a></li>
+					  		 	<li><a href="products/whats-new" title="What's new in the latest release of Act!">What's new</a></li>
 					  		</ul>
 					  	</li>
 					  	<li><a href="resources" title="Software support options">Support&nbsp;&nbsp;<span class="down_arrow"></span></a>

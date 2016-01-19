@@ -119,15 +119,7 @@ _elqQ.push(['elqOptOut']);
 
 </div>
 
-<div class="topline txtcenter">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 ">
-        <h1>  </h1>
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="notopmargin">
 
 <div class="container">
   <div class="row txtcenter">
@@ -135,7 +127,6 @@ _elqQ.push(['elqOptOut']);
 
      
               <div class="col-sm-12">
-              <h2></h2>
               <p class="lead">
                 <p style="text-align: left;">We hope you’re happy with what you’ve bought from us. If you think you need to return something or cancel your order with us please contact us on the contact numbers below. We will process your query in line with this returns &amp; cancellation policy. We will email you to confirm your cancellation. Please keep a copy of the emails from us. Please note this returns policy is in addition to your rights as described in our terms of business and this policy does not affect your statutory rights. </p>
 <p style="text-align: left;"><strong>Call us on:</strong></p>

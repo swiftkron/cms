@@ -481,7 +481,7 @@ _elqQ.push(['elqGetCustomerGUID']);
 
 <div id="formElementX" class="formRow">
 	<span id="reqOptIn">
-		<input id="check1" type="checkbox" checked="check" onchange="setValues1();" /> Ich bin damit einverstanden, dass ein Act! Mitarbeiter mich kontaktiert, damit ich bestm&ouml;gliche Unterst&uuml;tzung zur CRM Software und hilfreiche Informationen zu Act! erhalten kann. 
+		<input id="check1" type="checkbox" checked="check" onchange="setValues1();" /> Ich bin damit einverstanden, dass ein Act! Mitarbeiter mich kontaktiert, um meine Anfrage zu bearbeiten, mich bestm&ouml;glich in Sachen CRM Software zu unterst&uuml;tzen und mir hilfreiche Informationen zu Act! geben kann.
 	</span>
 </div>
 
