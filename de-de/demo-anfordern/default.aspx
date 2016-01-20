@@ -467,7 +467,7 @@ _elqQ.push(['elqGetCustomerGUID']);
   <textarea class="text_input" id="notesMostRecent1" name="notesMostRecent1"></textarea>
 </div>
 
-<div id="formElementX" class="formRow"><span id="reqOptIn"><input  id="check1" type="checkbox" checked="check" onchange="setValues1();" />Ich bin damit einverstanden, dass mich ein Act! Mitarbeiter kontaktiert und ich n&auml;here, hilfreiche Infomationen zu Act! erhalte.</span></div>
+<div id="formElementX" class="formRow"><span id="reqOptIn"><input  id="check1" type="checkbox" checked="check" onchange="setValues1();" />Ich bin damit einverstanden, dass ein Act! Mitarbeiter mich kontaktiert, um meine Anfrage zu bearbeiten, mich bestm&ouml;glich in Sachen CRM Software zu unterst&uuml;tzen und mir hilfreiche Informationen zu Act! geben kann.</span></div>
 
 <div id="formElement9" >
   <input type="submit" value="Abschicken" class="btn btn-primary" onClick="ga('send', 'event', 'DE Demo', 'demonstration-request', 'send');track_load('http://www.act.com/de-de/demo-anfordern/', 'Demo Submit Button (de)')"/>

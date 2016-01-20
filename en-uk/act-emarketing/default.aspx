@@ -175,7 +175,7 @@ _elqQ.push(['elqOptOut']);
                 <p class="orangetitle list_title">Template editor</p>
                  <ul class="coloured_bullets">
 				 	<li><span>Dynamic online editing tool												  </span></li>
-				 	<li><span>100's of customisable templates - including mobile-friendly versions		  </span></li>
+				 	<li><span>100s of customisable templates - including mobile-friendly versions		  </span></li>
 				 	<li><span>Host &amp; Share images and documents										  </span></li>
 				 	<li><span>Personalisation options like dynamic data integration for smarter targeting</span></li>
                  </ul>
