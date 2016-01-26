@@ -586,21 +586,6 @@ table td, table th, .downloadTable td, .downloadTable th{
     margin-top:2%;
 }
 
-#guy1{background:url(../../App_Theme/img/tile_get-organized-hov.jpg) no-repeat; background-size:cover;}
-#guy2{background:url(../../App_Theme/img/tile_know-customers-hov.jpg) no-repeat; background-size:cover;}
-#guy3 {
-    background: url(../../App_Theme/img/tile_extend-reach-hov.jpg) no-repeat;
-    background-size: cover;
-}
-#girl1 {
-    background: url(../../App_Theme/img/tile_drive-sales-hov.jpg) no-repeat;
-    background-size: cover;
-}
-#girl2 {
-    background: url(../../App_Theme/img/tile_understand-biz-hov.jpg) no-repeat;
-    background-size: cover;
-}
-
 
 @media(min-width:1280px) {
     .tiles{
@@ -675,16 +660,6 @@ table td, table th, .downloadTable td, .downloadTable th{
     .tile:hover .button {
         display: inline-block;
     }
-    #guy1{background:url(../../App_Theme/img/tile_get-organized.jpg) center center no-repeat;}
-    #guy1:hover{background:url(../../App_Theme/img/tile_get-organized-hov.jpg) center center no-repeat;}
-    #guy2{background:url(../../App_Theme/img/tile_know-customers.jpg) center center no-repeat;}
-    #guy2:hover{background:url(../../App_Theme/img/tile_know-customers-hov.jpg) center center no-repeat;}
-    #guy3{background:url(../../App_Theme/img/tile_extend-reach.jpg) center center no-repeat;}
-    #guy3:hover{background:url(../../App_Theme/img/tile_extend-reach-hov.jpg) center center no-repeat;}
-    #girl1{background:url(../../App_Theme/img/tile_drive-sales.jpg) top left no-repeat;}
-    #girl1:hover{background:url(../../App_Theme/img/tile_drive-sales-hov.jpg) top left no-repeat;}
-    #girl2{background:url(../../App_Theme/img/tile_understand-biz.jpg) center center no-repeat;}
-    #girl2:hover{background:url(../../App_Theme/img/tile_understand-biz-hov.jpg) center center no-repeat;}
 }
 
 

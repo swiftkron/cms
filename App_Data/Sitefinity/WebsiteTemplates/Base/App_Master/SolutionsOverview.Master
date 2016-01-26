@@ -46,21 +46,21 @@
         <div class="outer solutions">
             <div class="container tiles inner">
                 <div class="row">
-                    <div id="guy1" class="col-4 tile">
+                    <div id="tile1" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile1" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div id="guy2" class="col-4 tile">
+                    <div id="tile2" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile2" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div id="guy3" class="col-4 tile">
+                    <div id="tile3" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile3" runat="server"></asp:ContentPlaceHolder>
                     </div>
                 </div>
                 <div class="row">
-                    <div id="girl1" class="col-4 tile">
+                    <div id="tile4" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile4" runat="server"></asp:ContentPlaceHolder>
                     </div>
-                    <div id="girl2" class="col-4 tile">
+                    <div id="tile5" class="col-4 tile">
                         <asp:ContentPlaceHolder ID="SolutionTile5" runat="server"></asp:ContentPlaceHolder>
                     </div>
                     <div class="col-4 tileCTA">
