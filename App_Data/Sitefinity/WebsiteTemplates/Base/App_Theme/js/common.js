@@ -34,6 +34,10 @@ $(document).ready(function () {
         event.stopPropagation();
         location.href = "/";
     });
+    $('#au-nav .navLink').click(function (event) {
+        event.stopPropagation();
+        location.href = "/au";
+    });
     $('.uIntl').click(function (event) {
         event.stopPropagation();
         $('.lang').slideToggle(400);

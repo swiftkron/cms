@@ -59,6 +59,9 @@
     margin-top:-20px;
     cursor:pointer;
 }
+#au-nav .uIntl{
+    margin-top:-40px;
+}
 .uLogin{
     display:none;
     position:relative;
