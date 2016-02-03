@@ -20,7 +20,7 @@
                 <div class="uBrand" title="Act!"></div>
                 <div class="uToggleElements">
                     <div class="uTrial">
-                        <a href="javascript:alert(AU Partner Listings')"><span class="button btnSecondary">Free trial</span></a>
+                        <a href="/au/partners"><span class="button btnSecondary">Free trial</span></a>
                     </div>
                     <div class="uIntl">
                         Australia <span class="glyphicon glyphicon-globe" title="Language"></span>
@@ -48,7 +48,7 @@
             </div>
   <nav>
    <ul id="main-nav">
-      <li><a href="/">Products</a>
+      <li><a href="/au">Products</a>
          <ul>
             <li><a href="/au/">Act! Premium</a></li>
             <li><a href="/au/act-pro">Act! Pro</a></li>
