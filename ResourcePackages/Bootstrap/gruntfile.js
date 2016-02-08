@@ -49,6 +49,9 @@ module.exports = function (grunt) {
 		},
 
 		sass: {
+			options: {
+				outputStyle: 'nested'
+			},
 			dist: {
 				files: {
 					'<%= dist.path %>/css/styles.css': '<%= src.path %>/sass/styles.sass'
@@ -66,6 +69,30 @@ module.exports = function (grunt) {
 			},
 			dev: {
 				src: ['<%= src.sitefinity %>']
+			}
+		},
+
+		webfont: {
+			icons: {
+				src: 'assets/src/icons/*.svg',
+				dest: 'assets/dist/fonts/',
+				destCss: 'assets/src/sass/icons/',
+				options: {
+					destHtml: '',
+					engine: 'node',
+					font: 'sf-icon-font',
+					stylesheet: 'scss',
+					partialPrefix: true,
+					relativeFontPath: '../fonts/',
+					template: 'feather-icons.css',
+					types: 'eot,woff,ttf,svg',
+					order: 'eot,woff,ttf,svg',
+					startCodepoint: 0x00b1,
+					normalize: true,
+					fontHeight: 4096,
+					ascent: 4096,
+					descent: 0
+				}
 			}
 		},
 
@@ -118,10 +145,10 @@ module.exports = function (grunt) {
 		// Sprite generation
 		sprite:{
 			all: {
-				src: 'assets/src/images/social-share/*.png',
-				dest: 'assets/src/images/social-share-sprite.png',
-				destCss: 'assets/src/sass/_sf-social-share-sprite.sass',
-				cssTemplate: 'assets/src/sass/social-share-sprite.mustache'
+				src: 'assets/src/images/sprite/*.png',
+				dest: 'assets/src/images/sprite.png',
+				destCss: 'assets/src/sass/_sf-sprite.sass',
+				cssTemplate: 'assets/src/sass/sf-sprite.mustache'
 			}
 		},
 
@@ -154,14 +181,24 @@ module.exports = function (grunt) {
 	});
 
 	// Tasks
-	// default task runs csslint once on startup on documentation's css
-	grunt.registerTask('default', [
-		// 'clean:all',
+	grunt.registerTask('iconfont', [
+		'webfont',
+		'build'
+	]);
+
+	// Runs once
+	grunt.registerTask('build', [
 		'newer:sprite',
 		'sass:dist',
 		'cssmin',
 		'uglify:dist',
-		'newer:imagemin',
+		'newer:imagemin'
+	]);
+
+	// default task runs csslint once on startup on documentation's css
+	grunt.registerTask('default', [
+		// 'clean:all',
+		'build',
 		'concurrent:dev'
 	]);
 };

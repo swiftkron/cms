@@ -466,11 +466,6 @@
             Gets the key of task.
             </summary>
         </member>
-        <member name="P:Telerik.Sitefinity.SitemapGenerator.Data.SitemapScheduledTask.TaskName">
-            <summary>
-            Gets the name of the task.
-            </summary>
-        </member>
         <member name="T:Telerik.Sitefinity.SitemapGenerator.Data.SitemapSettingsContext">
             <summary>
             Context for using in services.
@@ -1685,14 +1680,14 @@
         <member name="M:Telerik.Sitefinity.SitemapGenerator.SitemapGeneratorModule.Unload">
             <inheritdoc />
         </member>
+        <member name="M:Telerik.Sitefinity.SitemapGenerator.SitemapGeneratorModule.GetVirtualPaths">
+            <inheritdoc />
+        </member>
         <member name="M:Telerik.Sitefinity.SitemapGenerator.SitemapGeneratorModule.GetModuleConfig">
             <summary>
             Gets module config.
             </summary>
             <returns>The config.</returns>
-        </member>
-        <member name="M:Telerik.Sitefinity.SitemapGenerator.SitemapGeneratorModule.GetVirtualPaths">
-            <inheritdoc />
         </member>
         <member name="P:Telerik.Sitefinity.SitemapGenerator.SitemapGeneratorModule.LandingPageId">
             <summary>

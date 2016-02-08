@@ -38,6 +38,10 @@ $(document).ready(function () {
         event.stopPropagation();
         location.href = "/au";
     });
+    $('#uk-nav .navLink').click(function (event) {
+        event.stopPropagation();
+        location.href = "/en-gb";
+    });
     $('.uIntl').click(function (event) {
         event.stopPropagation();
         $('.lang').slideToggle(400);
