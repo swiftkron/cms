@@ -1,680 +1,90 @@
 ----------------------------------------
-Timestamp: 2/4/2016 7:34:53 PM
+Timestamp: 2/8/2016 8:13:35 PM
 
-Message: HandlingInstanceID: 9c89e987-f9e6-43a5-a8d9-b2b90b57bd31
-An exception of type 'System.Exception' occurred and was caught.
-----------------------------------------------------------------
-02/04/2016 12:34:53
-Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-Message : 2 item(s) are successfully deleted. 1 item(s) cannot be deleted (see below).
+Message: HandlingInstanceID: f3ef7f5a-0a80-4eb6-b380-df2472bd564a
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:13:34
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <Initialize_DelegateImplementation>__109(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+HResult : -2146233040
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_2e10426c1bef46e1830560b0a690fce6.<Initialize_DelegateImplementation>__109(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.<>c__DisplayClass1.<Invoke>b__0(IMethodInvocation policyInjectionInput, GetNextHandlerDelegate policyInjectionInputGetNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.HandlerPipeline.Invoke(IMethodInvocation input, InvokeHandlerDelegate target)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.Invoke(IMethodInvocation input, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptionBehaviorPipeline.Invoke(IMethodInvocation input, InvokeInterceptionBehaviorDelegate target)
+   at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_2e10426c1bef46e1830560b0a690fce6.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
 
-Page Sample 2: Row not found: GenericOID@a1d4d53e PageDraft id=1b9562e7-96e1-633a-9d88-ff00001e67f5
-UPDATE [sf_draft_pages] SET [last_modified] = ?, [voa_version] = ?, [flags] = ? WHERE [id] = ? AND [voa_version] = ?
-(set event logging to all to see parameter values)
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:13:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130994360009075596
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-2-130994360009075596
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:13:35 PM
+
+Message: HandlingInstanceID: 688a3faa-7477-4ad9-b3ad-4bff4a82b7fa
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:13:35
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
 Source : Telerik.Sitefinity
 Help link : 
+ExceptionState : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ThrowAccumulatedError(Int32, System.String, System.String, System.String)
-HResult : -2146233088
-Stack Trace :    at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedError(Int32 proccessItemsCount, String operationName, String singularItemTypeName, String pluralItemTypeName)
-   at Telerik.Sitefinity.Workflow.WorkflowBatchExceptionHandler.ThrowAccumulatedErrorForPages(Int32 proccessItemsCount, String operationName)
-   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.CallWorkflowBatch(String[] pageIDs, String operationName, String providerName, String deletedLanguage, Boolean checkRelatingData)
-   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContentInternal(String[] ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
-   at Telerik.Sitefinity.Modules.Pages.Web.Services.PagesService.BatchDeleteContent(String[] Ids, String providerName, String deletedLanguage, Boolean checkRelatingData)
-   at SyncInvokeBatchDeleteContent(Object , Object[] , Object[] )
-   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
-   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
-   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, Telerik.Sitefinity.Data.ManagerBase`1[TProviderBase])
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
 
 Additional Info:
 
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 7:34:53 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990788727673356
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:13:35 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-130994360009075596
 ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://localhost:60876/Sitefinity/Services/Pages/PagesService.svc/batch/?root=f669d9a7-009d-4d83-ddaa-000000000002&managerType=&providerName=&itemType=Telerik.Sitefinity.Pages.Model.PageNode&hierarchyMode=true&provider=
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 90000
-
-Severity: Error
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-1-130990788727673356
-
-ProcessId: 10872
-
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
-
-Thread Name: 
-
-Win32 ThreadId:6164
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 2/4/2016 8:03:06 PM
-
-Message: HandlingInstanceID: c2e47a5d-7909-4eeb-9091-07753b97b9d9
-An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
---------------------------------------------------------------------------------------
-02/04/2016 13:03:06
-Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-Source : Telerik.OpenAccess
-Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-Reason : Runtime
-CanRetry : True
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ThrowException(System.Exception)
-HResult : -2146233088
-Stack Trace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
-   at OpenAccessRuntime.ExceptionWrapper.Throw()
-   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
-   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
-   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, ISchemaHandler& schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.CreateMetadataConnection(IConnectionStringSettings connectionSettings, MetaDataProvider provider, Boolean isSecondCall)
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:03:06 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990896986532669
-ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : IIS APPPOOL\act_com
 Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 9010
-
-Severity: Warning
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-1-130990896986532669
-
-ProcessId: 11084
-
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
-
-Thread Name: 
-
-Win32 ThreadId:4848
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 2/4/2016 8:03:20 PM
-
-Message: HandlingInstanceID: eba7934d-63e6-4feb-b477-32597322de13
-An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
-------------------------------------------------------------------------------------------------
-02/04/2016 13:03:20
-Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-Source : Unity_ILEmit_DynamicClasses
-Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-Reason : Runtime
-CanRetry : False
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
-HResult : -2146233088
-Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_910fc7a135b34723ae4e929a9121638c.Initialize(String providerName, NameValueCollection config, Type managerType)
-   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:03:20 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990896986532669
-ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 9010
-
-Severity: Warning
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-1-130990896986532669
-
-ProcessId: 11084
-
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
-
-Thread Name: 
-
-Win32 ThreadId:4848
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 2/4/2016 8:04:17 PM
-
-Message: HandlingInstanceID: 3bf132c9-5bab-4884-99d6-633fd6207962
-An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
---------------------------------------------------------------------------------------
-02/04/2016 13:04:17
-Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-Source : Telerik.OpenAccess
-Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-Reason : Runtime
-CanRetry : True
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ThrowException(System.Exception)
-HResult : -2146233088
-Stack Trace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
-   at OpenAccessRuntime.ExceptionWrapper.Throw()
-   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
-   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
-   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, ISchemaHandler& schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.CreateMetadataConnection(IConnectionStringSettings connectionSettings, MetaDataProvider provider, Boolean isSecondCall)
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:04:17 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990896986532669
-ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 9010
-
-Severity: Warning
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-1-130990896986532669
-
-ProcessId: 11084
-
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
-
-Thread Name: 
-
-Win32 ThreadId:4848
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 2/4/2016 8:04:32 PM
-
-Message: HandlingInstanceID: 62ab9f99-6a70-41cb-a7bb-6240dd0efe7f
-An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
-------------------------------------------------------------------------------------------------
-02/04/2016 13:04:32
-Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-Source : Unity_ILEmit_DynamicClasses
-Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-Reason : Runtime
-CanRetry : False
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
-HResult : -2146233088
-Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_910fc7a135b34723ae4e929a9121638c.Initialize(String providerName, NameValueCollection config, Type managerType)
-   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:04:32 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990896986532669
-ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
 
 
 Category: ErrorLog
@@ -687,310 +97,52 @@ Severity: Error
 
 Title:Enterprise Library Exception Handling
 
-Machine: DEN-100001176
+Machine: WIN-5JI2BJ5GBFS
 
-App Domain: /LM/W3SVC/2/ROOT-1-130990896986532669
+App Domain: /LM/W3SVC/2/ROOT-2-130994360009075596
 
-ProcessId: 11084
+ProcessId: 748
 
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
 
 Thread Name: 
 
-Win32 ThreadId:4848
+Win32 ThreadId:1120
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/4/2016 8:11:32 PM
+Timestamp: 2/8/2016 8:14:01 PM
 
-Message: HandlingInstanceID: f3e6abe1-127e-4ef8-8491-c1543be26605
-An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
---------------------------------------------------------------------------------------
-02/04/2016 13:11:32
-Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-Source : Telerik.OpenAccess
-Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-Reason : Runtime
-CanRetry : True
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ThrowException(System.Exception)
-HResult : -2146233088
-Stack Trace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
-   at OpenAccessRuntime.ExceptionWrapper.Throw()
-   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
-   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
-   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, ISchemaHandler& schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.CreateMetadataConnection(IConnectionStringSettings connectionSettings, MetaDataProvider provider, Boolean isSecondCall)
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:11:32 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990902308424805
-ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 9010
-
-Severity: Warning
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-1-130990902308424805
-
-ProcessId: 11612
-
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
-
-Thread Name: 
-
-Win32 ThreadId:10696
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 2/4/2016 8:11:46 PM
-
-Message: HandlingInstanceID: 7ec795a0-f5c0-4988-bb7d-0f01c7bd64b3
-An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
-------------------------------------------------------------------------------------------------
-02/04/2016 13:11:46
-Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
+Message: HandlingInstanceID: b5955656-4e9d-47f0-b079-0d906cdb0514
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:14:01
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
 Source : Unity_ILEmit_DynamicClasses
 Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-Reason : Runtime
-CanRetry : False
+ExceptionState : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
-HResult : -2146233088
-Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_1e3f2486f23b4e39ae0c28ab81f5ed06.Initialize(String providerName, NameValueCollection config, Type managerType)
+TargetSite : Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <Initialize_DelegateImplementation>__60(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+HResult : -2146233040
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessBlogProvider_8cd46abca814464e852bba2749f27319.<Initialize_DelegateImplementation>__60(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.<>c__DisplayClass1.<Invoke>b__0(IMethodInvocation policyInjectionInput, GetNextHandlerDelegate policyInjectionInputGetNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.HandlerPipeline.Invoke(IMethodInvocation input, InvokeHandlerDelegate target)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.Invoke(IMethodInvocation input, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptionBehaviorPipeline.Invoke(IMethodInvocation input, InvokeInterceptionBehaviorDelegate target)
+   at DynamicModule.ns.Wrapped_OpenAccessBlogProvider_8cd46abca814464e852bba2749f27319.Initialize(String providerName, NameValueCollection config, Type managerType)
    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
 
 Additional Info:
 
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:11:46 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990902308424805
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130994360187452645
 ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : IIS APPPOOL\act_com
 Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
 
 
 Category: ErrorLog
@@ -1003,310 +155,49 @@ Severity: Warning
 
 Title:Enterprise Library Exception Handling
 
-Machine: DEN-100001176
+Machine: WIN-5JI2BJ5GBFS
 
-App Domain: /LM/W3SVC/2/ROOT-1-130990902308424805
+App Domain: /LM/W3SVC/2/ROOT-3-130994360187452645
 
-ProcessId: 11612
+ProcessId: 748
 
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
 
 Thread Name: 
 
-Win32 ThreadId:10696
+Win32 ThreadId:3856
 
 Extended Properties: 
 ----------------------------------------
 ----------------------------------------
-Timestamp: 2/4/2016 8:12:43 PM
+Timestamp: 2/8/2016 8:14:01 PM
 
-Message: HandlingInstanceID: 699ce049-5d26-4b2c-b8fd-43deec155bdb
-An exception of type 'Telerik.OpenAccess.OpenAccessException' occurred and was caught.
---------------------------------------------------------------------------------------
-02/04/2016 13:12:43
-Type : Telerik.OpenAccess.OpenAccessException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-Source : Telerik.OpenAccess
+Message: HandlingInstanceID: 91abbb65-144e-4660-a84c-3f560a979ba8
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:14:01
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Telerik.Sitefinity
 Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-Reason : Runtime
-CanRetry : True
+ExceptionState : 
 Data : System.Collections.ListDictionaryInternal
-TargetSite : Void ThrowException(System.Exception)
-HResult : -2146233088
-Stack Trace :    at Telerik.OpenAccess.SPI.Backends.ThrowException(Exception e)
-   at OpenAccessRuntime.ExceptionWrapper.Throw()
-   at OpenAccessRuntime.DataObjects.tools.ant.DataObjectsTaskBase.throwBuildException(String str, Exception e)
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.execute()
-   at OpenAccessRuntime.OpenAccessSchemaAdapter.CreateDatabase(Boolean checkOnly)
-   at OpenAccessRuntime.SchemaHandlerImpl.Telerik.OpenAccess.ISchemaHandler.CreateDatabase()
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabaseSchema(ISchemaHandler schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database, ISchemaHandler& schemaHandler)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.UpgradeDatabase(Database database)
-   at Telerik.Sitefinity.Data.OA.OpenAccessConnection.CreateMetadataConnection(IConnectionStringSettings connectionSettings, MetaDataProvider provider, Boolean isSecondCall)
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, Telerik.Sitefinity.Data.ManagerBase`1[TProviderBase])
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
 
 Additional Info:
 
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:12:43 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990902308424805
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130994360187452645
 ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
+WindowsIdentity : IIS APPPOOL\act_com
 Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.DataObjects.tools.ant.DatabaseCreationTask.createDatabase()
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
-
-
-Category: ErrorLog
-
-Priority: 0
-
-EventId: 9010
-
-Severity: Warning
-
-Title:Enterprise Library Exception Handling
-
-Machine: DEN-100001176
-
-App Domain: /LM/W3SVC/2/ROOT-1-130990902308424805
-
-ProcessId: 11612
-
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
-
-Thread Name: 
-
-Win32 ThreadId:10696
-
-Extended Properties: 
-----------------------------------------
-----------------------------------------
-Timestamp: 2/4/2016 8:12:58 PM
-
-Message: HandlingInstanceID: 8dc9dca2-7cd5-4131-83e5-7cb9e8eb28db
-An exception of type 'Telerik.OpenAccess.Exceptions.DataStoreException' occurred and was caught.
-------------------------------------------------------------------------------------------------
-02/04/2016 13:12:58
-Type : Telerik.OpenAccess.Exceptions.DataStoreException, Telerik.OpenAccess, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-Source : Unity_ILEmit_DynamicClasses
-Help link : 
-InnerExceptions : System.Exception[]
-FailedObject : 
-BackendError : Telerik.OpenAccess.RT.sql.SQLException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.Data.SqlClient.SqlException: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid) ---> System.ComponentModel.Win32Exception: The parameter is incorrect
-   --- End of inner exception stack trace ---
-   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-   at System.Data.SqlClient.SqlConnection.Open()
-   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   --- End of inner exception stack trace ---
-   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-Reason : Runtime
-CanRetry : False
-Data : System.Collections.ListDictionaryInternal
-TargetSite : Void Initialize(System.String, System.Collections.Specialized.NameValueCollection, System.Type)
-HResult : -2146233088
-Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMetaDataProvider_1e3f2486f23b4e39ae0c28ab81f5ed06.Initialize(String providerName, NameValueCollection config, Type managerType)
-   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
-
-Additional Info:
-
-MachineName : DEN-100001176
-TimeStamp : 2/4/2016 8:12:58 PM
-FullName : Telerik.Sitefinity.Utilities, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
-AppDomainName : /LM/W3SVC/2/ROOT-1-130990902308424805
-ThreadIdentity : 
-WindowsIdentity : SWIFTPAGE\Jeremy.Kron
-Requested URL : http://127.0.0.1/
-	Inner Exception
-	---------------
-	Type : Telerik.OpenAccess.RT.sql.SQLException, Telerik.OpenAccess.Runtime, Version=2015.1.225.1, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342
-	Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Source : Telerik.OpenAccess.Runtime
-	Help link : 
-	ErrorCode : 87
-	ArrayBindIndex : -1
-	Number : 87
-	ObjectId : 
-	Description : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-	Data : System.Collections.ListDictionaryInternal
-	TargetSite : Telerik.OpenAccess.RT.sql.Connection connect(Telerik.OpenAccess.Config.Sql.ConnectionString, Telerik.OpenAccess.SPI.PropertySet, Telerik.OpenAccess.ConnectionPoolType, OpenAccessRuntime.logging.LogEventStore)
-	HResult : -2146233088
-	Stack Trace :    at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-	   at OpenAccessRuntime.Relational.sql.SqlDriver.InitializeFor(ConnectionString connectionString, Boolean noConnect, PropertySet props, DBDriver& driver, Connection& conn, ConnectionPoolType poolType)
-
-		Inner Exception
-		---------------
-		Type : System.Data.SqlClient.SqlException, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-		Message : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
-		Source : .Net SqlClient Data Provider
-		Help link : 
-		Errors : System.Data.SqlClient.SqlErrorCollection
-		ClientConnectionId : 00000000-0000-0000-0000-000000000000
-		Class : 20
-		LineNumber : 0
-		Number : 87
-		Procedure : 
-		Server : 
-		State : 0
-		ErrorCode : -2146232060
-		Data : System.Collections.ListDictionaryInternal
-		TargetSite : Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
-		HResult : -2146232060
-		Stack Trace :    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
-		   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
-		   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
-		   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
-		   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
-		   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
-		   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
-		   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
-		   at System.Data.SqlClient.SqlConnection.Open()
-		   at OpenAccessRuntime.Intellitrace.OpenConnection(DbConnection connection, String connectionString, String id)
-		   at Telerik.OpenAccess.RT.Adonet2Generic.Impl.DBDriver.connect(ConnectionString connectionString, PropertySet driverProps, ConnectionPoolType poolType, LogEventStore pes)
-
-			Inner Exception
-			---------------
-			Type : System.ComponentModel.Win32Exception, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-			Message : The parameter is incorrect
-			Source : 
-			Help link : 
-			NativeErrorCode : 87
-			ErrorCode : -2147467259
-			Data : System.Collections.ListDictionaryInternal
-			TargetSite : 
-			HResult : -2147467259
-			Stack Trace : The stack trace is unavailable.
 
 
 Category: ErrorLog
@@ -1319,17 +210,942 @@ Severity: Error
 
 Title:Enterprise Library Exception Handling
 
-Machine: DEN-100001176
+Machine: WIN-5JI2BJ5GBFS
 
-App Domain: /LM/W3SVC/2/ROOT-1-130990902308424805
+App Domain: /LM/W3SVC/2/ROOT-3-130994360187452645
 
-ProcessId: 11612
+ProcessId: 748
 
-Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
 
 Thread Name: 
 
-Win32 ThreadId:10696
+Win32 ThreadId:3856
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:14:09 PM
+
+Message: HandlingInstanceID: 4f2356c6-7f6e-4135-aee8-449494a83d59
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:14:09
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146233040
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Data.ManagerBase.GetManager(Type managerType, String providerName)
+   at Telerik.Sitefinity.Services.ModuleBase.EnsureManagersInitialized()
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:09 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-130994360187452645
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-3-130994360187452645
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3856
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:14:22 PM
+
+Message: HandlingInstanceID: 4fb50ee9-bd0e-4640-a03c-081f47f13f38
+An exception of type 'Telerik.Microsoft.Practices.Unity.ResolutionFailedException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------------
+02/08/2016 20:14:22
+Type : Telerik.Microsoft.Practices.Unity.ResolutionFailedException, Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Resolution of the dependency failed, type = "Telerik.Sitefinity.Dashboard.Data.OpenAccessDashboardProvider", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: ThreadAbortException - Thread was being aborted.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Dashboard.Data.OpenAccessDashboardProvider,(none)
+
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+TypeRequested : OpenAccessDashboardProvider
+NameRequested : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object DoBuildUp(System.Type, System.Object, System.String, System.Collections.Generic.IEnumerable`1[Telerik.Microsoft.Practices.Unity.ResolverOverride])
+HResult : -2146233088
+Stack Trace :    at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   at Telerik.Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.Resolve(Type type)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130994360427669522
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : mscorlib
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void ReliableEnter(System.Object, Boolean ByRef)
+	HResult : -2146233040
+	Stack Trace :    at System.Threading.Monitor.ReliableEnter(Object obj, Boolean& lockTaken)
+	   at System.Reflection.Emit.TypeBuilder.DefineMethod(String name, MethodAttributes attributes, CallingConventions callingConvention, Type returnType, Type[] returnTypeRequiredCustomModifiers, Type[] returnTypeOptionalCustomModifiers, Type[] parameterTypes, Type[][] parameterTypeRequiredCustomModifiers, Type[][] parameterTypeOptionalCustomModifiers)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.MethodOverride.CreateMethodOverride(MethodBuilder delegateMethod)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptingClassGenerator.OverridePropertyMethod(MethodInfo method, Int32 count)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptingClassGenerator.AddProperties()
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptingClassGenerator.GenerateType()
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.VirtualMethodInterceptor.CreateProxyType(Type t, Type[] additionalInterfaces)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.TypeInterceptionStrategy.PreBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-4-130994360427669522
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:14:22 PM
+
+Message: HandlingInstanceID: 3630acff-3ce4-4d52-99c8-0063405266dd
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:14:22
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Telerik.Sitefinity
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, Telerik.Sitefinity.Data.ManagerBase`1[TProviderBase])
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130994360427669522
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-4-130994360427669522
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:14:28 PM
+
+Message: HandlingInstanceID: 1aab29f5-c404-4a9b-8b67-52c93af7c5e8
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:14:28
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146233040
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Data.ManagerBase.GetManager(Type managerType, String providerName)
+   at Telerik.Sitefinity.Services.ModuleBase.EnsureManagersInitialized()
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-4-130994360427669522
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-4-130994360427669522
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:1120
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:14:48 PM
+
+Message: HandlingInstanceID: 28195a75-c9f3-44de-9d6b-09c82b158b24
+An exception of type 'Telerik.Microsoft.Practices.Unity.ResolutionFailedException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------------
+02/08/2016 20:14:48
+Type : Telerik.Microsoft.Practices.Unity.ResolutionFailedException, Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Resolution of the dependency failed, type = "Telerik.Sitefinity.Personalization.Impl.Data.OpenAccessPersonalizationDataProvider", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: ThreadAbortException - Thread was being aborted.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Telerik.Sitefinity.Personalization.Impl.Data.OpenAccessPersonalizationDataProvider,(none)
+
+Source : Telerik.Sitefinity.Utilities
+Help link : 
+TypeRequested : OpenAccessPersonalizationDataProvider
+NameRequested : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object DoBuildUp(System.Type, System.Object, System.String, System.Collections.Generic.IEnumerable`1[Telerik.Microsoft.Practices.Unity.ResolverOverride])
+HResult : -2146233088
+Stack Trace :    at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   at Telerik.Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   at Telerik.Sitefinity.Abstractions.ObjectFactory.Resolve(Type type)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-5-130994360643919635
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+	Inner Exception
+	---------------
+	Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Thread was being aborted.
+	Source : mscorlib
+	Help link : 
+	ExceptionState : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Int32 GetTypeRef(System.Reflection.RuntimeModule, System.String, System.Reflection.RuntimeModule, System.String, Int32)
+	HResult : -2146233040
+	Stack Trace :    at System.Reflection.Emit.ModuleBuilder.GetTypeRef(RuntimeModule module, String strFullName, RuntimeModule refedModule, String strRefedModuleFileName, Int32 tkResolution)
+	   at System.Reflection.Emit.ModuleBuilder.GetTypeRefNested(Type type, Module refedModule, String strRefedModuleFileName)
+	   at System.Reflection.Emit.ModuleBuilder.GetTypeTokenWorkerNoLock(Type type, Boolean getGenericDefinition)
+	   at System.Reflection.Emit.ModuleBuilder.GetTypeTokenInternal(Type type, Boolean getGenericDefinition)
+	   at System.Reflection.Emit.ModuleBuilder.GetMethodTokenNoLock(MethodInfo method, Boolean getGenericTypeDefinition)
+	   at System.Reflection.Emit.ModuleBuilder.GetMethodTokenInternal(MethodInfo method)
+	   at System.Reflection.Emit.ModuleBuilder.GetMethodTokenInternal(MethodBase method, IEnumerable`1 optionalParameterTypes, Boolean useMethodDef)
+	   at System.Reflection.Emit.ILGenerator.GetMethodToken(MethodBase method, Type[] optionalParameterTypes, Boolean useMethodDef)
+	   at System.Reflection.Emit.ILGenerator.Emit(OpCode opcode, MethodInfo meth)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.MethodOverride.CreateMethodOverride(MethodBuilder delegateMethod)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptingClassGenerator.AddMethods()
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptingClassGenerator.GenerateType()
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.VirtualMethodInterceptor.CreateProxyType(Type t, Type[] additionalInterfaces)
+	   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.TypeInterceptionStrategy.PreBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+	   at Telerik.Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-5-130994360643919635
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:14:48 PM
+
+Message: HandlingInstanceID: f7cd3a0b-92bd-4b25-9a01-94bcd09b16e1
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:14:48
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Telerik.Sitefinity
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, Telerik.Sitefinity.Data.ManagerBase`1[TProviderBase])
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-5-130994360643919635
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-5-130994360643919635
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:14:56 PM
+
+Message: HandlingInstanceID: 85cfb6a7-b21e-47a8-9b1f-745c15816269
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:14:56
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146233040
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Data.ManagerBase.GetManager(Type managerType, String providerName)
+   at Telerik.Sitefinity.Services.ModuleBase.EnsureManagersInitialized()
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:14:56 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-5-130994360643919635
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-5-130994360643919635
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:15:00 PM
+
+Message: HandlingInstanceID: f64c7a4a-57df-4ad6-866a-8dea8215db93
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:15:00
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <Initialize_DelegateImplementation>__80(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+HResult : -2146233040
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessMobileAppBuilderDataProvider_ec7c6385f80041bcabe705b705cda622.<Initialize_DelegateImplementation>__80(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.<>c__DisplayClass1.<Invoke>b__0(IMethodInvocation policyInjectionInput, GetNextHandlerDelegate policyInjectionInputGetNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.HandlerPipeline.Invoke(IMethodInvocation input, InvokeHandlerDelegate target)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.Invoke(IMethodInvocation input, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptionBehaviorPipeline.Invoke(IMethodInvocation input, InvokeInterceptionBehaviorDelegate target)
+   at DynamicModule.ns.Wrapped_OpenAccessMobileAppBuilderDataProvider_ec7c6385f80041bcabe705b705cda622.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:15:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-130994360887513227
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-6-130994360887513227
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:15:00 PM
+
+Message: HandlingInstanceID: 23b32028-a521-44cd-8025-594de67cd7f1
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:15:00
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Telerik.Sitefinity
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, Telerik.Sitefinity.Data.ManagerBase`1[TProviderBase])
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:15:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-130994360887513227
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-6-130994360887513227
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:15:05 PM
+
+Message: HandlingInstanceID: 4efff6fe-3d6b-4e93-997f-03b5694d1861
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:15:05
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146233040
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Data.ManagerBase.GetManager(Type managerType, String providerName)
+   at Telerik.Sitefinity.Services.ModuleBase.EnsureManagersInitialized()
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:15:05 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-6-130994360887513227
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-6-130994360887513227
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:15:12 PM
+
+Message: HandlingInstanceID: af699c69-15be-4907-8e1d-a363fcd47e52
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:15:12
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodReturn <Initialize_DelegateImplementation>__80(Telerik.Microsoft.Practices.Unity.InterceptionExtension.IMethodInvocation, Telerik.Microsoft.Practices.Unity.InterceptionExtension.GetNextInterceptionBehaviorDelegate)
+HResult : -2146233040
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessRecycleBinProvider_30792e307d24428a9ffaa94b926aadc4.<Initialize_DelegateImplementation>__80(IMethodInvocation inputs, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.<>c__DisplayClass1.<Invoke>b__0(IMethodInvocation policyInjectionInput, GetNextHandlerDelegate policyInjectionInputGetNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.HandlerPipeline.Invoke(IMethodInvocation input, InvokeHandlerDelegate target)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.PolicyInjectionBehavior.Invoke(IMethodInvocation input, GetNextInterceptionBehaviorDelegate getNext)
+   at Telerik.Microsoft.Practices.Unity.InterceptionExtension.InterceptionBehaviorPipeline.Invoke(IMethodInvocation input, InvokeInterceptionBehaviorDelegate target)
+   at DynamicModule.ns.Wrapped_OpenAccessRecycleBinProvider_30792e307d24428a9ffaa94b926aadc4.Initialize(String providerName, NameValueCollection config, Type managerType)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:15:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130994361031419830
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-7-130994361031419830
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3856
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:15:12 PM
+
+Message: HandlingInstanceID: ea690c07-5787-4a9b-a067-f155b4472694
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:15:12
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : Telerik.Sitefinity
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TProviderBase InstantiateProvider(Telerik.Sitefinity.Configuration.IDataProviderSettings, System.Type, Telerik.Sitefinity.Abstractions.ExceptionPolicyName, Telerik.Sitefinity.Data.ManagerBase`1[TProviderBase])
+HResult : -2146233040
+Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, Type providerType, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProvider(IDataProviderSettings providerSettings, ExceptionPolicyName policy, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.InstantiateProviders(IEnumerable`1 configProviders, ManagerBase`1 manager)
+   at Telerik.Sitefinity.Data.ManagerBase`1.Initialize()
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:15:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130994361031419830
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90030
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-7-130994361031419830
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3856
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:15:20 PM
+
+Message: HandlingInstanceID: 4024aca3-9169-4376-80c7-d3c983fcb68b
+An exception of type 'System.Threading.ThreadAbortException' occurred and was caught.
+-------------------------------------------------------------------------------------
+02/08/2016 20:15:20
+Type : System.Threading.ThreadAbortException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Thread was being aborted.
+Source : mscorlib
+Help link : 
+ExceptionState : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146233040
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Data.ManagerBase.GetManager(Type managerType, String providerName)
+   at Telerik.Sitefinity.Services.ModuleBase.EnsureManagersInitialized()
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, Nullable`1 start, Boolean skipModuleRegistration)
+
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:15:20 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-7-130994361031419830
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://127.0.0.1/
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-7-130994361031419830
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:3856
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:20:24 PM
+
+Message: HandlingInstanceID: 72ef5af7-1c4d-4c84-89db-618d2d949c73
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+02/08/2016 20:20:23
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : ContentLocationsTracker: Unable to get locations from 'Telerik.Sitefinity.Modules.Blogs.Web.UI.BlogPostView'
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:20:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-8-130994361135638621
+ThreadIdentity : jkron
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://stagecms.act.com/act-blog/Action/Edit
+	Inner Exception
+	---------------
+	Type : System.ArgumentNullException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Value cannot be null.
+Parameter name: itemType
+	Source : Telerik.Sitefinity
+	Help link : 
+	ParamName : itemType
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Boolean TryGetMappedManagerType(System.Type, System.Type ByRef)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase.TryGetMappedManagerType(Type itemType, Type& managerType)
+	   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.GetLocations()
+	   at Telerik.Sitefinity.ContentLocations.ContentLocationsTracker.PageControlTrackingContext.TryGetLocations(CultureInfo culture, IEnumerable`1& locations)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-8-130994361135638621
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:2088
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2/8/2016 8:20:42 PM
+
+Message: HandlingInstanceID: 57dfbaaa-1398-4bff-979b-25b6b6ad442c
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+02/08/2016 20:20:42
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : ContentLocationsTracker: Unable to get locations from 'Telerik.Sitefinity.Modules.Blogs.Web.UI.BlogPostView'
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : WIN-5JI2BJ5GBFS
+TimeStamp : 2/8/2016 8:20:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=8.2.5912.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-8-130994361135638621
+ThreadIdentity : 
+WindowsIdentity : IIS APPPOOL\act_com
+Requested URL : http://stagecms.act.com/Sitefinity/Services/Pages/ZoneEditorService.svc/Page/1a8660e7-96e1-633a-9d88-ff00001e67f5/
+	Inner Exception
+	---------------
+	Type : System.ArgumentNullException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Value cannot be null.
+Parameter name: itemType
+	Source : Telerik.Sitefinity
+	Help link : 
+	ParamName : itemType
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Boolean TryGetMappedManagerType(System.Type, System.Type ByRef)
+	HResult : -2147467261
+	Stack Trace :    at Telerik.Sitefinity.Data.ManagerBase.TryGetMappedManagerType(Type itemType, Type& managerType)
+	   at Telerik.Sitefinity.Web.UI.ContentUI.ContentView.GetLocations()
+	   at Telerik.Sitefinity.ContentLocations.ContentLocationsTracker.PageControlTrackingContext.TryGetLocations(CultureInfo culture, IEnumerable`1& locations)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: WIN-5JI2BJ5GBFS
+
+App Domain: /LM/W3SVC/2/ROOT-8-130994361135638621
+
+ProcessId: 748
+
+Process Name: C:\Windows\SysWOW64\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:688
 
 Extended Properties: 
 ----------------------------------------
